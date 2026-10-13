@@ -109,7 +109,6 @@ def expand(P,E,D,A,meta,add,detail,rel,gapstate,prof,profiles):
         else:
             aid=re.sub('[^a-z0-9]+','-',unicodedata.normalize('NFKD',name).encode('ascii','ignore').decode().lower()).strip('-')
             A.append(dict(id=aid,name=name,affiliation=info[0] if info else 'Needs verification',affiliationTime=info[4] if info else 'Needs verification',profile=info[1] if info else ps[0]['url'],profileType='Paper affiliation source' if info else 'Verified byline; standalone profile pending',papers=[p['id'] for p in ps],themes=info[2] if info else sorted({p['family'] for p in ps}),contribution='Verified co-authorship in '+', '.join(p['short'] for p in ps)+'.',status='Verified' if info else 'Needs verification',sourceUrl=info[1] if info else ps[0]['url'],accessed='2026-09-23'))
-    next(a for a in A if a['id']=='dario-rossi').update(publicationsUrl='https://nonsns.github.io/publications/date/',publicationsChecked='2026-09-23')
     A.sort(key=lambda a:a['name'])
     meta.update(paperCount=len(P),authorCount=len(A),resolvedAuthorCount=sum(a['status']=='Verified' for a in A))
     # relationship count supplied by caller; keep this module independent of R.

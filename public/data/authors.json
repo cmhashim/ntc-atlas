@@ -38,7 +38,14 @@
     "contribution": "Verified co-authorship in Commercial-scale ETC, FlowPic replication, Traffic augmentation benchmark, Class-incremental benchmark, Many or Few Samples?.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2309.09733v2",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-2226-2506",
+    "orcidSource": "ORCID record lists FlowPic replication, Traffic augmentation benchmark",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://afinamore.io",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=PDm2yXEAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "alexander-warnecke",
@@ -76,7 +83,10 @@
     "contribution": "Verified co-authorship in MEMENTO, Class-incremental benchmark.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2024.110374",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-7395-4222",
+    "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "ali-a-ghorbani",
@@ -113,7 +123,12 @@
     "contribution": "Verified co-authorship in FlowPrint.",
     "status": "Needs verification",
     "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-0329-1830",
+    "orcidSource": "ORCID record lists FlowPrint",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://research.utwente.nl/en/persons/886dc4d3-abfe-4d59-b08c-6e2ce274539b",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "andreas-peter",
@@ -149,7 +164,12 @@
     "contribution": "Early supervised flow classification.",
     "status": "Verified",
     "sourceUrl": "https://www.cl.cam.ac.uk/research/srg/netos/papers/2005-moore2005internet.pdf",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-5494-9305",
+    "orcidSource": "ORCID record lists Bayesian traffic",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.cl.cam.ac.uk/~awm22",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "anthony-busson",
@@ -185,7 +205,10 @@
     "contribution": "Verified co-authorship in IIsy.",
     "status": "Needs verification",
     "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-7912-5161",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "antonio-montieri",
@@ -204,7 +227,12 @@
     "contribution": "Verified co-authorship in MIMETIC, DISTILLER.",
     "status": "Needs verification",
     "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0003-4340-442X",
+    "orcidSource": "ORCID record lists MIMETIC, DISTILLER",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=oFe8YFMAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
   },
   {
     "id": "antonio-pescape",
@@ -245,7 +273,14 @@
     "contribution": "Verified co-authorship in VPN time features, Tor time features.",
     "status": "Needs verification",
     "sourceUrl": "https://www.unb.ca/cic/datasets/vpn.html",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-1240-6433",
+    "orcidSource": "ORCID record lists VPN time features, Tor time features",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.ahlashkari.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=qfqog_wAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "arash-shaghaghi",
@@ -286,7 +321,14 @@
     "contribution": "Verified co-authorship in P4 encrypted classification, Flowrest, Jewel.",
     "status": "Verified",
     "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-4359-0173",
+    "orcidSource": "ORCID record lists Flowrest, Jewel",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://akemaristide.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=qg_ggDIAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record and linked from the author's own page"
   },
   {
     "id": "arpit-gupta",
@@ -416,7 +458,10 @@
     "contribution": "Verified co-authorship in NTC comprehensive survey.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112578",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0009-0003-0462-9607",
+    "orcidSource": "ORCID record lists NTC comprehensive survey",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "chang-liu",
@@ -452,7 +497,14 @@
     "contribution": "Verified co-authorship in IIsy.",
     "status": "Needs verification",
     "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0003-1894-722X",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://changgang-zheng.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=bICwuWgAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
   },
   {
     "id": "chao-wang",
@@ -552,7 +604,10 @@
     "contribution": "BiasSeeker and NetMamba co-authorship.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2601.10180v1",
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "orcid": "0009-0002-8296-3785",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "cristian-r-munteanu",
@@ -570,7 +625,10 @@
     "contribution": "Verified co-authorship in NT-FM systematic review.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=GBZ2jeAAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "daniel-arp",
@@ -606,7 +664,12 @@
     "contribution": "Verified co-authorship in FlowPrint.",
     "status": "Needs verification",
     "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-8115-898X",
+    "orcidSource": "ORCID record lists FlowPrint",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.danieldubois.org/",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "dario-rossi",
@@ -634,7 +697,11 @@
     "sourceUrl": "https://arxiv.org/html/2309.09733v2",
     "accessed": "2026-09-23",
     "publicationsUrl": "https://nonsns.github.io/publications/date/",
-    "publicationsChecked": "2026-09-23"
+    "publicationsChecked": "2026-09-23",
+    "publicationsSource": "Author's own publication page",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "david-choffnes",
@@ -709,7 +776,14 @@
     "contribution": "Verified co-authorship in MIMETIC, DISTILLER, MEMENTO, Class-incremental benchmark.",
     "status": "Needs verification",
     "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-6230-2958",
+    "orcidSource": "ORCID record lists MIMETIC, DISTILLER, Class-incremental benchmark",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://domenicociuonzo.wordpress.com/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=oHGui3MAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "dongmei-wang",
@@ -746,7 +820,10 @@
     "contribution": "Verified co-authorship in LiM / NetMatrix.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2502.00586v2",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-7312-6769",
+    "orcidSource": "ORCID record lists LiM / NetMatrix",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "elham-akbari",
@@ -782,7 +859,14 @@
     "contribution": "Verified co-authorship in Rosetta.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-2539-8241",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://tsinghuadong.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=hAoz57UAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "erwin-quiring",
@@ -800,7 +884,12 @@
     "contribution": "Verified co-authorship in Security ML pitfalls.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0004-7170-1274",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=yR0cDFoAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
   },
   {
     "id": "eyal-horowicz",
@@ -836,7 +925,14 @@
     "contribution": "Verified co-authorship in Security ML pitfalls.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-1254-1758",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://fabio.pierazzi.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=rAGRBOAAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "feargus-pendlebury",
@@ -854,7 +950,10 @@
     "contribution": "Verified co-authorship in Security ML pitfalls.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0003-1140-322X",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "feng-jun",
@@ -894,7 +993,10 @@
     "contribution": "Verified co-authorship in Traffic Refinery, CATO, AC-DC, Cruise Control.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/pdf/2010.14605",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-4447-960X",
+    "orcidSource": "ORCID record lists Traffic Refinery",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "francesco-cerasuolo",
@@ -912,7 +1014,10 @@
     "contribution": "Verified co-authorship in MEMENTO.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2024.110374",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0009-0000-6476-8092",
+    "orcidSource": "ORCID record lists MEMENTO",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "francesco-mercaldo",
@@ -930,7 +1035,10 @@
     "contribution": "Verified co-authorship in TFE-GNN.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2307.16713",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-9425-1657",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "fuxiang-huang",
@@ -968,7 +1076,10 @@
     "contribution": "Replication of FlowPic augmentation and dataset-shift diagnosis.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2309.09733v2",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-7240-2699",
+    "orcidSource": "ORCID record lists FlowPic replication",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "gang-xiong",
@@ -1124,7 +1235,10 @@
     "contribution": "Verified co-authorship in MEMENTO, Class-incremental benchmark.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2024.110374",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-0997-9724",
+    "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "gints-engelen",
@@ -1143,7 +1257,10 @@
     "contribution": "CICIDS2017 audit and corrective tooling.",
     "status": "Verified",
     "sourceUrl": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-6375-6775",
+    "orcidSource": "ORCID record lists CICIDS2017 audit",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "giovanni-apruzzese",
@@ -1162,7 +1279,14 @@
     "contribution": "Pragmatic assessment of ML-based NIDS; broader security evaluation contribution.",
     "status": "Verified",
     "sourceUrl": "https://www.giovanniapruzzese.com/publications/eurosp23",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-6890-9611",
+    "orcidSource": "ORCID record lists Pragmatic NIDS assessment",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.giovanniapruzzese.com/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=X2DCBhsAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "giovanni-dettori",
@@ -1181,7 +1305,10 @@
     "contribution": "Controlled-split audit and Pcap-Encoder contribution.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2507.16438v1",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0004-1666-5127",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "giulia-milan",
@@ -1199,7 +1326,10 @@
     "contribution": "Verified co-authorship in Cross-network embeddings.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1109/TNSM.2023.3329442",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-5540-2264",
+    "orcidSource": "ORCID record lists Cross-network embeddings",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "giuseppe-aceto",
@@ -1220,7 +1350,10 @@
     "contribution": "Verified co-authorship in MIMETIC, DISTILLER, MEMENTO, Class-incremental benchmark.",
     "status": "Needs verification",
     "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-4445-6259",
+    "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "gonzalo-marin",
@@ -1346,7 +1479,10 @@
     "contribution": "Verified co-authorship in FastFlow.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1145/3727115",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-3482-8442",
+    "orcidSource": "ORCID record lists FastFlow",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "haarika-manda",
@@ -1457,7 +1593,10 @@
     "contribution": "Verified co-authorship in CLE-TFE, MH-Net, TFE-GNN.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.07501",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-4048-4516",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "hong-ye-he",
@@ -1533,7 +1672,10 @@
     "contribution": "Verified co-authorship in Generic multimodal MAE, Cross-network embeddings.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2405.02649",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-1932-1261",
+    "orcidSource": "ORCID record lists Cross-network embeddings",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "idio-guarino",
@@ -1551,7 +1693,12 @@
     "contribution": "Verified co-authorship in Many or Few Samples?.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2305.12432",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0009-0002-6141-0188",
+    "orcidSource": "ORCID record lists Many or Few Samples?",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=9-os59cAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
   },
   {
     "id": "inder-monga",
@@ -1679,7 +1826,10 @@
     "contribution": "Verified co-authorship in Rosetta.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-7139-376X",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jian-qu",
@@ -1793,7 +1943,10 @@
     "contribution": "Verified co-authorship in ET-BERT, ETooL.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2202.06335v2",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-3966-511X",
+    "orcidSource": "ORCID record lists ETooL",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jingjing-ren",
@@ -1847,7 +2000,10 @@
     "contribution": "Verified co-authorship in NetMamba+.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2601.21792",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0006-4195-9623",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jinzhu-yan",
@@ -1921,7 +2077,10 @@
     "contribution": "Replication of FlowPic augmentation and dataset-shift diagnosis.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2309.09733v2",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-7687-2495",
+    "orcidSource": "ORCID record lists FlowPic replication",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jonatas-marques",
@@ -2056,7 +2215,14 @@
     "contribution": "Verified co-authorship in MM4flow, ExpMD, unFlowS, Robustness Matters, SemiAF.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-2986-4665",
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://jjhuangcs.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=Ci5AHCUAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "junzheng-shi",
@@ -2128,7 +2294,10 @@
     "contribution": "Verified co-authorship in Early identification.",
     "status": "Needs verification",
     "sourceUrl": "https://dl.acm.org/doi/10.1145/1368436.1368445",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-5557-9134",
+    "orcidSource": "ORCID record lists Early identification",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "ke-xu",
@@ -2202,7 +2371,10 @@
     "contribution": "Verified co-authorship in Rosetta.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0003-4152-2107",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "laurent-bernaille",
@@ -2240,7 +2412,10 @@
     "contribution": "Verified co-authorship in CLE-TFE, MH-Net, TFE-GNN.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.07501",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-1457-6329",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "lei-zhang",
@@ -2277,7 +2452,10 @@
     "contribution": "Verified co-authorship in Rosetta.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0000-9340-0481",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "liming-liu",
@@ -2323,7 +2501,10 @@
     "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-5930-8881",
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "lingfeng-peng",
@@ -2380,7 +2561,10 @@
     "contribution": "Verified co-authorship in Commercial-scale ETC, Class-incremental benchmark.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2104.03182",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-1973-383X",
+    "orcidSource": "ORCID record lists Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "long-cheng",
@@ -2434,7 +2618,12 @@
     "contribution": "Verified co-authorship in Security ML pitfalls.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-3878-2680",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://kclpure.kcl.ac.uk/portal/en/persons/03bc6371-26c0-4b53-8987-e38fa17b0441",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "lu-han",
@@ -2471,7 +2660,10 @@
     "contribution": "Verified co-authorship in Generic multimodal MAE, Cross-network embeddings.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2405.02649",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0001-8258-8626",
+    "orcidSource": "ORCID record lists Cross-network embeddings",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "luca-vassio",
@@ -2493,7 +2685,10 @@
     "contribution": "Verified co-authorship in The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings.",
     "status": "Verified",
     "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-2920-1856",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "luming-yang",
@@ -2520,7 +2715,9 @@
     "sourceUrl": "https://ieeexplore.ieee.org/document/10287432/",
     "accessed": "2026-09-24",
     "scholarUrl": "https://scholar.google.com/citations?hl=en&user=Xt7NczsAAAAJ&view_op=list_works&sortby=pubdate",
-    "publicationsChecked": "2026-09-24"
+    "publicationsChecked": "2026-09-24",
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "identityChecked": "2026-09-24"
   },
   {
     "id": "maarten-van-steen",
@@ -2601,7 +2798,12 @@
     "contribution": "Verified co-authorship in The Sweet Danger of Sugar, ShortcutCatcher, Generic multimodal MAE, Cross-network embeddings.",
     "status": "Verified",
     "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-1859-6693",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.telematica.polito.it/public/faculty/marco-mellia",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "martina-lindorfer",
@@ -2658,7 +2860,10 @@
     "contribution": "Sugar representation audit and ShortcutCatcher feature-removal research.",
     "status": "Verified",
     "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "orcid": "0000-0003-3144-9065",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "mauro-conti",
@@ -2676,7 +2881,12 @@
     "contribution": "Verified co-authorship in AppScanner.",
     "status": "Needs verification",
     "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-3612-1934",
+    "orcidSource": "ORCID record lists AppScanner",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.math.unipd.it/~conti/",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "meijia-hou",
@@ -2808,7 +3018,10 @@
     "contribution": "YaTC authors; hierarchical packet and flow attention.",
     "status": "Verified",
     "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0001-5564-5397",
+    "orcidSource": "ORCID record lists YaTC",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "minzhao-lyu",
@@ -2828,7 +3041,14 @@
     "contribution": "Verified co-authorship in Streaming platforms, FastFlow.",
     "status": "Verified",
     "sourceUrl": "https://www.unsw.edu.au/staff/minzhao-lyu",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0001-8677-248X",
+    "orcidSource": "ORCID record lists Streaming platforms, FastFlow",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://minzhaolyu.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=6oFRlVcAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "mohammad-ali-salahuddin",
@@ -2865,7 +3085,10 @@
     "contribution": "Deep Packet authors.",
     "status": "Verified",
     "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-6858-7985",
+    "orcidSource": "ORCID record lists Deep Packet",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "mohammad-saiful-islam-mamun",
@@ -2965,7 +3188,13 @@
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2503.20093v4",
     "accessed": "2026-09-23",
-    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=icvGlCkAAAAJ&view_op=list_works&sortby=pubdate"
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=icvGlCkAAAAJ&view_op=list_works&sortby=pubdate",
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "identityChecked": "2026-10-13",
+    "orcid": "0000-0003-4068-2299",
+    "orcidSource": "ORCID record lists NTC Enigma / SoK, LiM / NetMatrix",
+    "homepageUrl": "https://nime-sha256.info",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "noa-zilberman",
@@ -2983,7 +3212,12 @@
     "contribution": "Verified co-authorship in IIsy.",
     "status": "Needs verification",
     "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-3655-2873",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.eng.ox.ac.uk/people/noa-zilberman/",
+    "homepageSource": "Linked from the confirmed ORCID record"
   },
   {
     "id": "noura-limam",
@@ -3001,7 +3235,10 @@
     "contribution": "Verified co-authorship in Cross-network reality check.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2507.06430",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-7759-3751",
+    "orcidSource": "ORCID record lists Cross-network reality check",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "oliver-spatscheck",
@@ -3060,7 +3297,10 @@
     "contribution": "Pragmatic assessment of ML-based NIDS; broader security evaluation contribution.",
     "status": "Verified",
     "sourceUrl": "https://www.giovanniapruzzese.com/publications/eurosp23",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-3212-7167",
+    "orcidSource": "ORCID record lists Pragmatic NIDS assessment",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "pedro-casas",
@@ -3136,7 +3376,10 @@
     "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer, Rosetta.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-8776-8730",
+    "orcidSource": "ORCID record lists Brain-on-Switch, Rosetta",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "qineng-wang",
@@ -3178,7 +3421,14 @@
     "contribution": "Verified co-authorship in CLE-TFE, FlowletFormer, MH-Net, TFE-GNN.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.07501",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-6071-473X",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://smartinternet.group/qing/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=54AuaywAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record and linked from the author's own page"
   },
   {
     "id": "qixu-liu",
@@ -3214,7 +3464,10 @@
     "contribution": "Verified co-authorship in NTC comprehensive survey.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112578",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0009-0009-5686-6798",
+    "orcidSource": "ORCID record lists NTC comprehensive survey",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "ramin-shirali-hossein-zade",
@@ -3289,7 +3542,10 @@
     "contribution": "Verified co-authorship in Rosetta.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0004-1742-4122",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "riccardo-bortolameotti",
@@ -3325,7 +3581,10 @@
     "contribution": "Verified co-authorship in AppScanner.",
     "status": "Needs verification",
     "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-3878-7940",
+    "orcidSource": "ORCID record lists AppScanner",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "richard-plny",
@@ -3361,7 +3620,10 @@
     "contribution": "Verified co-authorship in IIsy.",
     "status": "Needs verification",
     "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0005-0264-7830",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "ronaldo-a-ferreira",
@@ -3398,7 +3660,14 @@
     "contribution": "Verified co-authorship in NT-FM systematic review.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-7988-945X",
+    "orcidSource": "ORCID record lists NT-FM systematic review",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://rubenpjove.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=5aey5sQAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record and linked from the author's own page"
   },
   {
     "id": "ruijie-zhao",
@@ -3472,7 +3741,10 @@
     "contribution": "Verified co-authorship in FastFlow.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1145/3727115",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0009-0006-2164-3277",
+    "orcidSource": "ORCID record lists FastFlow",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "saloua-naama",
@@ -3510,7 +3782,10 @@
     "contribution": "Verified co-authorship in NTC Enigma / SoK, LiM / NetMatrix.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2503.20093v4",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-1844-1520",
+    "orcidSource": "ORCID record lists LiM / NetMatrix",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "sanjay-krishnan",
@@ -3610,7 +3885,10 @@
     "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-7275-8190",
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "shay-vargaftik",
@@ -3648,7 +3926,10 @@
     "contribution": "Verified co-authorship in ServeFlow, CATO, AC-DC.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03694",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-6170-2167",
+    "orcidSource": "ORCID record lists ServeFlow, CATO, AC-DC",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "shiyu-liang",
@@ -3850,7 +4131,14 @@
     "contribution": "netFound research group; latest v5 revision.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2310.17025v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-8270-0219",
+    "orcidSource": "ORCID record lists Demystifying NFMs, Trustee",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://maybe-hello-world.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=fsQzRtMAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "tal-shapira",
@@ -3886,7 +4174,10 @@
     "contribution": "Verified co-authorship in ServeFlow.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03694",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-7353-3786",
+    "orcidSource": "ORCID record lists ServeFlow",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "thanh-t-bui",
@@ -4053,7 +4344,10 @@
     "contribution": "Verified co-authorship in Streaming platforms, FastFlow.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2408.16995",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0001-7985-6765",
+    "orcidSource": "ORCID record lists Streaming platforms, FastFlow",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "vincent-f-taylor",
@@ -4186,7 +4480,10 @@
     "contribution": "NetMamba research group.",
     "status": "Verified",
     "sourceUrl": "https://icnp24.cs.ucr.edu/acceptedpapers.html",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0001-9929-6336",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "wenqi-dong",
@@ -4204,7 +4501,10 @@
     "contribution": "Verified co-authorship in ETooL.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3574971",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0009-0005-6177-0062",
+    "orcidSource": "ORCID record lists ETooL",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "wouter-joosen",
@@ -4261,7 +4561,10 @@
     "contribution": "Verified co-authorship in CLE-TFE, MH-Net, TFE-GNN.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.07501",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0003-1521-9542",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "xiang-ning-chen",
@@ -4298,7 +4601,10 @@
     "contribution": "YaTC authors; hierarchical packet and flow attention.",
     "status": "Verified",
     "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-6611-5295",
+    "orcidSource": "ORCID record lists YaTC",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "xiao-liu",
@@ -4398,7 +4704,10 @@
     "accessed": "2026-10-04",
     "scholarUrl": "https://scholar.google.com/citations?hl=en&user=j0yTuxoAAAAJ",
     "publicationsUrl": "https://thuxiexiaohui.github.io/#publications",
-    "publicationsChecked": "2026-10-04"
+    "publicationsChecked": "2026-10-04",
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "publicationsSource": "Author's own publication page",
+    "identityChecked": "2026-10-04"
   },
   {
     "id": "xiaowei-fu",
@@ -4435,7 +4744,14 @@
     "contribution": "Verified co-authorship in TFE-GNN.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2307.16713",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "orcid": "0000-0002-9082-3208",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www4.comp.polyu.edu.hk/~csxluo/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=uvedrYMAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "xinjie-lin",
@@ -4547,7 +4863,10 @@
     "contribution": "Verified co-authorship in IIsy.",
     "status": "Needs verification",
     "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0002-3844-5940",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "yannan-hu",
@@ -4565,7 +4884,10 @@
     "contribution": "Verified co-authorship in NetMamba+.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2601.21792",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0008-3960-553X",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "ye-zhang",
@@ -4602,7 +4924,14 @@
     "contribution": "Verified co-authorship in NetGPT.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2304.09513",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-7530-6125",
+    "orcidSource": "ORCID record lists NetGPT",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.wangyequan.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=7Gqp6FsAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
   },
   {
     "id": "yi-xie",
@@ -4620,7 +4949,10 @@
     "contribution": "Verified co-authorship in Flow-MAE.",
     "status": "Needs verification",
     "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0001-7539-919X",
+    "orcidSource": "ORCID record lists Flow-MAE",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "yifan-wang",
@@ -4638,7 +4970,10 @@
     "contribution": "Verified co-authorship in Streaming platforms.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2408.16995",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0009-0009-3472-9821",
+    "orcidSource": "ORCID record lists Streaming platforms",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "yijun-wang",
@@ -4715,7 +5050,10 @@
     "contribution": "Verified co-authorship in Flow-MAE.",
     "status": "Needs verification",
     "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "orcid": "0000-0003-2055-3799",
+    "orcidSource": "ORCID record lists Flow-MAE",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "yongjun-wang",
@@ -4858,7 +5196,10 @@
     "contribution": "Sugar representation audit and ShortcutCatcher feature-removal research.",
     "status": "Verified",
     "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "orcid": "0009-0002-8221-6376",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "yuval-shavitt",
@@ -5029,9 +5370,14 @@
     "status": "Verified",
     "sourceUrl": "https://www.insc.tsinghua.edu.cn/inscen/info/1255/1085.htm",
     "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=F8gi4rcAAAAJ&view_op=list_works&sortby=pubdate",
     "publicationsUrl": "https://liuzhuotao.github.io/publications/",
     "publicationsChecked": "2026-09-24",
-    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=F8gi4rcAAAAJ&view_op=list_works&sortby=pubdate"
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "publicationsSource": "Author's own publication page",
+    "identityChecked": "2026-10-13",
+    "orcid": "0000-0002-7532-0434",
+    "orcidSource": "ORCID record lists Brain-on-Switch, MM4flow"
   },
   {
     "id": "zied-ben-houidi",

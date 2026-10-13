@@ -360,21 +360,14 @@ enrich(P,E,D,meta)
 DATE='2026-09-23'
 from author_expansion import expand
 expand(P,E,D,A,meta,add,detail,rel,gapstate,prof,profiles)
-next(a for a in A if a['id']=='zhuotao-liu').update(
-    publicationsUrl='https://liuzhuotao.github.io/publications/',
-    publicationsChecked='2026-09-24',
-    scholarUrl='https://scholar.google.com/citations?hl=en&user=F8gi4rcAAAAJ&view_op=list_works&sortby=pubdate')
-next(a for a in A if a['id']=='nimesha-wickramasinghe').update(
-    scholarUrl='https://scholar.google.com/citations?hl=en&user=icvGlCkAAAAJ&view_op=list_works&sortby=pubdate')
-next(a for a in A if a['id']=='luming-yang').update(
-    scholarUrl='https://scholar.google.com/citations?hl=en&user=Xt7NczsAAAAJ&view_op=list_works&sortby=pubdate',
-    publicationsChecked='2026-09-24',
-    accessed='2026-09-24')
-next(a for a in A if a['id']=='xiaohui-xie').update(
-    scholarUrl='https://scholar.google.com/citations?hl=en&user=j0yTuxoAAAAJ',
-    publicationsUrl='https://thuxiexiaohui.github.io/#publications',
-    publicationsChecked='2026-10-04',
-    accessed='2026-10-04')
+next(a for a in A if a['id']=='luming-yang').update(accessed='2026-09-24')
+next(a for a in A if a['id']=='xiaohui-xie').update(accessed='2026-10-04')
+# Profile links (Scholar, ORCID, homepage, publication page) live in one reviewed file.
+# Candidates come from scripts/author_candidates.py; see docs/AUTHOR-IDENTITY.md.
+author_ids={a['id'] for a in A}
+for aid,links in json.loads((ROOT/'curation/author-identities.json').read_text()).items():
+    if aid not in author_ids: raise SystemExit(f'author-identities.json: unknown author {aid}')
+    next(a for a in A if a['id']==aid).update(links)
 meta['relationshipCount']=len(R)
 for name,obj in [('papers',P),('authors',A),('datasets',D),('relationships',R),('evidence',E),('meta',meta)]:
     (ROOT/'public/data'/f'{name}.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')

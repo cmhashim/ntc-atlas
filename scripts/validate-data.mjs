@@ -27,6 +27,14 @@ assert(edges.some(r=>r.source==='netmambaplus'&&r.target==='netmamba'&&r.type===
 for(const id of meta.authorExpansion.papers){const p=papers.find(p=>p.id===id);assert(p&&p.year>=2023);}
 for(const id of ['lim','labelprovenance','ntcsurvey2026','ntfmsurvey2026'])assert(ids.has(id));
 assert(authors.find(a=>a.name==='Nimesha Wickramasinghe').papers.includes('lim'));
+const orcidOk=id=>{if(!/^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/.test(id))return false;const d=id.replace(/-/g,'');let t=0;for(const c of d.slice(0,15))t=(t+Number(c))*2;const r=(12-t%11)%11;return d[15]===(r===10?'X':String(r));};
+const orcids=new Set(),scholars=new Set();
+for(const a of authors){
+ if(a.scholarUrl){const m=a.scholarUrl.match(/^https:\/\/scholar\.google\.com\/citations\?(?:.*&)?user=([A-Za-z0-9_-]{12})(?:&|$)/);assert(m,`Scholar link must be a direct https profile URL: ${a.name}`);assert(!scholars.has(m[1]),`Scholar profile used twice: ${a.name}`);scholars.add(m[1]);assert(a.scholarSource,`Scholar link without source: ${a.name}`);}
+ if(a.orcid){assert(orcidOk(a.orcid),`Invalid ORCID iD: ${a.name}`);assert(!orcids.has(a.orcid),`ORCID used twice: ${a.name}`);orcids.add(a.orcid);assert(a.orcidSource,`ORCID without source: ${a.name}`);}
+ if(a.homepageUrl){assert(/^https?:\/\//.test(a.homepageUrl),`Invalid homepage URL: ${a.name}`);assert(a.homepageSource,`Homepage without source: ${a.name}`);}
+ if(a.scholarUrl||a.orcid||a.homepageUrl||a.publicationsUrl)assert(/^\d{4}-\d{2}-\d{2}$/.test(a.identityChecked??''),`Profile links without check date: ${a.name}`);
+}
 const zhuotao=authors.find(a=>a.name==='Zhuotao Liu');
 assert.equal(zhuotao.status,'Verified');
 assert(zhuotao.scholarUrl?.includes('F8gi4rcAAAAJ'));
@@ -35,6 +43,7 @@ const luming=authors.find(a=>a.name==='Luming Yang');
 assert.equal(luming.status,'Verified');
 assert(luming.scholarUrl?.includes('Xt7NczsAAAAJ'));
 for(const id of ['evs2vec','expmd','unflows','robustnessmatters','semiaf','mm4flow'])assert(luming.papers.includes(id));
+assert.equal(authors.find(a=>a.id==='dario-rossi').publicationsUrl,'https://nonsns.github.io/publications/date/');
 const xiaohui=authors.find(a=>a.name==='Xiaohui Xie');
 assert(xiaohui.scholarUrl?.includes('j0yTuxoAAAAJ'));
 assert(xiaohui.publicationsUrl?.startsWith('https://thuxiexiaohui.github.io/'));

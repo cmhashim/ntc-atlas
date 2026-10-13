@@ -6,14 +6,15 @@ Priorities: **P1** blocks trust in the atlas, **P2** makes it useful day to day,
 
 ## P1. Author identity and profile links
 
-Currently: 272 authors; **4** have a direct Google Scholar profile, **3** a publication page, **77** a verified (dated) affiliation, **195** still "Needs verification".
+Currently: 272 authors; **24** have a confirmed Google Scholar profile, **83** a confirmed ORCID iD, **23** a homepage, **3** a publication page; **77** have a verified (dated) affiliation, **195** still "Needs verification". Rules and workflow: [AUTHOR-IDENTITY.md](AUTHOR-IDENTITY.md).
 
-- [ ] Add schema fields to `Author`: `orcid`, `dblpUrl`, `homepageUrl`, `institutionUrl`, each with its own source and check date.
-- [ ] For every author, link the **direct** Google Scholar profile when the identity is confirmed. Confirmation rule: the profile lists at least one corpus paper with the same byline, and the name/affiliation match. Never substitute a name search for a confirmed profile, and record "no confirmed profile" rather than guessing.
-- [ ] Add a personal homepage or institutional page where one exists. Keep affiliation (dated, with source) separate from byline verification.
-- [ ] Order of work: authors with 2+ corpus papers first, then first and last authors, then the rest.
-- [ ] Semi-automate the candidate step: look up OpenAlex author IDs, ORCID and DBLP for each byline and write a review sheet. A human confirms every match. Google Scholar is checked by hand only (no scraping).
-- [ ] Validator: fail on a Scholar link that is a search URL when `scholarUrl` with `user=` exists; fail on malformed ORCID iDs (checksum).
+- [x] Add schema fields to `Author`: `orcid`, `homepageUrl`, each with its own source and check date (`identityChecked`).
+- [x] Semi-automate the candidate step: `scripts/author_candidates.py` aligns OpenAlex authorships with the bylines, confirms ORCID iDs against the ORCID record's works, and writes `curation/author-candidates.csv`. Google Scholar is checked by hand only (no scraping).
+- [ ] Hand-check Google Scholar for the remaining 248 authors. Order of work: authors with 2+ corpus papers first (priority 1 in the sheet), then first and last authors, then the rest. Confirmation rule: the profile lists at least one corpus paper with the same byline. Record "no confirmed profile" rather than guessing.
+- [ ] Six papers are not found in OpenAlex (BLINC, DeepMAL, Refinery, LEO, AKEM, Trustee); check their authors by hand.
+- [ ] Add DBLP person pages (`dblpUrl`); DBLP's API currently sits behind a bot check, so this needs manual links or a later API route.
+- [ ] Add an institutional page where no homepage exists. Keep affiliation (dated, with source) separate from byline verification.
+- [x] Validator: Scholar links must be direct `user=` profiles, no profile or ORCID shared by two authors, ORCID checksum, every link has a source and check date.
 - [ ] Author identity correction issues are answered within two weeks.
 
 ## P1. Paper metadata and evidence quality
@@ -72,6 +73,7 @@ python3 - <<'EOF'
 import json
 A=json.load(open('public/data/authors.json')); P=json.load(open('public/data/papers.json')); E=json.load(open('public/data/evidence.json'))
 print('direct scholar', sum('user=' in (a.get('scholarUrl') or '') for a in A), '/', len(A))
+print('orcid', sum(bool(a.get('orcid')) for a in A), 'homepage', sum(bool(a.get('homepageUrl')) for a in A))
 print('affiliation verified', sum(a['status']=='Verified' for a in A))
 print('evidence needing verification', sum(e['status']!='Verified' for e in E))
 print('no code link', sum(not p['code'] for p in P))

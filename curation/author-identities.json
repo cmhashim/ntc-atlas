@@ -1,0 +1,533 @@
+{
+  "alessandro-finamore": {
+    "orcid": "0000-0003-2226-2506",
+    "orcidSource": "ORCID record lists FlowPic replication, Traffic augmentation benchmark",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://afinamore.io",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=PDm2yXEAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "alfredo-nascita": {
+    "orcid": "0000-0002-7395-4222",
+    "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
+  },
+  "andrea-continella": {
+    "orcid": "0000-0002-0329-1830",
+    "orcidSource": "ORCID record lists FlowPrint",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://research.utwente.nl/en/persons/886dc4d3-abfe-4d59-b08c-6e2ce274539b",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "andrew-w-moore": {
+    "orcid": "0000-0002-5494-9305",
+    "orcidSource": "ORCID record lists Bayesian traffic",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.cl.cam.ac.uk/~awm22",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "antoine-bernabeu": {
+    "orcid": "0000-0001-7912-5161",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13"
+  },
+  "antonio-montieri": {
+    "orcid": "0000-0003-4340-442X",
+    "orcidSource": "ORCID record lists MIMETIC, DISTILLER",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=oFe8YFMAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
+  },
+  "arash-habibi-lashkari": {
+    "orcid": "0000-0002-1240-6433",
+    "orcidSource": "ORCID record lists VPN time features, Tor time features",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.ahlashkari.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=qfqog_wAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "aristide-tanyi-jong-akem": {
+    "orcid": "0000-0002-4359-0173",
+    "orcidSource": "ORCID record lists Flowrest, Jewel",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://akemaristide.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=qg_ggDIAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record and linked from the author's own page"
+  },
+  "burak-alp-inan": {
+    "orcid": "0009-0003-0462-9607",
+    "orcidSource": "ORCID record lists NTC comprehensive survey",
+    "identityChecked": "2026-10-13"
+  },
+  "changgang-zheng": {
+    "orcid": "0000-0003-1894-722X",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://changgang-zheng.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=bICwuWgAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
+  },
+  "chuyi-wang": {
+    "orcid": "0009-0002-8296-3785",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
+  },
+  "cristian-r-munteanu": {
+    "scholarUrl": "https://scholar.google.com/citations?user=GBZ2jeAAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record",
+    "identityChecked": "2026-10-13"
+  },
+  "daniel-j-dubois": {
+    "orcid": "0000-0002-8115-898X",
+    "orcidSource": "ORCID record lists FlowPrint",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.danieldubois.org/",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "dario-rossi": {
+    "publicationsUrl": "https://nonsns.github.io/publications/date/",
+    "publicationsChecked": "2026-09-23",
+    "publicationsSource": "Author's own publication page",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=PP1W6HkAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "domenico-ciuonzo": {
+    "orcid": "0000-0002-6230-2958",
+    "orcidSource": "ORCID record lists MIMETIC, DISTILLER, Class-incremental benchmark",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://domenicociuonzo.wordpress.com/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=oHGui3MAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "elena-ferrari": {
+    "orcid": "0000-0002-7312-6769",
+    "orcidSource": "ORCID record lists LiM / NetMatrix",
+    "identityChecked": "2026-10-13"
+  },
+  "enhuan-dong": {
+    "orcid": "0000-0002-2539-8241",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://tsinghuadong.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=hAoz57UAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "erwin-quiring": {
+    "orcid": "0009-0004-7170-1274",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=yR0cDFoAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
+  },
+  "fabio-pierazzi": {
+    "orcid": "0000-0002-1254-1758",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://fabio.pierazzi.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=rAGRBOAAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "feargus-pendlebury": {
+    "orcid": "0000-0003-1140-322X",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13"
+  },
+  "francesco-bronzino": {
+    "orcid": "0000-0003-4447-960X",
+    "orcidSource": "ORCID record lists Traffic Refinery",
+    "identityChecked": "2026-10-13"
+  },
+  "francesco-cerasuolo": {
+    "orcid": "0009-0000-6476-8092",
+    "orcidSource": "ORCID record lists MEMENTO",
+    "identityChecked": "2026-10-13"
+  },
+  "francesco-mercaldo": {
+    "orcid": "0000-0002-9425-1657",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
+  },
+  "fuxing-chen": {
+    "orcid": "0000-0001-7240-2699",
+    "orcidSource": "ORCID record lists FlowPic replication",
+    "identityChecked": "2026-10-13"
+  },
+  "giampaolo-bovenzi": {
+    "orcid": "0000-0002-0997-9724",
+    "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
+  },
+  "gints-engelen": {
+    "orcid": "0000-0002-6375-6775",
+    "orcidSource": "ORCID record lists CICIDS2017 audit",
+    "identityChecked": "2026-10-13"
+  },
+  "giovanni-apruzzese": {
+    "orcid": "0000-0002-6890-9611",
+    "orcidSource": "ORCID record lists Pragmatic NIDS assessment",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.giovanniapruzzese.com/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=X2DCBhsAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "giovanni-dettori": {
+    "orcid": "0009-0004-1666-5127",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar",
+    "identityChecked": "2026-10-13"
+  },
+  "giulia-milan": {
+    "orcid": "0000-0002-5540-2264",
+    "orcidSource": "ORCID record lists Cross-network embeddings",
+    "identityChecked": "2026-10-13"
+  },
+  "giuseppe-aceto": {
+    "orcid": "0000-0002-4445-6259",
+    "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
+  },
+  "gustavo-batista": {
+    "orcid": "0000-0002-3482-8442",
+    "orcidSource": "ORCID record lists FastFlow",
+    "identityChecked": "2026-10-13"
+  },
+  "haozhen-zhang": {
+    "orcid": "0000-0003-4048-4516",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
+  },
+  "idilio-drago": {
+    "orcid": "0000-0003-1932-1261",
+    "orcidSource": "ORCID record lists Cross-network embeddings",
+    "identityChecked": "2026-10-13"
+  },
+  "idio-guarino": {
+    "orcid": "0009-0002-6141-0188",
+    "orcidSource": "ORCID record lists Many or Few Samples?",
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=9-os59cAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record"
+  },
+  "jiahao-cao": {
+    "orcid": "0000-0001-7139-376X",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
+  },
+  "jing-yu": {
+    "orcid": "0000-0002-3966-511X",
+    "orcidSource": "ORCID record lists ETooL",
+    "identityChecked": "2026-10-13"
+  },
+  "jinzhou-liu": {
+    "orcid": "0009-0006-4195-9623",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
+  },
+  "jonatan-krolikowski": {
+    "orcid": "0000-0001-7687-2495",
+    "orcidSource": "ORCID record lists FlowPic replication",
+    "identityChecked": "2026-10-13"
+  },
+  "jun-jie-huang": {
+    "orcid": "0000-0003-2986-4665",
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://jjhuangcs.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=Ci5AHCUAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "kave-salamatian": {
+    "orcid": "0000-0001-5557-9134",
+    "orcidSource": "ORCID record lists Early identification",
+    "identityChecked": "2026-10-13"
+  },
+  "kun-sun": {
+    "orcid": "0000-0003-4152-2107",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
+  },
+  "le-yu": {
+    "orcid": "0000-0003-1457-6329",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
+  },
+  "licheng-shen": {
+    "orcid": "0009-0000-9340-0481",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
+  },
+  "lin-liu": {
+    "orcid": "0000-0002-5930-8881",
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
+    "identityChecked": "2026-10-13"
+  },
+  "lixuan-yang": {
+    "orcid": "0000-0003-1973-383X",
+    "orcidSource": "ORCID record lists Class-incremental benchmark",
+    "identityChecked": "2026-10-13"
+  },
+  "lorenzo-cavallaro": {
+    "orcid": "0000-0002-3878-2680",
+    "orcidSource": "ORCID record lists Security ML pitfalls",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://kclpure.kcl.ac.uk/portal/en/persons/03bc6371-26c0-4b53-8987-e38fa17b0441",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "luca-gioacchini": {
+    "orcid": "0000-0001-8258-8626",
+    "orcidSource": "ORCID record lists Cross-network embeddings",
+    "identityChecked": "2026-10-13"
+  },
+  "luca-vassio": {
+    "orcid": "0000-0002-2920-1856",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings",
+    "identityChecked": "2026-10-13"
+  },
+  "luming-yang": {
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=Xt7NczsAAAAJ&view_op=list_works&sortby=pubdate",
+    "publicationsChecked": "2026-09-24",
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "identityChecked": "2026-09-24"
+  },
+  "marco-mellia": {
+    "orcid": "0000-0003-1859-6693",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.telematica.polito.it/public/faculty/marco-mellia",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "matteo-boffa": {
+    "orcid": "0000-0003-3144-9065",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
+    "identityChecked": "2026-10-13"
+  },
+  "mauro-conti": {
+    "orcid": "0000-0002-3612-1934",
+    "orcidSource": "ORCID record lists AppScanner",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "http://www.math.unipd.it/~conti/",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "mingwei-zhan": {
+    "orcid": "0009-0001-5564-5397",
+    "orcidSource": "ORCID record lists YaTC",
+    "identityChecked": "2026-10-13"
+  },
+  "minzhao-lyu": {
+    "orcid": "0000-0001-8677-248X",
+    "orcidSource": "ORCID record lists Streaming platforms, FastFlow",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://minzhaolyu.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=6oFRlVcAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "mohammad-lotfollahi": {
+    "orcid": "0000-0001-6858-7985",
+    "orcidSource": "ORCID record lists Deep Packet",
+    "identityChecked": "2026-10-13"
+  },
+  "nimesha-wickramasinghe": {
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=icvGlCkAAAAJ&view_op=list_works&sortby=pubdate",
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "identityChecked": "2026-10-13",
+    "orcid": "0000-0003-4068-2299",
+    "orcidSource": "ORCID record lists NTC Enigma / SoK, LiM / NetMatrix",
+    "homepageUrl": "https://nime-sha256.info",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "noa-zilberman": {
+    "orcid": "0000-0002-3655-2873",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.eng.ox.ac.uk/people/noa-zilberman/",
+    "homepageSource": "Linked from the confirmed ORCID record"
+  },
+  "noura-limam": {
+    "orcid": "0000-0002-7759-3751",
+    "orcidSource": "ORCID record lists Cross-network reality check",
+    "identityChecked": "2026-10-13"
+  },
+  "pavel-laskov": {
+    "orcid": "0000-0002-3212-7167",
+    "orcidSource": "ORCID record lists Pragmatic NIDS assessment",
+    "identityChecked": "2026-10-13"
+  },
+  "qi-li": {
+    "orcid": "0000-0001-8776-8730",
+    "orcidSource": "ORCID record lists Brain-on-Switch, Rosetta",
+    "identityChecked": "2026-10-13"
+  },
+  "qing-li": {
+    "orcid": "0000-0002-6071-473X",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://smartinternet.group/qing/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=54AuaywAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record and linked from the author's own page"
+  },
+  "ramazan-enisoglu": {
+    "orcid": "0009-0009-5686-6798",
+    "orcidSource": "ORCID record lists NTC comprehensive survey",
+    "identityChecked": "2026-10-13"
+  },
+  "renjie-xie": {
+    "orcid": "0009-0004-1742-4122",
+    "orcidSource": "ORCID record lists Rosetta",
+    "identityChecked": "2026-10-13"
+  },
+  "riccardo-spolaor": {
+    "orcid": "0000-0002-3878-7940",
+    "orcidSource": "ORCID record lists AppScanner",
+    "identityChecked": "2026-10-13"
+  },
+  "riyad-bensoussane": {
+    "orcid": "0009-0005-0264-7830",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13"
+  },
+  "ruben-perez-jove": {
+    "orcid": "0000-0002-7988-945X",
+    "orcidSource": "ORCID record lists NT-FM systematic review",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://rubenpjove.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=5aey5sQAAAAJ&hl=en",
+    "scholarSource": "listed in the confirmed ORCID record and linked from the author's own page"
+  },
+  "rushi-jayeshkumar-babaria": {
+    "orcid": "0009-0006-2164-3277",
+    "orcidSource": "ORCID record lists FastFlow",
+    "identityChecked": "2026-10-13"
+  },
+  "sanjay-jha": {
+    "orcid": "0000-0002-1844-1520",
+    "orcidSource": "ORCID record lists LiM / NetMatrix",
+    "identityChecked": "2026-10-13"
+  },
+  "shaojing-fu": {
+    "orcid": "0000-0002-7275-8190",
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
+    "identityChecked": "2026-10-13"
+  },
+  "shinan-liu": {
+    "orcid": "0000-0002-6170-2167",
+    "orcidSource": "ORCID record lists ServeFlow, CATO, AC-DC",
+    "identityChecked": "2026-10-13"
+  },
+  "sylee-beltiukov": {
+    "orcid": "0000-0001-8270-0219",
+    "orcidSource": "ORCID record lists Demystifying NFMs, Trustee",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://maybe-hello-world.github.io/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=fsQzRtMAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "ted-shaowang": {
+    "orcid": "0000-0002-7353-3786",
+    "orcidSource": "ORCID record lists ServeFlow",
+    "identityChecked": "2026-10-13"
+  },
+  "vijay-sivaraman": {
+    "orcid": "0000-0001-7985-6765",
+    "orcidSource": "ORCID record lists Streaming platforms, FastFlow",
+    "identityChecked": "2026-10-13"
+  },
+  "wenduo-wang": {
+    "orcid": "0009-0001-9929-6336",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
+  },
+  "wenqi-dong": {
+    "orcid": "0009-0005-6177-0062",
+    "orcidSource": "ORCID record lists ETooL",
+    "identityChecked": "2026-10-13"
+  },
+  "xi-xiao": {
+    "orcid": "0000-0003-1521-9542",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13"
+  },
+  "xianwen-deng": {
+    "orcid": "0000-0002-6611-5295",
+    "orcidSource": "ORCID record lists YaTC",
+    "identityChecked": "2026-10-13"
+  },
+  "xiaohui-xie": {
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=j0yTuxoAAAAJ",
+    "publicationsUrl": "https://thuxiexiaohui.github.io/#publications",
+    "publicationsChecked": "2026-10-04",
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "publicationsSource": "Author's own publication page",
+    "identityChecked": "2026-10-04"
+  },
+  "xiapu-luo": {
+    "orcid": "0000-0002-9082-3208",
+    "orcidSource": "ORCID record lists TFE-GNN",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www4.comp.polyu.edu.hk/~csxluo/",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=uvedrYMAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "yaniv-ben-itzhak": {
+    "orcid": "0000-0002-3844-5940",
+    "orcidSource": "ORCID record lists IIsy",
+    "identityChecked": "2026-10-13"
+  },
+  "yannan-hu": {
+    "orcid": "0009-0008-3960-553X",
+    "orcidSource": "ORCID record lists NetMamba+",
+    "identityChecked": "2026-10-13"
+  },
+  "yequan-wang": {
+    "orcid": "0000-0001-7530-6125",
+    "orcidSource": "ORCID record lists NetGPT",
+    "identityChecked": "2026-10-13",
+    "homepageUrl": "https://www.wangyequan.com",
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=7Gqp6FsAAAAJ&hl=en",
+    "scholarSource": "linked from the author's own page"
+  },
+  "yi-xie": {
+    "orcid": "0000-0001-7539-919X",
+    "orcidSource": "ORCID record lists Flow-MAE",
+    "identityChecked": "2026-10-13"
+  },
+  "yifan-wang": {
+    "orcid": "0009-0009-3472-9821",
+    "orcidSource": "ORCID record lists Streaming platforms",
+    "identityChecked": "2026-10-13"
+  },
+  "yongjie-wang": {
+    "orcid": "0000-0003-2055-3799",
+    "orcidSource": "ORCID record lists Flow-MAE",
+    "identityChecked": "2026-10-13"
+  },
+  "yuqi-zhao": {
+    "orcid": "0009-0002-8221-6376",
+    "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
+    "identityChecked": "2026-10-13"
+  },
+  "zhuotao-liu": {
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=F8gi4rcAAAAJ&view_op=list_works&sortby=pubdate",
+    "publicationsUrl": "https://liuzhuotao.github.io/publications/",
+    "publicationsChecked": "2026-09-24",
+    "scholarSource": "Curator check: profile lists corpus papers under this byline",
+    "publicationsSource": "Author's own publication page",
+    "identityChecked": "2026-10-13",
+    "orcid": "0000-0002-7532-0434",
+    "orcidSource": "ORCID record lists Brain-on-Switch, MM4flow"
+  }
+}

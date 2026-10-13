@@ -47,3 +47,7 @@ next-env.d.ts
 tsconfig.tsbuildinfo
 # generated at build time from README.md
 /public/README.md
+
+# curation API cache
+/curation/.cache/
+__pycache__/
