@@ -47,4 +47,14 @@ pnpm check
 4. If two people share the name and the right profile is unclear, leave the entry out. The review sheet is regenerated on every run, so do not keep notes in it.
 5. Run `python3 scripts/curate.py` and `pnpm check`.
 
+## Import a browser-check CSV
+
+A curator-run browser check (for example an AI browsing agent following the paper-first steps above) returns a CSV with `author_id, paper_id, status, scholar_user_id, profile_name, profile_affiliation, paper_listed, other_papers_listed, note`. Import the confirmed rows with:
+
+```bash
+python3 scripts/import_scholar_review.py path/to/results.csv --label 'how it was checked'
+```
+
+Rows are rejected when the author is not on the paper, the ID is malformed, the profile name differs from the byline, the author already has a link, or the ID belongs to another author.
+
 The validator rejects Scholar URLs without a `user=` ID, a Scholar profile or ORCID used for two authors, invalid ORCID checksums, and links without a source or check date.

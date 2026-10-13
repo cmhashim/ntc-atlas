@@ -51,3 +51,4 @@ tsconfig.tsbuildinfo
 # curation API cache
 /curation/.cache/
 __pycache__/
+/curation/grok/

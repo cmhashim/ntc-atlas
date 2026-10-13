@@ -63,7 +63,10 @@
     "contribution": "Verified co-authorship in Security ML pitfalls.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=0oyGzwYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Security ML pitfalls (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "alfredo-nascita",
@@ -128,7 +131,9 @@
     "orcidSource": "ORCID record lists FlowPrint",
     "identityChecked": "2026-10-13",
     "homepageUrl": "https://research.utwente.nl/en/persons/886dc4d3-abfe-4d59-b08c-6e2ce274539b",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=U3IPwFYAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "andreas-peter",
@@ -349,7 +354,10 @@
     "contribution": "netFound research group; latest v5 revision.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2310.17025v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=lc3R9-wAAAAJ&hl=en",
+    "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "arthur-s-jacobs",
@@ -422,7 +430,10 @@
     "contribution": "Verified co-authorship in Lens.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=9ILgtvAAAAAJ&hl=en",
+    "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "boyan-huang",
@@ -479,7 +490,10 @@
     "contribution": "Verified co-authorship in FS-Net.",
     "status": "Needs verification",
     "sourceUrl": "https://ieeexplore.ieee.org/document/8737507/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=xZTMbEYAAAAJ&hl=en",
+    "scholarSource": "Profile lists FS-Net (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "changgang-zheng",
@@ -545,7 +559,10 @@
     "contribution": "Verified co-authorship in Lens, NetBench.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=4bNswuYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "christian-wressnegger",
@@ -563,7 +580,10 @@
     "contribution": "Verified co-authorship in Security ML pitfalls.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=GTiPndkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Security ML pitfalls (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "chungang-lin",
@@ -607,7 +627,9 @@
     "accessed": "2026-09-22",
     "orcid": "0009-0002-8296-3785",
     "orcidSource": "ORCID record lists NetMamba+",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=2wIM11MAAAAJ&hl=en",
+    "scholarSource": "Profile lists NetMamba, NetMamba+ (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "cristian-r-munteanu",
@@ -646,7 +668,10 @@
     "contribution": "Verified co-authorship in Security ML pitfalls.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=9mhj4AQAAAAJ&hl=en",
+    "scholarSource": "Profile lists Security ML pitfalls (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "daniel-j-dubois",
@@ -669,7 +694,9 @@
     "orcidSource": "ORCID record lists FlowPrint",
     "identityChecked": "2026-10-13",
     "homepageUrl": "https://www.danieldubois.org/",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=4DZbFdAAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "dario-rossi",
@@ -719,7 +746,10 @@
     "contribution": "Verified co-authorship in FlowPrint.",
     "status": "Needs verification",
     "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=OG2QONwAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "de-chuan-zhan",
@@ -841,7 +871,10 @@
     "contribution": "Verified co-authorship in Cross-network reality check.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2507.06430",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=MCUFR48AAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "enhuan-dong",
@@ -953,7 +986,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0003-1140-322X",
     "orcidSource": "ORCID record lists Security ML pitfalls",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=Rj-9gmMAAAAJ&hl=en",
+    "scholarSource": "Profile lists Security ML pitfalls (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "feng-jun",
@@ -996,7 +1031,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0003-4447-960X",
     "orcidSource": "ORCID record lists Traffic Refinery",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=rsG2csgAAAAJ&hl=en",
+    "scholarSource": "Profile lists CATO, Cruise Control, Traffic Refinery (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "francesco-cerasuolo",
@@ -1120,7 +1157,10 @@
     "contribution": "Verified co-authorship in Lens, NetBench.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=fOznM_YAAAAJ&hl=en",
+    "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "gaopeng-gou",
@@ -1215,7 +1255,10 @@
     "contribution": "Verified co-authorship in ServeFlow, CATO.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03694",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=Z-4DBYkAAAAJ&hl=en",
+    "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "giampaolo-bovenzi",
@@ -1329,7 +1372,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-5540-2264",
     "orcidSource": "ORCID record lists Cross-network embeddings",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=kKCIRMIAAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network embeddings (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "giuseppe-aceto",
@@ -1407,7 +1452,10 @@
     "contribution": "YaTC co-author.",
     "status": "Verified",
     "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=bhWOdtAAAAAJ&hl=en",
+    "scholarSource": "Profile lists YaTC (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "guangmeng-zhou",
@@ -1501,7 +1549,10 @@
     "contribution": "netFound research group; latest v5 revision.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2310.17025v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=Xk70v1UAAAAJ&hl=en",
+    "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "haitong-luo",
@@ -1596,7 +1647,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0003-4048-4516",
     "orcidSource": "ORCID record lists TFE-GNN",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=dqOYStwAAAAJ&hl=en",
+    "scholarSource": "Profile lists MH-Net, TFE-GNN (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "hong-ye-he",
@@ -1634,7 +1687,10 @@
     "contribution": "Verified co-authorship in Lens, NetBench.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=5-D7ZLsAAAAJ&hl=en",
+    "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "hyojoon-kim",
@@ -1653,7 +1709,10 @@
     "contribution": "Traffic Refinery systems contribution.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/pdf/2010.14605",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=DUEglv4AAAAJ&hl=en",
+    "scholarSource": "Profile lists Traffic Refinery (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "idilio-drago",
@@ -1675,7 +1734,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0003-1932-1261",
     "orcidSource": "ORCID record lists Cross-network embeddings",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=eqHentoAAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network embeddings, Generic multimodal MAE (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "idio-guarino",
@@ -1754,7 +1815,10 @@
     "contribution": "netFound research group; latest v5 revision.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2310.17025v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=IRS2brkAAAAJ&hl=en",
+    "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jan-luxemburk",
@@ -1772,7 +1836,10 @@
     "contribution": "Verified co-authorship in Simple models, hard questions.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2506.08655",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=iAkQaPsAAAAJ&hl=en",
+    "scholarSource": "Profile lists Simple models, hard questions (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jaroslav-pesek",
@@ -1790,7 +1857,10 @@
     "contribution": "Verified co-authorship in Simple models, hard questions.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2506.08655",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=LmH0yb4AAAAJ&hl=en",
+    "scholarSource": "Profile lists Simple models, hard questions (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jeewon-chae",
@@ -1829,7 +1899,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0001-7139-376X",
     "orcidSource": "ORCID record lists Rosetta",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=eDrMOVkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Rosetta (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "jian-qu",
@@ -1883,7 +1955,10 @@
     "contribution": "Verified co-authorship in Lens.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=tu5GG9sAAAAJ&hl=en",
+    "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jiangyong-shi",
@@ -1946,7 +2021,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-3966-511X",
     "orcidSource": "ORCID record lists ETooL",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=P75F9-QAAAAJ&hl=en",
+    "scholarSource": "Profile lists ET-BERT, ETooL (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "jingjing-ren",
@@ -1964,7 +2041,10 @@
     "contribution": "Verified co-authorship in FlowPrint.",
     "status": "Needs verification",
     "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=yzf9cVIAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jinshu-su",
@@ -2021,7 +2101,10 @@
     "contribution": "Verified co-authorship in Brain-on-Switch.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=uH-hO3oAAAAJ&hl=en",
+    "scholarSource": "Profile lists Brain-on-Switch (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "johann-hugon",
@@ -2098,7 +2181,10 @@
     "contribution": "Verified co-authorship in ServeFlow.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03694",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=20R9TQ4AAAAJ&hl=en",
+    "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "jordan-holland",
@@ -2171,7 +2257,10 @@
     "contribution": "Verified co-authorship in Simple models, hard questions.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2506.08655",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=F2JWrDIAAAAJ&hl=en",
+    "scholarSource": "Profile lists Simple models, hard questions (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "julian-dorado",
@@ -2258,7 +2347,10 @@
     "contribution": "Verified co-authorship in Simple models, hard questions.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2506.08655",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=ZmJ4kP0AAAAJ&hl=en",
+    "scholarSource": "Profile lists Simple models, hard questions (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "karel-hynek",
@@ -2276,7 +2368,10 @@
     "contribution": "Verified co-authorship in Simple models, hard questions.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2506.08655",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=OHTSCaQAAAAJ&hl=en",
+    "scholarSource": "Profile lists Simple models, hard questions (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "kave-salamatian",
@@ -2317,7 +2412,10 @@
     "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=_XXLtZgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Brain-on-Switch, TrafficFormer (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "konrad-rieck",
@@ -2374,7 +2472,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0003-4152-2107",
     "orcidSource": "ORCID record lists Rosetta",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=u18hG4gAAAAJ&hl=en",
+    "scholarSource": "Profile lists Rosetta (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "laurent-bernaille",
@@ -2415,7 +2515,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0003-1457-6329",
     "orcidSource": "ORCID record lists TFE-GNN",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=jupeYgsAAAAJ&hl=en",
+    "scholarSource": "Profile lists MH-Net, TFE-GNN (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "lei-zhang",
@@ -2623,7 +2725,9 @@
     "orcidSource": "ORCID record lists Security ML pitfalls",
     "identityChecked": "2026-10-13",
     "homepageUrl": "https://kclpure.kcl.ac.uk/portal/en/persons/03bc6371-26c0-4b53-8987-e38fa17b0441",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=oWT7fIYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Security ML pitfalls (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "lu-han",
@@ -2663,7 +2767,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0001-8258-8626",
     "orcidSource": "ORCID record lists Cross-network embeddings",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=WxHk-0cAAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network embeddings, Generic multimodal MAE (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "luca-vassio",
@@ -2688,7 +2794,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-2920-1856",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=Ump0O0YAAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network embeddings, ShortcutCatcher, The Sweet Danger of Sugar (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "luming-yang",
@@ -2821,7 +2929,10 @@
     "contribution": "Verified co-authorship in FlowPrint.",
     "status": "Needs verification",
     "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=9JCtsecAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "massimo-gallo",
@@ -2940,7 +3051,10 @@
     "contribution": "Verified co-authorship in Rosetta.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=fv-p85gAAAAJ&hl=en",
+    "scholarSource": "Profile lists Rosetta (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "michalis-faloutsos",
@@ -3021,7 +3135,9 @@
     "accessed": "2026-09-21",
     "orcid": "0009-0001-5564-5397",
     "orcidSource": "ORCID record lists YaTC",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=CkBWczIAAAAJ&hl=en",
+    "scholarSource": "Profile lists YaTC (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "minzhao-lyu",
@@ -3066,7 +3182,10 @@
     "contribution": "Verified co-authorship in Cross-network reality check.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2507.06430",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=K6fYz4MAAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "mohammad-lotfollahi",
@@ -3167,7 +3286,10 @@
     "contribution": "Verified co-authorship in nPrint / nPrintML, Traffic Refinery, ServeFlow, CATO, AC-DC.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/pdf/2010.14605",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=xYfYnG4AAAAJ&hl=en",
+    "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "nimesha-wickramasinghe",
@@ -3238,7 +3360,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-7759-3751",
     "orcidSource": "ORCID record lists Cross-network reality check",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=vOLtzC0AAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "oliver-spatscheck",
@@ -3278,7 +3402,10 @@
     "contribution": "Verified co-authorship in nPrint / nPrintML, Traffic Refinery, AC-DC, Cruise Control.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/pdf/2010.14605",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=Ra-ZgD8AAAAJ&hl=en",
+    "scholarSource": "Profile lists AC-DC, Cruise Control, nPrint / nPrintML, Traffic Refinery (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "pavel-laskov",
@@ -3504,7 +3631,10 @@
     "contribution": "Verified co-authorship in Cross-network reality check.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2507.06430",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=L1RHDCcAAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "renata-teixeira",
@@ -3545,7 +3675,9 @@
     "accessed": "2026-09-21",
     "orcid": "0009-0004-1742-4122",
     "orcidSource": "ORCID record lists Rosetta",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=-1CEey0AAAAJ&hl=en",
+    "scholarSource": "Profile lists Rosetta (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "riccardo-bortolameotti",
@@ -3602,7 +3734,10 @@
     "contribution": "Verified co-authorship in Simple models, hard questions.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2506.08655",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=oqhyNiMAAAAJ&hl=en",
+    "scholarSource": "Profile lists Simple models, hard questions (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "riyad-bensoussane",
@@ -3687,7 +3822,10 @@
     "contribution": "YaTC authors; hierarchical packet and flow attention.",
     "status": "Verified",
     "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=zGBEk7wAAAAJ&hl=en",
+    "scholarSource": "Profile lists Nepco / convolutional NFM, YaTC (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "ruiqi-meng",
@@ -3762,7 +3900,10 @@
     "contribution": "Verified co-authorship in AC-DC.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2302.11718",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=OwUJHgMAAAAJ&hl=en",
+    "scholarSource": "Profile lists AC-DC (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "sanjay-jha",
@@ -3803,7 +3944,10 @@
     "contribution": "Verified co-authorship in ServeFlow.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03694",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=Yxh9WWoAAAAJ&hl=en",
+    "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "sanjay-rao",
@@ -3839,7 +3983,10 @@
     "contribution": "Traffic Refinery co-author.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/pdf/2010.14605",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=TqYiJcgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Traffic Refinery (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "satyandra-guthula",
@@ -3859,7 +4006,10 @@
     "contribution": "netFound research group; latest v5 revision.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2310.17025v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=myq7R2AAAAAJ&hl=en",
+    "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "shaojing-fu",
@@ -3906,7 +4056,10 @@
     "contribution": "Verified co-authorship in IIsy.",
     "status": "Needs verification",
     "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=5klJKUcAAAAJ&hl=en",
+    "scholarSource": "Profile lists IIsy (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "shinan-liu",
@@ -3929,7 +4082,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-6170-2167",
     "orcidSource": "ORCID record lists ServeFlow, CATO, AC-DC",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=BIyGbZYAAAAJ&hl=en",
+    "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "shiyu-liang",
@@ -4056,7 +4211,10 @@
     "contribution": "Verified co-authorship in Cross-network reality check.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2507.06430",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=-g9-UOUAAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "stephanie-moteau",
@@ -4177,7 +4335,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-7353-3786",
     "orcidSource": "ORCID record lists ServeFlow",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=BcTiyr4AAAAJ&hl=en",
+    "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "thanh-t-bui",
@@ -4213,7 +4373,10 @@
     "contribution": "Verified co-authorship in FlowPrint.",
     "status": "Needs verification",
     "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=tb8_7jEAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "thomas-karagiannis",
@@ -4404,7 +4567,10 @@
     "contribution": "netFound and representation diagnostics.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2310.17025v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=q33fP9sAAAAJ&hl=en",
+    "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "wei-xia",
@@ -4460,7 +4626,10 @@
     "contribution": "netFound research group; latest v5 revision.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2310.17025v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=KyPheRMAAAAJ&hl=en",
+    "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "wenduo-wang",
@@ -4504,7 +4673,9 @@
     "accessed": "2026-09-23",
     "orcid": "0009-0005-6177-0062",
     "orcidSource": "ORCID record lists ETooL",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=zXE7rvoAAAAJ&hl=en",
+    "scholarSource": "Profile lists ETooL (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "wouter-joosen",
@@ -4541,7 +4712,10 @@
     "contribution": "Verified co-authorship in AC-DC.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2302.11718",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=qoBtlG8AAAAJ&hl=en",
+    "scholarSource": "Profile lists AC-DC (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "xi-xiao",
@@ -4604,7 +4778,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-6611-5295",
     "orcidSource": "ORCID record lists YaTC",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-13",
+    "scholarUrl": "https://scholar.google.com/citations?user=NtIOraUAAAAJ&hl=en",
+    "scholarSource": "Profile lists YaTC (curator check with Grok browsing; automated re-check pending)"
   },
   {
     "id": "xiao-liu",
@@ -4661,7 +4837,10 @@
     "contribution": "Verified co-authorship in Lens, NetBench.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=KBKjnLsAAAAJ&hl=en",
+    "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "xiaodong-lei",
@@ -4771,7 +4950,10 @@
     "contribution": "Verified co-authorship in ET-BERT, ETooL.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2202.06335v2",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=tGR7bKEAAAAJ&hl=en",
+    "scholarSource": "Profile lists ET-BERT, ETooL (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "xiongwen-guo",
@@ -4845,7 +5027,10 @@
     "contribution": "YaTC co-author.",
     "status": "Verified",
     "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=d0bbWkcAAAAJ&hl=en",
+    "scholarSource": "Profile lists YaTC (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "yaniv-ben-itzhak",
@@ -5119,7 +5304,10 @@
     "contribution": "Verified co-authorship in Lens.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=pTLy_cgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "yuchuan-luo",
@@ -5293,7 +5481,10 @@
     "contribution": "Verified co-authorship in CLE-TFE, MH-Net.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.07501",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=di6y1p8AAAAJ&hl=en",
+    "scholarSource": "Profile lists CLE-TFE, MH-Net (curator check with Grok browsing; automated re-check pending)",
+    "identityChecked": "2026-10-13"
   },
   {
     "id": "zhi-guo-yang",
