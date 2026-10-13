@@ -138,4 +138,4 @@ Suggestions for papers, metadata corrections and author identity fixes are welco
 - Vendored third-party files keep their own licences (`vendor/`).
 - The cited papers, datasets and web pages belong to their authors and publishers. The atlas stores citations and short paraphrases only, not PDFs or traffic captures.
 
-Earlier changes are in [CHANGELOG.md](CHANGELOG.md). Browser QA notes from earlier releases are in [docs/QA-HISTORY.md](docs/QA-HISTORY.md).
+Planned work is in [docs/ROADMAP.md](docs/ROADMAP.md). Earlier changes are in [CHANGELOG.md](CHANGELOG.md). Browser QA notes from earlier releases are in [docs/QA-HISTORY.md](docs/QA-HISTORY.md).
