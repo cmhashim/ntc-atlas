@@ -121,9 +121,9 @@ Keep `history.json` curated by hand. Change the research date in `meta.json` onl
 
 ## Citing
 
-If you use the atlas or its data, please cite the repository and the access date. A `CITATION.cff` file will be added. Until then:
+If you use the atlas or its data, please cite it. GitHub's **Cite this repository** button (from [CITATION.cff](CITATION.cff)) gives APA and BibTeX formats.
 
-> Mohamed Hashim Changrampadi. *NTC Atlas: an interactive, evidence-backed atlas of network traffic classification research.* https://github.com/cmhashim/ntc-atlas
+> Changrampadi, M. H. *NTC Atlas: an interactive, evidence-backed atlas of network traffic classification research.* https://github.com/cmhashim/ntc-atlas
 
 Cite the original papers for any result you take from the atlas.
 

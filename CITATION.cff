@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use NTC Atlas or its data, please cite it as below. Please also cite the original papers for any result you take from the atlas."
+title: "NTC Atlas: an interactive, evidence-backed atlas of network traffic classification research"
+type: dataset
+authors:
+  - family-names: Changrampadi
+    given-names: Mohamed Hashim
+    orcid: "https://orcid.org/0000-0003-1852-0998"
+    affiliation: "Chalmers University of Technology"
+repository-code: "https://github.com/cmhashim/ntc-atlas"
+url: "https://ntc-atlas.pages.dev"
+abstract: "An interactive atlas of network traffic classification research, from port rules and flow statistics to pretrained and foundation models, with a focus on encrypted traffic. Every analytical statement links to its source; paper claims, later criticism and curator interpretation are kept separate."
+keywords:
+  - network traffic classification
+  - encrypted traffic
+  - literature review
+  - foundation models
+  - intrusion detection
+license:
+  - MIT
+  - CC-BY-4.0
