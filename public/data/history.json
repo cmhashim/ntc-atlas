@@ -1,0 +1,108 @@
+[
+  {
+    "period": "Before 2004 → 2006",
+    "title": "From protocol identifiers to behaviour",
+    "dominant": "Port labels and content signatures provided direct signals. The early corpus then moves to host behaviour and flow statistics.",
+    "change": "BLINC uses transport-level interactions; Bayesian classification learns statistical discriminators; early identification asks how soon a flow can be recognised.",
+    "unresolved": "Encryption, dynamic ports and changing applications weaken direct identifiers. Early decisions must also account for unknown traffic.",
+    "papers": [
+      "dpi",
+      "blinc",
+      "bayes",
+      "early",
+      "survey"
+    ],
+    "sourceUrl": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
+    "sourceType": "Original paper; synthesis across linked papers",
+    "status": "Interpretive synthesis",
+    "accessed": "2026-09-21"
+  },
+  {
+    "period": "2016 → 2021",
+    "title": "Learn the representation, retain the context",
+    "dominant": "Classical statistics remained useful while neural models began learning from packet bytes, packet-length sequences and multimodal flow inputs.",
+    "change": "AppScanner targets encrypted mobile apps. Deep Packet, FS-Net, MIMETIC and DISTILLER explore different input units and combinations; DeepMAL extends byte learning to malware traffic.",
+    "unresolved": "A better network architecture cannot repair ambiguous labels, capture-specific features or incompatible preprocessing. The traffic unit becomes a central experimental choice.",
+    "papers": [
+      "appscanner",
+      "deeppacket",
+      "fsnet",
+      "mimetic",
+      "distiller",
+      "deepmal",
+      "cicissues"
+    ],
+    "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "sourceType": "Original paper; synthesis across linked papers",
+    "status": "Interpretive synthesis",
+    "accessed": "2026-09-21"
+  },
+  {
+    "period": "2020 → 2023",
+    "title": "Pretraining becomes a research programme",
+    "dominant": "PERT and ET-BERT adapt learned tokenisation and masked objectives. YaTC and Flow-MAE reconstruct masked traffic representations; contrastive approaches investigate limited labels.",
+    "change": "The question expands from training a classifier to learning a reusable representation. Packet, burst and flow boundaries encode different assumptions. Trustee adds a parallel route: explain a model’s decisions to diagnose shortcut learning.",
+    "unresolved": "Multiple datasets with separate supervised fine-tuning do not establish cross-network transfer. Rosetta and the FlowPic replication show why changes in traces and data collection matter.",
+    "papers": [
+      "pert",
+      "etbert",
+      "yatc",
+      "flowmae",
+      "miniflowpic",
+      "rosetta",
+      "replication",
+      "trustee"
+    ],
+    "sourceUrl": "https://arxiv.org/abs/2202.06335",
+    "sourceType": "Original paper; synthesis across linked papers",
+    "status": "Interpretive synthesis",
+    "accessed": "2026-09-22"
+  },
+  {
+    "period": "2021 → 2025",
+    "title": "Move from model latency to operational cost",
+    "dominant": "Deployment research treats measurement, feature extraction, observation delay and inference as one pipeline.",
+    "change": "Traffic Refinery quantifies representation costs; ServeFlow uses a fast path and a slower path. IIsy, BoS, Leo and P4 studies investigate constrained hardware; CATO optimises the pipeline.",
+    "unresolved": "A GPU samples-per-second result does not predict line-rate operation. Queueing, minority errors and confidence-based escalation require workload-specific evaluation.",
+    "papers": [
+      "refinery",
+      "serveflow",
+      "iisy",
+      "bos",
+      "leo",
+      "akem",
+      "cato",
+      "pragmatic"
+    ],
+    "sourceUrl": "https://arxiv.org/pdf/2010.14605",
+    "sourceType": "Original paper; synthesis across linked papers",
+    "status": "Interpretive synthesis",
+    "accessed": "2026-09-21"
+  },
+  {
+    "period": "2024 → 2026",
+    "title": "Efficiency advances; evidence standards tighten",
+    "dominant": "State-space models, graph representations, protocol-aware tokenisation and foundation-style pretraining coexist with systematic critiques.",
+    "change": "Alongside more efficient representations, NTC Enigma probes ET-BERT and YaTC with controlled occlusions. BiasSeeker ranks suspicious fields for expert review; ShortcutCatcher uses verification-set feedback to remove shortcut features.",
+    "unresolved": "Diagnosis, mitigation and deployment robustness require different evidence. Within-dataset occlusions and forged network shifts leave independently collected cross-organisation tests open. Representative labelled verification data, unknown classes, calibration and serving cost remain important questions.",
+    "papers": [
+      "netmamba",
+      "netmambaplus",
+      "mhnet",
+      "trafficformer",
+      "flowlet",
+      "netfound",
+      "sugar",
+      "demystifying",
+      "onetask",
+      "simple",
+      "ntcenigma",
+      "biasseeker",
+      "shortcutcatcher"
+    ],
+    "sourceUrl": "https://arxiv.org/html/2507.16438v1",
+    "sourceType": "Original paper; synthesis across linked papers",
+    "status": "Interpretive synthesis",
+    "accessed": "2026-09-22"
+  }
+]

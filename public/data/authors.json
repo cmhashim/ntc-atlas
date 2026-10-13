@@ -1,0 +1,5164 @@
+[
+  {
+    "id": "alejandro-pazos",
+    "name": "Alejandro Pazos",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "ntfmsurvey2026"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in NT-FM systematic review.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "alessandro-finamore",
+    "name": "Alessandro Finamore",
+    "affiliation": "Huawei Technologies SASU, France",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://arxiv.org/html/2309.09733v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "commercial",
+      "replication",
+      "trafficaugmentation",
+      "cilbenchmark",
+      "manyfew"
+    ],
+    "themes": [
+      "Reproducibility",
+      "Contrastive learning"
+    ],
+    "contribution": "Verified co-authorship in Commercial-scale ETC, FlowPic replication, Traffic augmentation benchmark, Class-incremental benchmark, Many or Few Samples?.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2309.09733v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "alexander-warnecke",
+    "name": "Alexander Warnecke",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "alfredo-nascita",
+    "name": "Alfredo Nascita",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2024.110374",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "memento",
+      "cilbenchmark"
+    ],
+    "themes": [
+      "CNN / RNN",
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in MEMENTO, Class-incremental benchmark.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2024.110374",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "ali-a-ghorbani",
+    "name": "Ali A. Ghorbani",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.unb.ca/cic/datasets/vpn.html",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vpnfeatures",
+      "torfeatures"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in VPN time features, Tor time features.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.unb.ca/cic/datasets/vpn.html",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "andrea-continella",
+    "name": "Andrea Continella",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "andreas-peter",
+    "name": "Andreas Peter",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "andrew-w-moore",
+    "name": "Andrew W. Moore",
+    "affiliation": "University of Cambridge",
+    "affiliationTime": "Paper time",
+    "profile": "https://www.cl.cam.ac.uk/research/srg/netos/papers/2005-moore2005internet.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "bayes"
+    ],
+    "themes": [
+      "Statistical classification"
+    ],
+    "contribution": "Early supervised flow classification.",
+    "status": "Verified",
+    "sourceUrl": "https://www.cl.cam.ac.uk/research/srg/netos/papers/2005-moore2005internet.pdf",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "anthony-busson",
+    "name": "Anthony Busson",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2412.15146",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cruisecontrol"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Cruise Control.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2412.15146",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "antoine-bernabeu",
+    "name": "Antoine Bernabeu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "antonio-montieri",
+    "name": "Antonio Montieri",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mimetic",
+      "distiller"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in MIMETIC, DISTILLER.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "antonio-pescape",
+    "name": "Antonio Pescapé",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mimetic",
+      "distiller",
+      "memento",
+      "cilbenchmark",
+      "manyfew"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in MIMETIC, DISTILLER, MEMENTO, Class-incremental benchmark, Many or Few Samples?.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "arash-habibi-lashkari",
+    "name": "Arash Habibi Lashkari",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.unb.ca/cic/datasets/vpn.html",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vpnfeatures",
+      "torfeatures"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in VPN time features, Tor time features.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.unb.ca/cic/datasets/vpn.html",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "arash-shaghaghi",
+    "name": "Arash Shaghaghi",
+    "affiliation": "UNSW Sydney",
+    "affiliationTime": "Paper time, 2025",
+    "profile": "https://arxiv.org/html/2503.20093v4",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "ntcenigma",
+      "lim"
+    ],
+    "themes": [
+      "Dataset auditing",
+      "Encrypted classification"
+    ],
+    "contribution": "Verified co-authorship in NTC Enigma / SoK, LiM / NetMatrix.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2503.20093v4",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "aristide-tanyi-jong-akem",
+    "name": "Aristide Tanyi-Jong Akem",
+    "affiliation": "IMDEA Networks / Universidad Carlos III de Madrid",
+    "affiliationTime": "Paper time",
+    "profile": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "akem",
+      "flowrest",
+      "jewel"
+    ],
+    "themes": [
+      "Programmable switches",
+      "Encrypted classification"
+    ],
+    "contribution": "Verified co-authorship in P4 encrypted classification, Flowrest, Jewel.",
+    "status": "Verified",
+    "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "arpit-gupta",
+    "name": "Arpit Gupta",
+    "affiliation": "University of California, Santa Barbara",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound",
+      "demystifying",
+      "trustee"
+    ],
+    "themes": [
+      "Network foundation models",
+      "Representation diagnosis"
+    ],
+    "contribution": "netFound research group; latest v5 revision.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "arthur-s-jacobs",
+    "name": "Arthur S. Jacobs",
+    "affiliation": "Federal University of Rio Grande do Sul (UFRGS)",
+    "affiliationTime": "Paper time, 2022",
+    "profile": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "trustee"
+    ],
+    "themes": [
+      "Explainability",
+      "Network security"
+    ],
+    "contribution": "Trustee co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "bertrand-mathieu",
+    "name": "Bertrand Mathieu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "beyza-butun",
+    "name": "Beyza Bütün",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dspace.networks.imdea.org/handle/20.500.12761/1777",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "jewel"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Jewel.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1777",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "bo-ji",
+    "name": "Bo Ji",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "boyan-huang",
+    "name": "Boyan Huang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2601.21792",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netmambaplus"
+    ],
+    "themes": [
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in NetMamba+.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2601.21792",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "burak-alp-inan",
+    "name": "Burak Alp Inan",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112578",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "ntcsurvey2026"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in NTC comprehensive survey.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112578",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "chang-liu",
+    "name": "Chang Liu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/8737507/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "fsnet"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in FS-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/8737507/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "changgang-zheng",
+    "name": "Changgang Zheng",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "chao-wang",
+    "name": "Chao Wang",
+    "affiliation": "Huawei Technologies SASU, France",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://arxiv.org/html/2309.09733v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "replication",
+      "trafficaugmentation",
+      "manyfew"
+    ],
+    "themes": [
+      "Reproducibility",
+      "Contrastive learning"
+    ],
+    "contribution": "Verified co-authorship in FlowPic replication, Traffic augmentation benchmark, Many or Few Samples?.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2309.09733v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "chen-qian",
+    "name": "Chen Qian",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens",
+      "netbench"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens, NetBench.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "christian-wressnegger",
+    "name": "Christian Wressnegger",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "chungang-lin",
+    "name": "Chungang Lin",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2304.09513",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netgpt",
+      "nepco"
+    ],
+    "themes": [
+      "Deployment",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in NetGPT, Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2304.09513",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "chuyi-wang",
+    "name": "Chuyi Wang",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time, January 2026",
+    "profile": "https://arxiv.org/html/2601.10180v1",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netmamba",
+      "netmambaplus",
+      "biasseeker"
+    ],
+    "themes": [
+      "Shortcut diagnosis",
+      "State-space models"
+    ],
+    "contribution": "BiasSeeker and NetMamba co-authorship.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2601.10180v1",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "cristian-r-munteanu",
+    "name": "Cristian R. Munteanu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "ntfmsurvey2026"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in NT-FM systematic review.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "daniel-arp",
+    "name": "Daniel Arp",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "daniel-j-dubois",
+    "name": "Daniel J. Dubois",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "dario-rossi",
+    "name": "Dario Rossi",
+    "affiliation": "Huawei Technologies SASU, France",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://arxiv.org/html/2309.09733v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "commercial",
+      "replication",
+      "trafficaugmentation",
+      "genericmae",
+      "memento",
+      "cilbenchmark",
+      "manyfew",
+      "crossembeddings"
+    ],
+    "themes": [
+      "Reproducibility",
+      "Contrastive learning"
+    ],
+    "contribution": "Verified co-authorship in Commercial-scale ETC, FlowPic replication, Traffic augmentation benchmark, Generic multimodal MAE, MEMENTO, Class-incremental benchmark, Many or Few Samples?, Cross-network embeddings.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2309.09733v2",
+    "accessed": "2026-09-23",
+    "publicationsUrl": "https://nonsns.github.io/publications/date/",
+    "publicationsChecked": "2026-09-23"
+  },
+  {
+    "id": "david-choffnes",
+    "name": "David Choffnes",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "de-chuan-zhan",
+    "name": "De-Chuan Zhan",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2412.15306",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "miett"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in MIETT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2412.15306",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "denis-zuev",
+    "name": "Denis Zuev",
+    "affiliation": "University of Oxford",
+    "affiliationTime": "Paper time",
+    "profile": "https://www.cl.cam.ac.uk/research/srg/netos/papers/2005-moore2005internet.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "bayes"
+    ],
+    "themes": [
+      "Statistical classification"
+    ],
+    "contribution": "Early supervised flow classification.",
+    "status": "Verified",
+    "sourceUrl": "https://www.cl.cam.ac.uk/research/srg/netos/papers/2005-moore2005internet.pdf",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "domenico-ciuonzo",
+    "name": "Domenico Ciuonzo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mimetic",
+      "distiller",
+      "memento",
+      "cilbenchmark"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in MIMETIC, DISTILLER, MEMENTO, Class-incremental benchmark.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "dongmei-wang",
+    "name": "Dongmei Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/988672.988742",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dpi"
+    ],
+    "themes": [
+      "Rules & statistics"
+    ],
+    "contribution": "Verified co-authorship in P2P signatures.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/988672.988742",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "elena-ferrari",
+    "name": "Elena Ferrari",
+    "affiliation": "University of Insubria",
+    "affiliationTime": "Paper time, 2025",
+    "profile": "https://arxiv.org/html/2502.00586v2",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "lim"
+    ],
+    "themes": [
+      "Protocol-informed features",
+      "Traffic classification"
+    ],
+    "contribution": "Verified co-authorship in LiM / NetMatrix.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2502.00586v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "elham-akbari",
+    "name": "Elham Akbari",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "enhuan-dong",
+    "name": "Enhuan Dong",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "erwin-quiring",
+    "name": "Erwin Quiring",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "eyal-horowicz",
+    "name": "Eyal Horowicz",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "miniflowpic"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in mini-FlowPic.",
+    "status": "Needs verification",
+    "sourceUrl": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "fabio-pierazzi",
+    "name": "Fabio Pierazzi",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "feargus-pendlebury",
+    "name": "Feargus Pendlebury",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "feng-jun",
+    "name": "Feng Jun",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2104.03182",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "commercial"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Commercial-scale ETC.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2104.03182",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "francesco-bronzino",
+    "name": "Francesco Bronzino",
+    "affiliation": "Université Savoie Mont Blanc",
+    "affiliationTime": "Paper time, Traffic Refinery 2021",
+    "profile": "https://arxiv.org/pdf/2010.14605",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "refinery",
+      "cato",
+      "acdc",
+      "cruisecontrol"
+    ],
+    "themes": [
+      "Cost-aware traffic analysis",
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Traffic Refinery, CATO, AC-DC, Cruise Control.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/pdf/2010.14605",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "francesco-cerasuolo",
+    "name": "Francesco Cerasuolo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2024.110374",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "memento"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in MEMENTO.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2024.110374",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "francesco-mercaldo",
+    "name": "Francesco Mercaldo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2307.16713",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "tfegnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in TFE-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2307.16713",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "fuxiang-huang",
+    "name": "Fuxiang Huang",
+    "affiliation": "Lingnan University",
+    "affiliationTime": "Paper time, 2026",
+    "profile": "https://arxiv.org/html/2603.29537v1",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "meanmae"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic classification"
+    ],
+    "contribution": "Verified co-authorship in Mean MAE.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2603.29537v1",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "fuxing-chen",
+    "name": "Fuxing Chen",
+    "affiliation": "Huawei Technologies SASU, France",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://arxiv.org/html/2309.09733v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "replication"
+    ],
+    "themes": [
+      "Reproducibility",
+      "Contrastive learning"
+    ],
+    "contribution": "Replication of FlowPic augmentation and dataset-shift diagnosis.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2309.09733v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "gang-xiong",
+    "name": "Gang Xiong",
+    "affiliation": "Institute of Information Engineering, CAS / University of CAS",
+    "affiliationTime": "Paper time",
+    "profile": "https://arxiv.org/html/2202.06335v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "fsnet",
+      "etbert",
+      "etool"
+    ],
+    "themes": [
+      "Encrypted classification",
+      "Pretraining"
+    ],
+    "contribution": "Verified co-authorship in FS-Net, ET-BERT, ETooL.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2202.06335v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "gang-zhou",
+    "name": "Gang Zhou",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens",
+      "netbench"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens, NetBench.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "gaopeng-gou",
+    "name": "Gaopeng Gou",
+    "affiliation": "Institute of Information Engineering, CAS / University of CAS",
+    "affiliationTime": "Paper time",
+    "profile": "https://arxiv.org/html/2202.06335v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "etbert",
+      "etool"
+    ],
+    "themes": [
+      "Encrypted classification",
+      "Pretraining"
+    ],
+    "contribution": "Verified co-authorship in ET-BERT, ETooL.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2202.06335v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "gene-tsudik",
+    "name": "Gene Tsudik",
+    "affiliation": "University of California, Irvine",
+    "affiliationTime": "Paper time, 2025",
+    "profile": "https://arxiv.org/html/2503.20093v4",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "ntcenigma"
+    ],
+    "themes": [
+      "Dataset auditing",
+      "Encrypted classification"
+    ],
+    "contribution": "NTC Enigma and CipherSpectrum co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2503.20093v4",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "gerard-draper-gil",
+    "name": "Gerard Draper-Gil",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.unb.ca/cic/datasets/vpn.html",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vpnfeatures",
+      "torfeatures"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in VPN time features, Tor time features.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.unb.ca/cic/datasets/vpn.html",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "german-capdehourat",
+    "name": "Germán Capdehourat",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://link.springer.com/chapter/10.1007/978-3-658-32182-6_16",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "deepmal"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in DeepMAL.",
+    "status": "Needs verification",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-3-658-32182-6_16",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "gerry-wan",
+    "name": "Gerry Wan",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03694",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "serveflow",
+      "cato"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in ServeFlow, CATO.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03694",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "giampaolo-bovenzi",
+    "name": "Giampaolo Bovenzi",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2024.110374",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "memento",
+      "cilbenchmark"
+    ],
+    "themes": [
+      "CNN / RNN",
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in MEMENTO, Class-incremental benchmark.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2024.110374",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "gints-engelen",
+    "name": "Gints Engelen",
+    "affiliation": "imec-DistriNet, KU Leuven",
+    "affiliationTime": "Paper time",
+    "profile": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "cicissues"
+    ],
+    "themes": [
+      "Dataset auditing",
+      "Reproducibility"
+    ],
+    "contribution": "CICIDS2017 audit and corrective tooling.",
+    "status": "Verified",
+    "sourceUrl": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "giovanni-apruzzese",
+    "name": "Giovanni Apruzzese",
+    "affiliation": "University of Liechtenstein",
+    "affiliationTime": "Paper time",
+    "profile": "https://www.giovanniapruzzese.com/publications/eurosp23",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "pragmatic"
+    ],
+    "themes": [
+      "Deployment evaluation",
+      "NIDS methodology"
+    ],
+    "contribution": "Pragmatic assessment of ML-based NIDS; broader security evaluation contribution.",
+    "status": "Verified",
+    "sourceUrl": "https://www.giovanniapruzzese.com/publications/eurosp23",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "giovanni-dettori",
+    "name": "Giovanni Dettori",
+    "affiliation": "Politecnico di Torino",
+    "affiliationTime": "Paper time, 2025",
+    "profile": "https://arxiv.org/html/2507.16438v1",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "sugar"
+    ],
+    "themes": [
+      "Representation audits",
+      "Traffic classification"
+    ],
+    "contribution": "Controlled-split audit and Pcap-Encoder contribution.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2507.16438v1",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "giulia-milan",
+    "name": "Giulia Milan",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/TNSM.2023.3329442",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "crossembeddings"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in Cross-network embeddings.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/TNSM.2023.3329442",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "giuseppe-aceto",
+    "name": "Giuseppe Aceto",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mimetic",
+      "distiller",
+      "memento",
+      "cilbenchmark"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in MIMETIC, DISTILLER, MEMENTO, Class-incremental benchmark.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "gonzalo-marin",
+    "name": "Gonzalo Marín",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://link.springer.com/chapter/10.1007/978-3-658-32182-6_16",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "deepmal"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in DeepMAL.",
+    "status": "Needs verification",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-3-658-32182-6_16",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "grenville-armitage",
+    "name": "Grenville Armitage",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://figshare.swinburne.edu.au/articles/journal_contribution/A_survey_of_techniques_for_internet_traffic_classification_using_machine_learning/26222969",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "survey"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in ML survey.",
+    "status": "Needs verification",
+    "sourceUrl": "https://figshare.swinburne.edu.au/articles/journal_contribution/A_survey_of_techniques_for_internet_traffic_classification_using_machine_learning/26222969",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "guan-gui",
+    "name": "Guan Gui",
+    "affiliation": "Nanjing University of Posts and Telecommunications",
+    "affiliationTime": "Paper time",
+    "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "yatc"
+    ],
+    "themes": [
+      "Masked autoencoding"
+    ],
+    "contribution": "YaTC co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "guangmeng-zhou",
+    "name": "Guangmeng Zhou",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/11023272/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficformer"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in TrafficFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "guanming-che",
+    "name": "Guanming Che",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "guillaume-fraysse",
+    "name": "Guillaume Fraysse",
+    "affiliation": "Orange Innovation Networks",
+    "affiliationTime": "Paper time",
+    "profile": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "akem"
+    ],
+    "themes": [
+      "Programmable networks"
+    ],
+    "contribution": "Co-author of hardware-based encrypted classification.",
+    "status": "Verified",
+    "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "gustavo-batista",
+    "name": "Gustavo Batista",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1145/3727115",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "fastflow"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in FastFlow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1145/3727115",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "haarika-manda",
+    "name": "Haarika Manda",
+    "affiliation": "University of California, Santa Barbara",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound"
+    ],
+    "themes": [
+      "Network foundation models",
+      "Representation diagnosis"
+    ],
+    "contribution": "netFound research group; latest v5 revision.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "haitong-luo",
+    "name": "Haitong Luo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "han-jia-ye",
+    "name": "Han-Jia Ye",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2412.15306",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "miett"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in MIETT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2412.15306",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "haodong-yue",
+    "name": "Haodong Yue",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2501.03279",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mhnet"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in MH-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2501.03279",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "haotian-xu",
+    "name": "Haotian Xu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "bos"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Brain-on-Switch.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "haozhen-zhang",
+    "name": "Haozhen Zhang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.07501",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cletfe",
+      "mhnet",
+      "tfegnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in CLE-TFE, MH-Net, TFE-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.07501",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "hong-ye-he",
+    "name": "Hong Ye He",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/9303204/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pert"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in PERT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/9303204/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "huajie-shao",
+    "name": "Huajie Shao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens",
+      "netbench"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens, NetBench.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "hyojoon-kim",
+    "name": "Hyojoon Kim",
+    "affiliation": "Princeton University",
+    "affiliationTime": "Paper time, 2021",
+    "profile": "https://arxiv.org/pdf/2010.14605",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "refinery"
+    ],
+    "themes": [
+      "Traffic representation",
+      "Measurement systems"
+    ],
+    "contribution": "Traffic Refinery systems contribution.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/pdf/2010.14605",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "idilio-drago",
+    "name": "Idilio Drago",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2405.02649",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "genericmae",
+      "crossembeddings"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in Generic multimodal MAE, Cross-network embeddings.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2405.02649",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "idio-guarino",
+    "name": "Idio Guarino",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2305.12432",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "manyfew"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Many or Few Samples?.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2305.12432",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "inder-monga",
+    "name": "Inder Monga",
+    "affiliation": "ESnet",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound"
+    ],
+    "themes": [
+      "Network systems",
+      "Foundation models"
+    ],
+    "contribution": "netFound co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ivan-martinovic",
+    "name": "Ivan Martinovic",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.research.unipd.it/handle/11577/3169201",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "appscanner"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in AppScanner.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jaber-daneshamooz",
+    "name": "Jaber Daneshamooz",
+    "affiliation": "University of California, Santa Barbara",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound"
+    ],
+    "themes": [
+      "Network foundation models",
+      "Representation diagnosis"
+    ],
+    "contribution": "netFound research group; latest v5 revision.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jan-luxemburk",
+    "name": "Jan Luxemburk",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2506.08655",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "simple"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Simple models, hard questions.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2506.08655",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jaroslav-pesek",
+    "name": "Jaroslav Pesek",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2506.08655",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "simple"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Simple models, hard questions.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2506.08655",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jeewon-chae",
+    "name": "Jeewon Chae",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03694",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "serveflow"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in ServeFlow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03694",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jiahao-cao",
+    "name": "Jiahao Cao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jian-qu",
+    "name": "Jian Qu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2403.05822",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficgpt"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in TrafficGPT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2403.05822",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jianfeng-li",
+    "name": "Jianfeng Li",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2403.05822",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficgpt"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in TrafficGPT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2403.05822",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jiangtao-kong",
+    "name": "Jiangtao Kong",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jiangyong-shi",
+    "name": "Jiangyong Shi",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "unflows",
+      "robustnessmatters",
+      "semiaf"
+    ],
+    "themes": [
+      "Graph learning",
+      "Transformer",
+      "Unsupervised learning"
+    ],
+    "contribution": "Verified co-authorship in unFlowS, Robustness Matters, SemiAF.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "jianping-wu",
+    "name": "Jianping Wu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "bos"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Brain-on-Switch.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jing-yu",
+    "name": "Jing Yu",
+    "affiliation": "Institute of Information Engineering, CAS / University of CAS",
+    "affiliationTime": "Paper time",
+    "profile": "https://arxiv.org/html/2202.06335v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "etbert",
+      "etool"
+    ],
+    "themes": [
+      "Encrypted classification",
+      "Pretraining"
+    ],
+    "contribution": "Verified co-authorship in ET-BERT, ETooL.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2202.06335v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "jingjing-ren",
+    "name": "Jingjing Ren",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jinshu-su",
+    "name": "Jinshu Su",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/TIFS.2025.3613970",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "robustnessmatters"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Robustness Matters.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3613970",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "jinzhou-liu",
+    "name": "Jinzhou Liu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2601.21792",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netmambaplus"
+    ],
+    "themes": [
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in NetMamba+.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2601.21792",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jinzhu-yan",
+    "name": "Jinzhu Yan",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "bos"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Brain-on-Switch.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "johann-hugon",
+    "name": "Johann Hugon",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2412.15146",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cruisecontrol"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Cruise Control.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2412.15146",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "johannes-schneider",
+    "name": "Johannes Schneider",
+    "affiliation": "University of Liechtenstein",
+    "affiliationTime": "Paper time",
+    "profile": "https://www.giovanniapruzzese.com/publications/eurosp23",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "pragmatic"
+    ],
+    "themes": [
+      "Deployment evaluation",
+      "NIDS methodology"
+    ],
+    "contribution": "Pragmatic assessment of ML-based NIDS; broader security evaluation contribution.",
+    "status": "Verified",
+    "sourceUrl": "https://www.giovanniapruzzese.com/publications/eurosp23",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jonatan-krolikowski",
+    "name": "Jonatan Krolikowski",
+    "affiliation": "Huawei Technologies SASU, France",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://arxiv.org/html/2309.09733v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "replication"
+    ],
+    "themes": [
+      "Reproducibility",
+      "Contrastive learning"
+    ],
+    "contribution": "Replication of FlowPic augmentation and dataset-shift diagnosis.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2309.09733v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jonatas-marques",
+    "name": "Jonatas Marques",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03694",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "serveflow"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in ServeFlow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03694",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jordan-holland",
+    "name": "Jordan Holland",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2008.02695",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in nPrint / nPrintML.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2008.02695",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jose-m-navarro",
+    "name": "Jose M. Navarro",
+    "affiliation": "Huawei Technologies SASU, France",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://arxiv.org/html/2309.09733v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "replication"
+    ],
+    "themes": [
+      "Reproducibility",
+      "Contrastive learning"
+    ],
+    "contribution": "Replication of FlowPic augmentation and dataset-shift diagnosis.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2309.09733v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jose-vazquez-naya",
+    "name": "Jose Vázquez-Naya",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "ntfmsurvey2026"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in NT-FM systematic review.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "josef-koumar",
+    "name": "Josef Koumar",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2506.08655",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "simple"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Simple models, hard questions.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2506.08655",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "julian-dorado",
+    "name": "Julián Dorado",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "ntfmsurvey2026"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in NT-FM systematic review.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "jun-jie-huang",
+    "name": "Jun-Jie Huang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mm4flow",
+      "expmd",
+      "unflows",
+      "robustnessmatters",
+      "semiaf"
+    ],
+    "themes": [
+      "Explainability",
+      "Graph learning",
+      "Multimodal",
+      "Transformer",
+      "Unsupervised learning"
+    ],
+    "contribution": "Verified co-authorship in MM4flow, ExpMD, unFlowS, Robustness Matters, SemiAF.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "junzheng-shi",
+    "name": "Junzheng Shi",
+    "affiliation": "Institute of Information Engineering, CAS",
+    "affiliationTime": "Paper time",
+    "profile": "https://arxiv.org/html/2202.06335v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "etbert"
+    ],
+    "themes": [
+      "Encrypted classification"
+    ],
+    "contribution": "ET-BERT co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2202.06335v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "kamil-jerabek",
+    "name": "Kamil Jerabek",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2506.08655",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "simple"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Simple models, hard questions.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2506.08655",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "karel-hynek",
+    "name": "Karel Hynek",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2506.08655",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "simple"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Simple models, hard questions.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2506.08655",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "kave-salamatian",
+    "name": "Kave Salamatian",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/1368436.1368445",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "early"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in Early identification.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/1368436.1368445",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ke-xu",
+    "name": "Ke Xu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "bos",
+      "trafficformer"
+    ],
+    "themes": [
+      "Deployment",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "konrad-rieck",
+    "name": "Konrad Rieck",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "konstantina-papagiannaki",
+    "name": "Konstantina Papagiannaki",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "blinc"
+    ],
+    "themes": [
+      "Rules & statistics"
+    ],
+    "contribution": "Verified co-authorship in BLINC.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "kun-sun",
+    "name": "Kun Sun",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "laurent-bernaille",
+    "name": "Laurent Bernaille",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/1368436.1368445",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "early"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in Early identification.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/1368436.1368445",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "le-yu",
+    "name": "Le Yu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.07501",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cletfe",
+      "mhnet",
+      "tfegnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in CLE-TFE, MH-Net, TFE-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.07501",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "lei-zhang",
+    "name": "Lei Zhang",
+    "affiliation": "Chongqing University",
+    "affiliationTime": "Paper time, 2026",
+    "profile": "https://arxiv.org/html/2603.29537v1",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "meanmae"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic classification"
+    ],
+    "contribution": "Verified co-authorship in Mean MAE.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2603.29537v1",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "licheng-shen",
+    "name": "Licheng Shen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "liming-liu",
+    "name": "Liming Liu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.19924",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowlet"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in FlowletFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.19924",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "lin-liu",
+    "name": "Lin Liu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mm4flow",
+      "evs2vec",
+      "expmd",
+      "unflows",
+      "robustnessmatters",
+      "semiaf"
+    ],
+    "themes": [
+      "Classical ML",
+      "Explainability",
+      "Graph learning",
+      "Multimodal",
+      "Transformer",
+      "Unsupervised learning"
+    ],
+    "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "lingfeng-peng",
+    "name": "Lingfeng Peng",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time, 2024",
+    "profile": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "ptu"
+    ],
+    "themes": [
+      "Network representation",
+      "Self-supervised learning"
+    ],
+    "contribution": "Verified co-authorship in PTU.",
+    "status": "Verified",
+    "sourceUrl": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "lisandro-z-granville",
+    "name": "Lisandro Z. Granville",
+    "affiliation": "Federal University of Rio Grande do Sul (UFRGS)",
+    "affiliationTime": "Paper time, 2022",
+    "profile": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "trustee"
+    ],
+    "themes": [
+      "Explainability",
+      "Network security"
+    ],
+    "contribution": "Trustee co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "lixuan-yang",
+    "name": "Lixuan Yang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2104.03182",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "commercial",
+      "cilbenchmark"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Commercial-scale ETC, Class-incremental benchmark.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2104.03182",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "long-cheng",
+    "name": "Long Cheng",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "longtao-he",
+    "name": "Longtao He",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/8737507/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "fsnet"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in FS-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/8737507/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "lorenzo-cavallaro",
+    "name": "Lorenzo Cavallaro",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dodont"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Security ML pitfalls.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "lu-han",
+    "name": "Lu Han",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2412.15306",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "miett"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in MIETT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2412.15306",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "luca-gioacchini",
+    "name": "Luca Gioacchini",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2405.02649",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "genericmae",
+      "crossembeddings"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in Generic multimodal MAE, Cross-network embeddings.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2405.02649",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "luca-vassio",
+    "name": "Luca Vassio",
+    "affiliation": "Politecnico di Torino",
+    "affiliationTime": "Paper time, June 2026",
+    "profile": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "sugar",
+      "shortcutcatcher",
+      "crossembeddings"
+    ],
+    "themes": [
+      "Shortcut mitigation",
+      "Explainability",
+      "Traffic classification"
+    ],
+    "contribution": "Verified co-authorship in The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings.",
+    "status": "Verified",
+    "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "luming-yang",
+    "name": "Luming Yang",
+    "affiliation": "Academy of Military Science, China",
+    "affiliationTime": "Paper affiliation, 2023–2025",
+    "profile": "https://ieeexplore.ieee.org/document/10287432/",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "mm4flow",
+      "evs2vec",
+      "expmd",
+      "unflows",
+      "robustnessmatters",
+      "semiaf"
+    ],
+    "themes": [
+      "Encrypted traffic analysis",
+      "Representation learning",
+      "Explainability"
+    ],
+    "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
+    "status": "Verified",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/10287432/",
+    "accessed": "2026-09-24",
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=Xt7NczsAAAAJ&view_op=list_works&sortby=pubdate",
+    "publicationsChecked": "2026-09-24"
+  },
+  {
+    "id": "maarten-van-steen",
+    "name": "Maarten van Steen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "mahdi-jafari-siavoshani",
+    "name": "Mahdi Jafari Siavoshani",
+    "affiliation": "Sharif University of Technology",
+    "affiliationTime": "Paper time",
+    "profile": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "deeppacket"
+    ],
+    "themes": [
+      "Packet bytes",
+      "Deep learning"
+    ],
+    "contribution": "Deep Packet authors.",
+    "status": "Verified",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "marco-fiore",
+    "name": "Marco Fiore",
+    "affiliation": "IMDEA Networks Institute",
+    "affiliationTime": "Paper time",
+    "profile": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "akem",
+      "flowrest",
+      "jewel"
+    ],
+    "themes": [
+      "Programmable networks",
+      "Traffic analysis"
+    ],
+    "contribution": "Verified co-authorship in P4 encrypted classification, Flowrest, Jewel.",
+    "status": "Verified",
+    "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "marco-mellia",
+    "name": "Marco Mellia",
+    "affiliation": "Politecnico di Torino",
+    "affiliationTime": "Paper time, June 2026",
+    "profile": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "sugar",
+      "shortcutcatcher",
+      "genericmae",
+      "crossembeddings"
+    ],
+    "themes": [
+      "Shortcut mitigation",
+      "Explainability",
+      "Traffic classification"
+    ],
+    "contribution": "Verified co-authorship in The Sweet Danger of Sugar, ShortcutCatcher, Generic multimodal MAE, Cross-network embeddings.",
+    "status": "Verified",
+    "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "martina-lindorfer",
+    "name": "Martina Lindorfer",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "massimo-gallo",
+    "name": "Massimo Gallo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2401.10754",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficaugmentation"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Traffic augmentation benchmark.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2401.10754",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "matteo-boffa",
+    "name": "Matteo Boffa",
+    "affiliation": "Politecnico di Torino",
+    "affiliationTime": "Paper time, June 2026",
+    "profile": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "sugar",
+      "shortcutcatcher"
+    ],
+    "themes": [
+      "Shortcut mitigation",
+      "Explainability",
+      "Traffic classification"
+    ],
+    "contribution": "Sugar representation audit and ShortcutCatcher feature-removal research.",
+    "status": "Verified",
+    "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "mauro-conti",
+    "name": "Mauro Conti",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.research.unipd.it/handle/11577/3169201",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "appscanner"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in AppScanner.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "meijia-hou",
+    "name": "Meijia Hou",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.19924",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowlet"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in FlowletFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.19924",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "meng-shen",
+    "name": "Meng Shen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "menghao-zhang",
+    "name": "Menghao Zhang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "michalis-faloutsos",
+    "name": "Michalis Faloutsos",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "blinc"
+    ],
+    "themes": [
+      "Rules & statistics"
+    ],
+    "contribution": "Verified co-authorship in BLINC.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "michele-gucciardo",
+    "name": "Michele Gucciardo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/INFOCOM53939.2023.10229100",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowrest",
+      "jewel"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Flowrest, Jewel.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/INFOCOM53939.2023.10229100",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "mingwei-xu",
+    "name": "Mingwei Xu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "bos",
+      "flowlet",
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning",
+      "Deployment",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Brain-on-Switch, FlowletFormer, Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "mingwei-zhan",
+    "name": "Mingwei Zhan",
+    "affiliation": "Shanghai Jiao Tong University",
+    "affiliationTime": "Paper time",
+    "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "yatc"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic representations"
+    ],
+    "contribution": "YaTC authors; hierarchical packet and flow attention.",
+    "status": "Verified",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "minzhao-lyu",
+    "name": "Minzhao Lyu",
+    "affiliation": "University of New South Wales",
+    "affiliationTime": "Profile checked 2026-09-21",
+    "profile": "https://www.unsw.edu.au/staff/minzhao-lyu",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "platforms",
+      "fastflow"
+    ],
+    "themes": [
+      "Traffic measurement",
+      "Platform classification"
+    ],
+    "contribution": "Verified co-authorship in Streaming platforms, FastFlow.",
+    "status": "Verified",
+    "sourceUrl": "https://www.unsw.edu.au/staff/minzhao-lyu",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "mohammad-ali-salahuddin",
+    "name": "Mohammad Ali Salahuddin",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "mohammad-lotfollahi",
+    "name": "Mohammad Lotfollahi",
+    "affiliation": "Sharif University of Technology",
+    "affiliationTime": "Paper time",
+    "profile": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "deeppacket"
+    ],
+    "themes": [
+      "Packet bytes",
+      "Deep learning"
+    ],
+    "contribution": "Deep Packet authors.",
+    "status": "Verified",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "mohammad-saiful-islam-mamun",
+    "name": "Mohammad Saiful Islam Mamun",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.unb.ca/cic/datasets/vpn.html",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vpnfeatures",
+      "torfeatures"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in VPN time features, Tor time features.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.unb.ca/cic/datasets/vpn.html",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "mohammdsadegh-saberian",
+    "name": "Mohammdsadegh Saberian",
+    "affiliation": "Sharif University of Technology",
+    "affiliationTime": "Paper time",
+    "profile": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "deeppacket"
+    ],
+    "themes": [
+      "Packet bytes",
+      "Deep learning"
+    ],
+    "contribution": "Deep Packet authors.",
+    "status": "Verified",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "mohit-tawarmalani",
+    "name": "Mohit Tawarmalani",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "leo"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Leo.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "nick-feamster",
+    "name": "Nick Feamster",
+    "affiliation": "University of Chicago",
+    "affiliationTime": "Paper time, Traffic Refinery 2021",
+    "profile": "https://arxiv.org/pdf/2010.14605",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "nprint",
+      "refinery",
+      "serveflow",
+      "cato",
+      "acdc"
+    ],
+    "themes": [
+      "Network measurement",
+      "Deployable ML"
+    ],
+    "contribution": "Verified co-authorship in nPrint / nPrintML, Traffic Refinery, ServeFlow, CATO, AC-DC.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/pdf/2010.14605",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "nimesha-wickramasinghe",
+    "name": "Nimesha Wickramasinghe",
+    "affiliation": "UNSW Sydney",
+    "affiliationTime": "Paper time, 2025",
+    "profile": "https://arxiv.org/html/2503.20093v4",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "ntcenigma",
+      "lim"
+    ],
+    "themes": [
+      "Dataset auditing",
+      "Encrypted classification"
+    ],
+    "contribution": "Verified co-authorship in NTC Enigma / SoK, LiM / NetMatrix.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2503.20093v4",
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=icvGlCkAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
+    "id": "noa-zilberman",
+    "name": "Noa Zilberman",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "noura-limam",
+    "name": "Noura Limam",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "oliver-spatscheck",
+    "name": "Oliver Spatscheck",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/988672.988742",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dpi"
+    ],
+    "themes": [
+      "Rules & statistics"
+    ],
+    "contribution": "Verified co-authorship in P2P signatures.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/988672.988742",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "paul-schmitt",
+    "name": "Paul Schmitt",
+    "affiliation": "Princeton University",
+    "affiliationTime": "Paper time, 2021",
+    "profile": "https://arxiv.org/pdf/2010.14605",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "nprint",
+      "refinery",
+      "acdc",
+      "cruisecontrol"
+    ],
+    "themes": [
+      "Traffic representation",
+      "Measurement systems"
+    ],
+    "contribution": "Verified co-authorship in nPrint / nPrintML, Traffic Refinery, AC-DC, Cruise Control.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/pdf/2010.14605",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "pavel-laskov",
+    "name": "Pavel Laskov",
+    "affiliation": "University of Liechtenstein",
+    "affiliationTime": "Paper time",
+    "profile": "https://www.giovanniapruzzese.com/publications/eurosp23",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "pragmatic"
+    ],
+    "themes": [
+      "Deployment evaluation",
+      "NIDS methodology"
+    ],
+    "contribution": "Pragmatic assessment of ML-based NIDS; broader security evaluation contribution.",
+    "status": "Verified",
+    "sourceUrl": "https://www.giovanniapruzzese.com/publications/eurosp23",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "pedro-casas",
+    "name": "Pedro Casas",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://link.springer.com/chapter/10.1007/978-3-658-32182-6_16",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "deepmal"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in DeepMAL.",
+    "status": "Needs verification",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-3-658-32182-6_16",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "pietro-michiardi",
+    "name": "Pietro Michiardi",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2401.10754",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficaugmentation"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Traffic augmentation benchmark.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2401.10754",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "prateek-mittal",
+    "name": "Prateek Mittal",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2008.02695",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in nPrint / nPrintML.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2008.02695",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "qi-li",
+    "name": "Qi Li",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "bos",
+      "trafficformer",
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning",
+      "Deployment",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer, Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "qineng-wang",
+    "name": "Qineng Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens",
+      "netbench"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens, NetBench.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "qing-li",
+    "name": "Qing Li",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.07501",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cletfe",
+      "flowlet",
+      "mhnet",
+      "tfegnn"
+    ],
+    "themes": [
+      "Graph learning",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in CLE-TFE, FlowletFormer, MH-Net, TFE-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.07501",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "qixu-liu",
+    "name": "Qixu Liu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2307.16713",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "tfegnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in TFE-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2307.16713",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "ramazan-enisoglu",
+    "name": "Ramazan Enisoglu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112578",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "ntcsurvey2026"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in NTC comprehensive survey.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112578",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "ramin-shirali-hossein-zade",
+    "name": "Ramin Shirali Hossein Zade",
+    "affiliation": "Sharif University of Technology",
+    "affiliationTime": "Paper time",
+    "profile": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "deeppacket"
+    ],
+    "themes": [
+      "Packet bytes",
+      "Deep learning"
+    ],
+    "contribution": "Deep Packet authors.",
+    "status": "Verified",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "raouf-boutaba",
+    "name": "Raouf Boutaba",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "renata-teixeira",
+    "name": "Renata Teixeira",
+    "affiliation": "Inria",
+    "affiliationTime": "Paper time, Traffic Refinery 2021",
+    "profile": "https://arxiv.org/pdf/2010.14605",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "early",
+      "refinery"
+    ],
+    "themes": [
+      "Network measurement",
+      "Traffic classification"
+    ],
+    "contribution": "Early identification and Traffic Refinery.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/pdf/2010.14605",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "renjie-xie",
+    "name": "Renjie Xie",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "rosetta"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Rosetta.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "riccardo-bortolameotti",
+    "name": "Riccardo Bortolameotti",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "riccardo-spolaor",
+    "name": "Riccardo Spolaor",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.research.unipd.it/handle/11577/3169201",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "appscanner"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in AppScanner.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "richard-plny",
+    "name": "Richard Plny",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2506.08655",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "simple"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Simple models, hard questions.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2506.08655",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "riyad-bensoussane",
+    "name": "Riyad Bensoussane",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ronaldo-a-ferreira",
+    "name": "Ronaldo A. Ferreira",
+    "affiliation": "Federal University of Mato Grosso do Sul (UFMS)",
+    "affiliationTime": "Paper time, 2022",
+    "profile": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "trustee"
+    ],
+    "themes": [
+      "Explainability",
+      "Network security"
+    ],
+    "contribution": "Trustee co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "ruben-perez-jove",
+    "name": "Rubén Pérez-Jove",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "ntfmsurvey2026"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in NT-FM systematic review.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "ruijie-zhao",
+    "name": "Ruijie Zhao",
+    "affiliation": "Shanghai Jiao Tong University",
+    "affiliationTime": "Paper time",
+    "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "yatc",
+      "nepco"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic representations"
+    ],
+    "contribution": "YaTC authors; hierarchical packet and flow attention.",
+    "status": "Verified",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ruiqi-meng",
+    "name": "Ruiqi Meng",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ruoyu-li",
+    "name": "Ruoyu Li",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.19924",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowlet"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in FlowletFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.19924",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "rushi-jayeshkumar-babaria",
+    "name": "Rushi Jayeshkumar Babaria",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1145/3727115",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "fastflow"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in FastFlow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1145/3727115",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "saloua-naama",
+    "name": "Saloua Naama",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2302.11718",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "acdc"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in AC-DC.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2302.11718",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "sanjay-jha",
+    "name": "Sanjay Jha",
+    "affiliation": "UNSW Sydney",
+    "affiliationTime": "Paper time, 2025",
+    "profile": "https://arxiv.org/html/2503.20093v4",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "ntcenigma",
+      "lim"
+    ],
+    "themes": [
+      "Dataset auditing",
+      "Encrypted classification"
+    ],
+    "contribution": "Verified co-authorship in NTC Enigma / SoK, LiM / NetMatrix.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2503.20093v4",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "sanjay-krishnan",
+    "name": "Sanjay Krishnan",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03694",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "serveflow"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in ServeFlow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03694",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "sanjay-rao",
+    "name": "Sanjay Rao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "leo"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Leo.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "sara-ayoubi",
+    "name": "Sara Ayoubi",
+    "affiliation": "Nokia Bell Labs",
+    "affiliationTime": "Paper time, 2021",
+    "profile": "https://arxiv.org/pdf/2010.14605",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "refinery"
+    ],
+    "themes": [
+      "Cost-aware traffic analysis"
+    ],
+    "contribution": "Traffic Refinery co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/pdf/2010.14605",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "satyandra-guthula",
+    "name": "Satyandra Guthula",
+    "affiliation": "University of California, Santa Barbara",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound",
+      "demystifying"
+    ],
+    "themes": [
+      "Network foundation models",
+      "Representation diagnosis"
+    ],
+    "contribution": "netFound research group; latest v5 revision.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "shaojing-fu",
+    "name": "Shaojing Fu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mm4flow",
+      "evs2vec",
+      "expmd",
+      "unflows",
+      "robustnessmatters"
+    ],
+    "themes": [
+      "Classical ML",
+      "Explainability",
+      "Multimodal",
+      "Transformer",
+      "Unsupervised learning"
+    ],
+    "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "shay-vargaftik",
+    "name": "Shay Vargaftik",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "shinan-liu",
+    "name": "Shinan Liu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03694",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "serveflow",
+      "cato",
+      "acdc"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in ServeFlow, CATO, AC-DC.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03694",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "shiyu-liang",
+    "name": "Shiyu Liang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mm4flow"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in MM4flow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "shize-guo",
+    "name": "Shize Guo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "unflows"
+    ],
+    "themes": [
+      "Unsupervised learning"
+    ],
+    "contribution": "Verified co-authorship in unFlowS.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "shujie-yang",
+    "name": "Shujie Yang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.02140",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "labelprovenance"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Flow-label provenance / SoK.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.02140",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "siim-kaupmees",
+    "name": "Siim Kaupmees",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "sijiang-huang",
+    "name": "Sijiang Huang",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time, 2024",
+    "profile": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "ptu"
+    ],
+    "themes": [
+      "Network representation",
+      "Self-supervised learning"
+    ],
+    "contribution": "Verified co-authorship in PTU.",
+    "status": "Verified",
+    "sourceUrl": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "sizhe-huang",
+    "name": "Sizhe Huang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.02140",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "labelprovenance"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Flow-label provenance / SoK.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.02140",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "stephane-tuffin",
+    "name": "Stephane Tuffin",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "stephanie-moteau",
+    "name": "Stephanie Moteau",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "subhabrata-sen",
+    "name": "Subhabrata Sen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/988672.988742",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dpi"
+    ],
+    "themes": [
+      "Rules & statistics"
+    ],
+    "contribution": "Verified co-authorship in P2P signatures.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/988672.988742",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "syed-usman-jafri",
+    "name": "Syed Usman Jafri",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "leo"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Leo.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "sylee-beltiukov",
+    "name": "Sylee Beltiukov",
+    "affiliation": "University of California, Santa Barbara",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound",
+      "demystifying",
+      "trustee"
+    ],
+    "themes": [
+      "Network foundation models",
+      "Representation diagnosis"
+    ],
+    "contribution": "netFound research group; latest v5 revision.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "tal-shapira",
+    "name": "Tal Shapira",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "miniflowpic"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in mini-FlowPic.",
+    "status": "Needs verification",
+    "sourceUrl": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ted-shaowang",
+    "name": "Ted Shaowang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03694",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "serveflow"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in ServeFlow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03694",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "thanh-t-bui",
+    "name": "Thanh T. Bui",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "thijs-van-ede",
+    "name": "Thijs van Ede",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowprint"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in FlowPrint.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "thomas-karagiannis",
+    "name": "Thomas Karagiannis",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "blinc"
+    ],
+    "themes": [
+      "Rules & statistics"
+    ],
+    "contribution": "Verified co-authorship in BLINC.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "thuy-t-t-nguyen",
+    "name": "Thuy T. T. Nguyen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://figshare.swinburne.edu.au/articles/journal_contribution/A_survey_of_techniques_for_internet_traffic_classification_using_machine_learning/26222969",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "survey"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in ML survey.",
+    "status": "Needs verification",
+    "sourceUrl": "https://figshare.swinburne.edu.au/articles/journal_contribution/A_survey_of_techniques_for_internet_traffic_classification_using_machine_learning/26222969",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "tianyu-zuo",
+    "name": "Tianyu Zuo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "tong-li",
+    "name": "Tong Li",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/11023272/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficformer"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in TrafficFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "tongze-wang",
+    "name": "Tongze Wang",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time, January 2026",
+    "profile": "https://arxiv.org/html/2601.10180v1",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netmamba",
+      "netmambaplus",
+      "biasseeker"
+    ],
+    "themes": [
+      "Shortcut diagnosis",
+      "State-space models"
+    ],
+    "contribution": "BiasSeeker and NetMamba co-authorship.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2601.10180v1",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "vera-rimmer",
+    "name": "Vera Rimmer",
+    "affiliation": "imec-DistriNet, KU Leuven",
+    "affiliationTime": "Paper time",
+    "profile": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "cicissues"
+    ],
+    "themes": [
+      "Dataset auditing",
+      "Reproducibility"
+    ],
+    "contribution": "CICIDS2017 audit and corrective tooling.",
+    "status": "Verified",
+    "sourceUrl": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "vijay-sivaraman",
+    "name": "Vijay Sivaraman",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2408.16995",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "platforms",
+      "fastflow"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in Streaming platforms, FastFlow.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2408.16995",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "vincent-f-taylor",
+    "name": "Vincent F. Taylor",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.research.unipd.it/handle/11577/3169201",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "appscanner"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in AppScanner.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "vishal-shrivastav",
+    "name": "Vishal Shrivastav",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "leo"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Leo.",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "walter-willinger",
+    "name": "Walter Willinger",
+    "affiliation": "Northwestern University",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound",
+      "demystifying",
+      "trustee"
+    ],
+    "themes": [
+      "Network foundation models",
+      "Evaluation"
+    ],
+    "contribution": "netFound and representation diagnostics.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "wei-xia",
+    "name": "Wei Xia",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/TIFS.2025.3574971",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "etool"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in ETooL.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3574971",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "weiyao-zhang",
+    "name": "Weiyao Zhang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "wenbo-guo",
+    "name": "Wenbo Guo",
+    "affiliation": "University of California, Santa Barbara",
+    "affiliationTime": "Paper time, 2026 revision",
+    "profile": "https://arxiv.org/html/2310.17025v5",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netfound",
+      "demystifying"
+    ],
+    "themes": [
+      "Network foundation models",
+      "Representation diagnosis"
+    ],
+    "contribution": "netFound research group; latest v5 revision.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2310.17025v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "wenduo-wang",
+    "name": "Wenduo Wang",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time",
+    "profile": "https://icnp24.cs.ucr.edu/acceptedpapers.html",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netmamba",
+      "netmambaplus"
+    ],
+    "themes": [
+      "State-space models",
+      "Efficient inference"
+    ],
+    "contribution": "NetMamba research group.",
+    "status": "Verified",
+    "sourceUrl": "https://icnp24.cs.ucr.edu/acceptedpapers.html",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "wenqi-dong",
+    "name": "Wenqi Dong",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/TIFS.2025.3574971",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "etool"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in ETooL.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3574971",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "wouter-joosen",
+    "name": "Wouter Joosen",
+    "affiliation": "imec-DistriNet, KU Leuven",
+    "affiliationTime": "Paper time",
+    "profile": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "cicissues"
+    ],
+    "themes": [
+      "Dataset auditing",
+      "Reproducibility"
+    ],
+    "contribution": "CICIDS2017 audit and corrective tooling.",
+    "status": "Verified",
+    "sourceUrl": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "xi-jiang",
+    "name": "Xi Jiang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2302.11718",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "acdc"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in AC-DC.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2302.11718",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "xi-xiao",
+    "name": "Xi Xiao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.07501",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cletfe",
+      "mhnet",
+      "tfegnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in CLE-TFE, MH-Net, TFE-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.07501",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "xiang-ning-chen",
+    "name": "Xiang Ning Chen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/9303204/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pert"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in PERT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/9303204/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "xianwen-deng",
+    "name": "Xianwen Deng",
+    "affiliation": "Shanghai Jiao Tong University",
+    "affiliationTime": "Paper time",
+    "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "yatc"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic representations"
+    ],
+    "contribution": "YaTC authors; hierarchical packet and flow attention.",
+    "status": "Verified",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "xiao-liu",
+    "name": "Xiao Liu",
+    "affiliation": "Chongqing University",
+    "affiliationTime": "Paper time, 2026",
+    "profile": "https://arxiv.org/html/2603.29537v1",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "meanmae"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic classification"
+    ],
+    "contribution": "Verified co-authorship in Mean MAE.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2603.29537v1",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "xiaobo-ma",
+    "name": "Xiaobo Ma",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2403.05822",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficgpt"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in TrafficGPT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2403.05822",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "xiaochang-li",
+    "name": "Xiaochang Li",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens",
+      "netbench"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens, NetBench.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "xiaodong-lei",
+    "name": "Xiaodong Lei",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/DSN64029.2025.00051",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "semiaf"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in SemiAF.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/DSN64029.2025.00051",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "xiaohui-xie",
+    "name": "Xiaohui Xie",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time, January 2026",
+    "profile": "https://arxiv.org/html/2601.10180v1",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netmamba",
+      "netmambaplus",
+      "biasseeker",
+      "ptu"
+    ],
+    "themes": [
+      "Shortcut diagnosis",
+      "State-space models"
+    ],
+    "contribution": "Verified co-authorship in NetMamba, NetMamba+, BiasSeeker, PTU.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2601.10180v1",
+    "accessed": "2026-10-04",
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=j0yTuxoAAAAJ",
+    "publicationsUrl": "https://thuxiexiaohui.github.io/#publications",
+    "publicationsChecked": "2026-10-04"
+  },
+  {
+    "id": "xiaowei-fu",
+    "name": "Xiaowei Fu",
+    "affiliation": "Chongqing University",
+    "affiliationTime": "Paper time, 2026",
+    "profile": "https://arxiv.org/html/2603.29537v1",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "meanmae"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic classification"
+    ],
+    "contribution": "Verified co-authorship in Mean MAE.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2603.29537v1",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "xiapu-luo",
+    "name": "Xiapu Luo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2307.16713",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "tfegnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in TFE-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2307.16713",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "xinjie-lin",
+    "name": "Xinjie Lin",
+    "affiliation": "Institute of Information Engineering, CAS / University of CAS",
+    "affiliationTime": "Paper time",
+    "profile": "https://arxiv.org/html/2202.06335v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "etbert",
+      "etool"
+    ],
+    "themes": [
+      "Encrypted classification",
+      "Pretraining"
+    ],
+    "contribution": "Verified co-authorship in ET-BERT, ETooL.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2202.06335v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "xiongwen-guo",
+    "name": "Xiongwen Guo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/11023272/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "trafficformer"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in TrafficFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "xu-yang-chen",
+    "name": "Xu-Yang Chen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2412.15306",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "miett"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in MIETT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2412.15306",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "xuying-meng",
+    "name": "Xuying Meng",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2304.09513",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netgpt",
+      "nepco"
+    ],
+    "themes": [
+      "Deployment",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in NetGPT, Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2304.09513",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yanhao-wang",
+    "name": "Yanhao Wang",
+    "affiliation": "QI-ANXIN",
+    "affiliationTime": "Paper time",
+    "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "yatc"
+    ],
+    "themes": [
+      "Encrypted classification"
+    ],
+    "contribution": "YaTC co-author.",
+    "status": "Verified",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yaniv-ben-itzhak",
+    "name": "Yaniv Ben-Itzhak",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yannan-hu",
+    "name": "Yannan Hu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2601.21792",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netmambaplus"
+    ],
+    "themes": [
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in NetMamba+.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2601.21792",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ye-zhang",
+    "name": "Ye Zhang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.07501",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cletfe",
+      "mhnet"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in CLE-TFE, MH-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.07501",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yequan-wang",
+    "name": "Yequan Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2304.09513",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netgpt"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in NetGPT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2304.09513",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yi-xie",
+    "name": "Yi Xie",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowmae"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in Flow-MAE.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yifan-wang",
+    "name": "Yifan Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2408.16995",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "platforms"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in Streaming platforms.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2408.16995",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yijun-wang",
+    "name": "Yijun Wang",
+    "affiliation": "Shanghai Jiao Tong University",
+    "affiliationTime": "Paper time",
+    "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "yatc"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic representations"
+    ],
+    "contribution": "YaTC authors; hierarchical packet and flow attention.",
+    "status": "Verified",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yong-cui",
+    "name": "Yong Cui",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time, January 2026",
+    "profile": "https://arxiv.org/html/2601.10180v1",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netmamba",
+      "netmambaplus",
+      "biasseeker",
+      "ptu"
+    ],
+    "themes": [
+      "Shortcut diagnosis",
+      "State-space models"
+    ],
+    "contribution": "Verified co-authorship in NetMamba, NetMamba+, BiasSeeker, PTU.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2601.10180v1",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "yong-jiang",
+    "name": "Yong Jiang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.19924",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowlet"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in FlowletFormer.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.19924",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yongjie-wang",
+    "name": "Yongjie Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowmae"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in Flow-MAE.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yongjun-wang",
+    "name": "Yongjun Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "mm4flow",
+      "evs2vec",
+      "expmd",
+      "unflows",
+      "robustnessmatters",
+      "semiaf"
+    ],
+    "themes": [
+      "Classical ML",
+      "Explainability",
+      "Graph learning",
+      "Multimodal",
+      "Transformer",
+      "Unsupervised learning"
+    ],
+    "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "youjian-zhao",
+    "name": "Youjian Zhao",
+    "affiliation": "Tsinghua University",
+    "affiliationTime": "Paper time",
+    "profile": "https://icnp24.cs.ucr.edu/acceptedpapers.html",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "netmamba",
+      "netmambaplus"
+    ],
+    "themes": [
+      "State-space models",
+      "Efficient inference"
+    ],
+    "contribution": "NetMamba research group.",
+    "status": "Verified",
+    "sourceUrl": "https://icnp24.cs.ucr.edu/acceptedpapers.html",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yuchen-wang",
+    "name": "Yuchen Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yuchuan-luo",
+    "name": "Yuchuan Luo",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1109/SECON58729.2023.10287432",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "evs2vec"
+    ],
+    "themes": [
+      "Classical ML"
+    ],
+    "contribution": "Verified co-authorship in EVS2vec.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1109/SECON58729.2023.10287432",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "yujun-zhang",
+    "name": "Yujun Zhang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2304.09513",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netgpt",
+      "nepco"
+    ],
+    "themes": [
+      "Deployment",
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in NetGPT, Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2304.09513",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yuliang-lu",
+    "name": "Yuliang Lu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowmae"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in Flow-MAE.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yuqi-zhao",
+    "name": "Yuqi Zhao",
+    "affiliation": "Politecnico di Torino",
+    "affiliationTime": "Paper time, June 2026",
+    "profile": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "sugar",
+      "shortcutcatcher"
+    ],
+    "themes": [
+      "Shortcut mitigation",
+      "Explainability",
+      "Traffic classification"
+    ],
+    "contribution": "Sugar representation audit and ShortcutCatcher feature-removal research.",
+    "status": "Verified",
+    "sourceUrl": "https://iris.polito.it/retrieve/e7a86f78-0c00-4eb4-a698-7d911da6615e/3808671.pdf",
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "yuval-shavitt",
+    "name": "Yuval Shavitt",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "miniflowpic"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in mini-FlowPic.",
+    "status": "Needs verification",
+    "sourceUrl": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zakir-durumeric",
+    "name": "Zakir Durumeric",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.06099",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cato"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in CATO.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.06099",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zhaoqi-xiong",
+    "name": "Zhaoqi Xiong",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "iisy"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in IIsy.",
+    "status": "Needs verification",
+    "sourceUrl": "https://github.com/In-Network-Machine-Learning/IIsy",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zhen-li",
+    "name": "Zhen Li",
+    "affiliation": "Institute of Information Engineering, CAS / University of CAS",
+    "affiliationTime": "Paper time",
+    "profile": "https://arxiv.org/html/2202.06335v2",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "fsnet",
+      "etbert",
+      "etool"
+    ],
+    "themes": [
+      "Encrypted classification",
+      "Pretraining"
+    ],
+    "contribution": "Verified co-authorship in FS-Net, ET-BERT, ETooL.",
+    "status": "Verified",
+    "sourceUrl": "https://arxiv.org/html/2202.06335v2",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "zhen-ling",
+    "name": "Zhen Ling",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.07501",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "cletfe",
+      "mhnet"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in CLE-TFE, MH-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.07501",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zhi-guo-yang",
+    "name": "Zhi Guo Yang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/9303204/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pert"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in PERT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/9303204/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zhi-xue",
+    "name": "Zhi Xue",
+    "affiliation": "Shanghai Jiao Tong University",
+    "affiliationTime": "Paper time",
+    "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "yatc"
+    ],
+    "themes": [
+      "Masked autoencoding",
+      "Traffic representations"
+    ],
+    "contribution": "YaTC authors; hierarchical packet and flow attention.",
+    "status": "Verified",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zhiwei-xu",
+    "name": "Zhiwei Xu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zhuotao-liu",
+    "name": "Zhuotao Liu",
+    "affiliation": "Tsinghua University — Institute for Network Sciences and Cyberspace",
+    "affiliationTime": "Current institutional profile, checked 2026-09-24",
+    "profile": "https://www.insc.tsinghua.edu.cn/inscen/info/1255/1085.htm",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "bos",
+      "trafficformer",
+      "mm4flow"
+    ],
+    "themes": [
+      "Encrypted traffic classification",
+      "Programmable network systems"
+    ],
+    "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer, MM4flow.",
+    "status": "Verified",
+    "sourceUrl": "https://www.insc.tsinghua.edu.cn/inscen/info/1255/1085.htm",
+    "accessed": "2026-09-23",
+    "publicationsUrl": "https://liuzhuotao.github.io/publications/",
+    "publicationsChecked": "2026-09-24",
+    "scholarUrl": "https://scholar.google.com/citations?hl=en&user=F8gi4rcAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
+    "id": "zied-ben-houidi",
+    "name": "Zied Ben Houidi",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2405.02649",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "genericmae",
+      "crossembeddings"
+    ],
+    "themes": [
+      "Multimodal"
+    ],
+    "contribution": "Verified co-authorship in Generic multimodal MAE, Cross-network embeddings.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2405.02649",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "zigang-cao",
+    "name": "Zigang Cao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://ieeexplore.ieee.org/document/8737507/",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "fsnet"
+    ],
+    "themes": [
+      "CNN / RNN"
+    ],
+    "contribution": "Verified co-authorship in FS-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/8737507/",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zihao-zhou",
+    "name": "Zihao Zhou",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2507.06430",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "onetask"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Cross-network reality check.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zijun-hang",
+    "name": "Zijun Hang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "flowmae"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in Flow-MAE.",
+    "status": "Needs verification",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ziyi-wang",
+    "name": "Ziyi Wang",
+    "affiliation": "Beijing University of Posts and Telecommunications",
+    "affiliationTime": "Paper time, 2024",
+    "profile": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
+    "profileType": "Paper affiliation source",
+    "papers": [
+      "ptu"
+    ],
+    "themes": [
+      "Network representation",
+      "Self-supervised learning"
+    ],
+    "contribution": "Verified co-authorship in PTU.",
+    "status": "Verified",
+    "sourceUrl": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "ziyu-yao",
+    "name": "Ziyu Yao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2402.03646v5",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "lens"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in Lens.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2402.03646v5",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ziyue-huang",
+    "name": "Ziyue Huang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2508.02001v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "nepco"
+    ],
+    "themes": [
+      "Deployment"
+    ],
+    "contribution": "Verified co-authorship in Nepco / convolutional NFM.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2508.02001v2",
+    "accessed": "2026-09-21"
+  }
+]

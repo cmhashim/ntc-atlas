@@ -1,0 +1,40 @@
+name: New paper suggestion
+description: Suggest a paper for the atlas.
+title: "[Paper] "
+labels: ["paper-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: Please give primary sources. The curator verifies every field before inclusion.
+  - type: input
+    id: title
+    attributes: { label: Exact title }
+    validations: { required: true }
+  - type: textarea
+    id: authors
+    attributes: { label: Authors in byline order }
+    validations: { required: true }
+  - type: input
+    id: venue
+    attributes: { label: Venue and year, description: "e.g. ACM IMC 2023, or arXiv preprint 2026" }
+    validations: { required: true }
+  - type: textarea
+    id: links
+    attributes: { label: DOI, arXiv ID, proceedings or publisher URL }
+    validations: { required: true }
+  - type: textarea
+    id: relevance
+    attributes: { label: Why it belongs, description: Topic and the gap or question it informs. }
+    validations: { required: true }
+  - type: textarea
+    id: related
+    attributes: { label: Related papers already in the atlas, description: "Only relationships the paper itself states (extends, critiques, compares against)." }
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked the title and author list against a primary source.
+          required: true
+        - label: I searched the atlas and it is not already included.
+          required: true

@@ -1,0 +1,19 @@
+name: Bug report
+description: Something on the site does not work or displays incorrectly.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: url
+    attributes: { label: Page URL, description: Copy it with the Share view button. }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What happened, and what you expected }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce }
+  - type: input
+    id: env
+    attributes: { label: Browser, device and theme }

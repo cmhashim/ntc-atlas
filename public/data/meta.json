@@ -1,0 +1,147 @@
+{
+  "title": "Evolution of Network Traffic Classification: Methods, Evidence, Limitations, and Research Gaps",
+  "updated": "2026-09-23",
+  "paperCount": 80,
+  "datasetCount": 19,
+  "authorCount": 272,
+  "resolvedAuthorCount": 77,
+  "relationshipCount": 46,
+  "gapColumns": [
+    "Cross-dataset validation",
+    "Temporal robustness",
+    "Open-world recognition",
+    "Unknown applications",
+    "Concept drift",
+    "Data leakage control",
+    "Minority-class performance",
+    "False-negative analysis",
+    "Calibration",
+    "Explainability",
+    "Real-time throughput",
+    "Edge deployment",
+    "Energy consumption",
+    "Privacy",
+    "Reproducibility",
+    "Code/checkpoint availability"
+  ],
+  "pending": [
+    {
+      "name": "TrafficFormer evaluation details",
+      "reason": "Publisher and official code confirm the model and preprocessing. Dataset-specific splits and end-to-end cost tables have not been fully extracted.",
+      "url": "https://ieeexplore.ieee.org/document/11023272/"
+    },
+    {
+      "name": "PERT input and split details",
+      "reason": "The ITU proceedings confirm its payload pretraining and two capture sources. Exact input budget, split units and compute need paper-level extraction.",
+      "url": "https://www.itu.int/en/publications/Documents/tsb/2020-ITU-Kaleidoscope/files/basic-html/page234.html"
+    },
+    {
+      "name": "Flow-MAE six-task inventory",
+      "reason": "The original RAID paper reports six datasets; its repository confirms USTC-TFC2016 and a two-3090Ti testbed. The full task/version inventory and exact input cap remain unconfirmed.",
+      "url": "https://github.com/NLear/Flow-MAE"
+    },
+    {
+      "name": "App-Time and App-Ver provenance",
+      "reason": "ShortcutCatcher evaluates these tasks, but this review has not matched their original collection and label construction. Keep them in the paper record without separate dataset catalogue entries.",
+      "url": "https://doi.org/10.1145/3808671"
+    },
+    {
+      "name": "BiasSeeker proceedings cross-check",
+      "reason": "The IEEE DOI 10.1109/IWQOS70441.2026.11661209 is indexed for IWQoS 2026; the publisher record was inaccessible in this review. Model details remain scoped to arXiv v1.",
+      "url": "https://arxiv.org/abs/2601.10180"
+    }
+  ],
+  "authorInclusion": "Include authors through verified publications on traffic classification, representations, relevant datasets, evaluation or deployment. Original example names do not constrain inclusion. Remove unsupported entries; committee membership or name similarity alone is insufficient.",
+  "scope": "A curated, evolving corpus, not a systematic or exhaustive review. Bibliographic verification does not imply all experimental fields are complete.",
+  "defaultYears": [
+    2004,
+    2026
+  ],
+  "comparisonNotation": {
+    "notReported": "NA — not reported in reviewed sections",
+    "notApplicable": "NA — no applicable stage",
+    "notExtracted": "NA — not extracted; source may contain the value"
+  },
+  "comparisonReviewPapers": [
+    "etbert",
+    "yatc",
+    "netmamba",
+    "netmambaplus",
+    "netfound",
+    "flowmae",
+    "fsnet",
+    "refinery",
+    "cato",
+    "akem",
+    "serveflow",
+    "bos",
+    "leo",
+    "nepco"
+  ],
+  "authorExpansion": {
+    "date": "2026-09-23",
+    "since": 2023,
+    "papers": [
+      "lim",
+      "labelprovenance",
+      "ntcsurvey2026",
+      "ntfmsurvey2026",
+      "acdc",
+      "cruisecontrol",
+      "trafficaugmentation",
+      "genericmae",
+      "fastflow",
+      "etool",
+      "tfegnn",
+      "flowrest",
+      "jewel",
+      "memento",
+      "cilbenchmark",
+      "manyfew",
+      "crossembeddings",
+      "ptu",
+      "mm4flow",
+      "evs2vec",
+      "expmd",
+      "unflows",
+      "robustnessmatters",
+      "semiaf",
+      "meanmae"
+    ],
+    "scope": "Author-led search through primary papers, institutional and author publication pages, plus three requested 2026 reviews. This is not an exhaustive audit of every byline’s entire publication history.",
+    "matchedExistingAuthors": [
+      "Alessandro Finamore",
+      "Antonio Pescapé",
+      "Arash Shaghaghi",
+      "Aristide Tanyi-Jong Akem",
+      "Chao Wang",
+      "Dario Rossi",
+      "Domenico Ciuonzo",
+      "Francesco Bronzino",
+      "Gang Xiong",
+      "Gaopeng Gou",
+      "Giuseppe Aceto",
+      "Haozhen Zhang",
+      "Jing Yu",
+      "Le Yu",
+      "Lixuan Yang",
+      "Luca Vassio",
+      "Marco Fiore",
+      "Marco Mellia",
+      "Minzhao Lyu",
+      "Nick Feamster",
+      "Nimesha Wickramasinghe",
+      "Paul Schmitt",
+      "Qing Li",
+      "Sanjay Jha",
+      "Shinan Liu",
+      "Vijay Sivaraman",
+      "Xi Xiao",
+      "Xiaohui Xie",
+      "Xinjie Lin",
+      "Yong Cui",
+      "Zhen Li",
+      "Zhuotao Liu"
+    ]
+  }
+}

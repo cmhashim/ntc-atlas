@@ -1,0 +1,21 @@
+name: Incorrect metadata
+description: Report a wrong title, author list, year, venue, DOI or link.
+title: "[Metadata] "
+labels: ["metadata"]
+body:
+  - type: input
+    id: record
+    attributes: { label: Paper or dataset, description: "Name or atlas URL, e.g. ?view=references&paper=netmamba" }
+    validations: { required: true }
+  - type: textarea
+    id: current
+    attributes: { label: What the atlas shows }
+    validations: { required: true }
+  - type: textarea
+    id: correct
+    attributes: { label: What it should show }
+    validations: { required: true }
+  - type: textarea
+    id: source
+    attributes: { label: Primary source, description: DOI record, publisher page, proceedings or the paper itself. }
+    validations: { required: true }

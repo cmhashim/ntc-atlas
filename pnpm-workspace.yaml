@@ -1,0 +1,12 @@
+# Supply-chain hygiene: only install package versions published at least 7 days ago.
+minimumReleaseAge: 10080
+minimumReleaseAgeIgnoreMissingTime: false
+strictDepBuilds: true
+allowBuilds:
+  esbuild: true
+  fsevents: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true
+overrides:
+  miniflare>sharp: 0.35.4

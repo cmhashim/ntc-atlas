@@ -1,0 +1,32 @@
+name: Author identity correction
+description: Fix an author alias, merged or split identity, profile link or affiliation.
+title: "[Author] "
+labels: ["author-identity"]
+body:
+  - type: markdown
+    attributes:
+      value: Bylines and affiliations are verified separately. An affiliation is always dated. A direct Google Scholar profile replaces a name search only when the identity is confirmed.
+  - type: input
+    id: author
+    attributes: { label: Author as shown in the atlas, description: "Name or URL, e.g. ?view=authors&person=luming-yang" }
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of correction
+      options: [Alias or spelling, Two people merged, One person split, Profile or Scholar link, Affiliation, Other]
+    validations: { required: true }
+  - type: textarea
+    id: change
+    attributes: { label: Requested change }
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes: { label: Evidence, description: "Institutional page, ORCID, Scholar profile, or paper bylines that show the identity." }
+    validations: { required: true }
+  - type: checkboxes
+    id: self
+    attributes:
+      label: Relationship
+      options:
+        - label: I am this author.

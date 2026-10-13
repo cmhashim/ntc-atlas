@@ -1,0 +1,19 @@
+name: Technical extraction request
+description: Ask for comparison fields (datasets, splits, metrics, throughput, latency, memory) to be extracted from a paper.
+title: "[Extraction] "
+labels: ["extraction"]
+body:
+  - type: input
+    id: paper
+    attributes: { label: Paper in the atlas }
+    validations: { required: true }
+  - type: textarea
+    id: fields
+    attributes: { label: Fields to extract, description: "e.g. split unit, class count, throughput with unit and hardware." }
+    validations: { required: true }
+  - type: textarea
+    id: locator
+    attributes: { label: Where the paper reports them, description: Section, table or page, if you know. }
+  - type: markdown
+    attributes:
+      value: Values are recorded with unit, scope and locator. Offline inference rates are never recorded as live network throughput.

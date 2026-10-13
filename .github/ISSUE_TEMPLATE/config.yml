@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/cmhashim/ntc-atlas/blob/main/CONTRIBUTING.md
+    about: Evidence rules for papers, authors and relationships.

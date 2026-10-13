@@ -1,0 +1,71 @@
+{
+  "reviewed": "2026-09-23",
+  "paperId": "labelprovenance",
+  "source": "https://arxiv.org/html/2609.02140v1",
+  "scope": "Paraphrased from Huang and Yang’s September 2026 preprint, Table 1 and Sections 2–4. These are the audit authors’ recovered records, not a new independent artifact audit. Assignment and filtering are separate questions; aligned evidence can still describe a selected population.",
+  "checklist": [
+    "Record the exact release and the intended task.",
+    "Identify what produced the label, where it was observed and whether endpoint access was required.",
+    "State what the label means: application, user activity, server domain, visited site or maliciousness.",
+    "Trace the evidence unit to the released sample: aligned, inherited, derived or reused.",
+    "Record filtering, discarded samples and the population before selection; preserve lineage and evidence sources."
+  ],
+  "datasets": [
+    {
+      "id": "iscxvpn",
+      "evidence": "Controlled activity",
+      "evidenceUnit": "Session / run",
+      "assignment": "Inherited onto flows",
+      "semanticObject": "Traffic type",
+      "note": "A capture’s activity label does not by itself prove the role of each contained flow."
+    },
+    {
+      "id": "iscxtor",
+      "evidence": "Controlled activity",
+      "evidenceUnit": "Session / run",
+      "assignment": "Inherited onto flows",
+      "semanticObject": "Traffic type",
+      "note": "Track inherited activity labels and reused source captures separately."
+    },
+    {
+      "id": "ustc",
+      "evidence": "Upstream traces + simulation",
+      "evidenceUnit": "Session / run",
+      "assignment": "Inherited",
+      "semanticObject": "Application",
+      "note": "Application provenance and a downstream malicious/benign interpretation are distinct claims."
+    },
+    {
+      "id": "mirage19",
+      "evidence": "Process / socket logs",
+      "evidenceUnit": "Connection",
+      "assignment": "Aligned to per-flow records",
+      "semanticObject": "Application",
+      "note": "Endpoint-derived evidence may not be visible to a network observer."
+    },
+    {
+      "id": "cstnet",
+      "evidence": "SNI",
+      "evidenceUnit": "Connection",
+      "assignment": "Aligned to per-flow PCAP",
+      "semanticObject": "Server domain",
+      "note": "SNI identifies a named server; this does not automatically establish the generating application. Account for SNI-based selection."
+    },
+    {
+      "id": "cipherspectrum",
+      "evidence": "SNI in the audited released mapping",
+      "evidenceUnit": "Connection",
+      "assignment": "Aligned to per-flow PCAP",
+      "semanticObject": "Server domain",
+      "note": "The audit distinguishes original browsing-run labels from connection-level mappings. It reports 41 classes/123,000 sessions in its artifact, versus the original paper’s 40/120,000; preserve release/version differences."
+    },
+    {
+      "id": "crossplatform",
+      "evidence": "Endpoint proxy",
+      "evidenceUnit": "Session",
+      "assignment": "Inherited to request-level flows",
+      "semanticObject": "Application",
+      "note": "The audit could not confirm the public release form. The label provenance record remains incomplete."
+    }
+  ]
+}

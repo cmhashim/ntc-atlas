@@ -1,0 +1,370 @@
+[
+  {
+    "id": "r1",
+    "source": "sugar",
+    "target": "etbert",
+    "type": "Criticises",
+    "explanation": "Controlled split and representation audit; earlier netFound version only.",
+    "evidenceId": "e0176"
+  },
+  {
+    "id": "r2",
+    "source": "sugar",
+    "target": "yatc",
+    "type": "Criticises",
+    "explanation": "Controlled split and representation audit; earlier netFound version only.",
+    "evidenceId": "e0177"
+  },
+  {
+    "id": "r3",
+    "source": "sugar",
+    "target": "netmamba",
+    "type": "Criticises",
+    "explanation": "Controlled split and representation audit; earlier netFound version only.",
+    "evidenceId": "e0178"
+  },
+  {
+    "id": "r4",
+    "source": "sugar",
+    "target": "trafficformer",
+    "type": "Criticises",
+    "explanation": "Controlled split and representation audit; earlier netFound version only.",
+    "evidenceId": "e0179"
+  },
+  {
+    "id": "r5",
+    "source": "sugar",
+    "target": "netfound",
+    "type": "Criticises",
+    "explanation": "Controlled split and representation audit; earlier netFound version only.",
+    "evidenceId": "e0180"
+  },
+  {
+    "id": "r6",
+    "source": "demystifying",
+    "target": "etbert",
+    "type": "Diagnoses",
+    "explanation": "Representation probes on earlier checkpoints, beyond downstream accuracy.",
+    "evidenceId": "e0181"
+  },
+  {
+    "id": "r7",
+    "source": "demystifying",
+    "target": "yatc",
+    "type": "Diagnoses",
+    "explanation": "Representation probes on earlier checkpoints, beyond downstream accuracy.",
+    "evidenceId": "e0182"
+  },
+  {
+    "id": "r8",
+    "source": "demystifying",
+    "target": "netmamba",
+    "type": "Diagnoses",
+    "explanation": "Representation probes on earlier checkpoints, beyond downstream accuracy.",
+    "evidenceId": "e0183"
+  },
+  {
+    "id": "r9",
+    "source": "demystifying",
+    "target": "netfound",
+    "type": "Diagnoses",
+    "explanation": "Representation probes on earlier checkpoints, beyond downstream accuracy.",
+    "evidenceId": "e0184"
+  },
+  {
+    "id": "r10",
+    "source": "etbert",
+    "target": "flowprint",
+    "type": "Compares against",
+    "explanation": "Included in the original ET-BERT baseline comparison.",
+    "evidenceId": "e0185"
+  },
+  {
+    "id": "r11",
+    "source": "etbert",
+    "target": "fsnet",
+    "type": "Compares against",
+    "explanation": "Included in the original ET-BERT baseline comparison.",
+    "evidenceId": "e0186"
+  },
+  {
+    "id": "r12",
+    "source": "etbert",
+    "target": "deeppacket",
+    "type": "Compares against",
+    "explanation": "Included in the original ET-BERT baseline comparison.",
+    "evidenceId": "e0187"
+  },
+  {
+    "id": "r13",
+    "source": "etbert",
+    "target": "pert",
+    "type": "Compares against",
+    "explanation": "Included in the original ET-BERT baseline comparison.",
+    "evidenceId": "e0188"
+  },
+  {
+    "id": "r14",
+    "source": "yatc",
+    "target": "flowprint",
+    "type": "Compares against",
+    "explanation": "Included in YaTC’s baseline evaluation.",
+    "evidenceId": "e0189"
+  },
+  {
+    "id": "r15",
+    "source": "yatc",
+    "target": "appscanner",
+    "type": "Compares against",
+    "explanation": "Included in YaTC’s baseline evaluation.",
+    "evidenceId": "e0190"
+  },
+  {
+    "id": "r16",
+    "source": "yatc",
+    "target": "fsnet",
+    "type": "Compares against",
+    "explanation": "Included in YaTC’s baseline evaluation.",
+    "evidenceId": "e0191"
+  },
+  {
+    "id": "r17",
+    "source": "yatc",
+    "target": "deeppacket",
+    "type": "Compares against",
+    "explanation": "Included in YaTC’s baseline evaluation.",
+    "evidenceId": "e0192"
+  },
+  {
+    "id": "r18",
+    "source": "yatc",
+    "target": "etbert",
+    "type": "Compares against",
+    "explanation": "Included in YaTC’s baseline evaluation.",
+    "evidenceId": "e0193"
+  },
+  {
+    "id": "r19",
+    "source": "netmamba",
+    "target": "etbert",
+    "type": "Compares against",
+    "explanation": "Evaluated as a baseline under the NetMamba authors’ setup; not an independent reproduction.",
+    "evidenceId": "e0194"
+  },
+  {
+    "id": "r20",
+    "source": "netmamba",
+    "target": "yatc",
+    "type": "Compares against",
+    "explanation": "Evaluated as a baseline under the NetMamba authors’ setup; not an independent reproduction.",
+    "evidenceId": "e0195"
+  },
+  {
+    "id": "r21",
+    "source": "flowmae",
+    "target": "etbert",
+    "type": "Compares against",
+    "explanation": "Flow-MAE reports accuracy and efficiency comparisons against ET-BERT.",
+    "evidenceId": "e0196"
+  },
+  {
+    "id": "r22",
+    "source": "trafficformer",
+    "target": "etbert",
+    "type": "Uses implementation of",
+    "explanation": "TrafficFormer explicitly credits ET-BERT and UER-py as code foundations.",
+    "evidenceId": "e0197"
+  },
+  {
+    "id": "r23",
+    "source": "replication",
+    "target": "miniflowpic",
+    "type": "Reproduces",
+    "explanation": "Reproduces the IMC 2022 study and replicates augmentation experiments on additional datasets.",
+    "evidenceId": "e0198"
+  },
+  {
+    "id": "r24",
+    "source": "cletfe",
+    "target": "etbert",
+    "type": "Compares against",
+    "explanation": "Reports a FLOP comparison to ET-BERT, with task-specific assumptions.",
+    "evidenceId": "e0199"
+  },
+  {
+    "id": "r25",
+    "source": "netmambaplus",
+    "target": "netmamba",
+    "type": "Extends",
+    "explanation": "The NetMamba repository announces NetMamba+ as its journal follow-up.",
+    "evidenceId": "e0200"
+  },
+  {
+    "id": "r26",
+    "source": "etbert",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "ISCX-VPN tasks are part of ET-BERT evaluation.",
+    "evidenceId": "e0201"
+  },
+  {
+    "id": "r27",
+    "source": "etbert",
+    "target": "torfeatures",
+    "type": "Uses dataset from",
+    "explanation": "ISCX-Tor is part of ET-BERT evaluation.",
+    "evidenceId": "e0202"
+  },
+  {
+    "id": "r28",
+    "source": "etbert",
+    "target": "flowprint",
+    "type": "Uses dataset from",
+    "explanation": "Uses the Cross-Platform mobile-app collection introduced with FlowPrint.",
+    "evidenceId": "e0203"
+  },
+  {
+    "id": "r29",
+    "source": "shortcutcatcher",
+    "target": "sugar",
+    "type": "Uses preprocessing of",
+    "explanation": "Uses Sugar’s cleaned TLS120 traces and labels.",
+    "evidenceId": "e0262"
+  },
+  {
+    "id": "r30",
+    "source": "shortcutcatcher",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "TLS120 originates from the CSTNET-TLS1.3 collection used by ET-BERT.",
+    "evidenceId": "e0263"
+  },
+  {
+    "id": "r31",
+    "source": "shortcutcatcher",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "VPN service-classification task derives from ISCXVPN2016.",
+    "evidenceId": "e0264"
+  },
+  {
+    "id": "r32",
+    "source": "shortcutcatcher",
+    "target": "trustee",
+    "type": "Builds on",
+    "explanation": "Positions automated feature removal against the human-guided diagnostic loop of Trustee.",
+    "evidenceId": "e0265"
+  },
+  {
+    "id": "r33",
+    "source": "biasseeker",
+    "target": "netmamba",
+    "type": "Uses preprocessing of",
+    "explanation": "Adapts NetMamba inputs to bidirectional sessions.",
+    "evidenceId": "e0266"
+  },
+  {
+    "id": "r34",
+    "source": "biasseeker",
+    "target": "netmamba",
+    "type": "Diagnoses",
+    "explanation": "Tests feature masking on NetMamba.",
+    "evidenceId": "e0267"
+  },
+  {
+    "id": "r35",
+    "source": "biasseeker",
+    "target": "ntcenigma",
+    "type": "Uses dataset from",
+    "explanation": "Screens CipherSpectrum.",
+    "evidenceId": "e0268"
+  },
+  {
+    "id": "r36",
+    "source": "biasseeker",
+    "target": "trustee",
+    "type": "Cites methodological evidence",
+    "explanation": "Discusses model-dependent shortcut diagnosis.",
+    "evidenceId": "e0269"
+  },
+  {
+    "id": "r37",
+    "source": "ntcenigma",
+    "target": "etbert",
+    "type": "Diagnoses",
+    "explanation": "Occlusion study of ET-BERT on ten-class CipherSpectrum and CSTNET subsets; scoped to this setup.",
+    "evidenceId": "e0270"
+  },
+  {
+    "id": "r38",
+    "source": "ntcenigma",
+    "target": "yatc",
+    "type": "Diagnoses",
+    "explanation": "Occlusion study of YaTC on ten-class CipherSpectrum and CSTNET subsets; scoped to this setup.",
+    "evidenceId": "e0271"
+  },
+  {
+    "id": "r39",
+    "source": "lim",
+    "target": "etbert",
+    "type": "Compares against",
+    "explanation": "Same CSTNET subset; author-run comparison.",
+    "evidenceId": "e0291"
+  },
+  {
+    "id": "r40",
+    "source": "lim",
+    "target": "yatc",
+    "type": "Compares against",
+    "explanation": "Same CSTNET subset; author-run comparison.",
+    "evidenceId": "e0292"
+  },
+  {
+    "id": "r41",
+    "source": "labelprovenance",
+    "target": "etbert",
+    "type": "Audits label provenance",
+    "explanation": "Examines benchmark/task lineage associated with this study; not a new model-accuracy reproduction.",
+    "evidenceId": "e0298"
+  },
+  {
+    "id": "r42",
+    "source": "labelprovenance",
+    "target": "ntcenigma",
+    "type": "Audits label provenance",
+    "explanation": "Examines benchmark/task lineage associated with this study; not a new model-accuracy reproduction.",
+    "evidenceId": "e0299"
+  },
+  {
+    "id": "r43",
+    "source": "evs2vec",
+    "target": "mm4flow",
+    "type": "Precedes",
+    "explanation": "Earlier representation work by the same research group on an application-specific encrypted-traffic task; chronology, not a claimed direct extension.",
+    "evidenceId": "e0366"
+  },
+  {
+    "id": "r44",
+    "source": "expmd",
+    "target": "mm4flow",
+    "type": "Related representation",
+    "explanation": "Moves from explainable multi-domain features to MM4flow’s pretrained multimodal fusion; no direct inheritance is asserted.",
+    "evidenceId": "e0367"
+  },
+  {
+    "id": "r45",
+    "source": "robustnessmatters",
+    "target": "mm4flow",
+    "type": "Precedes",
+    "explanation": "Earlier pretraining study by an overlapping author team; this records chronology rather than identical tasks.",
+    "evidenceId": "e0368"
+  },
+  {
+    "id": "r46",
+    "source": "unflows",
+    "target": "mm4flow",
+    "type": "Complementary approach",
+    "explanation": "Contrasts unsupervised flow-spectrum construction with multimodal supervised downstream transfer.",
+    "evidenceId": "e0369"
+  }
+]

@@ -1,0 +1,79 @@
+name: Check and deploy
+
+# main      -> production deploy at https://ntc-atlas.pages.dev
+# PR        -> checks + preview deploy (same-repo PRs only; forks get checks only)
+# manual    -> Actions tab -> "Check and deploy" -> Run workflow
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# A newer push to the same branch (or PR) cancels the older run, so a stale
+# build can never finish last and overwrite a newer deployment. PR runs are
+# keyed by PR number, never by branch name: a fork PR from a branch called
+# "main" must not share (and cancel) the production group.
+concurrency:
+  group: deploy-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || github.ref }}
+  cancel-in-progress: true
+
+env:
+  CLOUDFLARE_PROJECT: ntc-atlas
+
+jobs:
+  check-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      HAS_CF_SECRETS: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+
+      # pnpm version comes from package.json "packageManager"
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate corpus data
+        run: pnpm validate
+
+      - name: Type-check
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Build static site
+        run: pnpm build
+
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        if: env.HAS_CF_SECRETS == 'true'
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          packageManager: pnpm
+          # Creates the Pages project on the first run; no-op afterwards.
+          preCommands: |
+            pnpm exec wrangler pages project list | grep -qw "${{ env.CLOUDFLARE_PROJECT }}" || pnpm exec wrangler pages project create "${{ env.CLOUDFLARE_PROJECT }}" --production-branch=main
+          command: pages deploy out --project-name=${{ env.CLOUDFLARE_PROJECT }} --branch=${{ github.head_ref || github.ref_name }} --commit-hash=${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${HAS_CF_SECRETS}" != "true" ]; then
+            echo "Checks ran; deploy skipped (Cloudflare secrets not available to this run)." >> "$GITHUB_STEP_SUMMARY"
+          elif [ -n "${{ steps.deploy.outputs.deployment-url }}" ]; then
+            echo "Deployed: ${{ steps.deploy.outputs.deployment-url }}" >> "$GITHUB_STEP_SUMMARY"
+            echo "Alias: ${{ steps.deploy.outputs.pages-deployment-alias-url }}" >> "$GITHUB_STEP_SUMMARY"
+          fi
