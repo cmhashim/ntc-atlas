@@ -42,7 +42,9 @@ Currently: **64** of 80 papers are reviewed from metadata and abstract only; **1
 
 - [ ] **Comparable results view**: results grouped only when dataset version, split unit, task and metric all match; everything else shown as "not comparable" with the reason.
 - [ ] **Dataset usage page**: how many papers use each dataset, known caveats, label provenance, and which results share a dataset.
-- [ ] **Free "Start here" reading path** for newcomers (the curator outlook itself is published separately as research briefings).
+- [x] **Review-depth badge** on every Paper library row ("In depth" for the 16 papers with full-text sections, "Abstract only" for the rest), an "In-depth only" switch, and a Compare picker that lists in-depth papers unless abstract-only papers are switched on. Prevents comparisons that are mostly NA. (From an external critique, 2026-10-14.)
+- [x] **"Start here" preset** in the Paper library: the curator-flagged seminal papers, oldest first.
+- [ ] Trim "Start here" to a short curated reading path (about 15 papers, foundations plus key critiques), each linked to its explainer once one exists. The curator outlook itself is published separately as research briefings.
 - [ ] **What's new** page and an RSS/Atom feed of additions and corrections, fed by the weekly discovery review.
 - [ ] Search by DOI or arXiv ID; copy BibTeX from every paper card.
 - [ ] Shareable link previews (Open Graph title, description and image) for paper, author and dataset URLs.
