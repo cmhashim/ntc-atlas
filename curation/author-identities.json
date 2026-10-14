@@ -475,8 +475,8 @@
   },
   "lin-liu": {
     "orcid": "0000-0002-5930-8881",
-    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
-    "identityChecked": "2026-10-13"
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters. OpenAlex attaches a second ORCID (0009-0009-8861-4237) to ExpMD and SemiAF, but that record is empty and all six papers give NUDT, Changsha, so they are treated as the same author (curator check)",
+    "identityChecked": "2026-10-14"
   },
   "lisandro-z-granville": {
     "scholarUrl": "https://scholar.google.com/citations?user=v9JjkyYAAAAJ&hl=en",
