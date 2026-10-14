@@ -16,7 +16,9 @@
   "alfredo-nascita": {
     "orcid": "0000-0002-7395-4222",
     "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=nh89OvgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "andrea-continella": {
     "orcid": "0000-0002-0329-1830",
@@ -46,6 +48,11 @@
     "scholarUrl": "https://scholar.google.com/citations?user=oFe8YFMAAAAJ&hl=en",
     "scholarSource": "listed in the confirmed ORCID record"
   },
+  "antonio-pescape": {
+    "scholarUrl": "https://scholar.google.com/citations?user=-kNTrVcAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "arash-habibi-lashkari": {
     "orcid": "0000-0002-1240-6433",
     "orcidSource": "ORCID record lists VPN time features, Tor time features",
@@ -68,6 +75,11 @@
     "scholarUrl": "https://scholar.google.com/citations?user=lc3R9-wAAAAJ&hl=en",
     "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  "arthur-s-jacobs": {
+    "scholarUrl": "https://scholar.google.com/citations?user=V8cyM_4AAAAJ&hl=en",
+    "scholarSource": "Profile lists Trustee (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "bo-ji": {
     "scholarUrl": "https://scholar.google.com/citations?user=9ILgtvAAAAAJ&hl=en",
@@ -92,6 +104,11 @@
     "homepageSource": "Linked from the confirmed ORCID record",
     "scholarUrl": "https://scholar.google.com/citations?user=bICwuWgAAAAJ&hl=en",
     "scholarSource": "listed in the confirmed ORCID record"
+  },
+  "chao-wang": {
+    "scholarUrl": "https://scholar.google.com/citations?user=uPQKC84AAAAJ&hl=en",
+    "scholarSource": "Profile lists Many or Few Samples?, FlowPic replication, Traffic augmentation benchmark (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "chen-qian": {
     "scholarUrl": "https://scholar.google.com/citations?user=4bNswuYAAAAJ&hl=en",
@@ -141,6 +158,11 @@
     "scholarUrl": "https://scholar.google.com/citations?user=OG2QONwAAAAJ&hl=en",
     "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  "de-chuan-zhan": {
+    "scholarUrl": "https://scholar.google.com/citations?user=mYJf4TcAAAAJ&hl=en",
+    "scholarSource": "Profile lists MIETT (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "domenico-ciuonzo": {
     "orcid": "0000-0002-6230-2958",
@@ -203,12 +225,16 @@
   "francesco-cerasuolo": {
     "orcid": "0009-0000-6476-8092",
     "orcidSource": "ORCID record lists MEMENTO",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=CqA3POcAAAAJ&hl=en",
+    "scholarSource": "Profile lists MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "francesco-mercaldo": {
     "orcid": "0000-0002-9425-1657",
     "orcidSource": "ORCID record lists TFE-GNN",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=PHZc7DsAAAAJ&hl=en",
+    "scholarSource": "Profile lists TFE-GNN (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "fuxing-chen": {
     "orcid": "0000-0001-7240-2699",
@@ -228,7 +254,9 @@
   "giampaolo-bovenzi": {
     "orcid": "0000-0002-0997-9724",
     "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=XkAQSCkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "gints-engelen": {
     "orcid": "0000-0002-6375-6775",
@@ -247,7 +275,9 @@
   "giovanni-dettori": {
     "orcid": "0009-0004-1666-5127",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=csSawOEAAAAJ&hl=en",
+    "scholarSource": "Profile lists The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "giulia-milan": {
     "orcid": "0000-0002-5540-2264",
@@ -259,7 +289,9 @@
   "giuseppe-aceto": {
     "orcid": "0000-0002-4445-6259",
     "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=MmaTME0AAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, DISTILLER, MEMENTO, MIMETIC (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "guan-gui": {
     "scholarUrl": "https://scholar.google.com/citations?user=bhWOdtAAAAAJ&hl=en",
@@ -275,6 +307,11 @@
     "scholarUrl": "https://scholar.google.com/citations?user=Xk70v1UAAAAJ&hl=en",
     "scholarSource": "Profile lists netFound (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  "han-jia-ye": {
+    "scholarUrl": "https://scholar.google.com/citations?user=mgOYhtoAAAAJ&hl=en",
+    "scholarSource": "Profile lists MIETT (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "haozhen-zhang": {
     "orcid": "0000-0003-4048-4516",
@@ -306,6 +343,11 @@
     "identityChecked": "2026-10-13",
     "scholarUrl": "https://scholar.google.com/citations?user=9-os59cAAAAJ&hl=en",
     "scholarSource": "listed in the confirmed ORCID record"
+  },
+  "ivan-martinovic": {
+    "scholarUrl": "https://scholar.google.com/citations?user=CDK6C2cAAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "jaber-daneshamooz": {
     "scholarUrl": "https://scholar.google.com/citations?user=IRS2brkAAAAJ&hl=en",
@@ -346,6 +388,11 @@
     "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
   },
+  "jinshu-su": {
+    "scholarUrl": "https://scholar.google.com/citations?user=NBeGzMkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Robustness Matters (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "jinzhou-liu": {
     "orcid": "0009-0006-4195-9623",
     "orcidSource": "ORCID record lists NetMamba+",
@@ -359,12 +406,19 @@
   "jonatan-krolikowski": {
     "orcid": "0000-0001-7687-2495",
     "orcidSource": "ORCID record lists FlowPic replication",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=seQVGgwAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPic replication (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "jonatas-marques": {
     "scholarUrl": "https://scholar.google.com/citations?user=20R9TQ4AAAAJ&hl=en",
     "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  "jordan-holland": {
+    "scholarUrl": "https://scholar.google.com/citations?user=6Fo_mh0AAAAJ&hl=en",
+    "scholarSource": "Profile lists nPrint / nPrintML (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "josef-koumar": {
     "scholarUrl": "https://scholar.google.com/citations?user=F2JWrDIAAAAJ&hl=en",
@@ -424,10 +478,17 @@
     "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
     "identityChecked": "2026-10-13"
   },
+  "lisandro-z-granville": {
+    "scholarUrl": "https://scholar.google.com/citations?user=v9JjkyYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Trustee (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "lixuan-yang": {
     "orcid": "0000-0003-1973-383X",
     "orcidSource": "ORCID record lists Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=q4blzFYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, Commercial-scale ETC (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "lorenzo-cavallaro": {
     "orcid": "0000-0002-3878-2680",
@@ -437,6 +498,11 @@
     "homepageSource": "Linked from the confirmed ORCID record",
     "scholarUrl": "https://scholar.google.com/citations?user=oWT7fIYAAAAJ&hl=en",
     "scholarSource": "Profile lists Security ML pitfalls (curator check with Grok browsing; automated re-check pending)"
+  },
+  "lu-han": {
+    "scholarUrl": "https://scholar.google.com/citations?user=m-WYn7gAAAAJ&hl=en",
+    "scholarSource": "Profile lists MIETT (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "luca-gioacchini": {
     "orcid": "0000-0001-8258-8626",
@@ -458,12 +524,19 @@
     "scholarSource": "Curator check: profile lists corpus papers under this byline",
     "identityChecked": "2026-09-24"
   },
+  "mahdi-jafari-siavoshani": {
+    "scholarUrl": "https://scholar.google.com/citations?user=O1iciXoAAAAJ&hl=en",
+    "scholarSource": "Profile lists Deep Packet (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "marco-mellia": {
     "orcid": "0000-0003-1859-6693",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings",
-    "identityChecked": "2026-10-13",
+    "identityChecked": "2026-10-14",
     "homepageUrl": "http://www.telematica.polito.it/public/faculty/marco-mellia",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=h5R2pc4AAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network embeddings, Generic multimodal MAE, ShortcutCatcher, The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "martina-lindorfer": {
     "scholarUrl": "https://scholar.google.com/citations?user=9JCtsecAAAAJ&hl=en",
@@ -473,14 +546,18 @@
   "matteo-boffa": {
     "orcid": "0000-0003-3144-9065",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=MSDn4mwAAAAJ&hl=en",
+    "scholarSource": "Profile lists ShortcutCatcher, The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "mauro-conti": {
     "orcid": "0000-0002-3612-1934",
     "orcidSource": "ORCID record lists AppScanner",
-    "identityChecked": "2026-10-13",
+    "identityChecked": "2026-10-14",
     "homepageUrl": "http://www.math.unipd.it/~conti/",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=0BcsOY8AAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "menghao-zhang": {
     "scholarUrl": "https://scholar.google.com/citations?user=fv-p85gAAAAJ&hl=en",
@@ -511,7 +588,9 @@
   "mohammad-lotfollahi": {
     "orcid": "0000-0001-6858-7985",
     "orcidSource": "ORCID record lists Deep Packet",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=NXhouUcAAAAJ&hl=en",
+    "scholarSource": "Profile lists Deep Packet (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "nick-feamster": {
     "scholarUrl": "https://scholar.google.com/citations?user=xYfYnG4AAAAJ&hl=en",
@@ -551,6 +630,11 @@
     "orcidSource": "ORCID record lists Pragmatic NIDS assessment",
     "identityChecked": "2026-10-13"
   },
+  "prateek-mittal": {
+    "scholarUrl": "https://scholar.google.com/citations?user=xTKD8J4AAAAJ&hl=en",
+    "scholarSource": "Profile lists nPrint / nPrintML (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "qi-li": {
     "orcid": "0000-0001-8776-8730",
     "orcidSource": "ORCID record lists Brain-on-Switch, Rosetta",
@@ -570,6 +654,11 @@
     "orcidSource": "ORCID record lists NTC comprehensive survey",
     "identityChecked": "2026-10-13"
   },
+  "ramin-shirali-hossein-zade": {
+    "scholarUrl": "https://scholar.google.com/citations?user=xJiqW5YAAAAJ&hl=en",
+    "scholarSource": "Profile lists Deep Packet (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "raouf-boutaba": {
     "scholarUrl": "https://scholar.google.com/citations?user=L1RHDCcAAAAJ&hl=en",
     "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
@@ -585,7 +674,9 @@
   "riccardo-spolaor": {
     "orcid": "0000-0002-3878-7940",
     "orcidSource": "ORCID record lists AppScanner",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=cU1CUhgAAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   "richard-plny": {
     "scholarUrl": "https://scholar.google.com/citations?user=oqhyNiMAAAAJ&hl=en",
@@ -596,6 +687,11 @@
     "orcid": "0009-0005-0264-7830",
     "orcidSource": "ORCID record lists IIsy",
     "identityChecked": "2026-10-13"
+  },
+  "ronaldo-a-ferreira": {
+    "scholarUrl": "https://scholar.google.com/citations?user=WlY9jd8AAAAJ&hl=en",
+    "scholarSource": "Profile lists Trustee (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "ruben-perez-jove": {
     "orcid": "0000-0002-7988-945X",
@@ -610,6 +706,11 @@
     "scholarUrl": "https://scholar.google.com/citations?user=zGBEk7wAAAAJ&hl=en",
     "scholarSource": "Profile lists Nepco / convolutional NFM, YaTC (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  "ruoyu-li": {
+    "scholarUrl": "https://scholar.google.com/citations?user=fp_ua20AAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowletFormer (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "rushi-jayeshkumar-babaria": {
     "orcid": "0009-0006-2164-3277",
@@ -630,6 +731,11 @@
     "scholarUrl": "https://scholar.google.com/citations?user=Yxh9WWoAAAAJ&hl=en",
     "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  "sanjay-rao": {
+    "scholarUrl": "https://scholar.google.com/citations?user=v_uxLhgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Leo (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "sara-ayoubi": {
     "scholarUrl": "https://scholar.google.com/citations?user=TqYiJcgAAAAJ&hl=en",
@@ -658,10 +764,25 @@
     "scholarUrl": "https://scholar.google.com/citations?user=BIyGbZYAAAAJ&hl=en",
     "scholarSource": "Profile lists ServeFlow (curator check with Grok browsing; automated re-check pending)"
   },
+  "shiyu-liang": {
+    "scholarUrl": "https://scholar.google.com/citations?user=L8r9ox4AAAAJ&hl=en",
+    "scholarSource": "Profile lists MM4flow (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
+  "sijiang-huang": {
+    "scholarUrl": "https://scholar.google.com/citations?user=t06Vm0wAAAAJ&hl=en",
+    "scholarSource": "Profile lists PTU (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "stephane-tuffin": {
     "scholarUrl": "https://scholar.google.com/citations?user=-g9-UOUAAAAJ&hl=en",
     "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  "syed-usman-jafri": {
+    "scholarUrl": "https://scholar.google.com/citations?user=yKQLVPUAAAAJ&hl=en",
+    "scholarSource": "Profile lists Leo (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "sylee-beltiukov": {
     "orcid": "0000-0001-8270-0219",
@@ -684,10 +805,25 @@
     "scholarSource": "Profile lists FlowPrint (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
   },
+  "tong-li": {
+    "scholarUrl": "https://scholar.google.com/citations?user=Kjay1aEAAAAJ&hl=en",
+    "scholarSource": "Profile lists TrafficFormer (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "vijay-sivaraman": {
     "orcid": "0000-0001-7985-6765",
     "orcidSource": "ORCID record lists Streaming platforms, FastFlow",
     "identityChecked": "2026-10-13"
+  },
+  "vincent-f-taylor": {
+    "scholarUrl": "https://scholar.google.com/citations?user=kCKZVuMAAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
+  "vishal-shrivastav": {
+    "scholarUrl": "https://scholar.google.com/citations?user=HQ_8qnkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Leo (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "walter-willinger": {
     "scholarUrl": "https://scholar.google.com/citations?user=q33fP9sAAAAJ&hl=en",
@@ -789,6 +925,11 @@
     "orcidSource": "ORCID record lists Streaming platforms",
     "identityChecked": "2026-10-13"
   },
+  "yong-cui": {
+    "scholarUrl": "https://scholar.google.com/citations?user=5isoO_QAAAAJ&hl=en",
+    "scholarSource": "Profile lists NetMamba, PTU (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
+  },
   "yongjie-wang": {
     "orcid": "0000-0003-2055-3799",
     "orcidSource": "ORCID record lists Flow-MAE",
@@ -802,7 +943,14 @@
   "yuqi-zhao": {
     "orcid": "0009-0002-8221-6376",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=Qc2cXlIAAAAJ&hl=en",
+    "scholarSource": "Profile lists ShortcutCatcher, The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
+  },
+  "zakir-durumeric": {
+    "scholarUrl": "https://scholar.google.com/citations?user=TxPSRHIAAAAJ&hl=en",
+    "scholarSource": "Profile lists CATO (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   "zhen-ling": {
     "scholarUrl": "https://scholar.google.com/citations?user=di6y1p8AAAAJ&hl=en",
@@ -818,5 +966,10 @@
     "identityChecked": "2026-10-13",
     "orcid": "0000-0002-7532-0434",
     "orcidSource": "ORCID record lists Brain-on-Switch, MM4flow"
+  },
+  "ziyi-wang": {
+    "scholarUrl": "https://scholar.google.com/citations?user=w49z7L0AAAAJ&hl=en",
+    "scholarSource": "Profile lists PTU (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   }
 }

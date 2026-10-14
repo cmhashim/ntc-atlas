@@ -89,7 +89,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-7395-4222",
     "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=nh89OvgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "ali-a-ghorbani",
@@ -259,7 +261,10 @@
     "contribution": "Verified co-authorship in MIMETIC, DISTILLER, MEMENTO, Class-incremental benchmark, Many or Few Samples?.",
     "status": "Needs verification",
     "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1389128619304669",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=-kNTrVcAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "arash-habibi-lashkari",
@@ -376,7 +381,10 @@
     "contribution": "Trustee co-author.",
     "status": "Verified",
     "sourceUrl": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "scholarUrl": "https://scholar.google.com/citations?user=V8cyM_4AAAAJ&hl=en",
+    "scholarSource": "Profile lists Trustee (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "bertrand-mathieu",
@@ -539,7 +547,10 @@
     "contribution": "Verified co-authorship in FlowPic replication, Traffic augmentation benchmark, Many or Few Samples?.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2309.09733v2",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=uPQKC84AAAAJ&hl=en",
+    "scholarSource": "Profile lists Many or Few Samples?, FlowPic replication, Traffic augmentation benchmark (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "chen-qian",
@@ -767,7 +778,10 @@
     "contribution": "Verified co-authorship in MIETT.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2412.15306",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=mYJf4TcAAAAJ&hl=en",
+    "scholarSource": "Profile lists MIETT (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "denis-zuev",
@@ -1054,7 +1068,9 @@
     "accessed": "2026-09-23",
     "orcid": "0009-0000-6476-8092",
     "orcidSource": "ORCID record lists MEMENTO",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=CqA3POcAAAAJ&hl=en",
+    "scholarSource": "Profile lists MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "francesco-mercaldo",
@@ -1075,7 +1091,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-9425-1657",
     "orcidSource": "ORCID record lists TFE-GNN",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=PHZc7DsAAAAJ&hl=en",
+    "scholarSource": "Profile lists TFE-GNN (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "fuxiang-huang",
@@ -1281,7 +1299,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-0997-9724",
     "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=XkAQSCkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, MEMENTO (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "gints-engelen",
@@ -1351,7 +1371,9 @@
     "accessed": "2026-09-21",
     "orcid": "0009-0004-1666-5127",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=csSawOEAAAAJ&hl=en",
+    "scholarSource": "Profile lists The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "giulia-milan",
@@ -1398,7 +1420,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-4445-6259",
     "orcidSource": "ORCID record lists MEMENTO, Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=MmaTME0AAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, DISTILLER, MEMENTO, MIMETIC (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "gonzalo-marin",
@@ -1588,7 +1612,10 @@
     "contribution": "Verified co-authorship in MIETT.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2412.15306",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=mgOYhtoAAAAJ&hl=en",
+    "scholarSource": "Profile lists MIETT (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "haodong-yue",
@@ -1796,7 +1823,10 @@
     "contribution": "Verified co-authorship in AppScanner.",
     "status": "Needs verification",
     "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=CDK6C2cAAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "jaber-daneshamooz",
@@ -2062,7 +2092,10 @@
     "contribution": "Verified co-authorship in Robustness Matters.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3613970",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=NBeGzMkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Robustness Matters (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "jinzhou-liu",
@@ -2163,7 +2196,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0001-7687-2495",
     "orcidSource": "ORCID record lists FlowPic replication",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=seQVGgwAAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowPic replication (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "jonatas-marques",
@@ -2202,7 +2237,10 @@
     "contribution": "Verified co-authorship in nPrint / nPrintML.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2008.02695",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=6Fo_mh0AAAAJ&hl=en",
+    "scholarSource": "Profile lists nPrint / nPrintML (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "jose-m-navarro",
@@ -2644,7 +2682,10 @@
     "contribution": "Trustee co-author.",
     "status": "Verified",
     "sourceUrl": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "scholarUrl": "https://scholar.google.com/citations?user=v9JjkyYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Trustee (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "lixuan-yang",
@@ -2666,7 +2707,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0003-1973-383X",
     "orcidSource": "ORCID record lists Class-incremental benchmark",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=q4blzFYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Class-incremental benchmark, Commercial-scale ETC (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "long-cheng",
@@ -2745,7 +2788,10 @@
     "contribution": "Verified co-authorship in MIETT.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2412.15306",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=m-WYn7gAAAAJ&hl=en",
+    "scholarSource": "Profile lists MIETT (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "luca-gioacchini",
@@ -2862,7 +2908,10 @@
     "contribution": "Deep Packet authors.",
     "status": "Verified",
     "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=O1iciXoAAAAJ&hl=en",
+    "scholarSource": "Profile lists Deep Packet (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "marco-fiore",
@@ -2909,9 +2958,11 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0003-1859-6693",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher, Cross-network embeddings",
-    "identityChecked": "2026-10-13",
+    "identityChecked": "2026-10-14",
     "homepageUrl": "http://www.telematica.polito.it/public/faculty/marco-mellia",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=h5R2pc4AAAAJ&hl=en",
+    "scholarSource": "Profile lists Cross-network embeddings, Generic multimodal MAE, ShortcutCatcher, The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "martina-lindorfer",
@@ -2974,7 +3025,9 @@
     "accessed": "2026-09-22",
     "orcid": "0000-0003-3144-9065",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=MSDn4mwAAAAJ&hl=en",
+    "scholarSource": "Profile lists ShortcutCatcher, The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "mauro-conti",
@@ -2995,9 +3048,11 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-3612-1934",
     "orcidSource": "ORCID record lists AppScanner",
-    "identityChecked": "2026-10-13",
+    "identityChecked": "2026-10-14",
     "homepageUrl": "http://www.math.unipd.it/~conti/",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=0BcsOY8AAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "meijia-hou",
@@ -3207,7 +3262,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0001-6858-7985",
     "orcidSource": "ORCID record lists Deep Packet",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=NXhouUcAAAAJ&hl=en",
+    "scholarSource": "Profile lists Deep Packet (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "mohammad-saiful-islam-mamun",
@@ -3481,7 +3538,10 @@
     "contribution": "Verified co-authorship in nPrint / nPrintML.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2008.02695",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=xTKD8J4AAAAJ&hl=en",
+    "scholarSource": "Profile lists nPrint / nPrintML (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "qi-li",
@@ -3613,7 +3673,10 @@
     "contribution": "Deep Packet authors.",
     "status": "Verified",
     "sourceUrl": "https://link.springer.com/article/10.1007/s00500-019-04030-2",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=xJiqW5YAAAAJ&hl=en",
+    "scholarSource": "Profile lists Deep Packet (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "raouf-boutaba",
@@ -3716,7 +3779,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-3878-7940",
     "orcidSource": "ORCID record lists AppScanner",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=cU1CUhgAAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "richard-plny",
@@ -3777,7 +3842,10 @@
     "contribution": "Trustee co-author.",
     "status": "Verified",
     "sourceUrl": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/trustee.pdf",
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "scholarUrl": "https://scholar.google.com/citations?user=WlY9jd8AAAAJ&hl=en",
+    "scholarSource": "Profile lists Trustee (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "ruben-perez-jove",
@@ -3861,7 +3929,10 @@
     "contribution": "Verified co-authorship in FlowletFormer.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2508.19924",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=fp_ua20AAAAJ&hl=en",
+    "scholarSource": "Profile lists FlowletFormer (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "rushi-jayeshkumar-babaria",
@@ -3965,7 +4036,10 @@
     "contribution": "Verified co-authorship in Leo.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=v_uxLhgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Leo (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "sara-ayoubi",
@@ -4102,7 +4176,10 @@
     "contribution": "Verified co-authorship in MM4flow.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=L8r9ox4AAAAJ&hl=en",
+    "scholarSource": "Profile lists MM4flow (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "shize-guo",
@@ -4175,7 +4252,10 @@
     "contribution": "Verified co-authorship in PTU.",
     "status": "Verified",
     "sourceUrl": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=t06Vm0wAAAAJ&hl=en",
+    "scholarSource": "Profile lists PTU (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "sizhe-huang",
@@ -4268,7 +4348,10 @@
     "contribution": "Verified co-authorship in Leo.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=yKQLVPUAAAAJ&hl=en",
+    "scholarSource": "Profile lists Leo (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "sylee-beltiukov",
@@ -4448,7 +4531,10 @@
     "contribution": "Verified co-authorship in TrafficFormer.",
     "status": "Needs verification",
     "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=Kjay1aEAAAAJ&hl=en",
+    "scholarSource": "Profile lists TrafficFormer (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "tongze-wang",
@@ -4528,7 +4614,10 @@
     "contribution": "Verified co-authorship in AppScanner.",
     "status": "Needs verification",
     "sourceUrl": "https://www.research.unipd.it/handle/11577/3169201",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=kCKZVuMAAAAJ&hl=en",
+    "scholarSource": "Profile lists AppScanner (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "vishal-shrivastav",
@@ -4546,7 +4635,10 @@
     "contribution": "Verified co-authorship in Leo.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=HQ_8qnkAAAAJ&hl=en",
+    "scholarSource": "Profile lists Leo (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "walter-willinger",
@@ -5199,7 +5291,10 @@
     "contribution": "Verified co-authorship in NetMamba, NetMamba+, BiasSeeker, PTU.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2601.10180v1",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=5isoO_QAAAAJ&hl=en",
+    "scholarSource": "Profile lists NetMamba, PTU (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "yong-jiang",
@@ -5387,7 +5482,9 @@
     "accessed": "2026-09-22",
     "orcid": "0009-0002-8221-6376",
     "orcidSource": "ORCID record lists The Sweet Danger of Sugar, ShortcutCatcher",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-14",
+    "scholarUrl": "https://scholar.google.com/citations?user=Qc2cXlIAAAAJ&hl=en",
+    "scholarSource": "Profile lists ShortcutCatcher, The Sweet Danger of Sugar (curator check with Grok browsing, batch 2; automated re-check pending)"
   },
   {
     "id": "yuval-shavitt",
@@ -5423,7 +5520,10 @@
     "contribution": "Verified co-authorship in CATO.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2402.06099",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=TxPSRHIAAAAJ&hl=en",
+    "scholarSource": "Profile lists CATO (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "zhaoqi-xiong",
@@ -5660,7 +5760,10 @@
     "contribution": "Verified co-authorship in PTU.",
     "status": "Verified",
     "sourceUrl": "https://webarchive.ucr.edu/icnp24.cs.ucr.edu/program.html",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=w49z7L0AAAAJ&hl=en",
+    "scholarSource": "Profile lists PTU (curator check with Grok browsing, batch 2; automated re-check pending)",
+    "identityChecked": "2026-10-14"
   },
   {
     "id": "ziyu-yao",

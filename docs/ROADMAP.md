@@ -6,12 +6,12 @@ Priorities: **P1** blocks trust in the atlas, **P2** makes it useful day to day,
 
 ## P1. Author identity and profile links
 
-Currently: 272 authors; **95** have a confirmed Google Scholar profile (71 of them from a 2026-10-13 browser check, automated profile re-check pending), **83** a confirmed ORCID iD, **23** a homepage, **3** a publication page; **77** have a verified (dated) affiliation, **195** still "Needs verification". Rules and workflow: [AUTHOR-IDENTITY.md](AUTHOR-IDENTITY.md).
+Currently: 272 authors; **134** have a confirmed Google Scholar profile (110 of them from browser checks on 2026-10-13 and 2026-10-14, automated profile re-check pending), **83** a confirmed ORCID iD, **23** a homepage, **3** a publication page; **77** have a verified (dated) affiliation, **195** still "Needs verification". Rules and workflow: [AUTHOR-IDENTITY.md](AUTHOR-IDENTITY.md).
 
 - [x] Add schema fields to `Author`: `orcid`, `homepageUrl`, each with its own source and check date (`identityChecked`).
 - [x] Semi-automate the candidate step: `scripts/author_candidates.py` aligns OpenAlex authorships with the bylines, confirms ORCID iDs against the ORCID record's works, and writes `curation/author-candidates.csv`. Google Scholar is checked by hand only (no scraping).
-- [ ] Re-check the 71 browser-checked Scholar profiles against their profile pages (Scholar was rate-limiting on 2026-10-13).
-- [ ] Check Google Scholar for the remaining 177 authors (45 papers not yet browser-checked, plus the `unsure` rows). Order of work: authors with 2+ corpus papers first (priority 1 in the sheet), then first and last authors, then the rest. Confirmation rule: the profile lists at least one corpus paper with the same byline. Record "no confirmed profile" rather than guessing.
+- [ ] Re-check the 110 browser-checked Scholar profiles against their profile pages (Scholar was rate-limiting on 2026-10-13).
+- [ ] Check Google Scholar for the remaining 138 authors (all 80 papers have had one browser pass; what is left are the `unsure` and `not_found` rows). Order of work: authors with 2+ corpus papers first (priority 1 in the sheet), then first and last authors, then the rest. Confirmation rule: the profile lists at least one corpus paper with the same byline. Record "no confirmed profile" rather than guessing.
 - [ ] Six papers are not found in OpenAlex (BLINC, DeepMAL, Refinery, LEO, AKEM, Trustee); check their authors by hand.
 - [ ] Add DBLP person pages (`dblpUrl`); DBLP's API currently sits behind a bot check, so this needs manual links or a later API route.
 - [ ] Add an institutional page where no homepage exists. Keep affiliation (dated, with source) separate from byline verification.
