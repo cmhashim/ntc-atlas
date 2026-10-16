@@ -1,6 +1,7 @@
 import type {Evidence,Relationship} from './schema';
 
-const inverseLabels:Record<string,string>={'Compares against':'Compared against by','Uses dataset from':'Dataset used by','Uses preprocessing of':'Preprocessing reused by','Uses implementation of':'Implementation reused by','Reproduces':'Reproduced by','Extends':'Extended by','Builds on':'Built on by','Diagnoses':'Diagnosed by','Criticises':'Criticised by','Audits label provenance':'Label provenance audited by','Precedes':'Preceded by','Cites methodological evidence':'Cited as methodological evidence by','Related representation':'Related representation','Complementary approach':'Complementary approach'};
+const inverseLabels:Record<string,string>={'Compares against':'Compared against by','Uses dataset from':'Dataset used by','Uses preprocessing of':'Preprocessing reused by','Uses implementation of':'Implementation reused by','Reproduces':'Reproduced by','Extends':'Extended by','Builds on':'Built on by','Diagnoses':'Diagnosed by','Criticises':'Criticised by','Audits label provenance':'Label provenance audited by','Follows':'Followed by','Cites methodological evidence':'Cited as methodological evidence by','Related representation':'Related representation','Complementary approach':'Complementary approach'};
+const critiqueTypes=new Set(['Criticises','Diagnoses','Audits label provenance']);
 interface EvidenceLineGroup {items:Evidence[];paperIds:string[];}
 interface EvidenceRow {key:string;label:string|null;lines:EvidenceLineGroup[];}
 interface EvidenceSection {id:string;title:string;rows:EvidenceRow[];}
@@ -20,8 +21,9 @@ export function groupPaperEvidence(paperId:string,records:Evidence[],relations:R
   for(const relation of relations){
    if(relation.source!==paperId&&relation.target!==paperId)continue;
    const item=byId.get(relation.evidenceId);
-   if(!item||item.category==='Bibliography'||(item.category==='Later criticism')!==criticism)continue;
    const outgoing=relation.source===paperId;
+   // Criticism received goes to its own section; a critic's own audits stay with its links.
+   if(!item||item.category==='Bibliography'||(!outgoing&&critiqueTypes.has(relation.type))!==criticism)continue;
    const key=JSON.stringify([outgoing,relation.type]);
    let row=rows.get(key);
    if(!row){row={key,label:outgoing?relation.type:inverseLabels[relation.type]||relation.type,lines:[]};rows.set(key,row);}

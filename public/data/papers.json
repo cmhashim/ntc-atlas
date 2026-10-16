@@ -582,7 +582,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0154"
+    }
   },
   {
     "id": "early",
@@ -2562,7 +2564,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0155"
+    }
   },
   {
     "id": "pert",
@@ -3155,7 +3159,9 @@
     "reviewDepth": "Metadata and abstract",
     "firstYear": 2020,
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0156"
+    }
   },
   {
     "id": "commercial",
@@ -3752,7 +3758,8 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Throughput": "e0157",
-      "Measurement scope": "e0157"
+      "Measurement scope": "e0157",
+      "Reported results": "e0157"
     }
   },
   {
@@ -3989,7 +3996,8 @@
       "Fine-tuning objective": "e0171",
       "Metrics": "e0171",
       "Header": "e0171",
-      "Direction": "e0171"
+      "Direction": "e0171",
+      "Reported results": "e0158"
     }
   },
   {
@@ -4841,11 +4849,11 @@
       "Pretraining objective": "e0175",
       "Architecture": "e0175",
       "Reproducibility": "e0175",
-      "Parameters": "e0175",
       "FLOPs": "e0175",
       "Memory": "e0175",
       "Throughput": "e0175",
-      "Deployment limitations": "e0175"
+      "Deployment limitations": "e0175",
+      "Reported results": "e0159"
     }
   },
   {
@@ -5054,7 +5062,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0160"
+    }
   },
   {
     "id": "pragmatic",
@@ -5670,7 +5680,8 @@
       "Memory": "e0280",
       "Measurement scope": "e0280",
       "Energy": "e0280",
-      "Hardware": "e0280"
+      "Hardware": "e0280",
+      "Reported results": "e0161"
     }
   },
   {
@@ -6722,7 +6733,8 @@
       "Split strategy": "e0282",
       "Hardware": "e0282",
       "Measurement scope": "e0282",
-      "Version notes": "e0282"
+      "Version notes": "e0282",
+      "Reported results": "e0162"
     }
   },
   {
@@ -7541,7 +7553,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0163"
+    }
   },
   {
     "id": "platforms",
@@ -7738,7 +7752,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Platform identification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0164"
+    }
   },
   {
     "id": "trafficformer",
@@ -8341,7 +8357,8 @@
     "fieldEvidence": {
       "Throughput": "e0165",
       "Latency": "e0165",
-      "Measurement scope": "e0165"
+      "Measurement scope": "e0165",
+      "Reported results": "e0165"
     }
   },
   {
@@ -8948,7 +8965,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0166"
+    }
   },
   {
     "id": "onetask",
@@ -9149,7 +9168,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Reported results": "e0167"
+    }
   },
   {
     "id": "flowlet",
@@ -9550,7 +9571,8 @@
       "Hardware": "e0168",
       "Latency": "e0168",
       "Measurement scope": "e0168",
-      "Memory": "e0168"
+      "Memory": "e0168",
+      "Reported results": "e0168"
     }
   },
   {
@@ -9765,7 +9787,8 @@
       "Latency": "e0285",
       "Measurement scope": "e0285",
       "Metrics": "e0285",
-      "Deployment limitations": "e0285"
+      "Deployment limitations": "e0285",
+      "Reported results": "e0169"
     }
   },
   {
@@ -9994,7 +10017,8 @@
       "Memory": "e0279",
       "Measurement scope": "e0279",
       "Deployment limitations": "e0279",
-      "Energy": "e0279"
+      "Energy": "e0279",
+      "Reported results": "e0170"
     }
   },
   {
@@ -11475,10 +11499,9 @@
       "Throughput": "e0289",
       "Memory": "e0289",
       "Energy": "e0289",
-      "Deployment limitations": "e0286",
+      "Deployment limitations": "e0288",
       "Version notes": "e0289",
       "Hardware": "e0289",
-      "Batch size": "e0289",
       "Measurement scope": "e0289"
     }
   },
@@ -11692,7 +11715,7 @@
       "Evaluation setting": "e0296",
       "Reported results": "e0296",
       "Leakage / shortcut risks": "e0296",
-      "Deployment limitations": "e0293",
+      "Deployment limitations": "e0295",
       "Version notes": "e0296"
     }
   },
@@ -11893,7 +11916,7 @@
       "Research problem": "e0300",
       "Architecture": "e0300",
       "Evaluation setting": "e0300",
-      "Deployment limitations": "e0300",
+      "Deployment limitations": "e0302",
       "Version notes": "e0300"
     }
   },
@@ -12098,7 +12121,7 @@
       "Architecture": "e0303",
       "Evaluation setting": "e0303",
       "Reported results": "e0303",
-      "Deployment limitations": "e0303",
+      "Deployment limitations": "e0305",
       "Version notes": "e0303"
     }
   },
@@ -12303,7 +12326,7 @@
       "Architecture": "e0306",
       "Reported results": "e0306",
       "Throughput": "e0306",
-      "Deployment limitations": "e0306",
+      "Deployment limitations": "e0308",
       "Measurement scope": "e0306"
     }
   },
@@ -12505,7 +12528,7 @@
       "Research problem": "e0309",
       "Architecture": "e0309",
       "Reported results": "e0309",
-      "Deployment limitations": "e0309",
+      "Deployment limitations": "e0311",
       "Version notes": "e0309",
       "Measurement scope": "e0309"
     }
@@ -12710,7 +12733,7 @@
       "Input representation": "e0312",
       "Architecture": "e0312",
       "Reported results": "e0312",
-      "Deployment limitations": "e0312",
+      "Deployment limitations": "e0314",
       "Version notes": "e0312"
     }
   },
@@ -12913,7 +12936,7 @@
     "fieldEvidence": {
       "Research problem": "e0315",
       "Architecture": "e0315",
-      "Deployment limitations": "e0315",
+      "Deployment limitations": "e0317",
       "Version notes": "e0315"
     }
   },
@@ -13119,7 +13142,7 @@
       "Training / evaluation datasets": "e0318",
       "Reported results": "e0318",
       "Latency": "e0318",
-      "Deployment limitations": "e0318",
+      "Deployment limitations": "e0320",
       "Measurement scope": "e0318"
     }
   },
@@ -13325,7 +13348,7 @@
       "Research problem": "e0321",
       "Architecture": "e0321",
       "Training / evaluation datasets": "e0321",
-      "Deployment limitations": "e0321",
+      "Deployment limitations": "e0323",
       "Version notes": "e0321"
     }
   },
@@ -13530,7 +13553,7 @@
       "Research problem": "e0324",
       "Input representation": "e0324",
       "Architecture": "e0324",
-      "Deployment limitations": "e0324"
+      "Deployment limitations": "e0326"
     }
   },
   {
@@ -13730,7 +13753,7 @@
       "Research problem": "e0327",
       "Architecture": "e0327",
       "Throughput": "e0327",
-      "Deployment limitations": "e0327",
+      "Deployment limitations": "e0329",
       "Version notes": "e0327",
       "Hardware": "e0327"
     }
@@ -13934,7 +13957,7 @@
       "Research problem": "e0330",
       "Architecture": "e0330",
       "Throughput": "e0330",
-      "Deployment limitations": "e0330",
+      "Deployment limitations": "e0332",
       "Hardware": "e0330"
     }
   },
@@ -14139,7 +14162,7 @@
       "Research problem": "e0333",
       "Architecture": "e0333",
       "Evaluation setting": "e0333",
-      "Deployment limitations": "e0333",
+      "Deployment limitations": "e0335",
       "Version notes": "e0333"
     }
   },
@@ -14348,7 +14371,7 @@
       "Research problem": "e0336",
       "Architecture": "e0336",
       "Training / evaluation datasets": "e0336",
-      "Deployment limitations": "e0336",
+      "Deployment limitations": "e0338",
       "Version notes": "e0336"
     }
   },
@@ -14555,7 +14578,7 @@
       "Architecture": "e0339",
       "Training / evaluation datasets": "e0339",
       "Reported results": "e0339",
-      "Deployment limitations": "e0339"
+      "Deployment limitations": "e0341"
     }
   },
   {
@@ -14759,7 +14782,7 @@
     "fieldEvidence": {
       "Research problem": "e0342",
       "Architecture": "e0342",
-      "Deployment limitations": "e0342",
+      "Deployment limitations": "e0344",
       "Version notes": "e0342"
     }
   },
@@ -14963,7 +14986,7 @@
       "Research problem": "e0345",
       "Input representation": "e0345",
       "Architecture": "e0345",
-      "Deployment limitations": "e0345",
+      "Deployment limitations": "e0347",
       "Version notes": "e0345"
     }
   },
@@ -15172,7 +15195,7 @@
       "Pretraining datasets": "e0348",
       "Evaluation setting": "e0348",
       "Reported results": "e0348",
-      "Deployment limitations": "e0348",
+      "Deployment limitations": "e0350",
       "Version notes": "e0348"
     }
   },
@@ -15377,7 +15400,7 @@
       "Architecture": "e0351",
       "Training / evaluation datasets": "e0351",
       "Reported results": "e0351",
-      "Deployment limitations": "e0351",
+      "Deployment limitations": "e0353",
       "Version notes": "e0351"
     }
   },
@@ -15583,7 +15606,7 @@
       "Architecture": "e0354",
       "Evaluation setting": "e0354",
       "Reported results": "e0354",
-      "Deployment limitations": "e0354",
+      "Deployment limitations": "e0356",
       "Version notes": "e0354"
     }
   },
@@ -15792,7 +15815,7 @@
       "Supervision": "e0357",
       "Training / evaluation datasets": "e0357",
       "Reported results": "e0357",
-      "Deployment limitations": "e0357",
+      "Deployment limitations": "e0359",
       "Version notes": "e0357"
     }
   },
@@ -16002,7 +16025,7 @@
       "Pretraining objective": "e0360",
       "Training / evaluation datasets": "e0360",
       "Reported results": "e0360",
-      "Deployment limitations": "e0360",
+      "Deployment limitations": "e0362",
       "Version notes": "e0360"
     }
   },
@@ -16209,7 +16232,7 @@
       "Training / evaluation datasets": "e0363",
       "Evaluation setting": "e0363",
       "Reported results": "e0363",
-      "Deployment limitations": "e0363",
+      "Deployment limitations": "e0365",
       "Version notes": "e0363"
     }
   },

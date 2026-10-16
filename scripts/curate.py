@@ -28,7 +28,7 @@ DETAIL_RECORDS={}  # full-text evidence id -> (paper id, fields it supports)
 def detail(pid,values,url,locator):
     p=next(p for p in P if p['id']==pid);p['details'].update(values)
     e=evidence(pid,'Paper claim','; '.join(k+': '+v for k,v in values.items()),url,locator)
-    DETAIL_RECORDS[e]=(pid,list(values))
+    DETAIL_RECORDS[e]=(pid,dict(values))
     p['evidenceIds'].append(e);p['reviewDepth']='Selected full-text sections'
     if 'Reported results' in values:
         p['evidenceIds'].append(evidence(pid,'Author-reported result',values['Reported results'],url,locator))
@@ -126,13 +126,13 @@ sugarurl='https://arxiv.org/html/2507.16438v1'
 for pid in ['etbert','yatc','netmamba','trafficformer','netfound']:
     e=evidence(pid,'Later criticism','Zhao et al. compare flow-disjoint and packet-random splits and test implicit flow identifiers. Results challenge shortcut-sensitive representations in the tested original checkpoints; not a verdict on all future versions.',sugarurl,'Sections 4–5; Tables 4–6')
     next(p for p in P if p['id']==pid)['evidenceIds'].append(e)
-    R.append(dict(id='r'+str(len(R)+1),source='sugar',target=pid,type='Criticises',explanation='Controlled split and representation audit; earlier netFound version only.',evidenceId=e))
+    R.append(dict(id='r'+str(len(R)+1),source='sugar',target=pid,type='Criticises',explanation='Controlled split and representation audit'+('; earlier netFound version only.' if pid=='netfound' else ' of the original checkpoint.'),evidenceId=e))
 for pid in ['etbert','yatc','netmamba','netfound']:
     e=evidence(pid,'Later criticism','Beltiukov et al. diagnose embedding geometry, expert-feature alignment and causal sensitivity for four earlier network foundation models. The 2026 netFound revision was not the model assessed.','https://arxiv.org/html/2509.23089v3','Main evaluation; appendices F–H')
     next(p for p in P if p['id']==pid)['evidenceIds'].append(e)
     R.append(dict(id='r'+str(len(R)+1),source='demystifying',target=pid,type='Diagnoses',explanation='Representation probes on earlier checkpoints, beyond downstream accuracy.',evidenceId=e))
-def rel(src,tgt,kind,note,url,loc):
-    e=evidence(src,'Paper claim',note,url,loc)
+def rel(src,tgt,kind,note,url,loc,category='Paper claim'):
+    e=evidence(src,category,note,url,loc)
     R.append(dict(id='r'+str(len(R)+1),source=src,target=tgt,type=kind,explanation=note,evidenceId=e))
 for target in ['flowprint','fsnet','deeppacket','pert']:
     rel('etbert',target,'Compares against','Included in the original ET-BERT baseline comparison.','https://arxiv.org/html/2202.06335v2','Section 4.2; Tables 2–3')
@@ -169,7 +169,7 @@ gapstate('sugar','Explainability','Partially addressed','Controlled feature inte
 
 # Source-backed dataset catalogue. Collection year is separate from associated paper year.
 def ds(id,name,year,url,env,classes,units,size,labels,caveats,pre='Varies by paper',enc='Mixed',status='Verified'):
-    e=evidence('dataset:'+id,'Dataset documentation',env+' '+classes+' '+size+' '+labels,url,'Official collection / project documentation',source_type='Dataset source',status=status)
+    e=evidence('dataset:'+id,'Dataset documentation',' '.join(dict.fromkeys(x.strip().rstrip('.')+'.' for x in [env,classes,size,labels] if x and x!=NV)),url,'Official collection / project documentation',source_type='Dataset source',status=status)
     D.append(dict(id=id,name=name,year=year,url=url,environment=env,classes=classes,encrypted=enc,units=units,size=size,labels=labels,caveats=caveats,preprocessing=pre,papers=[p['id'] for p in P if id in p['datasets']],evidence=e,status=status))
 ds('iscxvpn','ISCX VPN-nonVPN',2016,'https://www.unb.ca/cic/datasets/vpn.html','Controlled Alice/Bob application captures; OpenVPN UDP.','14 original service/tunnel categories; derived task counts differ.','PCAP packets; derived flow CSV','28 GB per source','Application and service labels from controlled captures.','Curator: preserve capture provenance; VPN-App and VPN-Service are derived tasks, not independent original collections.','Flow extraction; paper-specific header masking and sampling.','Mixed; includes VPN')
 ds('iscxtor','ISCX Tor/non-Tor',2016,'https://www.unb.ca/cic/datasets/tor.html','Paired workstation/gateway captures; non-Tor portion reuses VPN-project traffic.','Service labels; exact task mappings vary.','PCAP packets; flow CSV','22 GB per source','Workstation activity labels propagated to Tor gateway flows.','Source explicitly documents reused non-Tor data; audit overlap with ISCXVPN.','Flow extraction; paired captures must not be treated as independent.','Mixed; includes Tor')
@@ -269,7 +269,6 @@ bias_e=detail('biasseeker',{
  'Version notes':'Technical extraction uses arXiv v1, 15 January 2026. Proceedings confirmation pending.'
 },BIAS,'Sections IV–VI; Tables I and III')
 # Keep evidence compact rather than duplicating the full technical extraction.
-next(e for e in E if e['id']==bias_e)['text']='Protocol, split and mitigation fields checked in Sections IV–VI.'
 tr_e=detail('trustee',{
  'Input representation':'Existing model and its training data.',
  'Architecture':'Decision-tree surrogate with a fidelity/complexity/stability trade-off.',
@@ -279,7 +278,6 @@ tr_e=detail('trustee',{
  'Deployment limitations':'Case-study findings are not representative of the entire literature.',
  'Version notes':'CCS 2022. Original byline uses Roman Beltiukov; linked to the existing Sylee Beltiukov identity.'
 },TRUSTEE,'Abstract; Sections 1 and 9')
-next(e for e in E if e['id']==tr_e)['text']='Surrogate design and case-study scope checked.'
 sok_e=detail('ntcenigma',{
  'Input representation':'ET-BERT and YaTC representations with controlled header/payload occlusions.',
  'Preprocessing / anonymisation':'Removal or randomisation of identifiers, SNI, contextual fields and temporal fields; separate header-only and payload-only conditions.',
@@ -315,11 +313,11 @@ rel('shortcutcatcher','etbert','Uses dataset from','TLS120 originates from the C
 rel('shortcutcatcher','vpnfeatures','Uses dataset from','VPN service-classification task derives from ISCXVPN2016.',SC,'Section 5.1; reference 15')
 rel('shortcutcatcher','trustee','Builds on','Positions automated feature removal against the human-guided diagnostic loop of Trustee.',SC,'Sections 1–2; reference 16')
 rel('biasseeker','netmamba','Uses preprocessing of','Adapts NetMamba inputs to bidirectional sessions.',BIAS,'Section V-A3')
-rel('biasseeker','netmamba','Diagnoses','Tests feature masking on NetMamba.',BIAS,'Section V-C; Table III')
-rel('biasseeker','ntcenigma','Uses dataset from','Screens CipherSpectrum.',BIAS,'Section V-A1; reference 14')
-rel('biasseeker','trustee','Cites methodological evidence','Discusses model-dependent shortcut diagnosis.',BIAS,'Section II-B; reference 11')
+rel('biasseeker','netmamba','Diagnoses','Tests feature masking on NetMamba.',BIAS,'Section V-C; Table III',category='Later criticism')
+rel('biasseeker','ntcenigma','Uses dataset from','Screens the CipherSpectrum dataset introduced in NTC Enigma for shortcut signals.',BIAS,'Section V-A1; reference 14')
+rel('biasseeker','trustee','Cites methodological evidence','BiasSeeker discusses model-dependent shortcut diagnosis and cites Trustee for it.',BIAS,'Section II-B; reference 11')
 for target in ['etbert','yatc']:
-    note='Occlusion study of '+next(p['short'] for p in P if p['id']==target)+' on ten-class CipherSpectrum and CSTNET subsets; scoped to this setup.'
+    note='Occlusion study on ten-class CipherSpectrum and CSTNET subsets; scoped to this setup.'
     e=evidence(target,'Later criticism',note,SOK,'Section V-C; Table III')
     next(p for p in P if p['id']==target)['evidenceIds'].append(e)
     R.append(dict(id='r'+str(len(R)+1),source='ntcenigma',target=target,type='Diagnoses',explanation=note,evidenceId=e))
@@ -368,6 +366,25 @@ for e,(pid,keys) in DETAIL_RECORDS.items():
     p=next(p for p in P if p['id']==pid);generic=set(p['evidenceIds'][:3]);fe=p.setdefault('fieldEvidence',{})
     for k in keys:
         if k in p['details'] and fe.get(k) in (None,*generic):fe[k]=e
+EV={e['id']:e for e in E}
+for p in P:
+    fe=p.setdefault('fieldEvidence',{});d=p['details'];ids=p['evidenceIds']
+    # Reported results: the paper's own author-reported record, when it carries this exact value.
+    v=d.get('Reported results','')
+    if v and not v.startswith('NA') and 'Reported results' not in fe:
+        fe.update({'Reported results':x for x in ids if EV[x]['category']=='Author-reported result' and v[:40] in EV[x]['text']})
+    # Deployment limitations written by the curator cite the curator record, not the abstract claim.
+    v=d.get('Deployment limitations','')
+    cur=next((x for x in ids if EV[x]['category']=='Curator interpretation' and v and v[:50] in EV[x]['text']),None)
+    if cur and fe.get('Deployment limitations') in ids[:2]:fe['Deployment limitations']=cur
+    # A value that was not extracted has no source to link.
+    for k in [k for k in fe if d.get(k,'').startswith('NA — not extracted')]:del fe[k]
+# A full-text record must show every field it is cited for: restore unchanged values, unlink changed ones.
+for e,(pid,orig) in DETAIL_RECORDS.items():
+    p=next(p for p in P if p['id']==pid);fe=p['fieldEvidence'];rec=EV[e]
+    for k in [k for k,x in fe.items() if x==e and k+':' not in rec['text']]:
+        if orig.get(k)==p['details'][k]:rec['text']+='; '+k+': '+p['details'][k]
+        else:del fe[k]
 next(a for a in A if a['id']=='luming-yang').update(accessed='2026-09-24')
 next(a for a in A if a['id']=='xiaohui-xie').update(accessed='2026-10-04')
 # Profile links (Scholar, ORCID, homepage, publication page) live in one reviewed file.
@@ -376,6 +393,12 @@ author_ids={a['id'] for a in A}
 for aid,links in json.loads((ROOT/'curation/author-identities.json').read_text()).items():
     if aid not in author_ids: raise SystemExit(f'author-identities.json: unknown author {aid}')
     next(a for a in A if a['id']==aid).update(links)
+for rec in E:
+    # Field lists: values keep their own sentences, but '.;' joins read as typos.
+    rec['text']=rec['text'].replace('.; ','; ')
+    # A repository or dataset page is not the original paper.
+    if rec['sourceType']=='Original paper' and 'github.com' in rec['sourceUrl']:rec['sourceType']='Official artifact'
+    if rec['sourceType']=='Original paper' and 'unb.ca/cic/datasets' in rec['sourceUrl']:rec['sourceType']='Dataset source'
 meta['relationshipCount']=len(R)
 for name,obj in [('papers',P),('authors',A),('datasets',D),('relationships',R),('evidence',E),('meta',meta)]:
     (ROOT/'public/data'/f'{name}.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
