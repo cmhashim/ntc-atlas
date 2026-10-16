@@ -3979,7 +3979,17 @@
       "Energy": "e0273",
       "Timing": "e0273",
       "Packet length": "e0273",
-      "Parameters": "e0276"
+      "Parameters": "e0276",
+      "Traffic unit definition": "e0171",
+      "Packets / bytes": "e0171",
+      "Preprocessing / anonymisation": "e0171",
+      "Split strategy": "e0171",
+      "Architecture": "e0171",
+      "Pretraining objective": "e0171",
+      "Fine-tuning objective": "e0171",
+      "Metrics": "e0171",
+      "Header": "e0171",
+      "Direction": "e0171"
     }
   },
   {
@@ -4608,7 +4618,17 @@
       "Measurement scope": "e0274",
       "Timing": "e0274",
       "Packet length": "e0274",
-      "Parameters": "e0277"
+      "Parameters": "e0277",
+      "Traffic unit definition": "e0172",
+      "Packets / bytes": "e0172",
+      "Preprocessing / anonymisation": "e0172",
+      "Pretraining objective": "e0172",
+      "Pretraining datasets": "e0172",
+      "Training / evaluation datasets": "e0172",
+      "Architecture": "e0172",
+      "Header": "e0172",
+      "Payload": "e0172",
+      "Direction": "e0172"
     }
   },
   {
@@ -4816,7 +4836,16 @@
       "Hardware": "e0281",
       "Measurement scope": "e0281",
       "Latency": "e0281",
-      "Energy": "e0281"
+      "Energy": "e0281",
+      "Input representation": "e0175",
+      "Pretraining objective": "e0175",
+      "Architecture": "e0175",
+      "Reproducibility": "e0175",
+      "Parameters": "e0175",
+      "FLOPs": "e0175",
+      "Memory": "e0175",
+      "Throughput": "e0175",
+      "Deployment limitations": "e0175"
     }
   },
   {
@@ -5873,7 +5902,14 @@
       "Measurement scope": "e0275",
       "Timing": "e0275",
       "Direction": "e0275",
-      "Packet length": "e0275"
+      "Packet length": "e0275",
+      "Input representation": "e0173",
+      "Preprocessing / anonymisation": "e0173",
+      "Pretraining objective": "e0173",
+      "Split strategy": "e0173",
+      "Fine-tuning objective": "e0173",
+      "Deployment limitations": "e0173",
+      "Reported results": "e0173"
     }
   },
   {
@@ -10564,7 +10600,22 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Shortcut diagnosis and mitigation",
     "locator": "Abstract; Sections 3–6",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Input representation": "e0252",
+      "Traffic unit definition": "e0252",
+      "Packets / bytes": "e0252",
+      "Architecture": "e0252",
+      "Supervision": "e0252",
+      "Split strategy": "e0252",
+      "Preprocessing / anonymisation": "e0252",
+      "Training / evaluation datasets": "e0252",
+      "Evaluation setting": "e0252",
+      "Metrics": "e0252",
+      "Reported results": "e0252",
+      "Leakage / shortcut risks": "e0252",
+      "Deployment limitations": "e0252",
+      "Version notes": "e0252"
+    }
   },
   {
     "id": "biasseeker",
@@ -10772,7 +10823,18 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Shortcut diagnosis and mitigation",
     "locator": "Abstract; Sections IV–VI",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Traffic unit definition": "e0254",
+      "Packets / bytes": "e0254",
+      "Architecture": "e0254",
+      "Preprocessing / anonymisation": "e0254",
+      "Split strategy": "e0254",
+      "Training / evaluation datasets": "e0254",
+      "Metrics": "e0254",
+      "Reported results": "e0254",
+      "Deployment limitations": "e0254",
+      "Version notes": "e0254"
+    }
   },
   {
     "id": "trustee",
@@ -10974,7 +11036,15 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Network-security model diagnosis",
     "locator": "Abstract; Sections 1, 7 and 9",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Input representation": "e0256",
+      "Architecture": "e0256",
+      "Evaluation setting": "e0256",
+      "Metrics": "e0256",
+      "Leakage / shortcut risks": "e0256",
+      "Deployment limitations": "e0256",
+      "Version notes": "e0256"
+    }
   },
   {
     "id": "ntcenigma",
@@ -11178,7 +11248,16 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Survey and experimental audit",
     "locator": "Abstract; Sections V-B and V-C",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Input representation": "e0257",
+      "Preprocessing / anonymisation": "e0257",
+      "Training / evaluation datasets": "e0257",
+      "Evaluation setting": "e0257",
+      "Reported results": "e0257",
+      "Leakage / shortcut risks": "e0257",
+      "Deployment limitations": "e0257",
+      "Version notes": "e0257"
+    }
   },
   {
     "id": "lim",

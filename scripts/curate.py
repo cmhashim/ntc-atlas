@@ -24,9 +24,11 @@ def add(id,short,title,authors,year,venue,url,family,unit,summary,contribution,r
     for name in GAPS:p['gaps'][name]=dict(state='Not addressed/not reported',evidence=[eid],note='Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper.')
     P.append(p);return p
 
+DETAIL_RECORDS={}  # full-text evidence id -> (paper id, fields it supports)
 def detail(pid,values,url,locator):
     p=next(p for p in P if p['id']==pid);p['details'].update(values)
     e=evidence(pid,'Paper claim','; '.join(k+': '+v for k,v in values.items()),url,locator)
+    DETAIL_RECORDS[e]=(pid,list(values))
     p['evidenceIds'].append(e);p['reviewDepth']='Selected full-text sections'
     if 'Reported results' in values:
         p['evidenceIds'].append(evidence(pid,'Author-reported result',values['Reported results'],url,locator))
@@ -360,6 +362,12 @@ enrich(P,E,D,meta)
 DATE='2026-09-23'
 from author_expansion import expand
 expand(P,E,D,A,meta,add,detail,rel,gapstate,prof,profiles)
+# Link every full-text field to its record. Generic abstract/bibliography records give way;
+# a field already tied to another full-text record (e.g. a comparison extraction) keeps it.
+for e,(pid,keys) in DETAIL_RECORDS.items():
+    p=next(p for p in P if p['id']==pid);generic=set(p['evidenceIds'][:3]);fe=p.setdefault('fieldEvidence',{})
+    for k in keys:
+        if k in p['details'] and fe.get(k) in (None,*generic):fe[k]=e
 next(a for a in A if a['id']=='luming-yang').update(accessed='2026-09-24')
 next(a for a in A if a['id']=='xiaohui-xie').update(accessed='2026-10-04')
 # Profile links (Scholar, ORCID, homepage, publication page) live in one reviewed file.
