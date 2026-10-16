@@ -15,7 +15,10 @@
     "contribution": "Verified co-authorship in NT-FM systematic review.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=bPAk6fYAAAAJ&hl=en",
+    "scholarSource": "Profile lists NT-FM systematic review (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "alessandro-finamore",
@@ -110,7 +113,10 @@
     "contribution": "Verified co-authorship in VPN time features, Tor time features.",
     "status": "Needs verification",
     "sourceUrl": "https://www.unb.ca/cic/datasets/vpn.html",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=2Pwpk1MAAAAJ&hl=en",
+    "scholarSource": "Profile lists Tor time features, VPN time features (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "andrea-continella",
@@ -174,9 +180,11 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-5494-9305",
     "orcidSource": "ORCID record lists Bayesian traffic",
-    "identityChecked": "2026-10-13",
+    "identityChecked": "2026-10-16",
     "homepageUrl": "http://www.cl.cam.ac.uk/~awm22",
-    "homepageSource": "Linked from the confirmed ORCID record"
+    "homepageSource": "Linked from the confirmed ORCID record",
+    "scholarUrl": "https://scholar.google.com/citations?user=lSWWr04AAAAJ&hl=en",
+    "scholarSource": "Profile lists Bayesian traffic (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "anthony-busson",
@@ -310,7 +318,10 @@
     "contribution": "Verified co-authorship in NTC Enigma / SoK, LiM / NetMatrix.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2503.20093v4",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=7mFpZn4AAAAJ&hl=en",
+    "scholarSource": "Profile lists LiM / NetMatrix, NTC Enigma / SoK (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "aristide-tanyi-jong-akem",
@@ -420,7 +431,10 @@
     "contribution": "Verified co-authorship in Jewel.",
     "status": "Needs verification",
     "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1777",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=swghw-AAAAAJ&hl=en",
+    "scholarSource": "Profile lists Jewel (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "bo-ji",
@@ -480,7 +494,9 @@
     "accessed": "2026-09-23",
     "orcid": "0009-0003-0462-9607",
     "orcidSource": "ORCID record lists NTC comprehensive survey",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=yZSDYQQAAAAJ&hl=en",
+    "scholarSource": "Profile lists NTC comprehensive survey (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "chang-liu",
@@ -614,7 +630,10 @@
     "contribution": "Verified co-authorship in NetGPT, Nepco / convolutional NFM.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2304.09513",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=5vB-jzwAAAAJ&hl=en",
+    "scholarSource": "Profile lists Nepco / convolutional NFM, NetGPT (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "chuyi-wang",
@@ -867,7 +886,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-7312-6769",
     "orcidSource": "ORCID record lists LiM / NetMatrix",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=XgOu5dcAAAAJ&hl=en",
+    "scholarSource": "Profile lists LiM / NetMatrix (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "elham-akbari",
@@ -1112,7 +1133,10 @@
     "contribution": "Verified co-authorship in Mean MAE.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2603.29537v1",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=4BvQU00AAAAJ&hl=en",
+    "scholarSource": "Profile lists Mean MAE (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "fuxing-chen",
@@ -1323,7 +1347,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-6375-6775",
     "orcidSource": "ORCID record lists CICIDS2017 audit",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=Vgw8ClIAAAAJ&hl=en",
+    "scholarSource": "Profile lists CICIDS2017 audit (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "giovanni-apruzzese",
@@ -1458,7 +1484,10 @@
     "contribution": "Verified co-authorship in ML survey.",
     "status": "Needs verification",
     "sourceUrl": "https://figshare.swinburne.edu.au/articles/journal_contribution/A_survey_of_techniques_for_internet_traffic_classification_using_machine_learning/26222969",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=RGYDDFMAAAAJ&hl=en",
+    "scholarSource": "Profile lists ML survey (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "guan-gui",
@@ -1533,7 +1562,10 @@
     "contribution": "Co-author of hardware-based encrypted classification.",
     "status": "Verified",
     "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=D-6x1E4AAAAJ&hl=en",
+    "scholarSource": "Profile lists P4 encrypted classification (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "gustavo-batista",
@@ -1554,7 +1586,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0002-3482-8442",
     "orcidSource": "ORCID record lists FastFlow",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=takZ6KIAAAAJ&hl=en",
+    "scholarSource": "Profile lists FastFlow (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "haarika-manda",
@@ -1949,7 +1983,10 @@
     "contribution": "Verified co-authorship in TrafficGPT.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2403.05822",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=tR7Ft9UAAAAJ&hl=en",
+    "scholarSource": "Profile lists TrafficGPT (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "jianfeng-li",
@@ -2174,7 +2211,10 @@
     "contribution": "Pragmatic assessment of ML-based NIDS; broader security evaluation contribution.",
     "status": "Verified",
     "sourceUrl": "https://www.giovanniapruzzese.com/publications/eurosp23",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=hgXFYMUAAAAJ&hl=en",
+    "scholarSource": "Profile lists Pragmatic NIDS assessment (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "jonatan-krolikowski",
@@ -2316,7 +2356,10 @@
     "contribution": "Verified co-authorship in NT-FM systematic review.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.111998",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=uF0MdVIAAAAJ&hl=en",
+    "scholarSource": "Profile lists NT-FM systematic review (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "jun-jie-huang",
@@ -2430,7 +2473,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0001-5557-9134",
     "orcidSource": "ORCID record lists Early identification",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=s718KIEAAAAJ&hl=en",
+    "scholarSource": "Profile lists Early identification (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "ke-xu",
@@ -2489,7 +2534,10 @@
     "contribution": "Verified co-authorship in BLINC.",
     "status": "Needs verification",
     "sourceUrl": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=xuVXDXkAAAAJ&hl=en",
+    "scholarSource": "Profile lists BLINC (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "kun-sun",
@@ -2574,7 +2622,10 @@
     "contribution": "Verified co-authorship in Mean MAE.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2603.29537v1",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=Nt9es7kAAAAJ&hl=en",
+    "scholarSource": "Profile lists Mean MAE (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "licheng-shen",
@@ -2932,7 +2983,10 @@
     "contribution": "Verified co-authorship in P4 encrypted classification, Flowrest, Jewel.",
     "status": "Verified",
     "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=PI2-CnkAAAAJ&hl=en",
+    "scholarSource": "Profile lists P4 encrypted classification, Flowrest, Jewel (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "marco-mellia",
@@ -3001,7 +3055,10 @@
     "contribution": "Verified co-authorship in Traffic augmentation benchmark.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2401.10754",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=tCb-HvoAAAAJ&hl=en",
+    "scholarSource": "Profile lists Traffic augmentation benchmark (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "matteo-boffa",
@@ -3127,7 +3184,10 @@
     "contribution": "Verified co-authorship in BLINC.",
     "status": "Needs verification",
     "sourceUrl": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=eCXMUQEAAAAJ&hl=en",
+    "scholarSource": "Profile lists BLINC (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "michele-gucciardo",
@@ -3146,7 +3206,10 @@
     "contribution": "Verified co-authorship in Flowrest, Jewel.",
     "status": "Needs verification",
     "sourceUrl": "https://doi.org/10.1109/INFOCOM53939.2023.10229100",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=Wg_Xa2sAAAAJ&hl=en",
+    "scholarSource": "Profile lists Flowrest, Jewel (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "mingwei-xu",
@@ -3283,7 +3346,10 @@
     "contribution": "Verified co-authorship in VPN time features, Tor time features.",
     "status": "Needs verification",
     "sourceUrl": "https://www.unb.ca/cic/datasets/vpn.html",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=jT9kli4AAAAJ&hl=en",
+    "scholarSource": "Profile lists Tor time features, VPN time features (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "mohammdsadegh-saberian",
@@ -3484,7 +3550,9 @@
     "accessed": "2026-09-21",
     "orcid": "0000-0002-3212-7167",
     "orcidSource": "ORCID record lists Pragmatic NIDS assessment",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=iX1CFmYAAAAJ&hl=en",
+    "scholarSource": "Profile lists Pragmatic NIDS assessment (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "pedro-casas",
@@ -3520,7 +3588,10 @@
     "contribution": "Verified co-authorship in Traffic augmentation benchmark.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2401.10754",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=mlx1eCgAAAAJ&hl=en",
+    "scholarSource": "Profile lists Traffic augmentation benchmark (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "prateek-mittal",
@@ -3654,7 +3725,9 @@
     "accessed": "2026-09-23",
     "orcid": "0009-0009-5686-6798",
     "orcidSource": "ORCID record lists NTC comprehensive survey",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=Kt8ZwJMAAAAJ&hl=en",
+    "scholarSource": "Profile lists NTC comprehensive survey (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "ramin-shirali-hossein-zade",
@@ -3717,7 +3790,10 @@
     "contribution": "Early identification and Traffic Refinery.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/pdf/2010.14605",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=yZqV-tMAAAAJ&hl=en",
+    "scholarSource": "Profile lists Early identification, Traffic Refinery (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "renjie-xie",
@@ -4273,7 +4349,10 @@
     "contribution": "Verified co-authorship in Flow-label provenance / SoK.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2609.02140",
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "scholarUrl": "https://scholar.google.com/citations?user=4Ser-TcAAAAJ&hl=en",
+    "scholarSource": "Profile lists Flow-label provenance / SoK (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "stephane-tuffin",
@@ -4330,7 +4409,10 @@
     "contribution": "Verified co-authorship in P2P signatures.",
     "status": "Needs verification",
     "sourceUrl": "https://dl.acm.org/doi/10.1145/988672.988742",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=6YiRZf8AAAAJ&hl=en",
+    "scholarSource": "Profile lists P2P signatures (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "syed-usman-jafri",
@@ -4397,7 +4479,10 @@
     "contribution": "Verified co-authorship in mini-FlowPic.",
     "status": "Needs verification",
     "sourceUrl": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=2VthnhIAAAAJ&hl=en",
+    "scholarSource": "Profile lists mini-FlowPic (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "ted-shaowang",
@@ -4477,7 +4562,10 @@
     "contribution": "Verified co-authorship in BLINC.",
     "status": "Needs verification",
     "sourceUrl": "https://www.microsoft.com/en-us/research/publication/blinc-multilevel-traffic-classification-in-the-dark/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=vk7tZYMAAAAJ&hl=en",
+    "scholarSource": "Profile lists BLINC (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "thuy-t-t-nguyen",
@@ -4574,7 +4662,10 @@
     "contribution": "CICIDS2017 audit and corrective tooling.",
     "status": "Verified",
     "sourceUrl": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=rpFf8joAAAAJ&hl=en",
+    "scholarSource": "Profile lists CICIDS2017 audit (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "vijay-sivaraman",
@@ -4596,7 +4687,9 @@
     "accessed": "2026-09-23",
     "orcid": "0000-0001-7985-6765",
     "orcidSource": "ORCID record lists Streaming platforms, FastFlow",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=kKwFc34AAAAJ&hl=en",
+    "scholarSource": "Profile lists FastFlow, Streaming platforms (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "vincent-f-taylor",
@@ -5101,7 +5194,10 @@
     "contribution": "Verified co-authorship in NetGPT, Nepco / convolutional NFM.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2304.09513",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=SzdXry0AAAAJ&hl=en",
+    "scholarSource": "Profile lists Nepco / convolutional NFM, NetGPT (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "yanhao-wang",
@@ -5250,7 +5346,9 @@
     "accessed": "2026-09-21",
     "orcid": "0009-0009-3472-9821",
     "orcidSource": "ORCID record lists Streaming platforms",
-    "identityChecked": "2026-10-13"
+    "identityChecked": "2026-10-16",
+    "scholarUrl": "https://scholar.google.com/citations?user=OmE-b74AAAAJ&hl=en",
+    "scholarSource": "Profile lists Streaming platforms (curator browser check, Grok batch 3, 2026-10-16)"
   },
   {
     "id": "yijun-wang",
@@ -5502,7 +5600,10 @@
     "contribution": "Verified co-authorship in mini-FlowPic.",
     "status": "Needs verification",
     "sourceUrl": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "scholarUrl": "https://scholar.google.com/citations?user=n4leioYAAAAJ&hl=en",
+    "scholarSource": "Profile lists mini-FlowPic (curator browser check, Grok batch 3, 2026-10-16)",
+    "identityChecked": "2026-10-16"
   },
   {
     "id": "zakir-durumeric",
