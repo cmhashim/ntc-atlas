@@ -453,6 +453,24 @@ _tf='Two tasks trained jointly: Masked Burst Modelling (cross-entropy over maske
 curator_fix('trafficformer','Pretraining objective',_tf,text=_tf,url='https://ieeexplore.ieee.org/document/11023272/',locator='Section 3.2.2; Equations 1–3')
 _ro='BYOL self-supervised learning on TCP-aware augmented flow variants (packet-length sequences): normalised mean-squared error between the online prediction and the target projection, symmetrised over the two variants; target network updated as a moving average with decay 0.996.'
 curator_fix('rosetta','Pretraining objective',_ro,text=_ro,url='https://www.usenix.org/conference/usenixsecurity23/presentation/xie',locator='Section 4.4, Equation 1; Section 5.1')
+# Task 10 (user, 2026-10-18): link each paper to the corpus paper that introduced a collection it evaluates on.
+# The source is the paper's own dataset record; three papers without one were located in corpus/ PDFs.
+# FlowPic replication is skipped: it considers ISCX-VPN/Tor but discards them after preliminary checks (Section 3.3).
+# Flow-label provenance audits these collections rather than training on them, so it gets an audit edge.
+USE_LOC={'deeppacket':'Section 4.1','miniflowpic':'Section 3.1.2','sugar':'Section 4.1'}
+USE_URL={'labelprovenance':'https://arxiv.org/html/2609.02140v1'}  # same source as its existing audit edges
+EVI={e['id']:e for e in E};PID={p['id']:p for p in P}
+for d in D:
+    q=d.get('introducedBy',{}).get('paper')
+    if not q:continue
+    for pid in [p['id'] for p in P if d['id'] in p['datasets']]:
+        kind='Audits label provenance' if pid=='labelprovenance' else 'Uses dataset from'
+        if pid in (q,'replication') or any(r['source']==pid and r['target']==q and r['type']==kind for r in R):continue
+        fe=PID[pid].get('fieldEvidence',{}).get('Training / evaluation datasets')
+        url,loc=(EVI[fe]['sourceUrl'],EVI[fe]['locator']) if fe and pid not in USE_LOC else (USE_URL.get(pid,PID[pid]['url']),USE_LOC.get(pid,'Table 1'))
+        note=(f'Audits the label provenance of {d["name"]}, introduced in {PID[q]["short"]}.' if kind!='Uses dataset from' else f'Evaluates on {d["name"]}, introduced in {PID[q]["short"]}.')
+        rel(pid,q,kind,note,url,loc);E[-1]['accessed']='2026-10-18'
+
 for rec in E:
     # Field lists: values keep their own sentences, but '.;' joins read as typos.
     rec['text']=rec['text'].replace('.; ','; ')

@@ -374,5 +374,189 @@
     "type": "Complementary approach",
     "explanation": "Contrasts unsupervised flow-spectrum construction with multimodal supervised downstream transfer.",
     "evidenceId": "e0381"
+  },
+  {
+    "id": "r48",
+    "source": "deeppacket",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0391"
+  },
+  {
+    "id": "r49",
+    "source": "pert",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0392"
+  },
+  {
+    "id": "r50",
+    "source": "miniflowpic",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0393"
+  },
+  {
+    "id": "r51",
+    "source": "yatc",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0394"
+  },
+  {
+    "id": "r52",
+    "source": "netmamba",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0395"
+  },
+  {
+    "id": "r53",
+    "source": "sugar",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0396"
+  },
+  {
+    "id": "r54",
+    "source": "netmambaplus",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0397"
+  },
+  {
+    "id": "r55",
+    "source": "biasseeker",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0398"
+  },
+  {
+    "id": "r56",
+    "source": "labelprovenance",
+    "target": "vpnfeatures",
+    "type": "Audits label provenance",
+    "explanation": "Audits the label provenance of ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0399"
+  },
+  {
+    "id": "r57",
+    "source": "meanmae",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0400"
+  },
+  {
+    "id": "r58",
+    "source": "miniflowpic",
+    "target": "torfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
+    "evidenceId": "e0401"
+  },
+  {
+    "id": "r59",
+    "source": "yatc",
+    "target": "torfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
+    "evidenceId": "e0402"
+  },
+  {
+    "id": "r60",
+    "source": "netmamba",
+    "target": "torfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
+    "evidenceId": "e0403"
+  },
+  {
+    "id": "r61",
+    "source": "biasseeker",
+    "target": "torfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
+    "evidenceId": "e0404"
+  },
+  {
+    "id": "r62",
+    "source": "labelprovenance",
+    "target": "torfeatures",
+    "type": "Audits label provenance",
+    "explanation": "Audits the label provenance of ISCX Tor/non-Tor, introduced in Tor time features.",
+    "evidenceId": "e0405"
+  },
+  {
+    "id": "r63",
+    "source": "meanmae",
+    "target": "torfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
+    "evidenceId": "e0406"
+  },
+  {
+    "id": "r64",
+    "source": "sugar",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "evidenceId": "e0407"
+  },
+  {
+    "id": "r65",
+    "source": "netmambaplus",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "evidenceId": "e0408"
+  },
+  {
+    "id": "r66",
+    "source": "biasseeker",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "evidenceId": "e0409"
+  },
+  {
+    "id": "r67",
+    "source": "ntcenigma",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "evidenceId": "e0410"
+  },
+  {
+    "id": "r68",
+    "source": "lim",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "evidenceId": "e0411"
+  },
+  {
+    "id": "r69",
+    "source": "meanmae",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "evidenceId": "e0412"
+  },
+  {
+    "id": "r70",
+    "source": "netmambaplus",
+    "target": "ntcenigma",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CipherSpectrum, introduced in NTC Enigma / SoK.",
+    "evidenceId": "e0413"
   }
 ]
