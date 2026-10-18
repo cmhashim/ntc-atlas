@@ -4441,7 +4441,7 @@
       "Training / evaluation datasets": "Same four plus Cross-Platform; separate fine-tuning per dataset",
       "Split strategy": "Separate dataset-specific training/testing; exact ratio NA — not extracted.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "Precision, recall and F1; averaging convention needs verification",
+      "Metrics": "Precision, recall and F1. The paper does not state the averaging; the official code uses weighted averaging.",
       "Reported results": "Original Table 2: USTC-TFC2016 accuracy/F1 97.86%; ISCXVPN accuracy 98.07%, F1 98.04%.",
       "Parameters": "2.3M pretraining / 2.1M fine-tuning — NetMamba authors’ baseline implementation, not a universal count.",
       "FLOPs": "NA — not reported in reviewed sections",
@@ -4494,7 +4494,8 @@
       "e0207",
       "e0271",
       "e0274",
-      "e0277"
+      "e0277",
+      "e0374"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4636,7 +4637,8 @@
       "Architecture": "e0172",
       "Header": "e0172",
       "Payload": "e0172",
-      "Direction": "e0172"
+      "Direction": "e0172",
+      "Metrics": "e0374"
     }
   },
   {
@@ -9012,7 +9014,7 @@
       "Split strategy": "NA — not extracted",
       "Evaluation setting": "Train on one network, predict services on another; distribution shift without concept drift",
       "Metrics": "NA — not extracted",
-      "Reported results": "Abstract reports best-model performance between 30% and 40% under this shift; exact metric extraction pending.",
+      "Reported results": "Best model under the network shift: the Full Model transformer, F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",

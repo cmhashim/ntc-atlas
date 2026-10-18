@@ -114,7 +114,7 @@ detail('flowmae',{'Input representation':'Burst byte arrays with learned patch e
 # Explicit later criticisms, scoped to the tested versions.
 for pid, values in {
     'etbert': {'Input representation':'Byte bigrams from directional bursts; 512-token limit','Pretraining datasets':'30 GB total: ISCXVPN2016, CIC-IDS2017 and CSTNET','Architecture':'12 Transformer layers, 12 heads, hidden width 768'},
-    'yatc': {'Input representation':'Five header/payload packet matrices joined into a 40×40 flow image','Metrics':'Precision, recall and F1; averaging convention needs verification'},
+    'yatc': {'Input representation':'Five header/payload packet matrices joined into a 40×40 flow image','Metrics':'Precision, recall and F1; the paper does not state the averaging convention'},
     'netmamba': {'Packets / bytes':'5 packets × (80 header + 240 payload bytes); 1,600 bytes; four-byte strides','Architecture':'4 encoder / 2 decoder Mamba blocks; widths 256 / 128','Metrics':'Accuracy, precision, recall and weighted F1','Parameters':'2.2M pretraining; 1.9M fine-tuning (Tables IV–V)','Header':'Yes','Payload':'Yes','Supervision':'Masked self-supervision, then labelled fine-tuning'}
 }.items():
     p=next(p for p in P if p['id']==pid)
@@ -395,6 +395,22 @@ author_ids={a['id'] for a in A}
 for aid,links in json.loads((ROOT/'curation/author-identities.json').read_text()).items():
     if aid not in author_ids: raise SystemExit(f'author-identities.json: unknown author {aid}')
     next(a for a in A if a['id']==aid).update(links)
+# Curator pomodoro corrections (ntc-atlas/todo/task_log.md). Each names its source.
+def curator_fix(pid,field,value,eid=None,**new):
+    p=next(p for p in P if p['id']==pid);p['details'][field]=value
+    if eid is None:
+        eid=evidence(pid,new.pop('category','Paper claim'),new.pop('text'),new.pop('url'),new.pop('locator'),source_type=new.pop('source_type','Original paper'))
+        p['evidenceIds'].append(eid)
+    rec=next(e for e in E if e['id']==eid);rec.update(new);rec['accessed']=new.get('accessed','2026-10-18')
+    p.setdefault('fieldEvidence',{})[field]=eid
+# Task 2: YaTC averaging is not in the paper; the official code uses weighted averaging.
+curator_fix('yatc','Metrics','Precision, recall and F1. The paper does not state the averaging; the official code uses weighted averaging.',
+    text="The paper does not state how precision, recall and F1 are averaged. The official code computes them with weighted averaging (scikit-learn average='weighted', stored in a variable named macro).",
+    url='https://github.com/NSSL-SJTU/YaTC/blob/a220b75f8365acaf63dbac7df87aaaa357698b85/engine.py#L209',locator='engine.py line 209 (commit a220b75)',source_type='Official artifact')
+# Task 2: cross-network reality check, exact values from Table 8.
+_ot='Best model under the network shift: the Full Model transformer, F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.'
+curator_fix('onetask','Reported results',_ot,eid=next(e for e in next(p for p in P if p['id']=='onetask')['evidenceIds'] if next(x for x in E if x['id']==e)['category']=='Author-reported result'),
+    text=_ot,locator='Section 5.3; Table 8')
 for rec in E:
     # Field lists: values keep their own sentences, but '.;' joins read as typos.
     rec['text']=rec['text'].replace('.; ','; ')
