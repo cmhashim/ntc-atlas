@@ -52,3 +52,6 @@ tsconfig.tsbuildinfo
 /curation/.cache/
 __pycache__/
 /curation/grok/
+
+# Curator pomodoro to-do (local only)
+/todo/
