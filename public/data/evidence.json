@@ -1928,56 +1928,56 @@
     "id": "e0176",
     "paperId": "etbert",
     "category": "Later criticism",
-    "text": "Zhao et al. compare flow-disjoint and packet-random splits and test implicit flow identifiers. Results challenge shortcut-sensitive representations in the tested original checkpoints; not a verdict on all future versions.",
+    "text": "Zhao et al. evaluate the original checkpoint under per-flow and per-packet splits, with frozen and unfrozen encoders. Results challenge shortcut-sensitive representations in the tested checkpoints; not a verdict on all future versions. The implicit flow-identifier test (Table 6) uses unfrozen ET-BERT.",
     "sourceUrl": "https://arxiv.org/html/2507.16438v1",
     "sourceType": "Original paper",
-    "locator": "Sections 4–5; Tables 4–6",
+    "locator": "Section 6; Tables 3–6",
     "status": "Verified",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-18"
   },
   {
     "id": "e0177",
     "paperId": "yatc",
     "category": "Later criticism",
-    "text": "Zhao et al. compare flow-disjoint and packet-random splits and test implicit flow identifiers. Results challenge shortcut-sensitive representations in the tested original checkpoints; not a verdict on all future versions.",
+    "text": "Zhao et al. evaluate the original checkpoint under per-flow and per-packet splits, with frozen and unfrozen encoders. Results challenge shortcut-sensitive representations in the tested checkpoints; not a verdict on all future versions.",
     "sourceUrl": "https://arxiv.org/html/2507.16438v1",
     "sourceType": "Original paper",
-    "locator": "Sections 4–5; Tables 4–6",
+    "locator": "Section 6; Tables 3–5",
     "status": "Verified",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-18"
   },
   {
     "id": "e0178",
     "paperId": "netmamba",
     "category": "Later criticism",
-    "text": "Zhao et al. compare flow-disjoint and packet-random splits and test implicit flow identifiers. Results challenge shortcut-sensitive representations in the tested original checkpoints; not a verdict on all future versions.",
+    "text": "Zhao et al. evaluate the original checkpoint under per-flow and per-packet splits, with frozen and unfrozen encoders. Results challenge shortcut-sensitive representations in the tested checkpoints; not a verdict on all future versions.",
     "sourceUrl": "https://arxiv.org/html/2507.16438v1",
     "sourceType": "Original paper",
-    "locator": "Sections 4–5; Tables 4–6",
+    "locator": "Section 6; Tables 3–5",
     "status": "Verified",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-18"
   },
   {
     "id": "e0179",
     "paperId": "trafficformer",
     "category": "Later criticism",
-    "text": "Zhao et al. compare flow-disjoint and packet-random splits and test implicit flow identifiers. Results challenge shortcut-sensitive representations in the tested original checkpoints; not a verdict on all future versions.",
+    "text": "Zhao et al. evaluate the original checkpoint under per-flow and per-packet splits, with frozen and unfrozen encoders. Results challenge shortcut-sensitive representations in the tested checkpoints; not a verdict on all future versions.",
     "sourceUrl": "https://arxiv.org/html/2507.16438v1",
     "sourceType": "Original paper",
-    "locator": "Sections 4–5; Tables 4–6",
+    "locator": "Section 6; Tables 3–5",
     "status": "Verified",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-18"
   },
   {
     "id": "e0180",
     "paperId": "netfound",
     "category": "Later criticism",
-    "text": "Zhao et al. compare flow-disjoint and packet-random splits and test implicit flow identifiers. Results challenge shortcut-sensitive representations in the tested original checkpoints; not a verdict on all future versions.",
+    "text": "Zhao et al. evaluate the original checkpoint under per-flow and per-packet splits, with frozen and unfrozen encoders. Results challenge shortcut-sensitive representations in the tested checkpoints; not a verdict on all future versions.",
     "sourceUrl": "https://arxiv.org/html/2507.16438v1",
     "sourceType": "Original paper",
-    "locator": "Sections 4–5; Tables 4–6",
+    "locator": "Section 6; Tables 3–5",
     "status": "Verified",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-18"
   },
   {
     "id": "e0181",

@@ -124,7 +124,9 @@ for pid, values in {
     if pid=='netmamba':technical['locator']='Sections V–VII; Tables III–V'
 sugarurl='https://arxiv.org/html/2507.16438v1'
 for pid in ['etbert','yatc','netmamba','trafficformer','netfound']:
-    e=evidence(pid,'Later criticism','Zhao et al. compare flow-disjoint and packet-random splits and test implicit flow identifiers. Results challenge shortcut-sensitive representations in the tested original checkpoints; not a verdict on all future versions.',sugarurl,'Sections 4–5; Tables 4–6')
+    # Checked 2026-10-18 against arXiv v1: all five models in Tables 3–5; the implicit flow-ID test (Table 6) covers ET-BERT only.
+    e=evidence(pid,'Later criticism','Zhao et al. evaluate the original checkpoint under per-flow and per-packet splits, with frozen and unfrozen encoders. Results challenge shortcut-sensitive representations in the tested checkpoints; not a verdict on all future versions.'+(' The implicit flow-identifier test (Table 6) uses unfrozen ET-BERT.' if pid=='etbert' else ''),sugarurl,'Section 6; Tables 3–'+('6' if pid=='etbert' else '5'))
+    E[-1]['accessed']='2026-10-18'
     next(p for p in P if p['id']==pid)['evidenceIds'].append(e)
     R.append(dict(id='r'+str(len(R)+1),source='sugar',target=pid,type='Criticises',explanation='Controlled split and representation audit'+('; earlier netFound version only.' if pid=='netfound' else ' of the original checkpoint.'),evidenceId=e))
 for pid in ['etbert','yatc','netmamba','netfound']:
