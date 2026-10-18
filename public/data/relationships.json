@@ -228,7 +228,7 @@
     "source": "etbert",
     "target": "flowprint",
     "type": "Uses dataset from",
-    "explanation": "Uses the Cross-Platform mobile-app collection introduced with FlowPrint.",
+    "explanation": "Uses the Cross-Platform mobile-app collection and cites FlowPrint for it; FlowPrint credits the collection to Ren et al. (2019).",
     "evidenceId": "e0208"
   },
   {
@@ -317,7 +317,7 @@
     "target": "etbert",
     "type": "Compares against",
     "explanation": "Author-run comparison on the same CSTNET subset as the baseline paper.",
-    "evidenceId": "e0298"
+    "evidenceId": "e0303"
   },
   {
     "id": "r41",
@@ -325,7 +325,7 @@
     "target": "yatc",
     "type": "Compares against",
     "explanation": "Author-run comparison on the same CSTNET subset as the baseline paper.",
-    "evidenceId": "e0299"
+    "evidenceId": "e0304"
   },
   {
     "id": "r42",
@@ -333,7 +333,7 @@
     "target": "etbert",
     "type": "Audits label provenance",
     "explanation": "Examines the label lineage of benchmark tasks and datasets derived from the linked paper; not a new model-accuracy reproduction.",
-    "evidenceId": "e0305"
+    "evidenceId": "e0310"
   },
   {
     "id": "r43",
@@ -341,7 +341,7 @@
     "target": "ntcenigma",
     "type": "Audits label provenance",
     "explanation": "Examines the label lineage of benchmark tasks and datasets derived from the linked paper; not a new model-accuracy reproduction.",
-    "evidenceId": "e0306"
+    "evidenceId": "e0311"
   },
   {
     "id": "r44",
@@ -349,7 +349,7 @@
     "target": "evs2vec",
     "type": "Follows",
     "explanation": "Earlier representation work by the same research group on an application-specific encrypted-traffic task; chronology, not a claimed direct extension.",
-    "evidenceId": "e0373"
+    "evidenceId": "e0378"
   },
   {
     "id": "r45",
@@ -357,7 +357,7 @@
     "target": "mm4flow",
     "type": "Related representation",
     "explanation": "Moves from explainable multi-domain features to MM4flow’s pretrained multimodal fusion; no direct inheritance is asserted.",
-    "evidenceId": "e0374"
+    "evidenceId": "e0379"
   },
   {
     "id": "r46",
@@ -365,7 +365,7 @@
     "target": "robustnessmatters",
     "type": "Follows",
     "explanation": "Earlier pretraining study by an overlapping author team; this records chronology rather than identical tasks.",
-    "evidenceId": "e0375"
+    "evidenceId": "e0380"
   },
   {
     "id": "r47",
@@ -373,6 +373,6 @@
     "target": "mm4flow",
     "type": "Complementary approach",
     "explanation": "Contrasts unsupervised flow-spectrum construction with multimodal supervised downstream transfer.",
-    "evidenceId": "e0376"
+    "evidenceId": "e0381"
   }
 ]

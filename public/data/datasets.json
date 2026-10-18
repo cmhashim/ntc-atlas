@@ -30,7 +30,11 @@
     ],
     "evidence": "e0225",
     "status": "Verified",
-    "caveatEvidence": []
+    "caveatEvidence": [],
+    "introducedBy": {
+      "paper": "vpnfeatures",
+      "evidence": "e0280"
+    }
   },
   {
     "id": "iscxtor",
@@ -58,7 +62,11 @@
     ],
     "evidence": "e0226",
     "status": "Verified",
-    "caveatEvidence": []
+    "caveatEvidence": [],
+    "introducedBy": {
+      "paper": "torfeatures",
+      "evidence": "e0281"
+    }
   },
   {
     "id": "ustc",
@@ -155,11 +163,11 @@
   },
   {
     "id": "crossplatform",
-    "name": "Cross-Platform / FlowPrint",
-    "year": 2020,
+    "name": "Cross-Platform",
+    "year": 2019,
     "url": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
-    "environment": "Android and iOS app traffic collected for FlowPrint.",
-    "classes": "Platform-specific app label spaces.",
+    "environment": "User-generated traffic of top-100 apps from US, Chinese and Indian app stores, each run 3–10 minutes with real user input.",
+    "classes": "215 Android and 196 iOS apps; platform-specific label spaces.",
     "encrypted": "Encrypted",
     "units": "Captures and derived flows",
     "size": "Needs verification",
@@ -177,7 +185,11 @@
     ],
     "evidence": "e0231",
     "status": "Verified",
-    "caveatEvidence": []
+    "caveatEvidence": [],
+    "introducedBy": {
+      "citation": "Ren, Dubois and Choffnes, “An International View of Privacy Risks for Mobile Apps” (2019)",
+      "evidence": "e0284"
+    }
   },
   {
     "id": "cstnet",
@@ -205,7 +217,11 @@
     ],
     "evidence": "e0232",
     "status": "Verified",
-    "caveatEvidence": []
+    "caveatEvidence": [],
+    "introducedBy": {
+      "paper": "etbert",
+      "evidence": "e0282"
+    }
   },
   {
     "id": "mirage19",
@@ -431,6 +447,10 @@
     ],
     "evidence": "e0279",
     "status": "Verified",
-    "caveatEvidence": []
+    "caveatEvidence": [],
+    "introducedBy": {
+      "paper": "ntcenigma",
+      "evidence": "e0283"
+    }
   }
 ]

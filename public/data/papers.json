@@ -1646,7 +1646,7 @@
       "e0025",
       "e0027",
       "e0209",
-      "e0285"
+      "e0290"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -1765,7 +1765,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Parameters": "e0285"
+      "Parameters": "e0290"
     }
   },
   {
@@ -2402,7 +2402,7 @@
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "Unsupervised fingerprints; semi-supervised app recognition",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "Recorded collection links: Cross-Platform / FlowPrint. Exact task subsets/roles: NA — not extracted.",
+      "Training / evaluation datasets": "Recorded collection links: Cross-Platform. Exact task subsets/roles: NA — not extracted.",
       "Split strategy": "NA — not extracted",
       "Evaluation setting": "NA — not extracted",
       "Metrics": "NA — not extracted",
@@ -3258,7 +3258,7 @@
       "e0050",
       "e0049",
       "e0051",
-      "e0382"
+      "e0387"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3377,7 +3377,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Version notes": "e0382"
+      "Version notes": "e0387"
     }
   },
   {
@@ -3876,8 +3876,8 @@
       "e0185",
       "e0211",
       "e0277",
-      "e0280",
-      "e0283"
+      "e0285",
+      "e0288"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3996,17 +3996,17 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining datasets": "e0280",
-      "Training / evaluation datasets": "e0280",
-      "Hardware": "e0280",
-      "Batch size": "e0280",
-      "Measurement scope": "e0280",
-      "Throughput": "e0280",
-      "Latency": "e0280",
-      "Energy": "e0280",
-      "Timing": "e0280",
-      "Packet length": "e0280",
-      "Parameters": "e0283",
+      "Pretraining datasets": "e0285",
+      "Training / evaluation datasets": "e0285",
+      "Hardware": "e0285",
+      "Batch size": "e0285",
+      "Measurement scope": "e0285",
+      "Throughput": "e0285",
+      "Latency": "e0285",
+      "Energy": "e0285",
+      "Timing": "e0285",
+      "Packet length": "e0285",
+      "Parameters": "e0288",
       "Traffic unit definition": "e0174",
       "Packets / bytes": "e0174",
       "Preprocessing / anonymisation": "e0174",
@@ -4513,9 +4513,9 @@
       "e0186",
       "e0212",
       "e0278",
-      "e0281",
-      "e0284",
-      "e0381"
+      "e0286",
+      "e0289",
+      "e0386"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4634,20 +4634,20 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Fine-tuning objective": "e0281",
-      "Hardware": "e0281",
-      "Batch size": "e0281",
-      "Reported results": "e0281",
-      "Throughput": "e0281",
-      "Latency": "e0281",
-      "FLOPs": "e0281",
-      "Memory": "e0281",
-      "Energy": "e0281",
-      "Split strategy": "e0281",
-      "Measurement scope": "e0281",
-      "Timing": "e0281",
-      "Packet length": "e0281",
-      "Parameters": "e0284",
+      "Fine-tuning objective": "e0286",
+      "Hardware": "e0286",
+      "Batch size": "e0286",
+      "Reported results": "e0286",
+      "Throughput": "e0286",
+      "Latency": "e0286",
+      "FLOPs": "e0286",
+      "Memory": "e0286",
+      "Energy": "e0286",
+      "Split strategy": "e0286",
+      "Measurement scope": "e0286",
+      "Timing": "e0286",
+      "Packet length": "e0286",
+      "Parameters": "e0289",
       "Traffic unit definition": "e0175",
       "Packets / bytes": "e0175",
       "Preprocessing / anonymisation": "e0175",
@@ -4658,7 +4658,7 @@
       "Header": "e0175",
       "Payload": "e0175",
       "Direction": "e0175",
-      "Metrics": "e0381"
+      "Metrics": "e0386"
     }
   },
   {
@@ -4744,7 +4744,7 @@
       "e0162",
       "e0178",
       "e0213",
-      "e0288"
+      "e0293"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4863,10 +4863,10 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Malware classification",
     "fieldEvidence": {
-      "Hardware": "e0288",
-      "Measurement scope": "e0288",
-      "Latency": "e0288",
-      "Energy": "e0288",
+      "Hardware": "e0293",
+      "Measurement scope": "e0293",
+      "Latency": "e0293",
+      "Energy": "e0293",
       "Input representation": "e0178",
       "Pretraining objective": "e0178",
       "Architecture": "e0178",
@@ -5572,7 +5572,7 @@
       "e0184",
       "e0188",
       "e0216",
-      "e0287"
+      "e0292"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -5691,18 +5691,18 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Header": "e0287",
-      "Timing": "e0287",
-      "Direction": "e0287",
-      "Architecture": "e0287",
-      "Training / evaluation datasets": "e0287",
-      "Fine-tuning objective": "e0287",
-      "Latency": "e0287",
-      "Throughput": "e0287",
-      "Memory": "e0287",
-      "Measurement scope": "e0287",
-      "Energy": "e0287",
-      "Hardware": "e0287",
+      "Header": "e0292",
+      "Timing": "e0292",
+      "Direction": "e0292",
+      "Architecture": "e0292",
+      "Training / evaluation datasets": "e0292",
+      "Fine-tuning objective": "e0292",
+      "Latency": "e0292",
+      "Throughput": "e0292",
+      "Memory": "e0292",
+      "Measurement scope": "e0292",
+      "Energy": "e0292",
+      "Hardware": "e0292",
       "Reported results": "e0164"
     }
   },
@@ -5798,7 +5798,7 @@
       "e0182",
       "e0187",
       "e0217",
-      "e0282"
+      "e0287"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -5917,25 +5917,25 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Traffic unit definition": "e0282",
-      "Packets / bytes": "e0282",
-      "Header": "e0282",
-      "Architecture": "e0282",
-      "Parameters": "e0282",
-      "Training / evaluation datasets": "e0282",
-      "Pretraining datasets": "e0282",
-      "Metrics": "e0282",
-      "Hardware": "e0282",
-      "Batch size": "e0282",
-      "Throughput": "e0282",
-      "Memory": "e0282",
-      "FLOPs": "e0282",
-      "Latency": "e0282",
-      "Energy": "e0282",
-      "Measurement scope": "e0282",
-      "Timing": "e0282",
-      "Direction": "e0282",
-      "Packet length": "e0282",
+      "Traffic unit definition": "e0287",
+      "Packets / bytes": "e0287",
+      "Header": "e0287",
+      "Architecture": "e0287",
+      "Parameters": "e0287",
+      "Training / evaluation datasets": "e0287",
+      "Pretraining datasets": "e0287",
+      "Metrics": "e0287",
+      "Hardware": "e0287",
+      "Batch size": "e0287",
+      "Throughput": "e0287",
+      "Memory": "e0287",
+      "FLOPs": "e0287",
+      "Latency": "e0287",
+      "Energy": "e0287",
+      "Measurement scope": "e0287",
+      "Timing": "e0287",
+      "Direction": "e0287",
+      "Packet length": "e0287",
       "Input representation": "e0176",
       "Preprocessing / anonymisation": "e0176",
       "Pretraining objective": "e0176",
@@ -6627,8 +6627,8 @@
       "e0097",
       "e0099",
       "e0165",
-      "e0289",
-      "e0383"
+      "e0294",
+      "e0388"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6747,16 +6747,16 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Throughput": "e0289",
-      "Latency": "e0289",
-      "Metrics": "e0289",
-      "Architecture": "e0289",
-      "Input representation": "e0289",
-      "Training / evaluation datasets": "e0289",
-      "Split strategy": "e0289",
-      "Hardware": "e0289",
-      "Measurement scope": "e0289",
-      "Version notes": "e0383",
+      "Throughput": "e0294",
+      "Latency": "e0294",
+      "Metrics": "e0294",
+      "Architecture": "e0294",
+      "Input representation": "e0294",
+      "Training / evaluation datasets": "e0294",
+      "Split strategy": "e0294",
+      "Hardware": "e0294",
+      "Measurement scope": "e0294",
+      "Version notes": "e0388",
       "Reported results": "e0165"
     }
   },
@@ -7045,7 +7045,7 @@
       "e0104",
       "e0103",
       "e0105",
-      "e0290"
+      "e0295"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7164,13 +7164,13 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Architecture": "e0290",
-      "Throughput": "e0290",
-      "Hardware": "e0290",
-      "Measurement scope": "e0290",
-      "Training / evaluation datasets": "e0290",
-      "Metrics": "e0290",
-      "Deployment limitations": "e0290"
+      "Architecture": "e0295",
+      "Throughput": "e0295",
+      "Hardware": "e0295",
+      "Measurement scope": "e0295",
+      "Training / evaluation datasets": "e0295",
+      "Metrics": "e0295",
+      "Deployment limitations": "e0295"
     }
   },
   {
@@ -7250,7 +7250,7 @@
       "e0107",
       "e0106",
       "e0108",
-      "e0291"
+      "e0296"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7369,11 +7369,11 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Architecture": "e0291",
-      "Hardware": "e0291",
-      "Throughput": "e0291",
-      "Measurement scope": "e0291",
-      "Latency": "e0291"
+      "Architecture": "e0296",
+      "Hardware": "e0296",
+      "Throughput": "e0296",
+      "Measurement scope": "e0296",
+      "Latency": "e0296"
     }
   },
   {
@@ -7862,7 +7862,7 @@
       "e0117",
       "e0183",
       "e0221",
-      "e0384"
+      "e0389"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7981,7 +7981,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0384"
+      "Pretraining objective": "e0389"
     }
   },
   {
@@ -9899,7 +9899,7 @@
       "e0145",
       "e0147",
       "e0172",
-      "e0292"
+      "e0297"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10018,13 +10018,13 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Architecture": "e0292",
-      "Hardware": "e0292",
-      "Throughput": "e0292",
-      "Latency": "e0292",
-      "Measurement scope": "e0292",
-      "Metrics": "e0292",
-      "Deployment limitations": "e0292",
+      "Architecture": "e0297",
+      "Hardware": "e0297",
+      "Throughput": "e0297",
+      "Latency": "e0297",
+      "Measurement scope": "e0297",
+      "Metrics": "e0297",
+      "Deployment limitations": "e0297",
       "Reported results": "e0172"
     }
   },
@@ -10119,7 +10119,7 @@
       "e0148",
       "e0150",
       "e0173",
-      "e0286"
+      "e0291"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10133,21 +10133,21 @@
         "state": "Addressed",
         "note": "Time-ordered evaluation reports degradation; robustness is investigated, not solved.",
         "evidence": [
-          "e0286"
+          "e0291"
         ]
       },
       "Open-world recognition": {
         "state": "Addressed",
         "note": "CipherSpectrum is ID; other datasets supply OOD samples. Domain shift and unknown labels are entangled.",
         "evidence": [
-          "e0286"
+          "e0291"
         ]
       },
       "Unknown applications": {
         "state": "Addressed",
         "note": "OOD application task is studied; this is not class discovery in a shared deployment.",
         "evidence": [
-          "e0286"
+          "e0291"
         ]
       },
       "Concept drift": {
@@ -10238,23 +10238,23 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Input representation": "e0286",
-      "Architecture": "e0286",
-      "Header": "e0286",
-      "Timing": "e0286",
-      "Packet length": "e0286",
-      "Parameters": "e0286",
-      "Training / evaluation datasets": "e0286",
-      "Split strategy": "e0286",
-      "Metrics": "e0286",
-      "Throughput": "e0286",
-      "Latency": "e0286",
-      "Hardware": "e0286",
-      "Batch size": "e0286",
-      "Memory": "e0286",
-      "Measurement scope": "e0286",
-      "Deployment limitations": "e0286",
-      "Energy": "e0286",
+      "Input representation": "e0291",
+      "Architecture": "e0291",
+      "Header": "e0291",
+      "Timing": "e0291",
+      "Packet length": "e0291",
+      "Parameters": "e0291",
+      "Training / evaluation datasets": "e0291",
+      "Split strategy": "e0291",
+      "Metrics": "e0291",
+      "Throughput": "e0291",
+      "Latency": "e0291",
+      "Hardware": "e0291",
+      "Batch size": "e0291",
+      "Memory": "e0291",
+      "Measurement scope": "e0291",
+      "Deployment limitations": "e0291",
+      "Energy": "e0291",
       "Reported results": "e0173"
     }
   },
@@ -10340,7 +10340,7 @@
       "e0152",
       "e0151",
       "e0153",
-      "e0385"
+      "e0390"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10459,7 +10459,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0385"
+      "Pretraining objective": "e0390"
     }
   },
   {
@@ -11600,80 +11600,80 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0294",
-      "e0293",
-      "e0295",
-      "e0296",
-      "e0297"
+      "e0299",
+      "e0298",
+      "e0300",
+      "e0301",
+      "e0302"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -11681,13 +11681,13 @@
         "state": "Partially addressed",
         "note": "Offline sample inference measured; live pipeline unestablished.",
         "evidence": [
-          "e0296"
+          "e0301"
         ]
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -11695,27 +11695,27 @@
         "state": "Partially addressed",
         "note": "GPU power only; zero GPU use is not zero system energy.",
         "evidence": [
-          "e0296"
+          "e0301"
         ]
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0293"
+          "e0298"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -11724,25 +11724,25 @@
     "locator": "arXiv v2; Sections 3–5",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0293",
-      "Traffic unit definition": "e0296",
-      "Input representation": "e0296",
-      "Packets / bytes": "e0296",
-      "Payload": "e0296",
-      "Header": "e0296",
-      "Timing": "e0296",
-      "Architecture": "e0293",
-      "Pretraining objective": "e0296",
-      "Training / evaluation datasets": "e0296",
-      "Reported results": "e0296",
-      "Latency": "e0296",
-      "Throughput": "e0296",
-      "Memory": "e0296",
-      "Energy": "e0296",
-      "Deployment limitations": "e0295",
-      "Version notes": "e0296",
-      "Hardware": "e0296",
-      "Measurement scope": "e0296"
+      "Research problem": "e0298",
+      "Traffic unit definition": "e0301",
+      "Input representation": "e0301",
+      "Packets / bytes": "e0301",
+      "Payload": "e0301",
+      "Header": "e0301",
+      "Timing": "e0301",
+      "Architecture": "e0298",
+      "Pretraining objective": "e0301",
+      "Training / evaluation datasets": "e0301",
+      "Reported results": "e0301",
+      "Latency": "e0301",
+      "Throughput": "e0301",
+      "Memory": "e0301",
+      "Energy": "e0301",
+      "Deployment limitations": "e0300",
+      "Version notes": "e0301",
+      "Hardware": "e0301",
+      "Measurement scope": "e0301"
     }
   },
   {
@@ -11826,45 +11826,45 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0301",
-      "e0300",
-      "e0302",
-      "e0303",
-      "e0304"
+      "e0306",
+      "e0305",
+      "e0307",
+      "e0308",
+      "e0309"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -11872,76 +11872,76 @@
         "state": "Addressed",
         "note": "Audits label assignment and selection in addition to feature/split issues.",
         "evidence": [
-          "e0303"
+          "e0308"
         ]
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0300"
+          "e0305"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -11949,14 +11949,14 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Label provenance audit",
     "fieldEvidence": {
-      "Research problem": "e0300",
-      "Input representation": "e0303",
-      "Architecture": "e0300",
-      "Evaluation setting": "e0303",
-      "Reported results": "e0303",
-      "Leakage / shortcut risks": "e0303",
-      "Deployment limitations": "e0302",
-      "Version notes": "e0303"
+      "Research problem": "e0305",
+      "Input representation": "e0308",
+      "Architecture": "e0305",
+      "Evaluation setting": "e0308",
+      "Reported results": "e0308",
+      "Leakage / shortcut risks": "e0308",
+      "Deployment limitations": "e0307",
+      "Version notes": "e0308"
     }
   },
   {
@@ -12032,120 +12032,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0308",
-      "e0307",
-      "e0309"
+      "e0313",
+      "e0312",
+      "e0314"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0307"
+          "e0312"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -12153,11 +12153,11 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Survey",
     "fieldEvidence": {
-      "Research problem": "e0307",
-      "Architecture": "e0307",
-      "Evaluation setting": "e0307",
-      "Deployment limitations": "e0309",
-      "Version notes": "e0307"
+      "Research problem": "e0312",
+      "Architecture": "e0312",
+      "Evaluation setting": "e0312",
+      "Deployment limitations": "e0314",
+      "Version notes": "e0312"
     }
   },
   {
@@ -12236,120 +12236,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0311",
-      "e0310",
-      "e0312"
+      "e0316",
+      "e0315",
+      "e0317"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0310"
+          "e0315"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -12357,12 +12357,12 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Systematic review",
     "fieldEvidence": {
-      "Research problem": "e0310",
-      "Architecture": "e0310",
-      "Evaluation setting": "e0310",
-      "Reported results": "e0310",
-      "Deployment limitations": "e0312",
-      "Version notes": "e0310"
+      "Research problem": "e0315",
+      "Architecture": "e0315",
+      "Evaluation setting": "e0315",
+      "Reported results": "e0315",
+      "Deployment limitations": "e0317",
+      "Version notes": "e0315"
     }
   },
   {
@@ -12441,78 +12441,78 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0314",
-      "e0313",
-      "e0315"
+      "e0319",
+      "e0318",
+      "e0320"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -12520,41 +12520,41 @@
         "state": "Addressed",
         "note": "Adaptive scheduling evaluated against resource and arrival constraints.",
         "evidence": [
-          "e0313"
+          "e0318"
         ]
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0313"
+          "e0318"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -12562,12 +12562,12 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0313",
-      "Architecture": "e0313",
-      "Reported results": "e0313",
-      "Throughput": "e0313",
-      "Deployment limitations": "e0315",
-      "Measurement scope": "e0313"
+      "Research problem": "e0318",
+      "Architecture": "e0318",
+      "Reported results": "e0318",
+      "Throughput": "e0318",
+      "Deployment limitations": "e0320",
+      "Measurement scope": "e0318"
     }
   },
   {
@@ -12644,78 +12644,78 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0317",
-      "e0316",
-      "e0318"
+      "e0322",
+      "e0321",
+      "e0323"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -12723,41 +12723,41 @@
         "state": "Addressed",
         "note": "Studies packet loss and accuracy under changing processing conditions.",
         "evidence": [
-          "e0316"
+          "e0321"
         ]
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0316"
+          "e0321"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -12765,12 +12765,12 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0316",
-      "Architecture": "e0316",
-      "Reported results": "e0316",
-      "Deployment limitations": "e0318",
-      "Version notes": "e0316",
-      "Measurement scope": "e0316"
+      "Research problem": "e0321",
+      "Architecture": "e0321",
+      "Reported results": "e0321",
+      "Deployment limitations": "e0323",
+      "Version notes": "e0321",
+      "Measurement scope": "e0321"
     }
   },
   {
@@ -12848,120 +12848,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0320",
-      "e0319",
-      "e0321"
+      "e0325",
+      "e0324",
+      "e0326"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0319"
+          "e0324"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -12969,12 +12969,12 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Augmentation benchmark",
     "fieldEvidence": {
-      "Research problem": "e0319",
-      "Input representation": "e0319",
-      "Architecture": "e0319",
-      "Reported results": "e0319",
-      "Deployment limitations": "e0321",
-      "Version notes": "e0319"
+      "Research problem": "e0324",
+      "Input representation": "e0324",
+      "Architecture": "e0324",
+      "Reported results": "e0324",
+      "Deployment limitations": "e0326",
+      "Version notes": "e0324"
     }
   },
   {
@@ -13053,120 +13053,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0323",
-      "e0322",
-      "e0324"
+      "e0328",
+      "e0327",
+      "e0329"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0322"
+          "e0327"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -13174,10 +13174,10 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0322",
-      "Architecture": "e0322",
-      "Deployment limitations": "e0324",
-      "Version notes": "e0322"
+      "Research problem": "e0327",
+      "Architecture": "e0327",
+      "Deployment limitations": "e0329",
+      "Version notes": "e0327"
     }
   },
   {
@@ -13255,22 +13255,22 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0326",
-      "e0325",
-      "e0327"
+      "e0331",
+      "e0330",
+      "e0332"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -13278,55 +13278,55 @@
         "state": "Addressed",
         "note": "Includes an unknown-flow decision; scope follows the authors’ evaluation.",
         "evidence": [
-          "e0325"
+          "e0330"
         ]
       },
       "Unknown applications": {
         "state": "Addressed",
         "note": "Includes an unknown-flow decision; scope follows the authors’ evaluation.",
         "evidence": [
-          "e0325"
+          "e0330"
         ]
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -13334,41 +13334,41 @@
         "state": "Partially addressed",
         "note": "Early decision delay is reported; absolute live service rate not extracted.",
         "evidence": [
-          "e0325"
+          "e0330"
         ]
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0325"
+          "e0330"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -13376,14 +13376,14 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0325",
-      "Packets / bytes": "e0325",
-      "Architecture": "e0325",
-      "Training / evaluation datasets": "e0325",
-      "Reported results": "e0325",
-      "Latency": "e0325",
-      "Deployment limitations": "e0327",
-      "Measurement scope": "e0325"
+      "Research problem": "e0330",
+      "Packets / bytes": "e0330",
+      "Architecture": "e0330",
+      "Training / evaluation datasets": "e0330",
+      "Reported results": "e0330",
+      "Latency": "e0330",
+      "Deployment limitations": "e0332",
+      "Measurement scope": "e0330"
     }
   },
   {
@@ -13464,120 +13464,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0329",
-      "e0328",
-      "e0330"
+      "e0334",
+      "e0333",
+      "e0335"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Partially addressed",
         "note": "IID/OOD and zero-shot experiments; detailed protocols require full extraction.",
         "evidence": [
-          "e0328"
+          "e0333"
         ]
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0328"
+          "e0333"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -13585,11 +13585,11 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0328",
-      "Architecture": "e0328",
-      "Training / evaluation datasets": "e0328",
-      "Deployment limitations": "e0330",
-      "Version notes": "e0328"
+      "Research problem": "e0333",
+      "Architecture": "e0333",
+      "Training / evaluation datasets": "e0333",
+      "Deployment limitations": "e0335",
+      "Version notes": "e0333"
     }
   },
   {
@@ -13669,120 +13669,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0332",
-      "e0331",
-      "e0333"
+      "e0337",
+      "e0336",
+      "e0338"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0331"
+          "e0336"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -13790,10 +13790,10 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0331",
-      "Input representation": "e0331",
-      "Architecture": "e0331",
-      "Deployment limitations": "e0333"
+      "Research problem": "e0336",
+      "Input representation": "e0336",
+      "Architecture": "e0336",
+      "Deployment limitations": "e0338"
     }
   },
   {
@@ -13869,78 +13869,78 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0335",
-      "e0334",
-      "e0336"
+      "e0340",
+      "e0339",
+      "e0341"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -13948,41 +13948,41 @@
         "state": "Addressed",
         "note": "P4 random-forest inference tested on Tofino switches.",
         "evidence": [
-          "e0334"
+          "e0339"
         ]
       },
       "Edge deployment": {
         "state": "Addressed",
         "note": "P4 random-forest inference tested on Tofino switches.",
         "evidence": [
-          "e0334"
+          "e0339"
         ]
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0334"
+          "e0339"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -13990,12 +13990,12 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0334",
-      "Architecture": "e0334",
-      "Throughput": "e0334",
-      "Deployment limitations": "e0336",
-      "Version notes": "e0334",
-      "Hardware": "e0334"
+      "Research problem": "e0339",
+      "Architecture": "e0339",
+      "Throughput": "e0339",
+      "Deployment limitations": "e0341",
+      "Version notes": "e0339",
+      "Hardware": "e0339"
     }
   },
   {
@@ -14073,78 +14073,78 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0338",
-      "e0337",
-      "e0339"
+      "e0343",
+      "e0342",
+      "e0344"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -14152,41 +14152,41 @@
         "state": "Addressed",
         "note": "Joint packet/flow inference implemented in a switch testbed.",
         "evidence": [
-          "e0337"
+          "e0342"
         ]
       },
       "Edge deployment": {
         "state": "Addressed",
         "note": "Joint packet/flow inference implemented in a switch testbed.",
         "evidence": [
-          "e0337"
+          "e0342"
         ]
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0337"
+          "e0342"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -14194,11 +14194,11 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0337",
-      "Architecture": "e0337",
-      "Throughput": "e0337",
-      "Deployment limitations": "e0339",
-      "Hardware": "e0337"
+      "Research problem": "e0342",
+      "Architecture": "e0342",
+      "Throughput": "e0342",
+      "Deployment limitations": "e0344",
+      "Hardware": "e0342"
     }
   },
   {
@@ -14278,36 +14278,36 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0341",
-      "e0340",
-      "e0342"
+      "e0346",
+      "e0345",
+      "e0347"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -14315,83 +14315,83 @@
         "state": "Partially addressed",
         "note": "Class-incremental learning; not all forms of temporal distribution drift.",
         "evidence": [
-          "e0340"
+          "e0345"
         ]
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0340"
+          "e0345"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -14399,11 +14399,11 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0340",
-      "Architecture": "e0340",
-      "Evaluation setting": "e0340",
-      "Deployment limitations": "e0342",
-      "Version notes": "e0340"
+      "Research problem": "e0345",
+      "Architecture": "e0345",
+      "Evaluation setting": "e0345",
+      "Deployment limitations": "e0347",
+      "Version notes": "e0345"
     }
   },
   {
@@ -14486,36 +14486,36 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0344",
-      "e0343",
-      "e0345"
+      "e0349",
+      "e0348",
+      "e0350"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -14523,83 +14523,83 @@
         "state": "Partially addressed",
         "note": "Benchmarks class increments; not a universal drift detector.",
         "evidence": [
-          "e0343"
+          "e0348"
         ]
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0343"
+          "e0348"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -14608,11 +14608,11 @@
     "firstYear": 2023,
     "task": "Continual-learning benchmark",
     "fieldEvidence": {
-      "Research problem": "e0343",
-      "Architecture": "e0343",
-      "Training / evaluation datasets": "e0343",
-      "Deployment limitations": "e0345",
-      "Version notes": "e0343"
+      "Research problem": "e0348",
+      "Architecture": "e0348",
+      "Training / evaluation datasets": "e0348",
+      "Deployment limitations": "e0350",
+      "Version notes": "e0348"
     }
   },
   {
@@ -14693,120 +14693,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0347",
-      "e0346",
-      "e0348"
+      "e0352",
+      "e0351",
+      "e0353"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0346"
+          "e0351"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -14814,11 +14814,11 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Representation-learning benchmark",
     "fieldEvidence": {
-      "Research problem": "e0346",
-      "Architecture": "e0346",
-      "Training / evaluation datasets": "e0346",
-      "Reported results": "e0346",
-      "Deployment limitations": "e0348"
+      "Research problem": "e0351",
+      "Architecture": "e0351",
+      "Training / evaluation datasets": "e0351",
+      "Reported results": "e0351",
+      "Deployment limitations": "e0353"
     }
   },
   {
@@ -14898,120 +14898,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0350",
-      "e0349",
-      "e0351"
+      "e0355",
+      "e0354",
+      "e0356"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Addressed",
         "note": "Explicit cross-network embedding transfer; exact datasets remain to extract.",
         "evidence": [
-          "e0349"
+          "e0354"
         ]
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0349"
+          "e0354"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -15020,10 +15020,10 @@
     "firstYear": 2023,
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0349",
-      "Architecture": "e0349",
-      "Deployment limitations": "e0351",
-      "Version notes": "e0349"
+      "Research problem": "e0354",
+      "Architecture": "e0354",
+      "Deployment limitations": "e0356",
+      "Version notes": "e0354"
     }
   },
   {
@@ -15102,120 +15102,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0353",
-      "e0352",
-      "e0354"
+      "e0358",
+      "e0357",
+      "e0359"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0352"
+          "e0357"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -15223,11 +15223,11 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0352",
-      "Input representation": "e0352",
-      "Architecture": "e0352",
-      "Deployment limitations": "e0354",
-      "Version notes": "e0352"
+      "Research problem": "e0357",
+      "Input representation": "e0357",
+      "Architecture": "e0357",
+      "Deployment limitations": "e0359",
+      "Version notes": "e0357"
     }
   },
   {
@@ -15308,120 +15308,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0356",
-      "e0355",
-      "e0357"
+      "e0361",
+      "e0360",
+      "e0362"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0355"
+          "e0360"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -15429,14 +15429,14 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0355",
-      "Input representation": "e0355",
-      "Architecture": "e0355",
-      "Pretraining datasets": "e0355",
-      "Evaluation setting": "e0355",
-      "Reported results": "e0355",
-      "Deployment limitations": "e0357",
-      "Version notes": "e0355"
+      "Research problem": "e0360",
+      "Input representation": "e0360",
+      "Architecture": "e0360",
+      "Pretraining datasets": "e0360",
+      "Evaluation setting": "e0360",
+      "Reported results": "e0360",
+      "Deployment limitations": "e0362",
+      "Version notes": "e0360"
     }
   },
   {
@@ -15514,120 +15514,120 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0359",
-      "e0358",
-      "e0360"
+      "e0364",
+      "e0363",
+      "e0365"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0358"
+          "e0363"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -15635,13 +15635,13 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0358",
-      "Input representation": "e0358",
-      "Architecture": "e0358",
-      "Training / evaluation datasets": "e0358",
-      "Reported results": "e0358",
-      "Deployment limitations": "e0360",
-      "Version notes": "e0358"
+      "Research problem": "e0363",
+      "Input representation": "e0363",
+      "Architecture": "e0363",
+      "Training / evaluation datasets": "e0363",
+      "Reported results": "e0363",
+      "Deployment limitations": "e0365",
+      "Version notes": "e0363"
     }
   },
   {
@@ -15720,71 +15720,71 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0362",
-      "e0361",
-      "e0363"
+      "e0367",
+      "e0366",
+      "e0368"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -15792,48 +15792,48 @@
         "state": "Addressed",
         "note": "The paper explicitly studies explanations across multiple feature domains; faithfulness details require full extraction.",
         "evidence": [
-          "e0361"
+          "e0366"
         ]
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0361"
+          "e0366"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -15841,13 +15841,13 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0361",
-      "Input representation": "e0361",
-      "Architecture": "e0361",
-      "Evaluation setting": "e0361",
-      "Reported results": "e0361",
-      "Deployment limitations": "e0363",
-      "Version notes": "e0361"
+      "Research problem": "e0366",
+      "Input representation": "e0366",
+      "Architecture": "e0366",
+      "Evaluation setting": "e0366",
+      "Reported results": "e0366",
+      "Deployment limitations": "e0368",
+      "Version notes": "e0366"
     }
   },
   {
@@ -15928,106 +15928,106 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0365",
-      "e0364",
-      "e0366"
+      "e0370",
+      "e0369",
+      "e0371"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -16035,13 +16035,13 @@
         "state": "Partially addressed",
         "note": "An official repository exists, but it states that code will be released in the future.",
         "evidence": [
-          "e0364"
+          "e0369"
         ]
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0364"
+          "e0369"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -16049,14 +16049,14 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0364",
-      "Input representation": "e0364",
-      "Architecture": "e0364",
-      "Supervision": "e0364",
-      "Training / evaluation datasets": "e0364",
-      "Reported results": "e0364",
-      "Deployment limitations": "e0366",
-      "Version notes": "e0364"
+      "Research problem": "e0369",
+      "Input representation": "e0369",
+      "Architecture": "e0369",
+      "Supervision": "e0369",
+      "Training / evaluation datasets": "e0369",
+      "Reported results": "e0369",
+      "Deployment limitations": "e0371",
+      "Version notes": "e0369"
     }
   },
   {
@@ -16138,15 +16138,15 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0368",
-      "e0367",
-      "e0369"
+      "e0373",
+      "e0372",
+      "e0374"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -16154,104 +16154,104 @@
         "state": "Partially addressed",
         "note": "Robustness is evaluated, but prospective time-held-out scope has not been fully extracted.",
         "evidence": [
-          "e0367"
+          "e0372"
         ]
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0367"
+          "e0372"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -16259,14 +16259,14 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0367",
-      "Input representation": "e0367",
-      "Architecture": "e0367",
-      "Pretraining objective": "e0367",
-      "Training / evaluation datasets": "e0367",
-      "Reported results": "e0367",
-      "Deployment limitations": "e0369",
-      "Version notes": "e0367"
+      "Research problem": "e0372",
+      "Input representation": "e0372",
+      "Architecture": "e0372",
+      "Pretraining objective": "e0372",
+      "Training / evaluation datasets": "e0372",
+      "Reported results": "e0372",
+      "Deployment limitations": "e0374",
+      "Version notes": "e0372"
     }
   },
   {
@@ -16346,22 +16346,22 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0371",
-      "e0370",
-      "e0372"
+      "e0376",
+      "e0375",
+      "e0377"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -16369,97 +16369,97 @@
         "state": "Addressed",
         "note": "Unknown traffic is explicit in the evaluated task; operational prevalence remains dataset-dependent.",
         "evidence": [
-          "e0370"
+          "e0375"
         ]
       },
       "Unknown applications": {
         "state": "Addressed",
         "note": "Unknown traffic is explicit in the evaluated task; operational prevalence remains dataset-dependent.",
         "evidence": [
-          "e0370"
+          "e0375"
         ]
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Real-time throughput": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Energy consumption": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0370"
+          "e0375"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -16467,13 +16467,13 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0370",
-      "Architecture": "e0370",
-      "Training / evaluation datasets": "e0370",
-      "Evaluation setting": "e0370",
-      "Reported results": "e0370",
-      "Deployment limitations": "e0372",
-      "Version notes": "e0370"
+      "Research problem": "e0375",
+      "Architecture": "e0375",
+      "Training / evaluation datasets": "e0375",
+      "Evaluation setting": "e0375",
+      "Reported results": "e0375",
+      "Deployment limitations": "e0377",
+      "Version notes": "e0375"
     }
   },
   {
@@ -16558,79 +16558,79 @@
       "technical": "Needs verification"
     },
     "evidenceIds": [
-      "e0378",
-      "e0377",
-      "e0379",
-      "e0380"
+      "e0383",
+      "e0382",
+      "e0384",
+      "e0385"
     ],
     "gaps": {
       "Cross-dataset validation": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Temporal robustness": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Open-world recognition": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Unknown applications": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Concept drift": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Data leakage control": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Minority-class performance": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "False-negative analysis": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Calibration": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Explainability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -16638,13 +16638,13 @@
         "state": "Partially addressed",
         "note": "Offline inference samples/s are reported without live traffic handling or queueing.",
         "evidence": [
-          "e0380"
+          "e0385"
         ]
       },
       "Edge deployment": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
@@ -16652,27 +16652,27 @@
         "state": "Not addressed/not reported",
         "note": "No system energy measurement extracted from reviewed sections.",
         "evidence": [
-          "e0380"
+          "e0385"
         ]
       },
       "Privacy": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Reproducibility": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
         "state": "Not addressed/not reported",
         "evidence": [
-          "e0377"
+          "e0382"
         ],
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
@@ -16680,21 +16680,21 @@
     "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Research problem": "e0377",
-      "Architecture": "e0380",
-      "Pretraining objective": "e0380",
-      "Pretraining datasets": "e0380",
-      "Training / evaluation datasets": "e0380",
-      "Split strategy": "e0380",
-      "Metrics": "e0380",
-      "Parameters": "e0380",
-      "Latency": "e0380",
-      "Throughput": "e0380",
-      "Memory": "e0380",
-      "Leakage / shortcut risks": "e0380",
-      "Deployment limitations": "e0380",
-      "Version notes": "e0377",
-      "Hardware": "e0380"
+      "Research problem": "e0382",
+      "Architecture": "e0385",
+      "Pretraining objective": "e0385",
+      "Pretraining datasets": "e0385",
+      "Training / evaluation datasets": "e0385",
+      "Split strategy": "e0385",
+      "Metrics": "e0385",
+      "Parameters": "e0385",
+      "Latency": "e0385",
+      "Throughput": "e0385",
+      "Memory": "e0385",
+      "Leakage / shortcut risks": "e0385",
+      "Deployment limitations": "e0385",
+      "Version notes": "e0382",
+      "Hardware": "e0385"
     }
   }
 ]

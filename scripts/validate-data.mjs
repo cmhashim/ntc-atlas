@@ -17,6 +17,7 @@ for(const p of papers){
 }
 for(const a of authors){assert(a.papers.length,`Author without a relevant publication: ${a.name}`);for(const id of a.papers)assert(papers.some(p=>p.id===id&&p.authors.includes(a.name)),`Unsupported authorship: ${a.name}`);}
 for(const d of datasets)for(const id of d.papers){assert(ids.has(id));assert(papers.find(p=>p.id===id).datasets.includes(d.id));}
+for(const d of datasets)if(d.introducedBy){const x=d.introducedBy;assert(eids.has(x.evidence),`Unknown introducer evidence ${d.id}`);assert(x.paper?ids.has(x.paper):x.citation,`Introducer of ${d.id} needs a known paper or a citation`);}
 for(const r of edges){assert(ids.has(r.source)&&ids.has(r.target));assert(r.source!==r.target);assert(eids.has(r.evidenceId));assert(r.explanation);}
 for(const e of evidence){assert(/^https:\/\//.test(e.sourceUrl));assert(e.locator&&e.text&&e.sourceType&&e.status&&e.accessed);assert(ids.has(e.paperId)||e.paperId.startsWith('dataset:'));}
 assert.equal(meta.paperCount,papers.length);assert.equal(meta.authorCount,authors.length);assert.equal(meta.relationshipCount,edges.length);
