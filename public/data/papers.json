@@ -9014,7 +9014,7 @@
       "Split strategy": "NA — not extracted",
       "Evaluation setting": "Train on one network, predict services on another; distribution shift without concept drift",
       "Metrics": "NA — not extracted",
-      "Reported results": "Best model under the network shift: the Full Model transformer, F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.",
+      "Reported results": "Best model under the network shift: the Full Model, the paper’s alias for UWTransformer (a transformer classifier on flow time series from Critical Study of Few-shot Learning for Encrypted Traffic Classification, CNSM 2023). F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",

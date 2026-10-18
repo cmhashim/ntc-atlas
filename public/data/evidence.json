@@ -1829,10 +1829,10 @@
     "id": "e0167",
     "paperId": "onetask",
     "category": "Author-reported result",
-    "text": "Best model under the network shift: the Full Model transformer, F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.",
+    "text": "Best model under the network shift: the Full Model, the paper’s alias for UWTransformer (a transformer classifier on flow time series from Critical Study of Few-shot Learning for Encrypted Traffic Classification, CNSM 2023). F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.",
     "sourceUrl": "https://arxiv.org/abs/2507.06430",
     "sourceType": "Original paper",
-    "locator": "Section 5.3; Table 8",
+    "locator": "Section 5.3; Tables 7–8",
     "status": "Verified",
     "accessed": "2026-10-18"
   },

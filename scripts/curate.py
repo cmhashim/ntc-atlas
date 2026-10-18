@@ -408,9 +408,9 @@ curator_fix('yatc','Metrics','Precision, recall and F1. The paper does not state
     text="The paper does not state how precision, recall and F1 are averaged. The official code computes them with weighted averaging (scikit-learn average='weighted', stored in a variable named macro).",
     url='https://github.com/NSSL-SJTU/YaTC/blob/a220b75f8365acaf63dbac7df87aaaa357698b85/engine.py#L209',locator='engine.py line 209 (commit a220b75)',source_type='Official artifact')
 # Task 2: cross-network reality check, exact values from Table 8.
-_ot='Best model under the network shift: the Full Model transformer, F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.'
+_ot='Best model under the network shift: the Full Model, the paper’s alias for UWTransformer (a transformer classifier on flow time series from Critical Study of Few-shot Learning for Encrypted Traffic Classification, CNSM 2023). F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.'
 curator_fix('onetask','Reported results',_ot,eid=next(e for e in next(p for p in P if p['id']=='onetask')['evidenceIds'] if next(x for x in E if x['id']==e)['category']=='Author-reported result'),
-    text=_ot,locator='Section 5.3; Table 8')
+    text=_ot,locator='Section 5.3; Tables 7–8')
 for rec in E:
     # Field lists: values keep their own sentences, but '.;' joins read as typos.
     rec['text']=rec['text'].replace('.; ','; ')
