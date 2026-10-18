@@ -5,9 +5,12 @@ Downloads can keep their original names: with --rename, a PDF whose first two pa
 exactly one corpus paper's title is renamed to that paper's id. Writes corpus/STATUS.md
 (have / missing with source links / unmatched files) and prints a one-line summary.
 
-Usage: python3 scripts/corpus_status.py [--rename]
+With --import DIR, PDFs anywhere under DIR (e.g. Zotero storage) that match exactly one
+missing paper are copied in as <paper_id>.pdf; the source files are left untouched.
+
+Usage: python3 scripts/corpus_status.py [--rename] [--import DIR]
 """
-import json, re, subprocess, sys, unicodedata
+import json, re, shutil, subprocess, sys, unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,6 +35,15 @@ def main():
     papers = json.load(open(ROOT / 'public/data/papers.json'))
     CORPUS.mkdir(exist_ok=True)
     ids = {p['id'] for p in papers}
+    if '--import' in sys.argv:
+        src = Path(sys.argv[sys.argv.index('--import') + 1]).expanduser()
+        for f in sorted(src.rglob('*.pdf')) + sorted(src.rglob('*.PDF')):
+            hits = match_by_title(f, papers)
+            if len(hits) == 1 and not (CORPUS / f'{hits[0]}.pdf').exists():
+                shutil.copy2(f, CORPUS / f'{hits[0]}.pdf')
+                print(f'imported {f.relative_to(src)} -> {hits[0]}.pdf')
+            elif len(hits) > 1:
+                print(f'skipped {f.relative_to(src)}: ambiguous {", ".join(hits)}')
     for f in sorted(CORPUS.glob('*.pdf')):
         if f.stem in ids:
             continue
