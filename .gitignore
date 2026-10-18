@@ -55,3 +55,6 @@ __pycache__/
 
 # Curator pomodoro to-do (local only)
 /todo/
+
+# Local paper PDFs for curator checks (copyrighted, never published)
+/corpus/

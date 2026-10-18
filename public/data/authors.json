@@ -400,19 +400,21 @@
   {
     "id": "bertrand-mathieu",
     "name": "Bertrand Mathieu",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://arxiv.org/abs/2507.06430",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "Orange Labs, Lannion",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "onetask"
+      "onetask",
+      "fewshotetc"
     ],
     "themes": [
-      "Evaluation & surveys"
+      "Encrypted classification",
+      "ISP traffic"
     ],
-    "contribution": "Verified co-authorship in Cross-network reality check.",
-    "status": "Needs verification",
-    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
     "accessed": "2026-09-21"
   },
   {
@@ -893,19 +895,21 @@
   {
     "id": "elham-akbari",
     "name": "Elham Akbari",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://arxiv.org/abs/2507.06430",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "David R. Cheriton School of Computer Science, University of Waterloo",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "onetask"
+      "onetask",
+      "fewshotetc"
     ],
     "themes": [
-      "Evaluation & surveys"
+      "Encrypted classification",
+      "Generalisation"
     ],
-    "contribution": "Verified co-authorship in Cross-network reality check.",
-    "status": "Needs verification",
-    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
     "accessed": "2026-09-21",
     "scholarUrl": "https://scholar.google.com/citations?user=MCUFR48AAAAJ&hl=en",
     "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
@@ -3287,19 +3291,21 @@
   {
     "id": "mohammad-ali-salahuddin",
     "name": "Mohammad Ali Salahuddin",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://arxiv.org/abs/2507.06430",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "David R. Cheriton School of Computer Science, University of Waterloo",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "onetask"
+      "onetask",
+      "fewshotetc"
     ],
     "themes": [
-      "Evaluation & surveys"
+      "Encrypted classification",
+      "Generalisation"
     ],
-    "contribution": "Verified co-authorship in Cross-network reality check.",
-    "status": "Needs verification",
-    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
     "accessed": "2026-09-21",
     "scholarUrl": "https://scholar.google.com/citations?user=K6fYz4MAAAAJ&hl=en",
     "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
@@ -3389,6 +3395,25 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "navid-malekghaini",
+    "name": "Navid Malekghaini",
+    "affiliation": "David R. Cheriton School of Computer Science, University of Waterloo",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "fewshotetc"
+    ],
+    "themes": [
+      "Encrypted classification",
+      "Generalisation"
+    ],
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "nick-feamster",
     "name": "Nick Feamster",
     "affiliation": "University of Chicago",
@@ -3467,19 +3492,21 @@
   {
     "id": "noura-limam",
     "name": "Noura Limam",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://arxiv.org/abs/2507.06430",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "David R. Cheriton School of Computer Science, University of Waterloo",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "onetask"
+      "onetask",
+      "fewshotetc"
     ],
     "themes": [
-      "Evaluation & surveys"
+      "Encrypted classification",
+      "Generalisation"
     ],
-    "contribution": "Verified co-authorship in Cross-network reality check.",
-    "status": "Needs verification",
-    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
     "accessed": "2026-09-21",
     "orcid": "0000-0002-7759-3751",
     "orcidSource": "ORCID record lists Cross-network reality check",
@@ -3754,19 +3781,21 @@
   {
     "id": "raouf-boutaba",
     "name": "Raouf Boutaba",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://arxiv.org/abs/2507.06430",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "David R. Cheriton School of Computer Science, University of Waterloo",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "onetask"
+      "onetask",
+      "fewshotetc"
     ],
     "themes": [
-      "Evaluation & surveys"
+      "Encrypted classification",
+      "Generalisation"
     ],
-    "contribution": "Verified co-authorship in Cross-network reality check.",
-    "status": "Needs verification",
-    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
     "accessed": "2026-09-21",
     "scholarUrl": "https://scholar.google.com/citations?user=L1RHDCcAAAAJ&hl=en",
     "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
@@ -4212,6 +4241,25 @@
     "identityChecked": "2026-10-13"
   },
   {
+    "id": "sheikh-a-tahmid",
+    "name": "Sheikh A. Tahmid",
+    "affiliation": "David R. Cheriton School of Computer Science, University of Waterloo",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
+    "papers": [
+      "fewshotetc"
+    ],
+    "themes": [
+      "Encrypted classification",
+      "Generalisation"
+    ],
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "shinan-liu",
     "name": "Shinan Liu",
     "affiliation": "Needs verification",
@@ -4357,19 +4405,21 @@
   {
     "id": "stephane-tuffin",
     "name": "Stephane Tuffin",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://arxiv.org/abs/2507.06430",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "Orange Labs, Lannion",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "onetask"
+      "onetask",
+      "fewshotetc"
     ],
     "themes": [
-      "Evaluation & surveys"
+      "Encrypted classification",
+      "ISP traffic"
     ],
-    "contribution": "Verified co-authorship in Cross-network reality check.",
-    "status": "Needs verification",
-    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
     "accessed": "2026-09-21",
     "scholarUrl": "https://scholar.google.com/citations?user=-g9-UOUAAAAJ&hl=en",
     "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)",
@@ -4378,19 +4428,21 @@
   {
     "id": "stephanie-moteau",
     "name": "Stephanie Moteau",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://arxiv.org/abs/2507.06430",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "Orange Labs, Lannion",
+    "affiliationTime": "Paper time, 2023",
+    "profile": "https://doi.org/10.23919/CNSM59352.2023.10327851",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "onetask"
+      "onetask",
+      "fewshotetc"
     ],
     "themes": [
-      "Evaluation & surveys"
+      "Encrypted classification",
+      "ISP traffic"
     ],
-    "contribution": "Verified co-authorship in Cross-network reality check.",
-    "status": "Needs verification",
-    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "contribution": "Few-shot ETC study (CNSM 2023); Crossref byline affiliation.",
+    "status": "Verified",
+    "sourceUrl": "https://doi.org/10.23919/CNSM59352.2023.10327851",
     "accessed": "2026-09-21"
   },
   {

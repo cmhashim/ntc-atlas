@@ -6,12 +6,12 @@ Priorities: **P1** blocks trust in the atlas, **P2** makes it useful day to day,
 
 ## P1. Author identity and profile links
 
-Currently: 272 authors; **171** have a confirmed Google Scholar profile (147 of them from browser checks on 2026-10-13, 2026-10-14 and 2026-10-16, automated profile re-check pending), **83** a confirmed ORCID iD, **23** a homepage, **3** a publication page; **77** have a verified (dated) affiliation, **195** still "Needs verification". Rules and workflow: [AUTHOR-IDENTITY.md](AUTHOR-IDENTITY.md).
+Currently: 274 authors; **171** have a confirmed Google Scholar profile (147 of them from browser checks on 2026-10-13, 2026-10-14 and 2026-10-16, automated profile re-check pending), **83** a confirmed ORCID iD, **23** a homepage, **3** a publication page; **86** have a verified (dated) affiliation, **188** still "Needs verification". Rules and workflow: [AUTHOR-IDENTITY.md](AUTHOR-IDENTITY.md).
 
 - [x] Add schema fields to `Author`: `orcid`, `homepageUrl`, each with its own source and check date (`identityChecked`).
 - [x] Semi-automate the candidate step: `scripts/author_candidates.py` aligns OpenAlex authorships with the bylines, confirms ORCID iDs against the ORCID record's works, and writes `curation/author-candidates.csv`. Google Scholar is checked by hand only (no scraping).
 - [ ] Re-check the 147 browser-checked Scholar profiles against their profile pages (Scholar was rate-limiting on 2026-10-13).
-- [ ] Check Google Scholar for the remaining 101 authors (all 80 papers have had at least one browser pass; these authors had no profile that lists a corpus paper, so the next pass is name-first search with the confirmation rule below). Order of work: authors with 2+ corpus papers first (priority 1 in the sheet), then first and last authors, then the rest. Confirmation rule: the profile lists at least one corpus paper with the same byline. Record "no confirmed profile" rather than guessing.
+- [ ] Check Google Scholar for the remaining 103 authors (80 of 81 papers have had at least one browser pass, the CNSM 2023 few-shot study added 2026-10-18 has not; these authors had no profile that lists a corpus paper, so the next pass is name-first search with the confirmation rule below). Order of work: authors with 2+ corpus papers first (priority 1 in the sheet), then first and last authors, then the rest. Confirmation rule: the profile lists at least one corpus paper with the same byline. Record "no confirmed profile" rather than guessing.
 - [ ] Six papers are not found in OpenAlex (BLINC, DeepMAL, Refinery, LEO, AKEM, Trustee); check their authors by hand.
 - [ ] Add DBLP person pages (`dblpUrl`); DBLP's API currently sits behind a bot check, so this needs manual links or a later API route.
 - [ ] Add an institutional page where no homepage exists. Keep affiliation (dated, with source) separate from byline verification.
@@ -20,7 +20,7 @@ Currently: 272 authors; **171** have a confirmed Google Scholar profile (147 of 
 
 ## P1. Paper metadata and evidence quality
 
-Currently: 80 papers, all bibliographically verified, **all** with technical status "Needs verification". **82** of 373 evidence records are "Needs verification". **50** papers have no verified code link.
+Currently: 81 papers, all bibliographically verified, **all** with technical status "Needs verification". **83** of 379 evidence records are "Needs verification". **51** papers have no verified code link.
 
 - [ ] Add explicit `doi` and `arxivId` fields to every paper (today the identifier is only in the URL). Validator: no duplicate DOI or arXiv ID.
 - [ ] Re-check the 82 unverified evidence records against their primary sources.
@@ -31,7 +31,7 @@ Currently: 80 papers, all bibliographically verified, **all** with technical sta
 
 ## P2. Technical extraction (what researchers come for)
 
-Currently: **64** of 80 papers are reviewed from metadata and abstract only; **1,846** comparison fields read "NA — not extracted".
+Currently: **64** of 81 papers are reviewed from metadata and abstract only; **1,868** comparison fields read "NA — not extracted".
 
 - [ ] Full-text extraction for the most-used models first (ET-BERT, YaTC, NetMamba, NetMamba+, TrafficFormer, netFound, PERT, Flow-MAE), then all 2025-2026 papers.
 - [ ] Priority fields: datasets with version, split unit, class count, metric, reported result, throughput/latency with hardware and scope, open-world and cross-dataset setup.
