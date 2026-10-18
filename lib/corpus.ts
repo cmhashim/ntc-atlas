@@ -17,7 +17,7 @@ export const authorById = Object.fromEntries(authors.map(a => [a.id,a]));
 export const datasetById = Object.fromEntries(datasets.map(d => [d.id,d]));
 export const evidenceById = Object.fromEntries(evidence.map(e => [e.id,e]));
 export const families = ['Rules & statistics','Classical ML','Deep learning','Transformer','Masked autoencoder','State space','Graph learning','Deployment','Evaluation & surveys'];
-export const colors:Record<string,string> = {'Rules & statistics':'#95a4bc','Classical ML':'#60b6eb','Deep learning':'#b9a2ff','Transformer':'#45d6c3','Masked autoencoder':'#f2be68','State space':'#f384a1','Graph learning':'#86cf92','Deployment':'#69a4ff','Evaluation & surveys':'#c4d0df'};
+export const colors:Record<string,string> = Object.fromEntries(families.map((f,i)=>[f,`var(--fam-${i})`]));
 export function familyGroup(p:Paper) {if(p.family==='Self-supervised')return p.techniques.includes('Masked autoencoding')?'Masked autoencoder':'Deep learning';return families.includes(p.family) ? p.family : /cnn|rnn|deep|multimodal/i.test(p.family) ? 'Deep learning' : /transform/i.test(p.family) ? 'Transformer' : /mask|autoencoder/i.test(p.family)?'Masked autoencoder':'Classical ML';}
 export function color(p:Paper) {return colors[familyGroup(p)];}
 export const filterKeys=['family','unit','venue','dataset','task','encrypted','payload','pretraining','openWorld','crossDataset','code','deployment','reproducibility','author','technique'] as const;
