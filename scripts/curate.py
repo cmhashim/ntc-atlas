@@ -419,6 +419,11 @@ curator_fix('yatc','Metrics','Precision, recall and F1. The paper does not state
 _ot='Best model under the network shift: the Full Model, the paper’s alias for UWTransformer (a transformer classifier on flow time series from Critical Study of Few-shot Learning for Encrypted Traffic Classification, CNSM 2023). F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.'
 curator_fix('onetask','Reported results',_ot,eid=next(e for e in next(p for p in P if p['id']=='onetask')['evidenceIds'] if next(x for x in E if x['id']==e)['category']=='Author-reported result'),
     text=_ot,locator='Section 5.3; Tables 7–8')
+# Task 3: exact pretraining objectives, read from corpus/ PDFs.
+_tf='Two tasks trained jointly: Masked Burst Modelling (cross-entropy over masked tokens) and Same Origin-Direction-Flow, a 5-class burst-pair classification (cross-entropy). Total loss = λ·loss_MBM + loss_SODF with λ = 0.1.'
+curator_fix('trafficformer','Pretraining objective',_tf,text=_tf,url='https://ieeexplore.ieee.org/document/11023272/',locator='Section 3.2.2; Equations 1–3')
+_ro='BYOL self-supervised learning on TCP-aware augmented flow variants (packet-length sequences): normalised mean-squared error between the online prediction and the target projection, symmetrised over the two variants; target network updated as a moving average with decay 0.996.'
+curator_fix('rosetta','Pretraining objective',_ro,text=_ro,url='https://www.usenix.org/conference/usenixsecurity23/presentation/xie',locator='Section 4.4, Equation 1; Section 5.1')
 for rec in E:
     # Field lists: values keep their own sentences, but '.;' joins read as typos.
     rec['text']=rec['text'].replace('.; ','; ')

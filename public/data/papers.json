@@ -7791,7 +7791,7 @@
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
       "Architecture": "Recorded method family: Transformer. Architecture details: NA — not extracted.",
-      "Pretraining objective": "Masked modelling plus Same Origin-Direction-Flow task; full exact loss extraction pending",
+      "Pretraining objective": "Two tasks trained jointly: Masked Burst Modelling (cross-entropy over masked tokens) and Same Origin-Direction-Flow, a 5-class burst-pair classification (cross-entropy). Total loss = λ·loss_MBM + loss_SODF with λ = 0.1.",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
@@ -7840,7 +7840,8 @@
       "e0115",
       "e0117",
       "e0183",
-      "e0221"
+      "e0221",
+      "e0380"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7958,7 +7959,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Pretraining objective": "e0380"
+    }
   },
   {
     "id": "miett",
@@ -10269,7 +10272,7 @@
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
       "Architecture": "Recorded method family: Deep learning. Architecture details: NA — not extracted.",
-      "Pretraining objective": "Self-supervised learning with TCP-aware augmentation; exact loss needs verification",
+      "Pretraining objective": "BYOL self-supervised learning on TCP-aware augmented flow variants (packet-length sequences): normalised mean-squared error between the online prediction and the target projection, symmetrised over the two variants; target network updated as a moving average with decay 0.996.",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
@@ -10315,7 +10318,8 @@
     "evidenceIds": [
       "e0152",
       "e0151",
-      "e0153"
+      "e0153",
+      "e0381"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10433,7 +10437,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Pretraining objective": "e0381"
+    }
   },
   {
     "id": "mhnet",
