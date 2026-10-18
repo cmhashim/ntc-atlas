@@ -6531,7 +6531,7 @@
   },
   {
     "id": "serveflow",
-    "short": "ServeFlow",
+    "short": "ServeFlow / FlowWise",
     "title": "ServeFlow: A Fast-Slow Model Architecture for Network Traffic Analysis",
     "authors": [
       "Shinan Liu",
@@ -6544,7 +6544,7 @@
     ],
     "year": 2024,
     "venue": "arXiv",
-    "url": "https://arxiv.org/abs/2402.03694",
+    "url": "https://arxiv.org/abs/2402.03694v2",
     "family": "Deployment",
     "unit": "Flow",
     "summary": "Routes uncertain fast-model decisions to a slower model.",
@@ -6581,7 +6581,7 @@
       "Reproducibility": "No experiments independently rerun for this explorer.",
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "NA — not extracted",
-      "Version notes": "Metadata is the 2024 work; detailed setup here uses arXiv v2 (24 October 2024).",
+      "Version notes": "Metadata is the 2024 work; detailed setup here uses arXiv v2 (24 October 2024). arXiv v3 (11 October 2026) retitles the work \"FlowWise: Stateful Fast-Slow Model Serving for Streaming Traffic Intelligence\"; v3 has not been extracted.",
       "Hardware": "AMD EPYC 7302P, 16 cores/32 threads, 64 GB RAM; PF_RING and ONNX Runtime.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Traffic replay with arrival timing preserved; flow-level and continuous QoE tasks differ."
@@ -6610,7 +6610,8 @@
       "e0097",
       "e0099",
       "e0165",
-      "e0287"
+      "e0287",
+      "e0381"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6738,7 +6739,7 @@
       "Split strategy": "e0287",
       "Hardware": "e0287",
       "Measurement scope": "e0287",
-      "Version notes": "e0287",
+      "Version notes": "e0381",
       "Reported results": "e0165"
     }
   },
@@ -7844,7 +7845,7 @@
       "e0117",
       "e0183",
       "e0221",
-      "e0381"
+      "e0382"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7963,7 +7964,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0381"
+      "Pretraining objective": "e0382"
     }
   },
   {
@@ -10322,7 +10323,7 @@
       "e0152",
       "e0151",
       "e0153",
-      "e0382"
+      "e0383"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10441,7 +10442,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0382"
+      "Pretraining objective": "e0383"
     }
   },
   {
