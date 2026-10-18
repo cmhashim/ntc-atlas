@@ -6,7 +6,7 @@ import {Tooltip,TooltipTrigger,TooltipContent} from '@/components/ui/tooltip';
 import {Dialog,DialogContent,DialogDescription,DialogHeader,DialogTitle,DialogTrigger} from '@/components/ui/dialog';
 
 const GITHUB='https://github.com/cmhashim';
-const LINKEDIN='';
+const LINKEDIN='https://www.linkedin.com/in/cmhashim/';
 const CHALMERS='https://www.chalmers.se/en/persons/hashimm';
 const YEAR='2026';
 const TITLE='NTC Atlas: an interactive, evidence-backed atlas of network traffic classification research';
