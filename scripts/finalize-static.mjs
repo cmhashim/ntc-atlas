@@ -22,3 +22,4 @@ if (base) {
 // Build manifests are not site content.
 for (const name of ['.vite', 'vinext-client-entry-manifest.json']) fs.rmSync(path.join(out, name), { recursive: true, force: true });
 console.log(`Static site ready in out/ (base: ${base ? '/' + base + '/' : '/'})`);
+await import('./seo-pages.mjs');
