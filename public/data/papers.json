@@ -3166,7 +3166,7 @@
   {
     "id": "commercial",
     "short": "Commercial-scale ETC",
-    "title": "Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications",
+    "title": "Deep Learning and Zero-Day Traffic Classification: Lessons Learned From a Commercial-Grade Dataset",
     "authors": [
       "Lixuan Yang",
       "Alessandro Finamore",
@@ -3174,8 +3174,8 @@
       "Dario Rossi"
     ],
     "year": 2021,
-    "venue": "arXiv",
-    "url": "https://arxiv.org/abs/2104.03182",
+    "venue": "IEEE TNSM 18(4)",
+    "url": "https://doi.org/10.1109/TNSM.2021.3122940",
     "family": "Evaluation & surveys",
     "unit": "Flow",
     "summary": "Evaluates known-app classification and unknown-app detection at commercial scale.",
@@ -3212,7 +3212,7 @@
       "Reproducibility": "No experiments independently rerun for this explorer.",
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "NA — not extracted",
-      "Version notes": "NA — not extracted",
+      "Version notes": "Published in IEEE TNSM 18(4), December 2021. arXiv v1 (April 2021) was titled \"Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications\"; v2 (September 2021) uses the published title.",
       "Hardware": "NA — not extracted",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
@@ -3232,7 +3232,7 @@
     "deployment": "Needs verification",
     "reproducibility": "Metadata checked",
     "seminal": true,
-    "publicationStatus": "Preprint; venue not verified",
+    "publicationStatus": "Peer reviewed",
     "verification": {
       "bibliography": "Verified",
       "technical": "Needs verification"
@@ -3240,7 +3240,8 @@
     "evidenceIds": [
       "e0050",
       "e0049",
-      "e0051"
+      "e0051",
+      "e0380"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3358,7 +3359,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Version notes": "e0380"
+    }
   },
   {
     "id": "cicissues",
@@ -7841,7 +7844,7 @@
       "e0117",
       "e0183",
       "e0221",
-      "e0380"
+      "e0381"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7960,7 +7963,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0380"
+      "Pretraining objective": "e0381"
     }
   },
   {
@@ -10319,7 +10322,7 @@
       "e0152",
       "e0151",
       "e0153",
-      "e0381"
+      "e0382"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10438,7 +10441,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0381"
+      "Pretraining objective": "e0382"
     }
   },
   {

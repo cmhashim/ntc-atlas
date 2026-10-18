@@ -20,7 +20,7 @@ Currently: 274 authors; **171** have a confirmed Google Scholar profile (147 of 
 
 ## P1. Paper metadata and evidence quality
 
-Currently: 81 papers, all bibliographically verified, **all** with technical status "Needs verification". **83** of 381 evidence records are "Needs verification". **51** papers have no verified code link.
+Currently: 81 papers, all bibliographically verified, **all** with technical status "Needs verification". **83** of 382 evidence records are "Needs verification". **51** papers have no verified code link.
 
 - [ ] Add explicit `doi` and `arxivId` fields to every paper (today the identifier is only in the URL). Validator: no duplicate DOI or arXiv ID.
 - [ ] Re-check the 82 unverified evidence records against their primary sources.
