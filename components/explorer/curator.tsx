@@ -5,7 +5,7 @@ import {Button} from '@/components/ui/button';
 import {Tooltip,TooltipTrigger,TooltipContent} from '@/components/ui/tooltip';
 import {Dialog,DialogContent,DialogDescription,DialogHeader,DialogTitle,DialogTrigger} from '@/components/ui/dialog';
 
-const GITHUB='https://github.com/cmhashim';
+const GITHUB='https://github.com/cmhashim/ntc-atlas';
 const LINKEDIN='https://www.linkedin.com/in/cmhashim/';
 const CHALMERS='https://www.chalmers.se/en/persons/hashimm';
 const YEAR='2026';
@@ -25,7 +25,7 @@ function CitationBlock({label,text}:{label:string;text:string}){const [copied,se
  return <div className="cite-block"><div className="between"><strong>{label}</strong><Button variant="outline" size="sm" onClick={copy} aria-label={`Copy ${label} citation`}>{copied?<Check size={14}/>:<Copy size={14}/>}<span>{copied?'Copied':'Copy'}</span></Button></div><pre className="bibtex">{text}</pre></div>;}
 
 export function CuratorLinks(){return <>
- <IconLink href={GITHUB} label="GitHub"><GithubMark/></IconLink>
+ <IconLink href={GITHUB} label="Source on GitHub"><GithubMark/></IconLink>
  {LINKEDIN&&<IconLink href={LINKEDIN} label="LinkedIn"><LinkedinMark/></IconLink>}
  <IconLink href={CHALMERS} label="Chalmers profile"><GraduationCap size={18}/></IconLink>
  <Dialog><Tooltip><TooltipTrigger asChild><DialogTrigger asChild><Button variant="ghost" size="icon" aria-label="Cite NTC Atlas"><Quote size={17}/></Button></DialogTrigger></TooltipTrigger><TooltipContent>Cite</TooltipContent></Tooltip>
