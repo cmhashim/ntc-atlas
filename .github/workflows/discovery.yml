@@ -1,0 +1,54 @@
+name: Weekly discovery
+
+# Every Monday 06:00 UTC (or manually): look for new NTC papers and open ONE review issue.
+# Read-only for the repository. It never commits and never touches public/data/.
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Look back this many days
+        default: '7'
+        required: false
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DISCOVERY_MAILTO: ${{ vars.DISCOVERY_MAILTO }}
+      DAYS: ${{ github.event.inputs.days || '7' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Find candidates
+        run: |
+          case "$DAYS" in ''|*[!0-9]*) echo "days must be a number"; exit 1;; esac
+          python3 scripts/discover.py --days "$DAYS" --out discovery.md
+          echo "CANDIDATES=$(grep -c '^- \[ \]' discovery.md || true)" >> "$GITHUB_ENV"
+
+      - name: Open the review issue
+        run: |
+          if [ "$CANDIDATES" = "0" ]; then
+            echo "No candidates this week; no issue opened."
+            exit 0
+          fi
+          gh label create discovery --description "Weekly discovery review" --color 1d76db 2>/dev/null || true
+          gh issue create \
+            --title "Discovery review $(date -u +%F)" \
+            --label discovery \
+            --body-file discovery.md
