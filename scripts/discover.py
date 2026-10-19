@@ -230,22 +230,33 @@ def snippet(a, n=2, width=260):
     return (s[:width].rsplit(' ', 1)[0] + '...') if len(s) > width else s
 
 
+def md(s):
+    """Text from external APIs goes into a GitHub issue: escape Markdown/HTML and stop @mentions and #refs."""
+    s = re.sub(r'([\\`*_{}\[\]()<>#+!|~>-])', r'\\\1', str(s or ''))
+    return s.replace('@', '@​')
+
+
+def link(u):
+    u = str(u or '')
+    return f'<{u}>' if re.match(r'^https?://[^\s<>]+$', u) else 'invalid link omitted'
+
+
 def render(cands, today, since, failed, total):
     L = [f'# Discovery review {today}', '',
          f'Window: {since} to {today}. {len(cands)} candidates from {total} raw hits. '
          'Relevance is a keyword score, not a judgement.',
          'Nothing here is verified. Check every field against the publisher or arXiv record before adding anything.', '']
     if failed:
-        L += ['**Failed sources:** ' + '; '.join(f'{n} ({e})' for n, e in failed), '']
+        L += ['**Failed sources:** ' + '; '.join(f'{n} ({md(e)})' for n, e in failed), '']
     for c in cands:
         au = ', '.join(c['authors'][:3]) + (' et al.' if len(c['authors']) > 3 else '')
-        L += [f"- [ ] **{c['title']}**",
-              f"  - Authors: {au or 'not listed'}",
-              f"  - Venue / date: {c['venue'] or 'unknown'}, {c['date'] or 'undated'}",
-              f"  - Link: {c['url']}",
-              f"  - Sources: {', '.join(c['sources'])}; score {c['score']}; keywords: {', '.join(c['keywords'])}"]
+        L += [f"- [ ] **{md(c['title'])}**",
+              f"  - Authors: {md(au) or 'not listed'}",
+              f"  - Venue / date: {md(c['venue']) or 'unknown'}, {md(c['date']) or 'undated'}",
+              f"  - Link: {link(c['url'])}",
+              f"  - Sources: {', '.join(c['sources'])}; score {c['score']}; keywords: {md(', '.join(c['keywords']))}"]
         if c['abstract']:
-            L.append(f"  - Abstract: {snippet(c['abstract'])}")
+            L.append(f"  - Abstract: {md(snippet(c['abstract']))}")
     return '\n'.join(L) + '\n'
 
 
