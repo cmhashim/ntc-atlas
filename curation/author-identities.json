@@ -552,8 +552,10 @@
   },
   "lin-liu": {
     "orcid": "0000-0002-5930-8881",
-    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters. OpenAlex attaches a second ORCID (0009-0009-8861-4237) to ExpMD and SemiAF, but that record is empty and all six papers give NUDT, Changsha, so they are treated as the same author (curator check)",
-    "identityChecked": "2026-10-14"
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters. OpenAlex attaches a second ORCID (0009-0009-8861-4237) to ExpMD and SemiAF, but that record is empty and all six papers give NUDT, Changsha, so they are treated as the same author (curator check). Curv-Tail (2026) names a second, different NUDT author called Lin Liu (paper footnote); this record is the Lin Liu on the Scholar profile below, the other is not yet recorded",
+    "identityChecked": "2026-10-19",
+    "scholarUrl": "https://scholar.google.com/citations?user=eoj1VFoAAAAJ&hl=en",
+    "scholarSource": "Curator browser check 2026-10-19: profile lists MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF and Curv-Tail"
   },
   "lisandro-z-granville": {
     "scholarUrl": "https://scholar.google.com/citations?user=v9JjkyYAAAAJ&hl=en",
@@ -943,8 +945,10 @@
   },
   "tong-li": {
     "scholarUrl": "https://scholar.google.com/citations?user=Kjay1aEAAAAJ&hl=en",
-    "scholarSource": "Profile lists TrafficFormer (curator check with Grok browsing, batch 2; automated re-check pending)",
-    "identityChecked": "2026-10-14"
+    "scholarSource": "Linked from the author's own homepage, which lists TrafficFormer; NetLexicon shares co-authors with his other work (curator check 2026-10-19)",
+    "identityChecked": "2026-10-19",
+    "homepageUrl": "http://iir.ruc.edu.cn/~litong/index.html",
+    "homepageSource": "Author's own homepage (Renmin University of China); lists TrafficFormer and links exactly this Scholar profile"
   },
   "vera-rimmer": {
     "scholarUrl": "https://scholar.google.com/citations?user=rpFf8joAAAAJ&hl=en",

@@ -2968,8 +2968,10 @@
     "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
     "accessed": "2026-09-23",
     "orcid": "0000-0002-5930-8881",
-    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters. OpenAlex attaches a second ORCID (0009-0009-8861-4237) to ExpMD and SemiAF, but that record is empty and all six papers give NUDT, Changsha, so they are treated as the same author (curator check)",
-    "identityChecked": "2026-10-14"
+    "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters. OpenAlex attaches a second ORCID (0009-0009-8861-4237) to ExpMD and SemiAF, but that record is empty and all six papers give NUDT, Changsha, so they are treated as the same author (curator check). Curv-Tail (2026) names a second, different NUDT author called Lin Liu (paper footnote); this record is the Lin Liu on the Scholar profile below, the other is not yet recorded",
+    "identityChecked": "2026-10-19",
+    "scholarUrl": "https://scholar.google.com/citations?user=eoj1VFoAAAAJ&hl=en",
+    "scholarSource": "Curator browser check 2026-10-19: profile lists MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF and Curv-Tail"
   },
   {
     "id": "lingfeng-peng",
@@ -5168,25 +5170,27 @@
   {
     "id": "tong-li",
     "name": "Tong Li",
-    "affiliation": "Needs verification",
-    "affiliationTime": "Needs verification",
-    "profile": "https://ieeexplore.ieee.org/document/11023272/",
-    "profileType": "Verified byline; standalone profile pending",
+    "affiliation": "Renmin University of China, School of Information (DEKE Lab)",
+    "affiliationTime": "Current, homepage checked 2026-10-19 (associate professor 2022, full professor 2026)",
+    "profile": "http://iir.ruc.edu.cn/~litong/index.html",
+    "profileType": "Institutional / paper affiliation source",
     "papers": [
       "trafficformer",
       "netlexicon"
     ],
     "themes": [
-      "Self-supervised",
-      "Transformer"
+      "Pretrained traffic models",
+      "Computer networks"
     ],
-    "contribution": "Verified co-authorship in TrafficFormer, NetLexicon.",
-    "status": "Needs verification",
-    "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
+    "contribution": "TrafficFormer and NetLexicon co-author; PhD Tsinghua University (2012–2017).",
+    "status": "Verified",
+    "sourceUrl": "http://iir.ruc.edu.cn/~litong/index.html",
     "accessed": "2026-09-21",
     "scholarUrl": "https://scholar.google.com/citations?user=Kjay1aEAAAAJ&hl=en",
-    "scholarSource": "Profile lists TrafficFormer (curator check with Grok browsing, batch 2; automated re-check pending)",
-    "identityChecked": "2026-10-14"
+    "scholarSource": "Linked from the author's own homepage, which lists TrafficFormer; NetLexicon shares co-authors with his other work (curator check 2026-10-19)",
+    "identityChecked": "2026-10-19",
+    "homepageUrl": "http://iir.ruc.edu.cn/~litong/index.html",
+    "homepageSource": "Author's own homepage (Renmin University of China); lists TrafficFormer and links exactly this Scholar profile"
   },
   {
     "id": "tongze-wang",
