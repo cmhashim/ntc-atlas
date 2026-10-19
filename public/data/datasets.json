@@ -25,6 +25,9 @@
       "netmambaplus",
       "shortcutcatcher",
       "biasseeker",
+      "supclgnn",
+      "vfrdad",
+      "dpft",
       "labelprovenance",
       "meanmae"
     ],
@@ -57,6 +60,7 @@
       "replication",
       "netmamba",
       "biasseeker",
+      "supclgnn",
       "labelprovenance",
       "meanmae"
     ],
@@ -89,6 +93,9 @@
       "sugar",
       "netmambaplus",
       "biasseeker",
+      "supclgnn",
+      "pmpnet",
+      "dpft",
       "labelprovenance",
       "meanmae"
     ],
@@ -211,6 +218,7 @@
       "shortcutcatcher",
       "biasseeker",
       "ntcenigma",
+      "dpft",
       "lim",
       "labelprovenance",
       "meanmae"

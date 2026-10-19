@@ -275,6 +275,24 @@
     "identityChecked": "2026-10-14"
   },
   {
+    "id": "ao-yin",
+    "name": "Ao Yin",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dpft"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in DPFT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "arash-habibi-lashkari",
     "name": "Arash Habibi Lashkari",
     "affiliation": "Needs verification",
@@ -623,13 +641,17 @@
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
       "netgpt",
-      "nepco"
+      "nepco",
+      "shortcutgen",
+      "netcofi"
     ],
     "themes": [
       "Deployment",
+      "Evaluation & surveys",
+      "State space",
       "Transformer"
     ],
-    "contribution": "Verified co-authorship in NetGPT, Nepco / convolutional NFM.",
+    "contribution": "Verified co-authorship in NetGPT, Nepco / convolutional NFM, Shortcut in Generalization, NetCoFi.",
     "status": "Needs verification",
     "sourceUrl": "https://arxiv.org/abs/2304.09513",
     "accessed": "2026-09-21",
@@ -784,6 +806,24 @@
     "identityChecked": "2026-10-13"
   },
   {
+    "id": "dawn-song",
+    "name": "Dawn Song",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.07386v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netagent"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in NetAgent.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.07386v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "de-chuan-zhan",
     "name": "De-Chuan Zhan",
     "affiliation": "Needs verification",
@@ -866,6 +906,24 @@
     "contribution": "Verified co-authorship in P2P signatures.",
     "status": "Needs verification",
     "sourceUrl": "https://dl.acm.org/doi/10.1145/988672.988742",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "dongzhen-qi",
+    "name": "Dongzhen Qi",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.17961v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "shortcutgen"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Shortcut in Generalization.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
     "accessed": "2026-09-21"
   },
   {
@@ -1005,6 +1063,24 @@
     "homepageSource": "Linked from the confirmed ORCID record",
     "scholarUrl": "https://scholar.google.com/citations?user=rAGRBOAAAAAJ&hl=en",
     "scholarSource": "linked from the author's own page"
+  },
+  {
+    "id": "fazilatulaili-ali",
+    "name": "Fazilatulaili Ali",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.62527/joiv.10.5.4411",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "joivcompare"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Transformer comparison (JOIV).",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "accessed": "2026-09-21"
   },
   {
     "id": "feargus-pendlebury",
@@ -1572,6 +1648,44 @@
     "identityChecked": "2026-10-16"
   },
   {
+    "id": "guolong-li",
+    "name": "Guolong Li",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "supclgnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in SupCL-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "guozheng-yang",
+    "name": "Guozheng Yang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.17961v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "shortcutgen",
+      "netcofi"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in Shortcut in Generalization, NetCoFi.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "gustavo-batista",
     "name": "Gustavo Batista",
     "affiliation": "Needs verification",
@@ -1656,6 +1770,42 @@
     "identityChecked": "2026-10-14"
   },
   {
+    "id": "hanlin-huang",
+    "name": "Hanlin Huang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "hao-fu",
+    "name": "Hao Fu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.07386v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netagent"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in NetAgent.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.07386v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "haodong-yue",
     "name": "Haodong Yue",
     "affiliation": "Needs verification",
@@ -1735,6 +1885,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "hongxiu-yang",
+    "name": "Hongxiu Yang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pmpnet"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in PMP-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "huajie-shao",
     "name": "Huajie Shao",
     "affiliation": "Needs verification",
@@ -1756,6 +1924,24 @@
     "scholarUrl": "https://scholar.google.com/citations?user=5-D7ZLsAAAAJ&hl=en",
     "scholarSource": "Profile lists Lens (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  {
+    "id": "hui-zhao",
+    "name": "Hui Zhao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "dpft"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in DPFT.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "accessed": "2026-09-21"
   },
   {
     "id": "hyojoon-kim",
@@ -2011,6 +2197,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "jiangjin-gao",
+    "name": "Jiangjin Gao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vfrdad"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in VFRDAD.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "jiangtao-kong",
     "name": "Jiangtao Kong",
     "affiliation": "Needs verification",
@@ -2036,22 +2240,39 @@
     "name": "Jiangyong Shi",
     "affiliation": "Needs verification",
     "affiliationTime": "Needs verification",
-    "profile": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
+      "curvtail",
       "unflows",
       "robustnessmatters",
       "semiaf"
     ],
     "themes": [
-      "Graph learning",
-      "Transformer",
-      "Unsupervised learning"
+      "Deep learning"
     ],
-    "contribution": "Verified co-authorship in unFlowS, Robustness Matters, SemiAF.",
+    "contribution": "Verified co-authorship in Curv-Tail, unFlowS, Robustness Matters, SemiAF.",
     "status": "Needs verification",
-    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
     "accessed": "2026-09-23"
+  },
+  {
+    "id": "jianjiang-zheng",
+    "name": "Jianjiang Zheng",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vfrdad"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in VFRDAD.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "accessed": "2026-09-21"
   },
   {
     "id": "jianping-wu",
@@ -2069,6 +2290,24 @@
     "contribution": "Verified co-authorship in Brain-on-Switch.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "jing-hu",
+    "name": "Jing Hu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
     "accessed": "2026-09-21"
   },
   {
@@ -2179,6 +2418,24 @@
     "scholarUrl": "https://scholar.google.com/citations?user=uH-hO3oAAAAJ&hl=en",
     "scholarSource": "Profile lists Brain-on-Switch (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  {
+    "id": "jiongjiong-ren",
+    "name": "Jiongjiong Ren",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "supclgnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in SupCL-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "accessed": "2026-09-21"
   },
   {
     "id": "johann-hugon",
@@ -2370,9 +2627,10 @@
     "name": "Jun-Jie Huang",
     "affiliation": "Needs verification",
     "affiliationTime": "Needs verification",
-    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
+      "curvtail",
       "mm4flow",
       "expmd",
       "unflows",
@@ -2380,15 +2638,11 @@
       "semiaf"
     ],
     "themes": [
-      "Explainability",
-      "Graph learning",
-      "Multimodal",
-      "Transformer",
-      "Unsupervised learning"
+      "Deep learning"
     ],
-    "contribution": "Verified co-authorship in MM4flow, ExpMD, unFlowS, Robustness Matters, SemiAF.",
+    "contribution": "Verified co-authorship in Curv-Tail, MM4flow, ExpMD, unFlowS, Robustness Matters, SemiAF.",
     "status": "Needs verification",
-    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
     "accessed": "2026-09-23",
     "orcid": "0000-0003-2986-4665",
     "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters",
@@ -2414,6 +2668,24 @@
     "contribution": "ET-BERT co-author.",
     "status": "Verified",
     "sourceUrl": "https://arxiv.org/html/2202.06335v2",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "kaixiang-jiang",
+    "name": "Kaixiang Jiang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pmpnet"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in PMP-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
     "accessed": "2026-09-21"
   },
   {
@@ -2490,13 +2762,15 @@
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
       "bos",
-      "trafficformer"
+      "trafficformer",
+      "netlexicon"
     ],
     "themes": [
       "Deployment",
+      "Self-supervised",
       "Transformer"
     ],
-    "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer.",
+    "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer, NetLexicon.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
     "accessed": "2026-09-21",
@@ -2675,9 +2949,10 @@
     "name": "Lin Liu",
     "affiliation": "Needs verification",
     "affiliationTime": "Needs verification",
-    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
+      "curvtail",
       "mm4flow",
       "evs2vec",
       "expmd",
@@ -2686,16 +2961,11 @@
       "semiaf"
     ],
     "themes": [
-      "Classical ML",
-      "Explainability",
-      "Graph learning",
-      "Multimodal",
-      "Transformer",
-      "Unsupervised learning"
+      "Deep learning"
     ],
-    "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
+    "contribution": "Verified co-authorship in Curv-Tail, MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
     "status": "Needs verification",
-    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
     "accessed": "2026-09-23",
     "orcid": "0000-0002-5930-8881",
     "orcidSource": "ORCID record lists MM4flow, unFlowS, Robustness Matters. OpenAlex attaches a second ORCID (0009-0009-8861-4237) to ExpMD and SemiAF, but that record is empty and all six papers give NUDT, Changsha, so they are treated as the same author (curator check)",
@@ -2967,6 +3237,24 @@
     "scholarUrl": "https://scholar.google.com/citations?user=O1iciXoAAAAJ&hl=en",
     "scholarSource": "Profile lists Deep Packet (curator check with Grok browsing, batch 2; automated re-check pending)",
     "identityChecked": "2026-10-14"
+  },
+  {
+    "id": "mahmoud-abbasi",
+    "name": "Mahmoud Abbasi",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.31141v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "distilshortcut"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Distillation over one year.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.31141v1",
+    "accessed": "2026-09-21"
   },
   {
     "id": "marco-fiore",
@@ -3245,7 +3533,8 @@
     "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
     "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "yatc"
+      "yatc",
+      "scsm"
     ],
     "themes": [
       "Masked autoencoding",
@@ -3377,6 +3666,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "mohd-rizal-mohd-isa",
+    "name": "Mohd Rizal Mohd Isa",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.62527/joiv.10.5.4411",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "joivcompare"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Transformer comparison (JOIV).",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "mohit-tawarmalani",
     "name": "Mohit Tawarmalani",
     "affiliation": "Needs verification",
@@ -3392,6 +3699,60 @@
     "contribution": "Verified co-authorship in Leo.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "muhammad-alif-ikhwan-zainuddin",
+    "name": "Muhammad Alif Ikhwan Zainuddin",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.62527/joiv.10.5.4411",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "joivcompare"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Transformer comparison (JOIV).",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "muhammad-fendi-osman",
+    "name": "Muhammad Fendi Osman",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.62527/joiv.10.5.4411",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "joivcompare"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Transformer comparison (JOIV).",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "mukhtar-nazifi-imam",
+    "name": "Mukhtar Nazifi Imam",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.62527/joiv.10.5.4411",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "joivcompare"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Transformer comparison (JOIV).",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
     "accessed": "2026-09-21"
   },
   {
@@ -3515,6 +3876,24 @@
     "scholarSource": "Profile lists Cross-network reality check (curator check with Grok browsing; automated re-check pending)"
   },
   {
+    "id": "nur-diyana-kamarudin",
+    "name": "Nur Diyana Kamarudin",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.62527/joiv.10.5.4411",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "joivcompare"
+    ],
+    "themes": [
+      "Evaluation & surveys"
+    ],
+    "contribution": "Verified co-authorship in Transformer comparison (JOIV).",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "oliver-spatscheck",
     "name": "Oliver Spatscheck",
     "affiliation": "Needs verification",
@@ -3600,6 +3979,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "peng-gao",
+    "name": "Peng Gao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.07386v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netagent"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in NetAgent.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.07386v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "pietro-michiardi",
     "name": "Pietro Michiardi",
     "affiliation": "Needs verification",
@@ -3651,20 +4048,42 @@
     "papers": [
       "bos",
       "trafficformer",
-      "rosetta"
+      "rosetta",
+      "netlexicon"
     ],
     "themes": [
       "Deep learning",
       "Deployment",
+      "Self-supervised",
       "Transformer"
     ],
-    "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer, Rosetta.",
+    "contribution": "Verified co-authorship in Brain-on-Switch, TrafficFormer, Rosetta, NetLexicon.",
     "status": "Needs verification",
     "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
     "accessed": "2026-09-21",
     "orcid": "0000-0001-8776-8730",
     "orcidSource": "ORCID record lists Brain-on-Switch, Rosetta",
     "identityChecked": "2026-10-13"
+  },
+  {
+    "id": "qiming-yu",
+    "name": "Qiming Yu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.17961v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "shortcutgen",
+      "netcofi"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in Shortcut in Generalization, NetCoFi.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "accessed": "2026-09-21"
   },
   {
     "id": "qineng-wang",
@@ -3953,6 +4372,24 @@
     "identityChecked": "2026-10-14"
   },
   {
+    "id": "rongbang-wu",
+    "name": "Rongbang Wu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "ruben-perez-jove",
     "name": "Rubén Pérez-Jove",
     "affiliation": "Needs verification",
@@ -3978,6 +4415,24 @@
     "scholarSource": "listed in the confirmed ORCID record and linked from the author's own page"
   },
   {
+    "id": "rui-jiang",
+    "name": "Rui Jiang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vfrdad"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in VFRDAD.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "ruijie-zhao",
     "name": "Ruijie Zhao",
     "affiliation": "Shanghai Jiao Tong University",
@@ -3986,7 +4441,8 @@
     "profileType": "Institutional / paper affiliation source",
     "papers": [
       "yatc",
-      "nepco"
+      "nepco",
+      "scsm"
     ],
     "themes": [
       "Masked autoencoding",
@@ -4220,6 +4676,24 @@
     "identityChecked": "2026-10-13"
   },
   {
+    "id": "shaozhen-chen",
+    "name": "Shaozhen Chen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "supclgnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in SupCL-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "shay-vargaftik",
     "name": "Shay Vargaftik",
     "affiliation": "Needs verification",
@@ -4446,6 +4920,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "su-yao",
+    "name": "Su Yao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "subhabrata-sen",
     "name": "Subhabrata Sen",
     "affiliation": "Needs verification",
@@ -4535,6 +5027,24 @@
     "scholarUrl": "https://scholar.google.com/citations?user=2VthnhIAAAAJ&hl=en",
     "scholarSource": "Profile lists mini-FlowPic (curator browser check, Grok batch 3, 2026-10-16)",
     "identityChecked": "2026-10-16"
+  },
+  {
+    "id": "tao-yang",
+    "name": "Tao Yang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vfrdad"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in VFRDAD.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "accessed": "2026-09-21"
   },
   {
     "id": "ted-shaowang",
@@ -4663,12 +5173,14 @@
     "profile": "https://ieeexplore.ieee.org/document/11023272/",
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
-      "trafficformer"
+      "trafficformer",
+      "netlexicon"
     ],
     "themes": [
+      "Self-supervised",
       "Transformer"
     ],
-    "contribution": "Verified co-authorship in TrafficFormer.",
+    "contribution": "Verified co-authorship in TrafficFormer, NetLexicon.",
     "status": "Needs verification",
     "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
     "accessed": "2026-09-21",
@@ -4915,6 +5427,24 @@
     "scholarSource": "Profile lists ETooL (curator check with Grok browsing; automated re-check pending)"
   },
   {
+    "id": "wentao-cui",
+    "name": "Wentao Cui",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.17978v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netcofi"
+    ],
+    "themes": [
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in NetCoFi.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.17978v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "wouter-joosen",
     "name": "Wouter Joosen",
     "affiliation": "imec-DistriNet, KU Leuven",
@@ -4996,6 +5526,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "xiangyu-gao",
+    "name": "Xiangyu Gao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "xianwen-deng",
     "name": "Xianwen Deng",
     "affiliation": "Shanghai Jiao Tong University",
@@ -5003,7 +5551,8 @@
     "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
     "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "yatc"
+      "yatc",
+      "scsm"
     ],
     "themes": [
       "Masked autoencoding",
@@ -5084,17 +5633,18 @@
     "name": "Xiaodong Lei",
     "affiliation": "Needs verification",
     "affiliationTime": "Needs verification",
-    "profile": "https://doi.org/10.1109/DSN64029.2025.00051",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
+      "curvtail",
       "semiaf"
     ],
     "themes": [
-      "Graph learning"
+      "Deep learning"
     ],
-    "contribution": "Verified co-authorship in SemiAF.",
+    "contribution": "Verified co-authorship in Curv-Tail, SemiAF.",
     "status": "Needs verification",
-    "sourceUrl": "https://doi.org/10.1109/DSN64029.2025.00051",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
     "accessed": "2026-09-23"
   },
   {
@@ -5170,6 +5720,24 @@
     "scholarSource": "linked from the author's own page"
   },
   {
+    "id": "xinghai-yang",
+    "name": "Xinghai Yang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pmpnet"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in PMP-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "xinjie-lin",
     "name": "Xinjie Lin",
     "affiliation": "Institute of Information Engineering, CAS / University of CAS",
@@ -5191,6 +5759,24 @@
     "scholarUrl": "https://scholar.google.com/citations?user=tGR7bKEAAAAJ&hl=en",
     "scholarSource": "Profile lists ET-BERT, ETooL (curator check with Grok browsing; automated re-check pending)",
     "identityChecked": "2026-10-13"
+  },
+  {
+    "id": "xinle-du",
+    "name": "Xinle Du",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "accessed": "2026-09-21"
   },
   {
     "id": "xiongwen-guo",
@@ -5294,6 +5880,24 @@
     "identityChecked": "2026-10-13"
   },
   {
+    "id": "yankun-wang",
+    "name": "Yankun Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "curvtail"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Curv-Tail.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "yannan-hu",
     "name": "Yannan Hu",
     "affiliation": "Needs verification",
@@ -5334,6 +5938,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "yeqing-yan",
+    "name": "Yeqing Yan",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "curvtail"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Curv-Tail.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "yequan-wang",
     "name": "Yequan Wang",
     "affiliation": "Needs verification",
@@ -5357,6 +5979,24 @@
     "homepageSource": "Linked from the confirmed ORCID record",
     "scholarUrl": "https://scholar.google.com/citations?user=7Gqp6FsAAAAJ&hl=en",
     "scholarSource": "linked from the author's own page"
+  },
+  {
+    "id": "yi-chen",
+    "name": "Yi Chen",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "curvtail"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in Curv-Tail.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
+    "accessed": "2026-09-21"
   },
   {
     "id": "yi-xie",
@@ -5410,7 +6050,8 @@
     "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
     "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "yatc"
+      "yatc",
+      "scsm"
     ],
     "themes": [
       "Masked autoencoding",
@@ -5419,6 +6060,24 @@
     "contribution": "YaTC authors; hierarchical packet and flow attention.",
     "status": "Verified",
     "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yinchao-zhang",
+    "name": "Yinchao Zhang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
     "accessed": "2026-09-21"
   },
   {
@@ -5465,6 +6124,24 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "yong-liu",
+    "name": "Yong Liu",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "vfrdad"
+    ],
+    "themes": [
+      "Transformer"
+    ],
+    "contribution": "Verified co-authorship in VFRDAD.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "yongjie-wang",
     "name": "Yongjie Wang",
     "affiliation": "Needs verification",
@@ -5490,9 +6167,10 @@
     "name": "Yongjun Wang",
     "affiliation": "Needs verification",
     "affiliationTime": "Needs verification",
-    "profile": "https://doi.org/10.1145/3719027.3744804",
+    "profile": "https://arxiv.org/abs/2609.32242v2",
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
+      "curvtail",
       "mm4flow",
       "evs2vec",
       "expmd",
@@ -5501,16 +6179,11 @@
       "semiaf"
     ],
     "themes": [
-      "Classical ML",
-      "Explainability",
-      "Graph learning",
-      "Multimodal",
-      "Transformer",
-      "Unsupervised learning"
+      "Deep learning"
     ],
-    "contribution": "Verified co-authorship in MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
+    "contribution": "Verified co-authorship in Curv-Tail, MM4flow, EVS2vec, ExpMD, unFlowS, Robustness Matters, SemiAF.",
     "status": "Needs verification",
-    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
     "accessed": "2026-09-23"
   },
   {
@@ -5531,6 +6204,24 @@
     "contribution": "NetMamba research group.",
     "status": "Verified",
     "sourceUrl": "https://icnp24.cs.ucr.edu/acceptedpapers.html",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "yuan-gao",
+    "name": "Yuan Gao",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "supclgnn"
+    ],
+    "themes": [
+      "Graph learning"
+    ],
+    "contribution": "Verified co-authorship in SupCL-GNN.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
     "accessed": "2026-09-21"
   },
   {
@@ -5600,12 +6291,14 @@
     "profile": "https://dl.acm.org/doi/10.1145/3607199.3607206",
     "profileType": "Verified byline; standalone profile pending",
     "papers": [
-      "flowmae"
+      "flowmae",
+      "shortcutgen"
     ],
     "themes": [
+      "Evaluation & surveys",
       "Self-supervised"
     ],
-    "contribution": "Verified co-authorship in Flow-MAE.",
+    "contribution": "Verified co-authorship in Flow-MAE, Shortcut in Generalization.",
     "status": "Needs verification",
     "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
     "accessed": "2026-09-21"
@@ -5679,6 +6372,24 @@
     "identityChecked": "2026-10-14"
   },
   {
+    "id": "zehua-du",
+    "name": "Zehua Du",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pmpnet"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in PMP-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "zhaoqi-xiong",
     "name": "Zhaoqi Xiong",
     "affiliation": "Needs verification",
@@ -5740,6 +6451,44 @@
     "identityChecked": "2026-10-13"
   },
   {
+    "id": "zhengyi-ma",
+    "name": "Zhengyi Ma",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.17961v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "shortcutgen",
+      "netcofi"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in Shortcut in Generalization, NetCoFi.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zhenxing-zhang",
+    "name": "Zhenxing Zhang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "zhi-guo-yang",
     "name": "Zhi Guo Yang",
     "affiliation": "Needs verification",
@@ -5765,7 +6514,8 @@
     "profile": "https://ojs.aaai.org/index.php/AAAI/article/view/25674",
     "profileType": "Institutional / paper affiliation source",
     "papers": [
-      "yatc"
+      "yatc",
+      "scsm"
     ],
     "themes": [
       "Masked autoencoding",
@@ -5879,6 +6629,44 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "zihe-ren",
+    "name": "Zihe Ren",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "pmpnet"
+    ],
+    "themes": [
+      "Deep learning"
+    ],
+    "contribution": "Verified co-authorship in PMP-Net.",
+    "status": "Needs verification",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "zijia-song",
+    "name": "Zijia Song",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2610.17961v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "shortcutgen",
+      "netcofi"
+    ],
+    "themes": [
+      "Evaluation & surveys",
+      "State space"
+    ],
+    "contribution": "Verified co-authorship in Shortcut in Generalization, NetCoFi.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "zijun-hang",
     "name": "Zijun Hang",
     "affiliation": "Needs verification",
@@ -5894,6 +6682,24 @@
     "contribution": "Verified co-authorship in Flow-MAE.",
     "status": "Needs verification",
     "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "ziqiang-wang",
+    "name": "Ziqiang Wang",
+    "affiliation": "Needs verification",
+    "affiliationTime": "Needs verification",
+    "profile": "https://arxiv.org/abs/2609.37672v1",
+    "profileType": "Verified byline; standalone profile pending",
+    "papers": [
+      "netlexicon"
+    ],
+    "themes": [
+      "Self-supervised"
+    ],
+    "contribution": "Verified co-authorship in NetLexicon.",
+    "status": "Needs verification",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
     "accessed": "2026-09-21"
   },
   {

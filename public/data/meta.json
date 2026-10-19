@@ -1,11 +1,11 @@
 {
   "title": "Evolution of Network Traffic Classification: Methods, Evidence, Limitations, and Research Gaps",
   "updated": "2026-09-23",
-  "paperCount": 81,
+  "paperCount": 93,
   "datasetCount": 19,
-  "authorCount": 274,
+  "authorCount": 318,
   "resolvedAuthorCount": 86,
-  "relationshipCount": 70,
+  "relationshipCount": 79,
   "gapColumns": [
     "Cross-dataset validation",
     "Temporal robustness",
@@ -122,8 +122,11 @@
       "Gaopeng Gou",
       "Giuseppe Aceto",
       "Haozhen Zhang",
+      "Jiangyong Shi",
       "Jing Yu",
+      "Jun-Jie Huang",
       "Le Yu",
+      "Lin Liu",
       "Lixuan Yang",
       "Luca Vassio",
       "Marco Fiore",
@@ -137,9 +140,11 @@
       "Shinan Liu",
       "Vijay Sivaraman",
       "Xi Xiao",
+      "Xiaodong Lei",
       "Xiaohui Xie",
       "Xinjie Lin",
       "Yong Cui",
+      "Yongjun Wang",
       "Zhen Li",
       "Zhuotao Liu"
     ]

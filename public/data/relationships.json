@@ -313,250 +313,322 @@
   },
   {
     "id": "r40",
+    "source": "shortcutgen",
+    "target": "yatc",
+    "type": "Diagnoses",
+    "explanation": "Shows YaTC’s 11–13 point loss under test-only IP zeroing is almost fully recovered when training applies the same transformation.",
+    "evidenceId": "e0306"
+  },
+  {
+    "id": "r41",
+    "source": "shortcutgen",
+    "target": "netmamba",
+    "type": "Diagnoses",
+    "explanation": "Shows NetMamba’s 11–13 point loss under test-only IP zeroing is almost fully recovered when training applies the same transformation.",
+    "evidenceId": "e0307"
+  },
+  {
+    "id": "r42",
+    "source": "curvtail",
+    "target": "mm4flow",
+    "type": "Compares against",
+    "explanation": "Reports 98.48% fewer parameters and 10.2× the batch inference throughput of MM4Flow in 300-class profiling.",
+    "evidenceId": "e0314"
+  },
+  {
+    "id": "r43",
+    "source": "netcofi",
+    "target": "netmamba",
+    "type": "Compares against",
+    "explanation": "Reports 1.64× NetMamba’s mean batch throughput (26.42 to 43.42 Mb/s) in a DPDK–GPU pipeline.",
+    "evidenceId": "e0324"
+  },
+  {
+    "id": "r44",
     "source": "lim",
     "target": "etbert",
     "type": "Compares against",
     "explanation": "Author-run comparison on the same CSTNET subset as the baseline paper.",
-    "evidenceId": "e0303"
+    "evidenceId": "e0343"
   },
   {
-    "id": "r41",
+    "id": "r45",
     "source": "lim",
     "target": "yatc",
     "type": "Compares against",
     "explanation": "Author-run comparison on the same CSTNET subset as the baseline paper.",
-    "evidenceId": "e0304"
+    "evidenceId": "e0344"
   },
   {
-    "id": "r42",
+    "id": "r46",
     "source": "labelprovenance",
     "target": "etbert",
     "type": "Audits label provenance",
     "explanation": "Examines the label lineage of benchmark tasks and datasets derived from the linked paper; not a new model-accuracy reproduction.",
-    "evidenceId": "e0310"
+    "evidenceId": "e0350"
   },
   {
-    "id": "r43",
+    "id": "r47",
     "source": "labelprovenance",
     "target": "ntcenigma",
     "type": "Audits label provenance",
     "explanation": "Examines the label lineage of benchmark tasks and datasets derived from the linked paper; not a new model-accuracy reproduction.",
-    "evidenceId": "e0311"
+    "evidenceId": "e0351"
   },
   {
-    "id": "r44",
+    "id": "r48",
     "source": "mm4flow",
     "target": "evs2vec",
     "type": "Follows",
     "explanation": "Earlier representation work by the same research group on an application-specific encrypted-traffic task; chronology, not a claimed direct extension.",
-    "evidenceId": "e0378"
+    "evidenceId": "e0418"
   },
   {
-    "id": "r45",
+    "id": "r49",
     "source": "expmd",
     "target": "mm4flow",
     "type": "Related representation",
     "explanation": "Moves from explainable multi-domain features to MM4flow’s pretrained multimodal fusion; no direct inheritance is asserted.",
-    "evidenceId": "e0379"
+    "evidenceId": "e0419"
   },
   {
-    "id": "r46",
+    "id": "r50",
     "source": "mm4flow",
     "target": "robustnessmatters",
     "type": "Follows",
     "explanation": "Earlier pretraining study by an overlapping author team; this records chronology rather than identical tasks.",
-    "evidenceId": "e0380"
+    "evidenceId": "e0420"
   },
   {
-    "id": "r47",
+    "id": "r51",
     "source": "unflows",
     "target": "mm4flow",
     "type": "Complementary approach",
     "explanation": "Contrasts unsupervised flow-spectrum construction with multimodal supervised downstream transfer.",
-    "evidenceId": "e0381"
+    "evidenceId": "e0421"
   },
   {
-    "id": "r48",
+    "id": "r52",
     "source": "deeppacket",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0433"
+    "evidenceId": "e0473"
   },
   {
-    "id": "r49",
+    "id": "r53",
     "source": "pert",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0434"
+    "evidenceId": "e0474"
   },
   {
-    "id": "r50",
+    "id": "r54",
     "source": "miniflowpic",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0435"
+    "evidenceId": "e0475"
   },
   {
-    "id": "r51",
+    "id": "r55",
     "source": "yatc",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0436"
+    "evidenceId": "e0476"
   },
   {
-    "id": "r52",
+    "id": "r56",
     "source": "netmamba",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0437"
+    "evidenceId": "e0477"
   },
   {
-    "id": "r53",
+    "id": "r57",
     "source": "sugar",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0438"
+    "evidenceId": "e0478"
   },
   {
-    "id": "r54",
+    "id": "r58",
     "source": "netmambaplus",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0439"
+    "evidenceId": "e0479"
   },
   {
-    "id": "r55",
+    "id": "r59",
     "source": "biasseeker",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0440"
+    "evidenceId": "e0480"
   },
   {
-    "id": "r56",
+    "id": "r60",
+    "source": "supclgnn",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0481"
+  },
+  {
+    "id": "r61",
+    "source": "vfrdad",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0482"
+  },
+  {
+    "id": "r62",
+    "source": "dpft",
+    "target": "vpnfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "evidenceId": "e0483"
+  },
+  {
+    "id": "r63",
     "source": "labelprovenance",
     "target": "vpnfeatures",
     "type": "Audits label provenance",
     "explanation": "Audits the label provenance of ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0441"
+    "evidenceId": "e0484"
   },
   {
-    "id": "r57",
+    "id": "r64",
     "source": "meanmae",
     "target": "vpnfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
-    "evidenceId": "e0442"
+    "evidenceId": "e0485"
   },
   {
-    "id": "r58",
+    "id": "r65",
     "source": "miniflowpic",
     "target": "torfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
-    "evidenceId": "e0443"
+    "evidenceId": "e0486"
   },
   {
-    "id": "r59",
+    "id": "r66",
     "source": "yatc",
     "target": "torfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
-    "evidenceId": "e0444"
+    "evidenceId": "e0487"
   },
   {
-    "id": "r60",
+    "id": "r67",
     "source": "netmamba",
     "target": "torfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
-    "evidenceId": "e0445"
+    "evidenceId": "e0488"
   },
   {
-    "id": "r61",
+    "id": "r68",
     "source": "biasseeker",
     "target": "torfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
-    "evidenceId": "e0446"
+    "evidenceId": "e0489"
   },
   {
-    "id": "r62",
+    "id": "r69",
+    "source": "supclgnn",
+    "target": "torfeatures",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
+    "evidenceId": "e0490"
+  },
+  {
+    "id": "r70",
     "source": "labelprovenance",
     "target": "torfeatures",
     "type": "Audits label provenance",
     "explanation": "Audits the label provenance of ISCX Tor/non-Tor, introduced in Tor time features.",
-    "evidenceId": "e0447"
+    "evidenceId": "e0491"
   },
   {
-    "id": "r63",
+    "id": "r71",
     "source": "meanmae",
     "target": "torfeatures",
     "type": "Uses dataset from",
     "explanation": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
-    "evidenceId": "e0448"
+    "evidenceId": "e0492"
   },
   {
-    "id": "r64",
+    "id": "r72",
     "source": "sugar",
     "target": "etbert",
     "type": "Uses dataset from",
     "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
-    "evidenceId": "e0449"
+    "evidenceId": "e0493"
   },
   {
-    "id": "r65",
+    "id": "r73",
     "source": "netmambaplus",
     "target": "etbert",
     "type": "Uses dataset from",
     "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
-    "evidenceId": "e0450"
+    "evidenceId": "e0494"
   },
   {
-    "id": "r66",
+    "id": "r74",
     "source": "biasseeker",
     "target": "etbert",
     "type": "Uses dataset from",
     "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
-    "evidenceId": "e0451"
+    "evidenceId": "e0495"
   },
   {
-    "id": "r67",
+    "id": "r75",
     "source": "ntcenigma",
     "target": "etbert",
     "type": "Uses dataset from",
     "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
-    "evidenceId": "e0452"
+    "evidenceId": "e0496"
   },
   {
-    "id": "r68",
+    "id": "r76",
+    "source": "dpft",
+    "target": "etbert",
+    "type": "Uses dataset from",
+    "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "evidenceId": "e0497"
+  },
+  {
+    "id": "r77",
     "source": "lim",
     "target": "etbert",
     "type": "Uses dataset from",
     "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
-    "evidenceId": "e0453"
+    "evidenceId": "e0498"
   },
   {
-    "id": "r69",
+    "id": "r78",
     "source": "meanmae",
     "target": "etbert",
     "type": "Uses dataset from",
     "explanation": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
-    "evidenceId": "e0454"
+    "evidenceId": "e0499"
   },
   {
-    "id": "r70",
+    "id": "r79",
     "source": "netmambaplus",
     "target": "ntcenigma",
     "type": "Uses dataset from",
     "explanation": "Evaluates on CipherSpectrum, introduced in NTC Enigma / SoK.",
-    "evidenceId": "e0455"
+    "evidenceId": "e0500"
   }
 ]

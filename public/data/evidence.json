@@ -3125,6 +3125,446 @@
   },
   {
     "id": "e0285",
+    "paperId": "netagent",
+    "category": "Paper claim",
+    "text": "Proposes an agentic framework that handles many traffic analysis tasks, from intrusion detection to encrypted traffic classification, without task-specific training. An agent loop plans and decomposes tasks using attack knowledge, 150+ tools extracted from 50+ published systems, a code execution space, three-tier memory and sandboxed runtime repair. Across 9 benchmarks it reports 90.04% F1 on unseen traffic distributions against 2.74% and 3.04% for the best single-task and multi-task baselines.",
+    "sourceUrl": "https://arxiv.org/abs/2610.07386v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0286",
+    "paperId": "netagent",
+    "category": "Bibliography",
+    "text": "NetAgent: Multi-Task Agentic Network Traffic Analysis Made Practical. arXiv; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://arxiv.org/abs/2610.07386v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0287",
+    "paperId": "netagent",
+    "category": "Curator interpretation",
+    "text": "Results are the authors’ own agentic setup; cost, latency and dependence on the underlying language model are not given in the abstract. Open question: What an agentic pipeline costs per decision, and how it behaves when the tools it calls fail under shift.",
+    "sourceUrl": "https://arxiv.org/abs/2610.07386v1",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0288",
+    "paperId": "joivcompare",
+    "category": "Paper claim",
+    "text": "Compares ANN, CNN, RNN and Transformer classifiers on encrypted traffic flows. Uses a telemetry dataset from Jabatan Data Negara, Malaysia: 12,000 encrypted flows across 648 application classes, split with balanced stratified sampling. The Transformer reaches 99.60% accuracy; the 1D CNN 65.13%; an RNN with 2,803 parameters is presented as the edge option.",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0289",
+    "paperId": "joivcompare",
+    "category": "Bibliography",
+    "text": "A Comparative Study on Transformer-Based Deep Learning Model for Network Traffic Classification. JOIV: International Journal on Informatics Visualization 10(5); 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0290",
+    "paperId": "joivcompare",
+    "category": "Curator interpretation",
+    "text": "One dataset; the abstract does not state how the 12.4 Gbps throughput figure was measured. Open question: Whether the ranking holds on public collections and under a capture-time split.",
+    "sourceUrl": "https://doi.org/10.62527/joiv.10.5.4411",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0291",
+    "paperId": "supclgnn",
+    "category": "Paper claim",
+    "text": "Combines supervised contrastive learning with graph neural networks to learn noise-robust traffic features. A Traffic Distribution Graph fuses encoded packet bytes and packet-length sequences so that classes form distinct topologies. Evaluated on ISCX-VPN2016, ISCX-Tor2016, USTC-TFC2016 and MOBILE-APP.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0292",
+    "paperId": "supclgnn",
+    "category": "Bibliography",
+    "text": "SupCL-GNN: Supervised contrastive learning with graph neural networks for enhanced encrypted traffic classification. Computer Networks 291; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0293",
+    "paperId": "supclgnn",
+    "category": "Curator interpretation",
+    "text": "The abstract reports outperforming baselines without numbers; robustness is argued from the training objective. Open question: Whether graph topology separates classes once capture-specific byte fields are removed.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0294",
+    "paperId": "scsm",
+    "category": "Paper claim",
+    "text": "Pretrains a traffic-native foundation model for website fingerprinting that transfers across website sets, time, paths, browsers and defences. Pretraining views are built from unlabelled traces by Segmentation, Combination, Scaling and Masking; windowed traffic counting matrices train a state-space encoder contrastively, then a small labelled support set fine-tunes it. Reports +16.4% average top-3 accuracy over six temporal-drift tasks on GTT23 and +13.8% average macro-F1 over four cross-domain datasets.",
+    "sourceUrl": "https://arxiv.org/abs/2610.07776v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0295",
+    "paperId": "scsm",
+    "category": "Bibliography",
+    "text": "SCSM: A Traffic-Native Foundation Model for Transferable Website Fingerprinting. arXiv; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://arxiv.org/abs/2610.07776v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0296",
+    "paperId": "scsm",
+    "category": "Curator interpretation",
+    "text": "Code and data are announced but not yet released; gains are relative to the strongest baselines the authors ran. Open question: How far few-shot adaptation holds once defences are tuned against the pretrained encoder.",
+    "sourceUrl": "https://arxiv.org/abs/2610.07776v1",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0297",
+    "paperId": "vfrdad",
+    "category": "Paper claim",
+    "text": "Classifies IoT encrypted traffic from session-level grayscale images by fusing local and global features. Multi-scale high-pass filtering captures local patterns; a traffic-domain autoencoder and dilated convolutions build a three-channel image for a Vision Transformer; gated attention fuses both. Evaluated on Darknet-dataset-2020, ISCXVPN2016 and CIC-IoT-2023.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0298",
+    "paperId": "vfrdad",
+    "category": "Bibliography",
+    "text": "VFRDAD: An IoT Encrypted traffic identification method based on multi-scale local information and enhanced global information fusion. Computer Networks 290; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0299",
+    "paperId": "vfrdad",
+    "category": "Curator interpretation",
+    "text": "Image representations of raw sessions can carry capture-specific bytes; the abstract reports gains under the evaluated protocols only. Open question: Which image regions drive the decision once headers are masked.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0300",
+    "paperId": "distilshortcut",
+    "category": "Paper claim",
+    "text": "Tests what a distilled student inherits from its teacher beyond accuracy: unknown-traffic detection, calibration, shortcut reliance and behaviour under a year of drift. One 101k-parameter student is distilled from two equally accurate teachers (a five-member ensemble and a wider single model). Ten pre-registered hypotheses are tested on CESNET-TLS-Year22 over 18 test windows across 35 weeks; two are supported, and shortcut reliance follows model size, not distillation.",
+    "sourceUrl": "https://arxiv.org/abs/2609.31141v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0301",
+    "paperId": "distilshortcut",
+    "category": "Bibliography",
+    "text": "Unknown-Traffic Detection, Calibration and Shortcut Reliance in Distilled Encrypted-Traffic Classifiers over One Year. arXiv; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://arxiv.org/abs/2609.31141v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0302",
+    "paperId": "distilshortcut",
+    "category": "Curator interpretation",
+    "text": "Single dataset and one student size; transfer findings depend on the scoring rule (logit-based versus feature-space detectors). Open question: Whether the same inheritance pattern appears for pretrained traffic foundation models compressed for the edge.",
+    "sourceUrl": "https://arxiv.org/abs/2609.31141v1",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0303",
+    "paperId": "shortcutgen",
+    "category": "Paper claim",
+    "text": "Studies how evaluation protocols inflate encrypted traffic classification results through field-level shortcuts, cross-partition sharing and test-only transformations. Compares feature importance, retrained feature removal and field-only split sensitivity on three public datasets, varying Source-IP overlap and packets per flow. Raising Source-IP overlap from 0% to 100% adds about 32–33 accuracy points before identifier masking and about 8 after; for YaTC and NetMamba the 11–13 point loss from test-only IP zeroing is almost fully recovered when the same transformation is applied in training.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0304",
+    "paperId": "shortcutgen",
+    "category": "Bibliography",
+    "text": "Shortcut in Generalization: Rethinking Evaluation Protocol for Encrypted Traffic Classification. arXiv; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0305",
+    "paperId": "shortcutgen",
+    "category": "Curator interpretation",
+    "text": "The three datasets are not named in the abstract; results cover the methods the authors retrained. Open question: An evaluation protocol that fixes sharing and train–test processing before any model comparison.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0306",
+    "paperId": "shortcutgen",
+    "category": "Paper claim",
+    "text": "Shows YaTC’s 11–13 point loss under test-only IP zeroing is almost fully recovered when training applies the same transformation.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0307",
+    "paperId": "shortcutgen",
+    "category": "Paper claim",
+    "text": "Shows NetMamba’s 11–13 point loss under test-only IP zeroing is almost fully recovered when training applies the same transformation.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17961v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0308",
+    "paperId": "netlexicon",
+    "category": "Paper claim",
+    "text": "Pretrains discrete behavioural states from unlabelled encrypted Web traffic as a compact traffic lexicon. Vector quantisation turns contextual traffic windows into discrete states, trained with State Transition Prediction and Statistical Feature Alignment. On four benchmarks (Web application, service type, malware) it reports up to 25.5 points higher macro-F1 than the strongest baseline and up to 23.6× less fine-tuning time per epoch.",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0309",
+    "paperId": "netlexicon",
+    "category": "Bibliography",
+    "text": "NetLexicon: Learning Discrete Behavioral Representations for Encrypted Web Traffic Analysis. arXiv; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0310",
+    "paperId": "netlexicon",
+    "category": "Curator interpretation",
+    "text": "Benchmarks are not named in the abstract; interpretability is shown by inspecting learned states. Open question: Whether a learned traffic lexicon stays stable across capture sites and years.",
+    "sourceUrl": "https://arxiv.org/abs/2609.37672v1",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0311",
+    "paperId": "curvtail",
+    "category": "Paper claim",
+    "text": "Targets long-tailed encrypted traffic classification under a small compute budget, without a separate pretraining stage. Mixed-resolution tokens keep exact packet lengths within a bounded range; an auxiliary task predicts length tokens; compact temporal encoders read packet sequences and directional byte patches, classified by Lorentz prototypes. Three-seed mean Tail-F1 is 85.70% on NUDT-Mobile and 46.30% on DataCon-Website; on an RTX 4090 it uses 98.48% fewer parameters and 10.2× the batch inference throughput of MM4Flow.",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0312",
+    "paperId": "curvtail",
+    "category": "Bibliography",
+    "text": "Curv-Tail: Lightweight Long-Tailed Encrypted Traffic Classification with Discrete Packet-Length Encoding and Lorentz Prototypes. arXiv; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0313",
+    "paperId": "curvtail",
+    "category": "Curator interpretation",
+    "text": "Throughput is offline batch inference (FP32, batch 256), not a live rate. Open question: How tail-class accuracy holds when the head classes drift over time.",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0314",
+    "paperId": "curvtail",
+    "category": "Paper claim",
+    "text": "Reports 98.48% fewer parameters and 10.2× the batch inference throughput of MM4Flow in 300-class profiling.",
+    "sourceUrl": "https://arxiv.org/abs/2609.32242v2",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0315",
+    "paperId": "pmpnet",
+    "category": "Paper claim",
+    "text": "Classifies individual encrypted packets in few-shot and open-set settings. Separate branches read packet headers and payloads, joined by bidirectional multi-head attention; prototypes with a similarity-threshold rejection flag unknown classes. Reports 98.9% and 99.2% accuracy on ISCX and USTC-TFC2016 with millisecond-level inference latency.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0316",
+    "paperId": "pmpnet",
+    "category": "Bibliography",
+    "text": "PMP-Net: A packet-level multi-branch prototype network for few-shot and open-set encrypted traffic classification. Computer Networks 290; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0317",
+    "paperId": "pmpnet",
+    "category": "Curator interpretation",
+    "text": "Packet-level header input can expose identifiers; the abstract does not say which ISCX collection is used. Open question: Whether the rejection threshold holds for unknown classes from a different capture.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112798",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0318",
+    "paperId": "dpft",
+    "category": "Paper claim",
+    "text": "Couples traffic-oriented pretraining with a fine-tuning structure designed for downstream classification. Pretraining combines Masked Burst Prediction and Burst Structural Discrimination; fine-tuning adds dynamic embedding fusion and multi-head attention pooling. Within-dataset closed-set macro-F1: CSTNET-TLS 1.3 93.10%, ISCX-VPN-App 97.92%, ISCX-VPN-Service 95.65%, USTC-TFC 2016 98.87%.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0319",
+    "paperId": "dpft",
+    "category": "Bibliography",
+    "text": "DPFT: A dual-phase transformer with pre-training and structurally adaptive fine-tuning for encrypted traffic classification. Computer Networks (journal pre-proof); 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0320",
+    "paperId": "dpft",
+    "category": "Curator interpretation",
+    "text": "The authors state that robustness to temporal or cross-domain shift, unseen classes and deployment conditions remains unverified. Open question: Whether burst-structure pretraining helps under a capture-disjoint split.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0321",
+    "paperId": "netcofi",
+    "category": "Paper claim",
+    "text": "Lets one encrypted traffic classifier trade accuracy for compute at inference time. Byte representations and packet metadata select token neighbourhoods for fine-grained encoding while the full window is compressed into coarse context; multi-budget training serves several routing budgets without retraining. Six public datasets; at low budgets +7.86 macro-F1 points over a same-depth static baseline on three; in a DPDK–GPU pipeline mean batch throughput rises from 26.42 to 43.42 Mb/s, 1.64× NetMamba.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17978v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0322",
+    "paperId": "netcofi",
+    "category": "Bibliography",
+    "text": "NetCoFi: A Budget-Aware Coarse-Fine Dual-Branch Model for Encrypted Traffic Classification. arXiv; 2026. Byline checked against the linked source.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17978v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract / bibliographic record",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0323",
+    "paperId": "netcofi",
+    "category": "Curator interpretation",
+    "text": "Datasets are not named in the abstract; throughput is mean batch throughput in the authors’ pipeline. Open question: How routing budgets should be set when traffic mix changes during deployment.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17978v1",
+    "sourceType": "Original paper",
+    "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
+    "status": "Needs verification",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0324",
+    "paperId": "netcofi",
+    "category": "Paper claim",
+    "text": "Reports 1.64× NetMamba’s mean batch throughput (26.42 to 43.42 Mb/s) in a DPDK–GPU pipeline.",
+    "sourceUrl": "https://arxiv.org/abs/2610.17978v1",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0325",
     "paperId": "etbert",
     "category": "Paper claim",
     "text": "Pretraining datasets: About 30 GB: public traffic and CSTNET captures (about 15 GB each); Training / evaluation datasets: Cross-Platform Android/iOS, ISCX-VPN service/app, ISCX-Tor, USTC-TFC and CSTNET-TLS1.3; separate tasks; Hardware: NVIDIA Tesla V100S (original experiments); Batch size: 32 for pretraining and fine-tuning; Measurement scope: Original paper evaluates classification; later benchmark measurements use different implementations; Throughput: NA — not reported in reviewed sections; Latency: NA — not reported in reviewed sections; Energy: NA — not reported in reviewed sections; Timing: NA — no separate timing input described; Packet length: NA — no separate length input described",
@@ -3135,7 +3575,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0286",
+    "id": "e0326",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "Fine-tuning objective: Cross-entropy; shared packet/flow encoder weights; Hardware: Four NVIDIA RTX3090 GPUs; Batch size: 512 pretraining; 64 fine-tuning; Reported results: Original Table 2: USTC-TFC2016 accuracy/F1 97.86%; ISCXVPN accuracy 98.07%, F1 98.04%; Throughput: NA — not reported in reviewed sections; Latency: NA — not reported in reviewed sections; FLOPs: NA — not reported in reviewed sections; Memory: NA — not reported in reviewed sections; Energy: NA — not reported in reviewed sections; Split strategy: Separate dataset-specific training/testing; exact ratio NA — not extracted; Measurement scope: Original Sections 4.1–4.5 report classification, ablations and transfer; no numeric serving throughput extracted; Timing: NA — no separate timing input described; Packet length: Fixed byte crop/padding; no separate length input described",
@@ -3146,7 +3586,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0287",
+    "id": "e0327",
     "paperId": "netmamba",
     "category": "Paper claim",
     "text": "Traffic unit definition: Five-tuple flow; first five packets; Packets / bytes: 5 × (80 header + 240 payload bytes); 1,600 bytes; stride length 4; Header: Yes; anonymised header fields; Architecture: 4-block Mamba encoder (256 dimensions); 2-block decoder (128); Parameters: 2.2M pretraining / 1.9M fine-tuning (Table IV); Training / evaluation datasets: Cross-Platform Android/iOS, CICIoT2022, ISCXTor2016, ISCXVPN2016, USTC-TFC2016; Pretraining datasets: Same six public collections; exact pretraining overlap must be checked in the released preparation; Metrics: Accuracy, precision, recall, weighted F1; Hardware: Xeon Gold 6240C; four A100 40 GB GPUs; Batch size: 128 pretraining; 64 fine-tuning; inference batch sweep; Throughput: 1.22–60.11× baseline speedup; absolute flows/s plotted by batch size in Fig. 3. ET-BERT comparator uses packets/s; Memory: GPU-memory/batch curves in Fig. 3; numeric point NA — not transcribed; FLOPs: NA — not reported in reviewed sections; Latency: NA — not reported in reviewed sections; Energy: NA — not reported in reviewed sections; Measurement scope: Offline model inference, not end-to-end packet arrival-to-decision throughput; Timing: NA — no separate timing channel; Direction: Flow ordering; explicit direction channel NA — not extracted; Packet length: Fixed byte cropping/padding, not a separate length sequence.",
@@ -3157,7 +3597,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0288",
+    "id": "e0328",
     "paperId": "etbert",
     "category": "Paper claim",
     "text": "Parameters: 187.4M pretraining / 136.4M fine-tuning — NetMamba authors’ baseline implementation, not a universal count.",
@@ -3168,7 +3608,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0289",
+    "id": "e0329",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "Parameters: 2.3M pretraining / 2.1M fine-tuning — NetMamba authors’ baseline implementation, not a universal count.",
@@ -3179,7 +3619,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0290",
+    "id": "e0330",
     "paperId": "fsnet",
     "category": "Paper claim",
     "text": "Parameters: 5.3M fine-tuning — NetMamba authors’ baseline implementation, not a universal count.",
@@ -3190,7 +3630,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0291",
+    "id": "e0331",
     "paperId": "netmambaplus",
     "category": "Paper claim",
     "text": "Input representation: Raw bytes plus packet-size and inter-arrival sequences; Architecture: Mamba backbone; framework also studies a Flash-Attention Transformer; Header: Yes; Timing: Inter-arrival sequence; Packet length: Packet-size sequence; Parameters: 2.6M pretraining / 1.9M fine-tuning (Table IV); Training / evaluation datasets: CipherSpectrum, CSTNET-TLS1.3, CICIoT2022, ISCXVPN2016, USTC-TFC2016; Huawei-VPN also evaluated; Split strategy: Within-dataset training; an additional first-packet-time-ordered test probes temporal shift; Metrics: Accuracy, F1; OOD AUROC and FPR95; Throughput: 261.87 Mb/s mean; 29.85–335.21 Mb/s range (online batch inference); Latency: 3.15 s mean batch latency; range 0.02–5.68 s. Not per-packet latency; Hardware: Online: Xeon Platinum 8375C, A30 24 GB, ConnectX-5 NIC; 512 GB host RAM; Batch size: Online: dynamic; new flow batch every 3 s; Memory: 24 GB GPU and 512 GB host are installed capacities, not measured peak usage; Measurement scope: Online system (§VIII-I); offline sample/s comparisons are a separate experiment; Deployment limitations: Windowing, queueing and traffic mix constrain interpretation. Temporal-shift accuracy drops are still reported; Energy: NA — not reported in reviewed sections",
@@ -3201,7 +3641,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0292",
+    "id": "e0332",
     "paperId": "netfound",
     "category": "Paper claim",
     "text": "Header: Protocol-aware header fields; payload and IP excluded in v5; Timing: Operational timing metadata; Direction: Operational direction metadata; Architecture: Hierarchical burst/flow attention with shared parameters; Training / evaluation datasets: Intrinsic: Crossmarket, CICIDS2017, CAIDA, MAWI. Downstream: USTC, ISCX-VPN, CICIDS2017, Crossmarket; Fine-tuning objective: Frozen-encoder and end-to-end downstream experiments; Latency: As low as 11 ms/flow reported in Appendix A; variant/batch conditions matter; Throughput: Preprocessing on 128 cores: filtering 2,000, splitting 216, field extraction 970 flows/s. These are NOT model-inference rates; Memory: Appendix A reports GPU-memory profiles; numeric variant-specific value NA — not extracted; Measurement scope: v5 only; preprocessing rates, model inference and training costs are different measurements; Energy: NA — GPU-hours are training cost, not energy in joules; Hardware: Pretraining: A100 40 GB GPUs, 128 initially then 80; preprocessing: 128 CPU cores.",
@@ -3212,7 +3652,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0293",
+    "id": "e0333",
     "paperId": "flowmae",
     "category": "Paper claim",
     "text": "Hardware: Official environment: i7-12700K and two RTX3090Ti GPUs; Measurement scope: Offline samples/s; one sample follows the burst representation. Not packets/s; Latency: NA — no absolute latency in reviewed repository summary; Energy: NA — not reported in reviewed repository summary",
@@ -3223,7 +3663,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0294",
+    "id": "e0334",
     "paperId": "serveflow",
     "category": "Paper claim",
     "text": "Throughput: >48.5k new flows/s on a 16-core CPU server (v2 abstract); Latency: 76.3% of flows below 16 ms end-to-end (v2 abstract); Metrics: Service rate, end-to-end latency, miss rate and F1; Architecture: Fast/slow cascade: decision trees, RF, LightGBM, XGBoost and CNN candidates; Input representation: Packet-depth-dependent features and confidence-based escalation; Training / evaluation datasets: Service recognition (23,487 flows), device identification (50,017 flows), video-call QoE (36,928 seconds); Split strategy: 50/10/40 train/validation/test in v2; Hardware: AMD EPYC 7302P, 16 cores/32 threads, 64 GB RAM; PF_RING and ONNX Runtime; Measurement scope: Traffic replay with arrival timing preserved; flow-level and continuous QoE tasks differ.",
@@ -3234,7 +3674,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0295",
+    "id": "e0335",
     "paperId": "bos",
     "category": "Paper claim",
     "text": "Architecture: On-switch RNN plus off-switch inference fallback; Throughput: 100 Gbps physical testbed; 1.6 Tbps scaling is simulation; Hardware: Wedge 100BF-32X switch; fallback server with Xeon Gold 6348 CPUs and A100 GPU; Measurement scope: Physical and simulated results are separate; some flows use fallback; Training / evaluation datasets: ISCXVPN2016, BoT-IoT, CICIoT2022 and PeerRush; Metrics: Macro-F1, throughput and fallback behaviour; Deployment limitations: Fallback capacity and flow concurrency affect end-to-end latency.",
@@ -3245,7 +3685,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0296",
+    "id": "e0336",
     "paperId": "leo",
     "category": "Paper claim",
     "text": "Architecture: Decision-tree inference with stateful feature extraction in the data plane; Hardware: Intel Tofino programmable switches; Throughput: Multi-terabit line-rate classification claimed; exact tested rate NA — not extracted; Measurement scope: In-switch classifier; resource/model-capacity limits apply; Latency: Nominal latency overhead reported; numeric value NA — not extracted.",
@@ -3256,7 +3696,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0297",
+    "id": "e0337",
     "paperId": "nepco",
     "category": "Paper claim",
     "text": "Architecture: Convolutional pretrained model with on-SmartNIC execution; Hardware: NVIDIA BlueField-3 SmartNIC; Throughput: Network load up to 19.81 Mpps / 165.14 Gbps; separately, 5,000 new flows/s in Table IV; Latency: 2.23–2.47 ms analysis latency; at 5,000 new flows/s: mean 2.41 ms, p99 2.71 ms; Measurement scope: One-minute continuous tests. Later packets of analysed flows are filtered; Mpps is not fresh model inferences/s; Metrics: Macro-F1, throughput, mean and p99 latency; Deployment limitations: Traffic observation, flow-arrival rate and hardware execution all affect portability.",
@@ -3267,7 +3707,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0298",
+    "id": "e0338",
     "paperId": "lim",
     "category": "Paper claim",
     "text": "Tests compact protocol-informed inputs. NetMatrix with XGBoost.",
@@ -3278,7 +3718,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0299",
+    "id": "e0339",
     "paperId": "lim",
     "category": "Bibliography",
     "text": "Less is More: Simplifying Network Traffic Classification Leveraging RFCs. WWW Companion — short paper; 2025. Byline checked against the linked source.",
@@ -3289,7 +3729,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0300",
+    "id": "e0340",
     "paperId": "lim",
     "category": "Curator interpretation",
     "text": "Curator: One balanced CSTNET subset; TTL may encode network context. Open question: Does it transfer across routes and captures?",
@@ -3300,7 +3740,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0301",
+    "id": "e0341",
     "paperId": "lim",
     "category": "Paper claim",
     "text": "Input representation: IP length, TTL, inter-arrival time; Traffic unit definition: Bidirectional session; Packets / bytes: 5 encrypted-data packets; 30-byte representation; Payload: Excluded; Header: Length and TTL; Timing: Inter-arrival time; Pretraining objective: NA — no pretraining; Training / evaluation datasets: CSTNET-TLS1.3: 10 classes, 400 samples/class; Reported results: Accuracy/F1: LiM .942; YaTC .963 in this setup; Throughput: 86,251.23 samples/s (inference); Latency: 0.0005 s/sample is TRAINING time/sample, not inference latency; Memory: 196.38 MiB inference RAM; Energy: Table reports GPU power in watts: 0 for CPU LiM. Total energy is unmeasured here; Hardware: Dual Xeon Silver 4208; 125 GiB RAM; four T4 GPUs available; Batch size: NA — not extracted; Measurement scope: Offline samples/s; excludes an established live arrival-to-decision guarantee; Version notes: WWW Companion 2025 short paper; arXiv v2.",
@@ -3311,7 +3751,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0302",
+    "id": "e0342",
     "paperId": "lim",
     "category": "Author-reported result",
     "text": "Accuracy/F1: LiM .942; YaTC .963 in this setup.",
@@ -3322,7 +3762,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0303",
+    "id": "e0343",
     "paperId": "lim",
     "category": "Paper claim",
     "text": "Author-run comparison on the same CSTNET subset as the baseline paper.",
@@ -3333,7 +3773,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0304",
+    "id": "e0344",
     "paperId": "lim",
     "category": "Paper claim",
     "text": "Author-run comparison on the same CSTNET subset as the baseline paper.",
@@ -3344,7 +3784,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0305",
+    "id": "e0345",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Audits the evidence used to attach labels to traffic samples. Label Provenance Records across 14 benchmark entries.",
@@ -3355,7 +3795,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0306",
+    "id": "e0346",
     "paperId": "labelprovenance",
     "category": "Bibliography",
     "text": "SoK: Where Do Flow Labels Come From? Auditing Label Provenance in Encrypted Traffic Benchmarks. arXiv; 2026. Byline checked against the linked source.",
@@ -3366,7 +3806,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0307",
+    "id": "e0347",
     "paperId": "labelprovenance",
     "category": "Curator interpretation",
     "text": "Curator: Representation-relative ceilings are not universal limits on traffic classification. Open question: Can labels be traced to individual flows without excluding hard cases?",
@@ -3377,7 +3817,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0308",
+    "id": "e0348",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Input representation: Audit of label evidence, assignment and release processing; Evaluation setting: 14 entries; distinct evidence units and task semantics; Reported results: No audited entry exposes a countable pre-selection population; 8/23 examined task cells disagree with recovered provenance; Leakage / shortcut risks: Coarse label inheritance can over-label flows; strict evidence filtering can exclude relevant connections; Version notes: September 2, 2026 v1; selected Sections 2–4 and Tables 1–2 reviewed.",
@@ -3388,7 +3828,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0309",
+    "id": "e0349",
     "paperId": "labelprovenance",
     "category": "Author-reported result",
     "text": "No audited entry exposes a countable pre-selection population; 8/23 examined task cells disagree with recovered provenance.",
@@ -3399,7 +3839,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0310",
+    "id": "e0350",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Examines the label lineage of benchmark tasks and datasets derived from the linked paper; not a new model-accuracy reproduction.",
@@ -3410,7 +3850,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0311",
+    "id": "e0351",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Examines the label lineage of benchmark tasks and datasets derived from the linked paper; not a new model-accuracy reproduction.",
@@ -3421,7 +3861,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0312",
+    "id": "e0352",
     "paperId": "ntcsurvey2026",
     "category": "Paper claim",
     "text": "Reviews 157 studies spanning 2015–2026. Organises method families alongside deployment challenges.",
@@ -3432,7 +3872,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0313",
+    "id": "e0353",
     "paperId": "ntcsurvey2026",
     "category": "Bibliography",
     "text": "Network traffic classification from handcrafted features to foundation models: A comprehensive survey. Computer Networks 287, 112578; 2026. Byline checked against the linked source.",
@@ -3443,7 +3883,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0314",
+    "id": "e0354",
     "paperId": "ntcsurvey2026",
     "category": "Curator interpretation",
     "text": "Curator: Cross-study score summaries are not controlled head-to-head results. Open question: Which gains survive matched protocols, labels, splits and budgets?",
@@ -3454,7 +3894,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0315",
+    "id": "e0355",
     "paperId": "ntfmsurvey2026",
     "category": "Paper claim",
     "text": "Systematises 51 studies published during 2017–2025. Maps architectures/objectives, representations, tasks/environments and datasets.",
@@ -3465,7 +3905,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0316",
+    "id": "e0356",
     "paperId": "ntfmsurvey2026",
     "category": "Bibliography",
     "text": "Network traffic foundation models: A systematic review. Computer Networks 276, 111998; 2026. Byline checked against the linked source.",
@@ -3476,7 +3916,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0317",
+    "id": "e0357",
     "paperId": "ntfmsurvey2026",
     "category": "Curator interpretation",
     "text": "Curator: Survey coverage does not independently validate transfer or current artifact quality. Open question: What evidence supports adaptation across tasks and networks?",
@@ -3487,7 +3927,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0318",
+    "id": "e0358",
     "paperId": "acdc",
     "category": "Paper claim",
     "text": "Adapts traffic classification to resource constraints. Schedules a classifier pool and batch size using memory availability and arrival rates.",
@@ -3498,7 +3938,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0319",
+    "id": "e0359",
     "paperId": "acdc",
     "category": "Bibliography",
     "text": "AC-DC: Adaptive Ensemble Classification for Network Traffic Identification. arXiv; 2023. Byline checked against the linked source.",
@@ -3509,7 +3949,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0320",
+    "id": "e0360",
     "paperId": "acdc",
     "category": "Curator interpretation",
     "text": "Curator: Relative speed gains depend on the packet-capture baseline and workload. Open question: How does scheduling affect rare-class errors under load?",
@@ -3520,7 +3960,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0321",
+    "id": "e0361",
     "paperId": "cruisecontrol",
     "category": "Paper claim",
     "text": "Selects traffic-analysis models online as processing conditions change. Uses lightweight system signals and a model pool with different cost/accuracy trade-offs.",
@@ -3531,7 +3971,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0322",
+    "id": "e0362",
     "paperId": "cruisecontrol",
     "category": "Bibliography",
     "text": "Cruise Control: Dynamic Model Selection for ML-Based Network Traffic Analysis. arXiv; 2024. Byline checked against the linked source.",
@@ -3542,7 +3982,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0323",
+    "id": "e0363",
     "paperId": "cruisecontrol",
     "category": "Curator interpretation",
     "text": "Curator: Two tasks do not establish reliability for every IDS workload. Open question: Does online selection preserve calibrated confidence and rare-class recall?",
@@ -3553,7 +3993,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0324",
+    "id": "e0364",
     "paperId": "trafficaugmentation",
     "category": "Paper claim",
     "text": "Compares augmentation choices for packet time series. Benchmarks 18 transformations on three datasets.",
@@ -3564,7 +4004,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0325",
+    "id": "e0365",
     "paperId": "trafficaugmentation",
     "category": "Bibliography",
     "text": "Data Augmentation for Traffic Classification. PAM; 2024. Byline checked against the linked source.",
@@ -3575,7 +4015,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0326",
+    "id": "e0366",
     "paperId": "trafficaugmentation",
     "category": "Curator interpretation",
     "text": "Curator: Benefits are representation- and training-condition-dependent. Open question: Which augmentations preserve class meaning under real network shifts?",
@@ -3586,7 +4026,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0327",
+    "id": "e0367",
     "paperId": "genericmae",
     "category": "Paper claim",
     "text": "Studies reusable representations for traffic analysis. Modality adapters and an integration module form multimodal autoencoder embeddings.",
@@ -3597,7 +4037,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0328",
+    "id": "e0368",
     "paperId": "genericmae",
     "category": "Bibliography",
     "text": "Generic Multi-modal Representation Learning for Network Traffic Analysis. arXiv; 2024. Byline checked against the linked source.",
@@ -3608,7 +4048,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0329",
+    "id": "e0369",
     "paperId": "genericmae",
     "category": "Curator interpretation",
     "text": "Curator: The reported classification demonstration is narrower than all proposed downstream uses. Open question: Do fixed embeddings transfer across tasks and networks?",
@@ -3619,7 +4059,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0330",
+    "id": "e0370",
     "paperId": "fastflow",
     "category": "Paper claim",
     "text": "Balances early decisions, unknown traffic and packet disorder. LSTM sequential decisions trained with reinforcement learning; packet/slot time series.",
@@ -3630,7 +4070,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0331",
+    "id": "e0371",
     "paperId": "fastflow",
     "category": "Bibliography",
     "text": "FastFlow: Early Yet Robust Network Flow Classification using the Minimal Number of Time-Series Packets. PACM Measurement and Analysis of Computing Systems / SIGMETRICS; 2025. Byline checked against the linked source.",
@@ -3641,7 +4081,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0332",
+    "id": "e0372",
     "paperId": "fastflow",
     "category": "Curator interpretation",
     "text": "Curator: Campus measurements do not prove universal cross-network performance. Open question: How do stopping and rejection policies behave on new networks?",
@@ -3652,7 +4092,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0333",
+    "id": "e0373",
     "paperId": "etool",
     "category": "Paper claim",
     "text": "Targets classification under distribution shifts and scarce labels. Self-supervised instruction tuning connects traffic structure and text.",
@@ -3663,7 +4103,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0334",
+    "id": "e0374",
     "paperId": "etool",
     "category": "Bibliography",
     "text": "Respond to Change with Constancy: Instruction-tuning with LLM for Non-I.I.D. Network Traffic Classification. IEEE Transactions on Information Forensics and Security; 2025. Byline checked against the linked source.",
@@ -3674,7 +4114,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0335",
+    "id": "e0375",
     "paperId": "etool",
     "category": "Curator interpretation",
     "text": "Curator: Supervised and zero-shot protocols must be separated before interpreting gains. Open question: What transfers when class novelty and capture shift are isolated?",
@@ -3685,7 +4125,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0336",
+    "id": "e0376",
     "paperId": "tfegnn",
     "category": "Paper claim",
     "text": "Models byte relationships for fine-grained classification. PMI traffic graphs; separate header/payload embeddings and gated fusion.",
@@ -3696,7 +4136,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0337",
+    "id": "e0377",
     "paperId": "tfegnn",
     "category": "Bibliography",
     "text": "TFE-GNN: A Temporal Fusion Encoder Using Graph Neural Networks for Fine-grained Encrypted Traffic Classification. WWW; 2023. Byline checked against the linked source.",
@@ -3707,7 +4147,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0338",
+    "id": "e0378",
     "paperId": "tfegnn",
     "category": "Curator interpretation",
     "text": "Curator: Graph construction costs and capture-disjoint generalisation need checking. Open question: Do graph gains survive controlled splits and equal observation budgets?",
@@ -3718,7 +4158,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0339",
+    "id": "e0379",
     "paperId": "flowrest",
     "category": "Paper claim",
     "text": "Executes flow-level forests in production-grade switches. Hardware-aware RF design and P4 implementation.",
@@ -3729,7 +4169,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0340",
+    "id": "e0380",
     "paperId": "flowrest",
     "category": "Bibliography",
     "text": "Flowrest: Practical Flow-Level Inference in Programmable Switches with Random Forests. IEEE INFOCOM; 2023. Byline checked against the linked source.",
@@ -3740,7 +4180,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0341",
+    "id": "e0381",
     "paperId": "flowrest",
     "category": "Curator interpretation",
     "text": "Curator: ASIC limits and flow-feature collection constrain deployable models. Open question: How much flow context is needed before a reliable decision?",
@@ -3751,7 +4191,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0342",
+    "id": "e0382",
     "paperId": "jewel",
     "category": "Paper claim",
     "text": "Addresses unclassified early packets in flow-based switch inference. A joint RF starts with packet features and moves to flow features.",
@@ -3762,7 +4202,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0343",
+    "id": "e0383",
     "paperId": "jewel",
     "category": "Bibliography",
     "text": "Jewel: Resource-Efficient Joint Packet and Flow Level Inference in Programmable Switches. IEEE INFOCOM; 2024. Byline checked against the linked source.",
@@ -3773,7 +4213,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0344",
+    "id": "e0384",
     "paperId": "jewel",
     "category": "Curator interpretation",
     "text": "Curator: Early and later decisions have different available evidence. Open question: How should early errors and correction costs be measured?",
@@ -3784,7 +4224,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0345",
+    "id": "e0385",
     "paperId": "memento",
     "category": "Paper claim",
     "text": "Learns new application classes while retaining old ones. Class-incremental fine-tuning with memory, training and rectification components.",
@@ -3795,7 +4235,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0346",
+    "id": "e0386",
     "paperId": "memento",
     "category": "Bibliography",
     "text": "MEMENTO: A novel approach for class incremental learning of encrypted traffic. Computer Networks; 2024. Byline checked against the linked source.",
@@ -3806,7 +4246,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0347",
+    "id": "e0387",
     "paperId": "memento",
     "category": "Curator interpretation",
     "text": "Curator: Learning a scheduled class sequence is not identical to unlabelled concept drift. Open question: How do memory and label budgets trade against forgetting?",
@@ -3817,7 +4257,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0348",
+    "id": "e0388",
     "paperId": "cilbenchmark",
     "category": "Paper claim",
     "text": "Benchmarks class-incremental traffic learning. Systematic comparison of learning new applications without forgetting old ones.",
@@ -3828,7 +4268,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0349",
+    "id": "e0389",
     "paperId": "cilbenchmark",
     "category": "Bibliography",
     "text": "Benchmarking Class Incremental Learning in Deep Learning Traffic Classification. IEEE Transactions on Network and Service Management; 2024. Byline checked against the linked source.",
@@ -3839,7 +4279,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0350",
+    "id": "e0390",
     "paperId": "cilbenchmark",
     "category": "Curator interpretation",
     "text": "Curator: Results on one mobile-app corpus do not establish cross-organisation robustness. Open question: Which strategies remain useful with strict retention and labelling budgets?",
@@ -3850,7 +4290,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0351",
+    "id": "e0391",
     "paperId": "manyfew",
     "category": "Paper claim",
     "text": "Compares representation learning under differing label budgets. Sixteen methods spanning transfer, contrastive, meta-learning and conventional baselines.",
@@ -3861,7 +4301,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0352",
+    "id": "e0392",
     "paperId": "manyfew",
     "category": "Bibliography",
     "text": "Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification. TMA; 2023. Byline checked against the linked source.",
@@ -3872,7 +4312,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0353",
+    "id": "e0393",
     "paperId": "manyfew",
     "category": "Curator interpretation",
     "text": "Curator: Rankings depend on the examined tasks and data sizes. Open question: When do reusable embeddings outperform a tuned tree baseline?",
@@ -3883,7 +4323,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0354",
+    "id": "e0394",
     "paperId": "crossembeddings",
     "category": "Paper claim",
     "text": "Investigates transferring learned embeddings between networks. Domain adaptation with embedding alignment and transfer learning.",
@@ -3894,7 +4334,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0355",
+    "id": "e0395",
     "paperId": "crossembeddings",
     "category": "Bibliography",
     "text": "Cross-Network Embeddings Transfer for Traffic Analysis. IEEE Transactions on Network and Service Management; 2024. Byline checked against the linked source.",
@@ -3905,7 +4345,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0356",
+    "id": "e0396",
     "paperId": "crossembeddings",
     "category": "Curator interpretation",
     "text": "Curator: Representation transfer must be distinguished from training separately on multiple datasets. Open question: What target-domain information is needed to align embeddings?",
@@ -3916,7 +4356,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0357",
+    "id": "e0397",
     "paperId": "ptu",
     "category": "Paper claim",
     "text": "Unifies static packet content with network dynamics for traffic understanding. Self-supervised representation learning over both traffic modalities.",
@@ -3927,7 +4367,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0358",
+    "id": "e0398",
     "paperId": "ptu",
     "category": "Bibliography",
     "text": "Ptu: Pre-Trained Model for Network Traffic Understanding. IEEE ICNP; 2024. Byline checked against the linked source.",
@@ -3938,7 +4378,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0359",
+    "id": "e0399",
     "paperId": "ptu",
     "category": "Curator interpretation",
     "text": "Curator: Publisher abstract and official conference program establish the model; full dataset and cost tables have not been extracted. Open question: How well does the joint representation transfer to new capture sites?",
@@ -3949,7 +4389,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0360",
+    "id": "e0400",
     "paperId": "mm4flow",
     "category": "Paper claim",
     "text": "Combines raw bytes and transmission patterns for several traffic analysis tasks. Unimodal pretraining followed by cross-attention fusion during task fine-tuning.",
@@ -3960,7 +4400,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0361",
+    "id": "e0401",
     "paperId": "mm4flow",
     "category": "Bibliography",
     "text": "MM4flow: A Pre-trained Multi-modal Model for Versatile Network Traffic Analysis. ACM CCS; 2025. Byline checked against the linked source.",
@@ -3971,7 +4411,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0362",
+    "id": "e0402",
     "paperId": "mm4flow",
     "category": "Curator interpretation",
     "text": "Curator: The author-reported dataset scale and website result are specific to the described setup. Open question: Can the same pretrained weights transfer without overlap under a matched resource budget?",
@@ -3982,7 +4422,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0363",
+    "id": "e0403",
     "paperId": "evs2vec",
     "category": "Paper claim",
     "text": "Learns compact representations for encrypted video-stream analysis. Low-dimensional embedding of encrypted video-stream behaviour.",
@@ -3993,7 +4433,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0364",
+    "id": "e0404",
     "paperId": "evs2vec",
     "category": "Bibliography",
     "text": "EVS2vec: A Low-dimensional Embedding Method for Encrypted Video Stream Analysis. IEEE SECON; 2023. Byline checked against the linked source.",
@@ -4004,7 +4444,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0365",
+    "id": "e0405",
     "paperId": "evs2vec",
     "category": "Curator interpretation",
     "text": "Curator: The task is narrower than general application or malicious-traffic classification. Open question: Does the embedding transfer across video platforms, codecs and capture sites?",
@@ -4015,7 +4455,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0366",
+    "id": "e0406",
     "paperId": "expmd",
     "category": "Paper claim",
     "text": "Makes traffic-identification decisions inspectable across multiple feature domains. Multi-domain feature representation with an explanation framework.",
@@ -4026,7 +4466,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0367",
+    "id": "e0407",
     "paperId": "expmd",
     "category": "Bibliography",
     "text": "ExpMD: an Explainable Framework for Traffic Identification Based on Multi-Domain Features. IEEE/ACM IWQoS; 2024. Byline checked against the linked source.",
@@ -4037,7 +4477,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0368",
+    "id": "e0408",
     "paperId": "expmd",
     "category": "Curator interpretation",
     "text": "Curator: Explanations expose model dependence without proving causal or cross-network robustness. Open question: Do the explanations remain stable under capture shift and feature removal?",
@@ -4048,7 +4488,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0369",
+    "id": "e0409",
     "paperId": "unflows",
     "category": "Paper claim",
     "text": "Constructs a flow-spectrum representation without class labels for network-traffic detection. unFlowS-Net maps network flows into spectral-line representations.",
@@ -4059,7 +4499,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0370",
+    "id": "e0410",
     "paperId": "unflows",
     "category": "Bibliography",
     "text": "unFlowS: An Unsupervised Construction Scheme of Flow Spectrum for Network Traffic Detection. IEEE Transactions on Information Forensics and Security; 2025. Byline checked against the linked source.",
@@ -4070,7 +4510,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0371",
+    "id": "e0411",
     "paperId": "unflows",
     "category": "Curator interpretation",
     "text": "Curator: Unsupervised construction does not itself establish open-world recognition or deployment throughput. Open question: How stable are learned spectra across networks, protocols and time?",
@@ -4081,7 +4521,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0372",
+    "id": "e0412",
     "paperId": "robustnessmatters",
     "category": "Paper claim",
     "text": "Studies whether pretraining improves robustness in encrypted traffic analysis. BERT-ps pretraining over packet-length sequences.",
@@ -4092,7 +4532,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0373",
+    "id": "e0413",
     "paperId": "robustnessmatters",
     "category": "Bibliography",
     "text": "Robustness Matters: Pre-Training Can Enhance the Performance of Encrypted Traffic Analysis. IEEE Transactions on Information Forensics and Security; 2025. Byline checked against the linked source.",
@@ -4103,7 +4543,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0374",
+    "id": "e0414",
     "paperId": "robustnessmatters",
     "category": "Curator interpretation",
     "text": "Curator: Robustness claims remain tied to the reported shifts, datasets and preprocessing. Open question: Which gains survive capture-disjoint and temporally held-out evaluation?",
@@ -4114,7 +4554,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0375",
+    "id": "e0415",
     "paperId": "semiaf",
     "category": "Paper claim",
     "text": "Targets application fingerprinting when labelled traffic is scarce and unknown traffic is present. Semi-supervised graph neural network for application fingerprints.",
@@ -4125,7 +4565,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0376",
+    "id": "e0416",
     "paperId": "semiaf",
     "category": "Bibliography",
     "text": "SemiAF: Semi-Supervised App Fingerprinting on Unknown Traffic via Graph Neural Network. IEEE/IFIP DSN; 2025. Byline checked against the linked source.",
@@ -4136,7 +4576,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0377",
+    "id": "e0417",
     "paperId": "semiaf",
     "category": "Curator interpretation",
     "text": "Curator: Unknown-traffic handling depends on the evaluation protocol and label availability. Open question: How does rejection behave under new applications and capture sites?",
@@ -4147,7 +4587,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0378",
+    "id": "e0418",
     "paperId": "mm4flow",
     "category": "Paper claim",
     "text": "Earlier representation work by the same research group on an application-specific encrypted-traffic task; chronology, not a claimed direct extension.",
@@ -4158,7 +4598,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0379",
+    "id": "e0419",
     "paperId": "expmd",
     "category": "Paper claim",
     "text": "Moves from explainable multi-domain features to MM4flow’s pretrained multimodal fusion; no direct inheritance is asserted.",
@@ -4169,7 +4609,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0380",
+    "id": "e0420",
     "paperId": "mm4flow",
     "category": "Paper claim",
     "text": "Earlier pretraining study by an overlapping author team; this records chronology rather than identical tasks.",
@@ -4180,7 +4620,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0381",
+    "id": "e0421",
     "paperId": "unflows",
     "category": "Paper claim",
     "text": "Contrasts unsupervised flow-spectrum construction with multimodal supervised downstream transfer.",
@@ -4191,7 +4631,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0382",
+    "id": "e0422",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Learns byte, packet and flow context through self-distillation. Teacher–student masked autoencoder with cross-flow mixing and packet-aware masking.",
@@ -4202,7 +4642,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0383",
+    "id": "e0423",
     "paperId": "meanmae",
     "category": "Bibliography",
     "text": "Mean Masked Autoencoder with Flow-Mixing for Encrypted Traffic Classification. arXiv; 2026. Byline checked against the linked source.",
@@ -4213,7 +4653,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0384",
+    "id": "e0424",
     "paperId": "meanmae",
     "category": "Curator interpretation",
     "text": "Curator: Packet sizes and timing guide masking; pretraining is memory intensive and classification was evaluated on the paper’s splits. Open question: Does its gain survive capture-disjoint tests and deliberate timing perturbations?",
@@ -4224,7 +4664,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0385",
+    "id": "e0425",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Pretraining datasets: Six tasks: ISCXVPN2016, ISCXTor2016, CrossPlatform Android, CrossPlatform iOS, USTC-TFC2016, CICIoT2022; Training / evaluation datasets: Same six plus CSTNET-TLS1.3 for fine-tuning; CrossPlatform Android/iOS are separate tasks under one catalogue collection; Split strategy: 8:1:1 train/validation/test per dataset; capture-disjoint assignment not established; Architecture: Seven-block Transformer encoder and two-block decoder; EMA teacher; Pretraining objective: Flow mixing, packet-importance mask prediction and student–teacher alignment; Metrics: Accuracy, precision, recall and weighted F1; Parameters: 8.65 M pretraining; 7.72 M fine-tuning (Table VI); Throughput: 5,343 inference samples/s in Table VI; batch sweep 16–1024, approximately 5,000 samples/s in Figure 8; Hardware: One NVIDIA GeForce RTX 4080 GPU; Memory: 787 MB inference GPU memory; 18 GB pretraining (Table VI); Latency: NA — end-to-end capture-to-alert delay not reported in reviewed sections; Deployment limitations: Online edge pretraining limited by GPU memory; inference rate is offline samples/s; Leakage / shortcut risks: Packet sizes and inter-arrival times guide masking and can be obfuscated.",
@@ -4235,7 +4675,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0386",
+    "id": "e0426",
     "paperId": "trafficformer",
     "category": "Paper claim",
     "text": "Traffic unit definition: Flow (5-tuple) split by SplitCap; pre-training structures traffic as bursts of consecutive same-direction packets; Input representation: Hexadecimal packet bytes tokenised as bigrams with BPE; first 5 packets per flow in fine-tuning; Packets / bytes: 64 bytes per packet after the Ethernet layer; first 5 packets per flow; maximum sequence length 512; Architecture: Transformer encoder: 12 layers, 12 attention heads, encoding dimension 768; Pretraining datasets: About 20 GB, over 600,000 flows: ISCX-NonVPN (non-VPN portion), CICMalAnal2017 (2017 benign software traffic) and Browser (Table 3); Training / evaluation datasets: Six fine-tuning tasks: Cross-Platform Android (197 classes) and iOS (190), CSTNET-TLS 1.3 (120), ISCX-VPN Service (6) and App (11), USTC-TFC (14) (Table 4); Preprocessing / anonymisation: Flows under 2 KB or 3 packets and classes under 10 flows removed; at most 500 flows per class. IP, port, TCP timestamps and TLS timestamps/SNI processed with field augmentation to prevent shortcuts; Split strategy: Per-class 8:1:1 train/validation/test split of flows; Metrics: Accuracy, precision, recall and F1; per-class one-vs-rest values averaged across classes; Reported results: TrafficFormer w/ EA F1: Cross-Platform Android 0.6167, iOS 0.4689, CSTNET-TLS 1.3 0.8338, ISCX-VPN Service 0.9580, App 0.7129, USTC-TFC 0.9830 (Tables 5–7); Hardware: NVIDIA A100 GPUs; pre-training batch 64 on 3 GPUs (effective 192).",
@@ -4246,7 +4686,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0387",
+    "id": "e0427",
     "paperId": "trafficformer",
     "category": "Author-reported result",
     "text": "TrafficFormer w/ EA F1: Cross-Platform Android 0.6167, iOS 0.4689, CSTNET-TLS 1.3 0.8338, ISCX-VPN Service 0.9580, App 0.7129, USTC-TFC 0.9830 (Tables 5–7).",
@@ -4257,7 +4697,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0388",
+    "id": "e0428",
     "paperId": "miett",
     "category": "Paper claim",
     "text": "Traffic unit definition: Flow treated as a bag of packet instances; Input representation: Hexadecimal packet content tokenised as two-byte bigrams with BPE (dictionary 65,536); per-packet [CLS] token; Netbench-preprocessed data; Packets / bytes: 5 packets per flow, 128 tokens per packet; pre-training samples 5 of the first 10 packets; Architecture: 12 Two-Level Attention layers (packet and flow attention), embedding dimension 768; mean-pooled packet [CLS] embeddings feed an MLP; Pretraining objective: Masked Flow Prediction (15% masking) plus Packet Relative Position Prediction and Flow Contrastive Learning, weighted sum of the three losses (Eq. 13); Pretraining datasets: Unlabelled training sets of the five Netbench datasets used for evaluation; Training / evaluation datasets: ISCXVPN 2016 (6 VPN service labels), ISCXTor 2016 (7), CrossPlatform Android (212) and iOS (196), CICIoT 2023 (7 IoT attack labels) (Table 2); Split strategy: 8:1:1 train/validation/test; Metrics: Accuracy and F1; averaging not stated; Reported results: Accuracy/F1: ISCXVPN 76.07%/77.86%, ISCXTor 96.60%/82.15%, Android 93.00%/82.36%, iOS 79.63%/75.03%, CICIoT 2023 88.53%/82.48% (Table 1); Hardware: Server with two NVIDIA RTX A6000 GPUs; Version notes: Full-text values from arXiv v1 (19 December 2024). The main text gives weight 0.2 to PRPP and MFP, the appendix to PRPP and FCL.",
@@ -4268,7 +4708,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0389",
+    "id": "e0429",
     "paperId": "miett",
     "category": "Author-reported result",
     "text": "Accuracy/F1: ISCXVPN 76.07%/77.86%, ISCXTor 96.60%/82.15%, Android 93.00%/82.36%, iOS 79.63%/75.03%, CICIoT 2023 88.53%/82.48% (Table 1).",
@@ -4279,7 +4719,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0390",
+    "id": "e0430",
     "paperId": "cato",
     "category": "Paper claim",
     "text": "Traffic unit definition: Connection; feature representation = feature set plus packet depth (maximum depth 50 in the evaluation); Input representation: Flow statistics from a 67-feature candidate set (Table 4), extracted by a Rust serving pipeline on Retina; Architecture: Multi-objective Bayesian optimisation (HyperMapper) plus a Profiler that compiles and measures each pipeline; served models are decision tree, random forest (100 trees) or a three-hidden-layer DNN; Training / evaluation datasets: app-class: live campus traffic, 6 web applications plus other, SNI labels; iot-class: UNSW IoT September 2016 traces, 28 device types, about 134K connections; vid-start: YouTube startup delay, 4,287 connections; Split strategy: DT/RF tuned by 5-fold nested cross-validation; final Rust model evaluated on a 20% hold-out test set; Metrics: F1 (classification) or RMSE (regression) against end-to-end inference latency, zero-loss throughput or pipeline execution time; Hardware: Live traffic: dual Xeon Gold 6248R, 384 GB RAM, 100GbE ConnectX-5. Offline datasets: dual Xeon Gold 6154, 384 GB RAM.",
@@ -4290,7 +4730,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0391",
+    "id": "e0431",
     "paperId": "flowlet",
     "category": "Paper claim",
     "text": "Traffic unit definition: Five-tuple flow segmented into flowlets where the inter-arrival time exceeds an adaptive threshold, the mean of the IATs in a history window; Input representation: Field tokenisation of protocol header fields; protocol-layer embedding added to token, position and segment embeddings; Packets / bytes: 64 bytes from the network layer per packet; first five packets per flow in fine-tuning; 512 input tokens; Preprocessing / anonymisation: IP addresses randomised, ports randomised preserving client/server roles, TCP timestamps shifted by a random base; at most 500 samples per class; Architecture: BERT-base: 12 encoder layers, 12 heads, dimension 768, about 110M parameters; Pretraining objective: Masked Field Model (15% of tokens, half from key header fields) plus Flowlet Prediction Task (ordered, swapped or different-flow pair); losses summed; Pretraining datasets: About 30 GB: ISCX-VPN2016 NonVPN, CIC-IDS2017 Monday and WIDE backbone (1 January 2024) (Table 9); Training / evaluation datasets: Eight datasets, seven tasks: ISCX-VPN Service and App, ISCX-Tor2016, CSTNET-TLS, Browser, USTC-TFC, CIC-IDS2017, CIC-IoT2022; pre-training and fine-tuning data stated as strictly separated; Split strategy: 8:1:1 train/validation/test; Appendix E repeats the malware task over five random seeds; Metrics: Accuracy; macro-averaged precision, recall and F1; Reported results: F1: ISCX-VPN Service 0.9364, ISCX-Tor 0.9116, ISCX-VPN App 0.7712, CSTNET-TLS 0.8473, Browser 0.6684, USTC-TFC 0.9648, CIC-IDS2017 0.9079, CIC-IoT2022 0.8859 (Tables 2–3); Throughput: 150.04 samples/s inference on one GPU (Table 6); Memory: 28 GB GPU memory in pre-training (6 GPUs), 17 GB in fine-tuning (1 GPU) (Table 6); Hardware: Server with 8 NVIDIA Tesla V100S GPUs; Measurement scope: Offline model inference rate on one GPU; not a live-traffic throughput; Version notes: Full-text values from arXiv v1 (27 August 2025).",
@@ -4301,7 +4741,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0392",
+    "id": "e0432",
     "paperId": "flowlet",
     "category": "Author-reported result",
     "text": "F1: ISCX-VPN Service 0.9364, ISCX-Tor 0.9116, ISCX-VPN App 0.7712, CSTNET-TLS 0.8473, Browser 0.6684, USTC-TFC 0.9648, CIC-IDS2017 0.9079, CIC-IoT2022 0.8859 (Tables 2–3).",
@@ -4312,7 +4752,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0393",
+    "id": "e0433",
     "paperId": "akem",
     "category": "Paper claim",
     "text": "Traffic unit definition: 5-tuple flow; in-switch inference triggers after the first n packets (n = 4 or 8 performed best); Input representation: Packet size and inter-arrival time; in-switch features are max, min, total and mean of both plus current packet size. Ports and other header fields excluded; Architecture: Random forest mapped to Tofino match-action tables with the Planter scheme (depth 16–20, 1–5 trees, 4–5 features retained); Training / evaluation datasets: NIMS IMA (6 instant-messaging apps), Netflow QUIC (5 Google services), ISCXVPN2016 (7 classes incl. BROWSING labelled by ports 80/443) (Table 2); Split strategy: 12-fold cross-validation; stratified folds in the offline analysis; Metrics: Macro, weighted and micro F1; macro is the unweighted mean of per-class F1; Reported results: In-switch macro F1: ISCX VPN 85.65%, NIMS IMA 90.29%, Netflow QUIC 90.30%; weighted F1 87.14%, 89.82%, 95.29% (Figure 6); Throughput: More than 100 Gbps aggregate through the switch (DPDK-PktGen background plus replayed pcaps); the classified encrypted traffic ran at Kbps to Mbps levels.",
@@ -4323,7 +4763,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0394",
+    "id": "e0434",
     "paperId": "akem",
     "category": "Author-reported result",
     "text": "In-switch macro F1: ISCX VPN 85.65%, NIMS IMA 90.29%, Netflow QUIC 90.30%; weighted F1 87.14%, 89.82%, 95.29% (Figure 6).",
@@ -4334,7 +4774,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0395",
+    "id": "e0435",
     "paperId": "mhnet",
     "category": "Paper claim",
     "text": "Traffic unit definition: Bidirectional flow (SplitCap), at most the first 15 packets; ISCX-Tor flows divided into 60-second blocks; Input representation: 4-bit and 8-bit traffic units per packet form multi-view heterogeneous graphs with header-header, payload-payload and header-payload PMI edges; Preprocessing / anonymisation: Ethernet header, IP addresses and ports removed; flows without payload or longer than 10,000 filtered; Architecture: 4-layer heterogeneous GraphSAGE encoder per packet, LSTM over packets for the flow representation; Fine-tuning objective: End-to-end multi-task loss: packet and flow classification plus packet- and flow-level contrastive losses (Eq. 12); no separate pre-training; Training / evaluation datasets: CIC-IoT 2022 (6 classes), ISCX-VPN (6), ISCX-NonVPN (6), ISCX-Tor (8), ISCX-NonTor (8), each run independently (Appendix Table 4); CrossPlatform Android in the appendix; Split strategy: Stratified 9:1 flow-level train/test; packet-level sets inherit the flow split; Metrics: Overall accuracy and macro F1; mean over five runs; Reported results: Flow-level accuracy/macro F1: CIC-IoT 0.9900/0.9896, ISCX-Tor 0.9886/0.9886, ISCX-NonTor 0.9465/0.9453, ISCX-VPN 0.9942/0.9941, ISCX-NonVPN 0.9141/0.9141 (Table 1); Hardware: One NVIDIA RTX 3080.",
@@ -4345,7 +4785,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0396",
+    "id": "e0436",
     "paperId": "mhnet",
     "category": "Author-reported result",
     "text": "Flow-level accuracy/macro F1: CIC-IoT 0.9900/0.9896, ISCX-Tor 0.9886/0.9886, ISCX-NonTor 0.9465/0.9453, ISCX-VPN 0.9942/0.9941, ISCX-NonVPN 0.9141/0.9141 (Table 1).",
@@ -4356,7 +4796,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0397",
+    "id": "e0437",
     "paperId": "fastflow",
     "category": "Paper claim",
     "text": "Input representation: Packet sequence (direction, payload size in MTU units, log inter-arrival time) and slot sequence of per-time-interval aggregates; Architecture: Two LSTM classifiers (packet and slot) making sequential decisions, trained with reinforcement learning; augmentation creates pseudo-unknown flows; Training / evaluation datasets: Lab: UTMobileNet, VNAT, UNIBS (Table 2). Deployment: about 1 million campus flows labelled by a commercial classifier for training; 22.9 million live flows, 7 application types, 32 providers (Table 5); Split strategy: Lab: random 70/30 train/test over ten iterations; about 20–25% of flows (some flow types) held out as unknown; packet drops injected only into test data; Metrics: Macro F1, accuracy, packets and time to classify, unknown-type FPR and TPR; Reported results: Lab macro F1 under disorder and unknown types: UTMobileNet 85.42%, VNAT 96.24%, UNIBS 92.30% (Table 3). Campus application types: macro F1 90.23%, accuracy 91.45% (Table 6); Throughput: About 30K concurrent flows per time-series classifier on one Xeon E5-2620 core; up to 200K concurrent flows for both classifiers on an RTX 4090 (benchmarked, not deployed); Hardware: Deployment server: 8-core Intel Xeon E5-2620, 64 GB RAM, two 10 Gbps interfaces; training on one NVIDIA RTX 4090 (about 6 hours).",
@@ -4367,7 +4807,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0398",
+    "id": "e0438",
     "paperId": "fastflow",
     "category": "Author-reported result",
     "text": "Lab macro F1 under disorder and unknown types: UTMobileNet 85.42%, VNAT 96.24%, UNIBS 92.30% (Table 3). Campus application types: macro F1 90.23%, accuracy 91.45% (Table 6).",
@@ -4378,7 +4818,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0399",
+    "id": "e0439",
     "paperId": "etool",
     "category": "Paper claim",
     "text": "Traffic unit definition: Multiple flows of a client grouped by flow-level BURST (start-time threshold 1 s) into a traffic relation graph; each flow is a node; Input representation: Per flow: 128 datagram bytes as two-byte units plus a directed packet-size sequence; Architecture: Vicuna-7B-v1.5 LLM (32 decoder layers) with a flow-graph encoder and structure-aware projector; LLM and graph encoder frozen during instruction tuning; Pretraining objective: Graph structural instruction tuning: traffic graph encoding alignment and self-supervised BURST graph matching, followed by traffic-task instruction tuning; Training / evaluation datasets: APP53-TIME (28 classes) and APP53-VERSION (25) for I.I.D. and time/version-shift tasks, ISCX-Botnet (binary and 8-class type shift), NETD built from ISCX-VPN (Table II); Split strategy: Shift tasks fine-tune on one time or version and test zero-shot on another; NETD uses 1:3 and 3:1 component ratios and an 80% application subset. Split ratios NA — not reported in reviewed sections; Metrics: Accuracy; macro-averaged precision, recall and F1; Reported results: F1: APP53-TIME 93.19%, APP53-VERSION 92.11%, APP53 ⇒ TIME 74.88%, APP53 ⇒ VERSION 72.13% (Table IV); Parameters: 131,612,672 tuned parameters with the LLM frozen; 6,607,884,288 with LLM tuning, which ran out of memory (Table VII); Memory: 71,196 MB single-GPU memory for frozen traffic-task tuning (Table VII); Latency: 3,756.62 ms per response on NETD with one NVIDIA A800 (Table VII); Hardware: NVIDIA Tesla A800 80 GB GPUs; efficiency study on two A800s; Deployment limitations: The authors state ETooL does not yet meet real-time detection requirements.",
@@ -4389,7 +4829,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0400",
+    "id": "e0440",
     "paperId": "etool",
     "category": "Author-reported result",
     "text": "F1: APP53-TIME 93.19%, APP53-VERSION 92.11%, APP53 ⇒ TIME 74.88%, APP53 ⇒ VERSION 72.13% (Table IV).",
@@ -4400,7 +4840,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0401",
+    "id": "e0441",
     "paperId": "mm4flow",
     "category": "Paper claim",
     "text": "Traffic unit definition: Bidirectional flow; flows with fewer than 5 payload-carrying packets discarded; Input representation: Two modalities: first 256 transport-payload bytes per direction (512 bytes, headers excluded) and the signed payload-length sequence of packets with payload; Architecture: BERT-bytes and BERT-ps (BERT-base settings, 12 layers, hidden 768) fused by cross-attention for fine-tuning; 174.40M parameters (Table 1); Pretraining objective: Masked language modelling (15% of tokens) on each modality separately; Pretraining datasets: About 77.6 TB pcap from a network gateway over one week; 465M flows; stated to exclude downstream evaluation data; Training / evaluation datasets: DataCon2020, DataCon2021-p1, DataCon2021-p2, Browser, NUDT_MobileTraffic, CSTNET-TLS1.3 (Table 5); Split strategy: Fixed per-class sample count for a balanced training set, split 9:1 train/validation; remaining samples form the test set, downsampled for large classes; Metrics: Accuracy; macro-averaged precision, recall and F1; Reported results: Accuracy: DataCon2020 0.9734, DataCon2021-p1 0.9731, DataCon2021-p2 0.9011, Browser 0.9929, NUDT_MobileTraffic 0.9111, CSTNET-TLS1.3 0.9826 (Table 2); Hardware: AMD EPYC 7542, 8 NVIDIA RTX 6000 Ada, 512 GB RAM; pre-training on 4 GPUs for about 350 hours.",
@@ -4411,7 +4851,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0402",
+    "id": "e0442",
     "paperId": "mm4flow",
     "category": "Author-reported result",
     "text": "Accuracy: DataCon2020 0.9734, DataCon2021-p1 0.9731, DataCon2021-p2 0.9011, Browser 0.9929, NUDT_MobileTraffic 0.9111, CSTNET-TLS1.3 0.9826 (Table 2).",
@@ -4422,7 +4862,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0403",
+    "id": "e0443",
     "paperId": "unflows",
     "category": "Paper claim",
     "text": "Input representation: 76 CICFlowMeter flow features, z-score normalised; Architecture: Fully connected autoencoder with re-input structure (76-32-16-4 encoder, symmetric decoder), trained on benign flows; flow spectrum plus k-means behaviour detector; Training / evaluation datasets: NSL-KDD, UNSW-NB15, Kitsune, CIC-IDS-2017, CSE-CIC-IDS-2018, CIC-DDoS-2019; Split strategy: CIC-IDS-2017: trained on Monday benign traffic, tested on Tuesday to Friday. Splits for the other datasets NA — not reported in reviewed sections; Metrics: AUC, FPR, FNR and per-attack recall; Reported results: CIC-IDS-2017 flow-based detection: average AUC 0.9235 (Table IV); AUC above 0.975 on NSL-KDD, UNSW-NB15 and CIC-DDoS-2019; Latency: 0.0161 s per 10,000 flows for unFlowS-Net detection (Fig. 8); Hardware: Intel Core i9-10900K, NVIDIA RTX 3090, 128 GB RAM; Measurement scope: Batch processing time for 10,000 flows; whether feature extraction is included is not stated.",
@@ -4433,7 +4873,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0404",
+    "id": "e0444",
     "paperId": "unflows",
     "category": "Author-reported result",
     "text": "CIC-IDS-2017 flow-based detection: average AUC 0.9235 (Table IV); AUC above 0.975 on NSL-KDD, UNSW-NB15 and CIC-DDoS-2019.",
@@ -4444,7 +4884,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0405",
+    "id": "e0445",
     "paperId": "semiaf",
     "category": "Paper claim",
     "text": "Traffic unit definition: Traffic segment of multiple flows within a time window, each flow split into in-flow bursts; Input representation: Packet-length and timing sequences per in-flow burst, embedded by a GRU; bursts are nodes of an in-flow burst interaction (IFBI) graph; Architecture: Graph attention network with contrastive learning: node classification for in-app actions, graph classification for app names; GNNExplainer interpreter; Training / evaluation datasets: FOAP (1,000 apps, app and action labels), FG-Net D1/D2 (53 apps, captured one month apart), NUDT MobileTraffic (100 apps, 1,336,007 flows) (Table I); Evaluation setting: Unknown apps: FOAP split into known and unknown subsets of 500 apps each; trained on known apps, unknown embeddings clustered; Split strategy: Train/test ratio for known-app identification NA — not reported in reviewed sections; Metrics: Precision, recall, F1 (averaging not stated); Rand, Fowlkes-Mallows, homogeneity, completeness and V-measure for clustering; Reported results: F1: FOAP app 0.992, FOAP action 0.865, FG-Net D1 0.961, D2 0.925, NUDT MobileTraffic 0.921 (Table II); Latency: Per flow: 5.42 ms for app identification (3.36 preprocessing, 2.06 prediction), 20.9 ms for action identification (Table V); Throughput: Authors calculate operation at 133 Mbps while keeping 80% accuracy; a calculated figure, not a measured live rate; Hardware: Intel i9-13900KF, 64 GB RAM, one NVIDIA RTX 4090.",
@@ -4455,7 +4895,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0406",
+    "id": "e0446",
     "paperId": "semiaf",
     "category": "Author-reported result",
     "text": "F1: FOAP app 0.992, FOAP action 0.865, FG-Net D1 0.961, D2 0.925, NUDT MobileTraffic 0.921 (Table II).",
@@ -4466,7 +4906,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0407",
+    "id": "e0447",
     "paperId": "robustnessmatters",
     "category": "Paper claim",
     "text": "Traffic unit definition: Bidirectional 5-tuple flow; packets without transport payload ignored; flows with fewer than 5 payload packets discarded; Input representation: Signed transport-payload length sequence; vocabulary of lengths 1–1500 in two directions plus 5 special tokens; Architecture: BERT-ps: bidirectional Transformer encoder with BERT-base settings and a fully connected classification head; Pretraining objective: Masked language modelling, 15% of tokens (80% [MASK], 10% random, 10% unchanged); Pretraining datasets: About 12.1 TB pcap from a network gateway over one week; 76.11M packet-length sequences (about 2.96B tokens); Training / evaluation datasets: DataCon2020, DataCon2021-p1 (6 proxies), DataCon2021-p2 (22 websites), EBSNN-dataset (22 categories), CSTNET-TLS1.3 (80 applications); Evaluation setting: Robustness compared on DataCon2020 against packet-length baselines under packet loss, retransmission and disorder, using PA-curve and PA-area; Metrics: Accuracy and macro-F1; PA-curve and PA-area for robustness; Reported results: BERT-ps accuracy about 90% on DataCon2021-p2 and 97.5% on CSTNET-TLS1.3; Latency: About 0.59 s per 1,000 flows; feature extraction about 0.07 s per 1,000 flows, 12% of the total (Table VI); Hardware: AMD EPYC 7542, 8 NVIDIA RTX 6000 Ada, 512 GB RAM.",
@@ -4477,7 +4917,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0408",
+    "id": "e0448",
     "paperId": "robustnessmatters",
     "category": "Author-reported result",
     "text": "BERT-ps accuracy about 90% on DataCon2021-p2 and 97.5% on CSTNET-TLS1.3.",
@@ -4488,7 +4928,7 @@
     "accessed": "2026-09-23"
   },
   {
-    "id": "e0409",
+    "id": "e0449",
     "paperId": "vpnfeatures",
     "category": "Artifact availability",
     "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4499,7 +4939,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0410",
+    "id": "e0450",
     "paperId": "flowprint",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/Thijsvanede/FlowPrint; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4510,7 +4950,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0411",
+    "id": "e0451",
     "paperId": "nprint",
     "category": "Artifact availability",
     "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4521,7 +4961,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0412",
+    "id": "e0452",
     "paperId": "refinery",
     "category": "Artifact availability",
     "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4532,7 +4972,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0413",
+    "id": "e0453",
     "paperId": "dodont",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://dodo-mlsec.org/; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4543,7 +4983,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0414",
+    "id": "e0454",
     "paperId": "netgpt",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/ict-net/NetGPT; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4554,7 +4994,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0415",
+    "id": "e0455",
     "paperId": "lens",
     "category": "Artifact availability",
     "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4565,7 +5005,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0416",
+    "id": "e0456",
     "paperId": "bos",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/InspiringGroup-NeoLab/Brain-on-Switch; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4576,7 +5016,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0417",
+    "id": "e0457",
     "paperId": "leo",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/Purdue-ISL/Leo; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4587,7 +5027,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0418",
+    "id": "e0458",
     "paperId": "platforms",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/WYF99/IMC24-VideoUserPlatform; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4598,7 +5038,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0419",
+    "id": "e0459",
     "paperId": "cato",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/stanford-esrg/cato; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4609,7 +5049,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0420",
+    "id": "e0460",
     "paperId": "demystifying",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/maybe-hello-world/demystifying-networks; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4620,7 +5060,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0421",
+    "id": "e0461",
     "paperId": "onetask",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/one-task-traffic/traffic-generalization-study; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4631,7 +5071,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0422",
+    "id": "e0462",
     "paperId": "nepco",
     "category": "Artifact availability",
     "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4642,7 +5082,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0423",
+    "id": "e0463",
     "paperId": "rosetta",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/sunskyXX/Rosetta; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4653,7 +5093,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0424",
+    "id": "e0464",
     "paperId": "mhnet",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/ViktorAxelsen/MH-Net; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4664,7 +5104,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0425",
+    "id": "e0465",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://anonymous.4open.science/r/traffic_dataset_audit_script-440B/; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4675,7 +5115,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0426",
+    "id": "e0466",
     "paperId": "genericmae",
     "category": "Paper claim",
     "text": "The paper states its own code or artefact at https://github.com/SmartData-Polito/multimodal-ae-for-networking; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
@@ -4686,7 +5126,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0427",
+    "id": "e0467",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "The paper does not state how precision, recall and F1 are averaged. The official code computes them with weighted averaging (scikit-learn average='weighted', stored in a variable named macro).",
@@ -4697,7 +5137,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0428",
+    "id": "e0468",
     "paperId": "commercial",
     "category": "Paper claim",
     "text": "Published in IEEE TNSM 18(4), December 2021. arXiv v1 (April 2021) was titled \"Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications\"; v2 (September 2021) uses the published title.",
@@ -4708,7 +5148,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0429",
+    "id": "e0469",
     "paperId": "serveflow",
     "category": "Paper claim",
     "text": "Metadata is the 2024 work; detailed setup here uses arXiv v2 (24 October 2024). arXiv v3 (11 October 2026) retitles the work \"FlowWise: Stateful Fast-Slow Model Serving for Streaming Traffic Intelligence\"; v3 has not been extracted.",
@@ -4719,7 +5159,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0430",
+    "id": "e0470",
     "paperId": "trafficformer",
     "category": "Paper claim",
     "text": "Two tasks trained jointly: Masked Burst Modelling (cross-entropy over masked tokens) and Same Origin-Direction-Flow, a 5-class burst-pair classification (cross-entropy). Total loss = λ·loss_MBM + loss_SODF with λ = 0.1.",
@@ -4730,7 +5170,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0431",
+    "id": "e0471",
     "paperId": "rosetta",
     "category": "Paper claim",
     "text": "BYOL self-supervised learning on TCP-aware augmented flow variants (packet-length sequences): normalised mean-squared error between the online prediction and the target projection, symmetrised over the two variants; target network updated as a moving average with decay 0.996.",
@@ -4741,7 +5181,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0432",
+    "id": "e0472",
     "paperId": "flowmae",
     "category": "Paper claim",
     "text": "Flow-MAE contains 85.12M parameters and a model size of 450 MB. The paper reports 132.13M parameters for its ET-BERT comparator.",
@@ -4752,7 +5192,7 @@
     "accessed": "2026-10-19"
   },
   {
-    "id": "e0433",
+    "id": "e0473",
     "paperId": "deeppacket",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4763,7 +5203,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0434",
+    "id": "e0474",
     "paperId": "pert",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4774,7 +5214,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0435",
+    "id": "e0475",
     "paperId": "miniflowpic",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4785,7 +5225,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0436",
+    "id": "e0476",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4796,7 +5236,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0437",
+    "id": "e0477",
     "paperId": "netmamba",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4807,7 +5247,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0438",
+    "id": "e0478",
     "paperId": "sugar",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4818,7 +5258,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0439",
+    "id": "e0479",
     "paperId": "netmambaplus",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4829,7 +5269,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0440",
+    "id": "e0480",
     "paperId": "biasseeker",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4840,7 +5280,40 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0441",
+    "id": "e0481",
+    "paperId": "supclgnn",
+    "category": "Paper claim",
+    "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-18"
+  },
+  {
+    "id": "e0482",
+    "paperId": "vfrdad",
+    "category": "Paper claim",
+    "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112782",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-18"
+  },
+  {
+    "id": "e0483",
+    "paperId": "dpft",
+    "category": "Paper claim",
+    "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-18"
+  },
+  {
+    "id": "e0484",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Audits the label provenance of ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4851,7 +5324,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0442",
+    "id": "e0485",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4862,7 +5335,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0443",
+    "id": "e0486",
     "paperId": "miniflowpic",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4873,7 +5346,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0444",
+    "id": "e0487",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4884,7 +5357,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0445",
+    "id": "e0488",
     "paperId": "netmamba",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4895,7 +5368,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0446",
+    "id": "e0489",
     "paperId": "biasseeker",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4906,7 +5379,18 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0447",
+    "id": "e0490",
+    "paperId": "supclgnn",
+    "category": "Paper claim",
+    "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112816",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-18"
+  },
+  {
+    "id": "e0491",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Audits the label provenance of ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4917,7 +5401,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0448",
+    "id": "e0492",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4928,7 +5412,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0449",
+    "id": "e0493",
     "paperId": "sugar",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4939,7 +5423,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0450",
+    "id": "e0494",
     "paperId": "netmambaplus",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4950,7 +5434,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0451",
+    "id": "e0495",
     "paperId": "biasseeker",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4961,7 +5445,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0452",
+    "id": "e0496",
     "paperId": "ntcenigma",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4972,7 +5456,18 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0453",
+    "id": "e0497",
+    "paperId": "dpft",
+    "category": "Paper claim",
+    "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
+    "sourceUrl": "https://doi.org/10.1016/j.comnet.2026.112844",
+    "sourceType": "Original paper",
+    "locator": "Abstract",
+    "status": "Verified",
+    "accessed": "2026-10-18"
+  },
+  {
+    "id": "e0498",
     "paperId": "lim",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4983,7 +5478,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0454",
+    "id": "e0499",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4994,7 +5489,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0455",
+    "id": "e0500",
     "paperId": "netmambaplus",
     "category": "Paper claim",
     "text": "Evaluates on CipherSpectrum, introduced in NTC Enigma / SoK.",
@@ -5005,7 +5500,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0456",
+    "id": "e0501",
     "paperId": "miniflowpic",
     "category": "Later criticism",
     "text": "Finamore et al. reproduce the study and confirm most results, but find an accuracy drop of about 20% on the UCDAVIS19 human test partition. They trace it to a data shift between the human partition and the script and pretraining partitions.",

@@ -357,6 +357,9 @@ for did,(pid,cite,loc) in INTRO.items():
     d=next(d for d in D if d['id']==did);q=next((p for p in P if p['id']==pid),None)
     if q:d['introducedBy']=dict(paper=pid,evidence=evidence('dataset:'+did,'Dataset documentation',f'Introduced in {q["short"]} ({q["year"]}).',q['url'],loc))
     else:d['introducedBy']=dict(citation=cite,evidence=evidence('dataset:'+did,'Dataset documentation',f'Collected for {cite}; FlowPrint describes and reuses it.','https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/',loc))
+# Discovery review #1 (Task 19): 12 papers, abstract level, read from corpus/ PDFs.
+from discovery_2026_10_19 import add_papers as add_discovery,NEW as DISCOVERY_NEW
+add_discovery(add,rel,E)
 for d in D:d['papers']=[p['id'] for p in P if d['id'] in p['datasets']]
 
 prof('Yuqi Zhao|Matteo Boffa|Luca Vassio|Marco Mellia','Politecnico di Torino',SC,'Shortcut mitigation|Explainability|Traffic classification','Sugar representation audit and ShortcutCatcher feature-removal research.','Paper time, June 2026')
@@ -492,6 +495,7 @@ curator_fix('flowmae','Parameters',_fp,text='Flow-MAE contains 85.12M parameters
 # FlowPic replication is skipped: it considers ISCX-VPN/Tor but discards them after preliminary checks (Section 3.3).
 # Flow-label provenance audits these collections rather than training on them, so it gets an audit edge.
 USE_LOC={'deeppacket':'Section 4.1','miniflowpic':'Section 3.1.2','sugar':'Section 4.1'}
+USE_LOC.update({pid:'Abstract' for pid in DISCOVERY_NEW})  # dataset named in the abstract
 USE_URL={'labelprovenance':'https://arxiv.org/html/2609.02140v1'}  # same source as its existing audit edges
 EVI={e['id']:e for e in E};PID={p['id']:p for p in P}
 for d in D:

@@ -403,5 +403,65 @@
     "doi": null,
     "arxivId": "2603.29537",
     "source": "paper URL (arXiv)"
+  },
+  "netagent": {
+    "doi": null,
+    "arxivId": "2610.07386",
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "joivcompare": {
+    "doi": "10.62527/joiv.10.5.4411",
+    "arxivId": null,
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "supclgnn": {
+    "doi": "10.1016/j.comnet.2026.112816",
+    "arxivId": null,
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "scsm": {
+    "doi": null,
+    "arxivId": "2610.07776",
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "vfrdad": {
+    "doi": "10.1016/j.comnet.2026.112782",
+    "arxivId": null,
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "distilshortcut": {
+    "doi": null,
+    "arxivId": "2609.31141",
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "shortcutgen": {
+    "doi": null,
+    "arxivId": "2610.17961",
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "netlexicon": {
+    "doi": null,
+    "arxivId": "2609.37672",
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "curvtail": {
+    "doi": null,
+    "arxivId": "2609.32242",
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "pmpnet": {
+    "doi": "10.1016/j.comnet.2026.112798",
+    "arxivId": null,
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "dpft": {
+    "doi": "10.1016/j.comnet.2026.112844",
+    "arxivId": null,
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
+  },
+  "netcofi": {
+    "doi": null,
+    "arxivId": "2610.17978",
+    "source": "PDF in corpus/ (first page), checked 2026-10-19"
   }
 }
