@@ -25,9 +25,14 @@
       "netmambaplus",
       "shortcutcatcher",
       "biasseeker",
+      "netagent",
       "supclgnn",
       "vfrdad",
+      "shortcutgen",
+      "netlexicon",
+      "pmpnet",
       "dpft",
+      "netcofi",
       "labelprovenance",
       "meanmae"
     ],
@@ -61,6 +66,7 @@
       "netmamba",
       "biasseeker",
       "supclgnn",
+      "netcofi",
       "labelprovenance",
       "meanmae"
     ],
@@ -94,8 +100,11 @@
       "netmambaplus",
       "biasseeker",
       "supclgnn",
+      "shortcutgen",
+      "netlexicon",
       "pmpnet",
       "dpft",
+      "netcofi",
       "labelprovenance",
       "meanmae"
     ],
@@ -118,7 +127,8 @@
     "preprocessing": "CICFlowMeter features; distinguish original and corrected versions.",
     "papers": [
       "cicissues",
-      "demystifying"
+      "demystifying",
+      "netagent"
     ],
     "evidence": "e0228",
     "status": "Verified",
@@ -139,7 +149,9 @@
     "labels": "Scenario-driven attack and benign labels.",
     "caveats": "Curator: this is a separate collection from CICIDS2017; corrections to one do not transfer automatically.",
     "preprocessing": "CICFlowMeter-V3; 80 extracted features.",
-    "papers": [],
+    "papers": [
+      "netagent"
+    ],
     "evidence": "e0229",
     "status": "Verified",
     "caveatEvidence": []
@@ -218,7 +230,10 @@
       "shortcutcatcher",
       "biasseeker",
       "ntcenigma",
+      "shortcutgen",
+      "netlexicon",
       "dpft",
+      "netcofi",
       "lim",
       "labelprovenance",
       "meanmae"
@@ -388,7 +403,9 @@
     "labels": "Background is not equivalent to proven benign.",
     "caveats": "Curator: preserve scenario boundaries; old malware does not represent all modern attacks.",
     "preprocessing": "Biflow extraction.",
-    "papers": [],
+    "papers": [
+      "netcofi"
+    ],
     "evidence": "e0240",
     "status": "Verified",
     "caveatEvidence": []
@@ -408,7 +425,9 @@
     "preprocessing": "Trace-dependent anonymisation.",
     "papers": [
       "sugar",
-      "demystifying"
+      "demystifying",
+      "netagent",
+      "netlexicon"
     ],
     "evidence": "e0241",
     "status": "Verified",
@@ -451,6 +470,8 @@
       "netmambaplus",
       "biasseeker",
       "ntcenigma",
+      "netlexicon",
+      "netcofi",
       "labelprovenance"
     ],
     "evidence": "e0279",
