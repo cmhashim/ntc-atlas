@@ -14,8 +14,10 @@
     "preprocessing": "Flow extraction; paper-specific header masking and sampling.",
     "papers": [
       "vpnfeatures",
+      "torfeatures",
       "deeppacket",
       "pert",
+      "distiller",
       "etbert",
       "miniflowpic",
       "yatc",
@@ -42,6 +44,7 @@
       "netcofi",
       "labelprovenance",
       "genericmae",
+      "tfegnn",
       "ptu",
       "meanmae"
     ],
@@ -80,6 +83,7 @@
       "supclgnn",
       "netcofi",
       "labelprovenance",
+      "tfegnn",
       "meanmae"
     ],
     "evidence": "e0226",
@@ -104,6 +108,7 @@
     "caveats": "Curator: not wholly encrypted; source and malware-family differences can become shortcuts.",
     "preprocessing": "Session/flow splitting, byte cropping and anonymisation differ across papers.",
     "papers": [
+      "deepmal",
       "etbert",
       "yatc",
       "flowmae",
@@ -143,12 +148,15 @@
     "caveats": "Documented audit: Engelen et al. 2021. Curator: fixed attack schedules make random splits a weak deployment test.",
     "preprocessing": "CICFlowMeter features; distinguish original and corrected versions.",
     "papers": [
+      "nprint",
       "cicissues",
+      "refinery",
       "pragmatic",
       "leo",
       "demystifying",
       "simple",
-      "netagent"
+      "netagent",
+      "flowrest"
     ],
     "evidence": "e0228",
     "status": "Verified",
@@ -216,6 +224,7 @@
     "preprocessing": "Paper-specific packet/flow extraction.",
     "papers": [
       "flowprint",
+      "nprint",
       "etbert",
       "yatc",
       "netmamba",
@@ -441,6 +450,7 @@
     "caveats": "Curator: preserve scenario boundaries; old malware does not represent all modern attacks.",
     "preprocessing": "Biflow extraction.",
     "papers": [
+      "deepmal",
       "pragmatic",
       "netcofi"
     ],
