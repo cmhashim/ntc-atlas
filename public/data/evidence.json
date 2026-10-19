@@ -1950,7 +1950,7 @@
     "id": "e0178",
     "paperId": "flowmae",
     "category": "Paper claim",
-    "text": "Input representation: Burst byte arrays with learned patch embeddings; Pretraining objective: Masked Patch Model; Architecture: Masked autoencoder; Reproducibility: Official repository provides preprocessing and train/evaluation scripts. No rerun performed; Parameters: Needs verification; FLOPs: Authors claim 0.2% of their ET-BERT comparator’s FLOPs; Memory: Authors claim 44% of their ET-BERT comparator’s memory overhead; Throughput: >900 samples/s (authors’ setup); not packets/s; Deployment limitations: Repository describes i7-12700K and two RTX3090Ti GPUs.",
+    "text": "Input representation: Burst byte arrays with learned patch embeddings; Pretraining objective: Masked Patch Model; Architecture: Masked autoencoder; Reproducibility: Official repository provides preprocessing and train/evaluation scripts. No rerun performed; FLOPs: Authors claim 0.2% of their ET-BERT comparator’s FLOPs; Memory: Authors claim 44% of their ET-BERT comparator’s memory overhead; Throughput: >900 samples/s (authors’ setup); not packets/s; Deployment limitations: Repository describes i7-12700K and two RTX3090Ti GPUs.",
     "sourceUrl": "https://github.com/NLear/Flow-MAE",
     "sourceType": "Official artifact",
     "locator": "README Introduction and System Requirements",
@@ -2522,7 +2522,7 @@
     "id": "e0230",
     "paperId": "dataset:ciciot2022",
     "category": "Dataset documentation",
-    "text": "IoT laboratory collection. Device and activity labels; exact per-paper selection needs verification. See official task documentation.",
+    "text": "IoT laboratory collection. Device and activity labels; the subset each paper uses is not recorded here. See official task documentation.",
     "sourceUrl": "https://www.unb.ca/cic/datasets/iotdataset-2022.html",
     "sourceType": "Dataset source",
     "locator": "Official collection / project documentation",
@@ -4236,6 +4236,457 @@
   },
   {
     "id": "e0386",
+    "paperId": "trafficformer",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Flow (5-tuple) split by SplitCap; pre-training structures traffic as bursts of consecutive same-direction packets; Input representation: Hexadecimal packet bytes tokenised as bigrams with BPE; first 5 packets per flow in fine-tuning; Packets / bytes: 64 bytes per packet after the Ethernet layer; first 5 packets per flow; maximum sequence length 512; Architecture: Transformer encoder: 12 layers, 12 attention heads, encoding dimension 768; Pretraining datasets: About 20 GB, over 600,000 flows: ISCX-NonVPN (non-VPN portion), CICMalAnal2017 (2017 benign software traffic) and Browser (Table 3); Training / evaluation datasets: Six fine-tuning tasks: Cross-Platform Android (197 classes) and iOS (190), CSTNET-TLS 1.3 (120), ISCX-VPN Service (6) and App (11), USTC-TFC (14) (Table 4); Preprocessing / anonymisation: Flows under 2 KB or 3 packets and classes under 10 flows removed; at most 500 flows per class. IP, port, TCP timestamps and TLS timestamps/SNI processed with field augmentation to prevent shortcuts; Split strategy: Per-class 8:1:1 train/validation/test split of flows; Metrics: Accuracy, precision, recall and F1; per-class one-vs-rest values averaged across classes; Reported results: TrafficFormer w/ EA F1: Cross-Platform Android 0.6167, iOS 0.4689, CSTNET-TLS 1.3 0.8338, ISCX-VPN Service 0.9580, App 0.7129, USTC-TFC 0.9830 (Tables 5–7); Hardware: NVIDIA A100 GPUs; pre-training batch 64 on 3 GPUs (effective 192).",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
+    "sourceType": "Original paper",
+    "locator": "Sections 3.2.1, 4.1–4.2; Tables 3–7",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0387",
+    "paperId": "trafficformer",
+    "category": "Author-reported result",
+    "text": "TrafficFormer w/ EA F1: Cross-Platform Android 0.6167, iOS 0.4689, CSTNET-TLS 1.3 0.8338, ISCX-VPN Service 0.9580, App 0.7129, USTC-TFC 0.9830 (Tables 5–7).",
+    "sourceUrl": "https://ieeexplore.ieee.org/document/11023272/",
+    "sourceType": "Original paper",
+    "locator": "Sections 3.2.1, 4.1–4.2; Tables 3–7",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0388",
+    "paperId": "miett",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Flow treated as a bag of packet instances; Input representation: Hexadecimal packet content tokenised as two-byte bigrams with BPE (dictionary 65,536); per-packet [CLS] token; Netbench-preprocessed data; Packets / bytes: 5 packets per flow, 128 tokens per packet; pre-training samples 5 of the first 10 packets; Architecture: 12 Two-Level Attention layers (packet and flow attention), embedding dimension 768; mean-pooled packet [CLS] embeddings feed an MLP; Pretraining objective: Masked Flow Prediction (15% masking) plus Packet Relative Position Prediction and Flow Contrastive Learning, weighted sum of the three losses (Eq. 13); Pretraining datasets: Unlabelled training sets of the five Netbench datasets used for evaluation; Training / evaluation datasets: ISCXVPN 2016 (6 VPN service labels), ISCXTor 2016 (7), CrossPlatform Android (212) and iOS (196), CICIoT 2023 (7 IoT attack labels) (Table 2); Split strategy: 8:1:1 train/validation/test; Metrics: Accuracy and F1; averaging not stated; Reported results: Accuracy/F1: ISCXVPN 76.07%/77.86%, ISCXTor 96.60%/82.15%, Android 93.00%/82.36%, iOS 79.63%/75.03%, CICIoT 2023 88.53%/82.48% (Table 1); Hardware: Server with two NVIDIA RTX A6000 GPUs; Version notes: Full-text values from arXiv v1 (19 December 2024). The main text gives weight 0.2 to PRPP and MFP, the appendix to PRPP and FCL.",
+    "sourceUrl": "https://arxiv.org/abs/2412.15306v1",
+    "sourceType": "Original paper",
+    "locator": "Experiment Setup; Tables 1–2; Appendix Implementation Details",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0389",
+    "paperId": "miett",
+    "category": "Author-reported result",
+    "text": "Accuracy/F1: ISCXVPN 76.07%/77.86%, ISCXTor 96.60%/82.15%, Android 93.00%/82.36%, iOS 79.63%/75.03%, CICIoT 2023 88.53%/82.48% (Table 1).",
+    "sourceUrl": "https://arxiv.org/abs/2412.15306v1",
+    "sourceType": "Original paper",
+    "locator": "Experiment Setup; Tables 1–2; Appendix Implementation Details",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0390",
+    "paperId": "cato",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Connection; feature representation = feature set plus packet depth (maximum depth 50 in the evaluation); Input representation: Flow statistics from a 67-feature candidate set (Table 4), extracted by a Rust serving pipeline on Retina; Architecture: Multi-objective Bayesian optimisation (HyperMapper) plus a Profiler that compiles and measures each pipeline; served models are decision tree, random forest (100 trees) or a three-hidden-layer DNN; Training / evaluation datasets: app-class: live campus traffic, 6 web applications plus other, SNI labels; iot-class: UNSW IoT September 2016 traces, 28 device types, about 134K connections; vid-start: YouTube startup delay, 4,287 connections; Split strategy: DT/RF tuned by 5-fold nested cross-validation; final Rust model evaluated on a 20% hold-out test set; Metrics: F1 (classification) or RMSE (regression) against end-to-end inference latency, zero-loss throughput or pipeline execution time; Hardware: Live traffic: dual Xeon Gold 6248R, 384 GB RAM, 100GbE ConnectX-5. Offline datasets: dual Xeon Gold 6154, 384 GB RAM.",
+    "sourceUrl": "https://arxiv.org/abs/2402.06099v3",
+    "sourceType": "Original paper",
+    "locator": "Sections 4, 5.1–5.2; Appendices B–D; Table 2",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0391",
+    "paperId": "flowlet",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Five-tuple flow segmented into flowlets where the inter-arrival time exceeds an adaptive threshold, the mean of the IATs in a history window; Input representation: Field tokenisation of protocol header fields; protocol-layer embedding added to token, position and segment embeddings; Packets / bytes: 64 bytes from the network layer per packet; first five packets per flow in fine-tuning; 512 input tokens; Preprocessing / anonymisation: IP addresses randomised, ports randomised preserving client/server roles, TCP timestamps shifted by a random base; at most 500 samples per class; Architecture: BERT-base: 12 encoder layers, 12 heads, dimension 768, about 110M parameters; Pretraining objective: Masked Field Model (15% of tokens, half from key header fields) plus Flowlet Prediction Task (ordered, swapped or different-flow pair); losses summed; Pretraining datasets: About 30 GB: ISCX-VPN2016 NonVPN, CIC-IDS2017 Monday and WIDE backbone (1 January 2024) (Table 9); Training / evaluation datasets: Eight datasets, seven tasks: ISCX-VPN Service and App, ISCX-Tor2016, CSTNET-TLS, Browser, USTC-TFC, CIC-IDS2017, CIC-IoT2022; pre-training and fine-tuning data stated as strictly separated; Split strategy: 8:1:1 train/validation/test; Appendix E repeats the malware task over five random seeds; Metrics: Accuracy; macro-averaged precision, recall and F1; Reported results: F1: ISCX-VPN Service 0.9364, ISCX-Tor 0.9116, ISCX-VPN App 0.7712, CSTNET-TLS 0.8473, Browser 0.6684, USTC-TFC 0.9648, CIC-IDS2017 0.9079, CIC-IoT2022 0.8859 (Tables 2–3); Throughput: 150.04 samples/s inference on one GPU (Table 6); Memory: 28 GB GPU memory in pre-training (6 GPUs), 17 GB in fine-tuning (1 GPU) (Table 6); Hardware: Server with 8 NVIDIA Tesla V100S GPUs; Measurement scope: Offline model inference rate on one GPU; not a live-traffic throughput; Version notes: Full-text values from arXiv v1 (27 August 2025).",
+    "sourceUrl": "https://arxiv.org/abs/2508.19924v1",
+    "sourceType": "Original paper",
+    "locator": "Method; Experiment Setup; Tables 2–3, 6, 9; Appendix D",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0392",
+    "paperId": "flowlet",
+    "category": "Author-reported result",
+    "text": "F1: ISCX-VPN Service 0.9364, ISCX-Tor 0.9116, ISCX-VPN App 0.7712, CSTNET-TLS 0.8473, Browser 0.6684, USTC-TFC 0.9648, CIC-IDS2017 0.9079, CIC-IoT2022 0.8859 (Tables 2–3).",
+    "sourceUrl": "https://arxiv.org/abs/2508.19924v1",
+    "sourceType": "Original paper",
+    "locator": "Method; Experiment Setup; Tables 2–3, 6, 9; Appendix D",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0393",
+    "paperId": "akem",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: 5-tuple flow; in-switch inference triggers after the first n packets (n = 4 or 8 performed best); Input representation: Packet size and inter-arrival time; in-switch features are max, min, total and mean of both plus current packet size. Ports and other header fields excluded; Architecture: Random forest mapped to Tofino match-action tables with the Planter scheme (depth 16–20, 1–5 trees, 4–5 features retained); Training / evaluation datasets: NIMS IMA (6 instant-messaging apps), Netflow QUIC (5 Google services), ISCXVPN2016 (7 classes incl. BROWSING labelled by ports 80/443) (Table 2); Split strategy: 12-fold cross-validation; stratified folds in the offline analysis; Metrics: Macro, weighted and micro F1; macro is the unweighted mean of per-class F1; Reported results: In-switch macro F1: ISCX VPN 85.65%, NIMS IMA 90.29%, Netflow QUIC 90.30%; weighted F1 87.14%, 89.82%, 95.29% (Figure 6); Throughput: More than 100 Gbps aggregate through the switch (DPDK-PktGen background plus replayed pcaps); the classified encrypted traffic ran at Kbps to Mbps levels.",
+    "sourceUrl": "https://doi.org/10.1002/nem.2320",
+    "sourceType": "Original paper",
+    "locator": "Sections 3.1–3.3, 4.1–4.2, 5.1–5.2, 6.1; Table 2; Figure 6",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0394",
+    "paperId": "akem",
+    "category": "Author-reported result",
+    "text": "In-switch macro F1: ISCX VPN 85.65%, NIMS IMA 90.29%, Netflow QUIC 90.30%; weighted F1 87.14%, 89.82%, 95.29% (Figure 6).",
+    "sourceUrl": "https://dspace.networks.imdea.org/handle/20.500.12761/1878",
+    "sourceType": "Original paper",
+    "locator": "Sections 3.1–3.3, 4.1–4.2, 5.1–5.2, 6.1; Table 2; Figure 6",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0395",
+    "paperId": "mhnet",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Bidirectional flow (SplitCap), at most the first 15 packets; ISCX-Tor flows divided into 60-second blocks; Input representation: 4-bit and 8-bit traffic units per packet form multi-view heterogeneous graphs with header-header, payload-payload and header-payload PMI edges; Preprocessing / anonymisation: Ethernet header, IP addresses and ports removed; flows without payload or longer than 10,000 filtered; Architecture: 4-layer heterogeneous GraphSAGE encoder per packet, LSTM over packets for the flow representation; Fine-tuning objective: End-to-end multi-task loss: packet and flow classification plus packet- and flow-level contrastive losses (Eq. 12); no separate pre-training; Training / evaluation datasets: CIC-IoT 2022 (6 classes), ISCX-VPN (6), ISCX-NonVPN (6), ISCX-Tor (8), ISCX-NonTor (8), each run independently (Appendix Table 4); CrossPlatform Android in the appendix; Split strategy: Stratified 9:1 flow-level train/test; packet-level sets inherit the flow split; Metrics: Overall accuracy and macro F1; mean over five runs; Reported results: Flow-level accuracy/macro F1: CIC-IoT 0.9900/0.9896, ISCX-Tor 0.9886/0.9886, ISCX-NonTor 0.9465/0.9453, ISCX-VPN 0.9942/0.9941, ISCX-NonVPN 0.9141/0.9141 (Table 1); Hardware: One NVIDIA RTX 3080.",
+    "sourceUrl": "https://arxiv.org/abs/2501.03279v1",
+    "sourceType": "Original paper",
+    "locator": "Method; Experimental Settings; Tables 1–2; Appendix More Experimental Details, Table 4",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0396",
+    "paperId": "mhnet",
+    "category": "Author-reported result",
+    "text": "Flow-level accuracy/macro F1: CIC-IoT 0.9900/0.9896, ISCX-Tor 0.9886/0.9886, ISCX-NonTor 0.9465/0.9453, ISCX-VPN 0.9942/0.9941, ISCX-NonVPN 0.9141/0.9141 (Table 1).",
+    "sourceUrl": "https://arxiv.org/abs/2501.03279v1",
+    "sourceType": "Original paper",
+    "locator": "Method; Experimental Settings; Tables 1–2; Appendix More Experimental Details, Table 4",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0397",
+    "paperId": "fastflow",
+    "category": "Paper claim",
+    "text": "Input representation: Packet sequence (direction, payload size in MTU units, log inter-arrival time) and slot sequence of per-time-interval aggregates; Architecture: Two LSTM classifiers (packet and slot) making sequential decisions, trained with reinforcement learning; augmentation creates pseudo-unknown flows; Training / evaluation datasets: Lab: UTMobileNet, VNAT, UNIBS (Table 2). Deployment: about 1 million campus flows labelled by a commercial classifier for training; 22.9 million live flows, 7 application types, 32 providers (Table 5); Split strategy: Lab: random 70/30 train/test over ten iterations; about 20–25% of flows (some flow types) held out as unknown; packet drops injected only into test data; Metrics: Macro F1, accuracy, packets and time to classify, unknown-type FPR and TPR; Reported results: Lab macro F1 under disorder and unknown types: UTMobileNet 85.42%, VNAT 96.24%, UNIBS 92.30% (Table 3). Campus application types: macro F1 90.23%, accuracy 91.45% (Table 6); Throughput: About 30K concurrent flows per time-series classifier on one Xeon E5-2620 core; up to 200K concurrent flows for both classifiers on an RTX 4090 (benchmarked, not deployed); Hardware: Deployment server: 8-core Intel Xeon E5-2620, 64 GB RAM, two 10 Gbps interfaces; training on one NVIDIA RTX 4090 (about 6 hours).",
+    "sourceUrl": "https://doi.org/10.1145/3727115",
+    "sourceType": "Original paper",
+    "locator": "Sections 4.1–4.2, 6.1–6.2, 6.4; Tables 2–3, 5–7",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0398",
+    "paperId": "fastflow",
+    "category": "Author-reported result",
+    "text": "Lab macro F1 under disorder and unknown types: UTMobileNet 85.42%, VNAT 96.24%, UNIBS 92.30% (Table 3). Campus application types: macro F1 90.23%, accuracy 91.45% (Table 6).",
+    "sourceUrl": "https://doi.org/10.1145/3727115",
+    "sourceType": "Original paper",
+    "locator": "Sections 4.1–4.2, 6.1–6.2, 6.4; Tables 2–3, 5–7",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0399",
+    "paperId": "etool",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Multiple flows of a client grouped by flow-level BURST (start-time threshold 1 s) into a traffic relation graph; each flow is a node; Input representation: Per flow: 128 datagram bytes as two-byte units plus a directed packet-size sequence; Architecture: Vicuna-7B-v1.5 LLM (32 decoder layers) with a flow-graph encoder and structure-aware projector; LLM and graph encoder frozen during instruction tuning; Pretraining objective: Graph structural instruction tuning: traffic graph encoding alignment and self-supervised BURST graph matching, followed by traffic-task instruction tuning; Training / evaluation datasets: APP53-TIME (28 classes) and APP53-VERSION (25) for I.I.D. and time/version-shift tasks, ISCX-Botnet (binary and 8-class type shift), NETD built from ISCX-VPN (Table II); Split strategy: Shift tasks fine-tune on one time or version and test zero-shot on another; NETD uses 1:3 and 3:1 component ratios and an 80% application subset. Split ratios NA — not reported in reviewed sections; Metrics: Accuracy; macro-averaged precision, recall and F1; Reported results: F1: APP53-TIME 93.19%, APP53-VERSION 92.11%, APP53 ⇒ TIME 74.88%, APP53 ⇒ VERSION 72.13% (Table IV); Parameters: 131,612,672 tuned parameters with the LLM frozen; 6,607,884,288 with LLM tuning, which ran out of memory (Table VII); Memory: 71,196 MB single-GPU memory for frozen traffic-task tuning (Table VII); Latency: 3,756.62 ms per response on NETD with one NVIDIA A800 (Table VII); Hardware: NVIDIA Tesla A800 80 GB GPUs; efficiency study on two A800s; Deployment limitations: The authors state ETooL does not yet meet real-time detection requirements.",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3574971",
+    "sourceType": "Original paper",
+    "locator": "Sections V-A, VI, VIII-A, VIII-B, VIII-E; Tables II, IV, VII",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0400",
+    "paperId": "etool",
+    "category": "Author-reported result",
+    "text": "F1: APP53-TIME 93.19%, APP53-VERSION 92.11%, APP53 ⇒ TIME 74.88%, APP53 ⇒ VERSION 72.13% (Table IV).",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3574971",
+    "sourceType": "Original paper",
+    "locator": "Sections V-A, VI, VIII-A, VIII-B, VIII-E; Tables II, IV, VII",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0401",
+    "paperId": "mm4flow",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Bidirectional flow; flows with fewer than 5 payload-carrying packets discarded; Input representation: Two modalities: first 256 transport-payload bytes per direction (512 bytes, headers excluded) and the signed payload-length sequence of packets with payload; Architecture: BERT-bytes and BERT-ps (BERT-base settings, 12 layers, hidden 768) fused by cross-attention for fine-tuning; 174.40M parameters (Table 1); Pretraining objective: Masked language modelling (15% of tokens) on each modality separately; Pretraining datasets: About 77.6 TB pcap from a network gateway over one week; 465M flows; stated to exclude downstream evaluation data; Training / evaluation datasets: DataCon2020, DataCon2021-p1, DataCon2021-p2, Browser, NUDT_MobileTraffic, CSTNET-TLS1.3 (Table 5); Split strategy: Fixed per-class sample count for a balanced training set, split 9:1 train/validation; remaining samples form the test set, downsampled for large classes; Metrics: Accuracy; macro-averaged precision, recall and F1; Reported results: Accuracy: DataCon2020 0.9734, DataCon2021-p1 0.9731, DataCon2021-p2 0.9011, Browser 0.9929, NUDT_MobileTraffic 0.9111, CSTNET-TLS1.3 0.9826 (Table 2); Hardware: AMD EPYC 7542, 8 NVIDIA RTX 6000 Ada, 512 GB RAM; pre-training on 4 GPUs for about 350 hours.",
+    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "sourceType": "Original paper",
+    "locator": "Sections 3.2–3.5, 4.1–4.2; Tables 1–2, 4–5; Appendix C",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0402",
+    "paperId": "mm4flow",
+    "category": "Author-reported result",
+    "text": "Accuracy: DataCon2020 0.9734, DataCon2021-p1 0.9731, DataCon2021-p2 0.9011, Browser 0.9929, NUDT_MobileTraffic 0.9111, CSTNET-TLS1.3 0.9826 (Table 2).",
+    "sourceUrl": "https://doi.org/10.1145/3719027.3744804",
+    "sourceType": "Original paper",
+    "locator": "Sections 3.2–3.5, 4.1–4.2; Tables 1–2, 4–5; Appendix C",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0403",
+    "paperId": "unflows",
+    "category": "Paper claim",
+    "text": "Input representation: 76 CICFlowMeter flow features, z-score normalised; Architecture: Fully connected autoencoder with re-input structure (76-32-16-4 encoder, symmetric decoder), trained on benign flows; flow spectrum plus k-means behaviour detector; Training / evaluation datasets: NSL-KDD, UNSW-NB15, Kitsune, CIC-IDS-2017, CSE-CIC-IDS-2018, CIC-DDoS-2019; Split strategy: CIC-IDS-2017: trained on Monday benign traffic, tested on Tuesday to Friday. Splits for the other datasets NA — not reported in reviewed sections; Metrics: AUC, FPR, FNR and per-attack recall; Reported results: CIC-IDS-2017 flow-based detection: average AUC 0.9235 (Table IV); AUC above 0.975 on NSL-KDD, UNSW-NB15 and CIC-DDoS-2019; Latency: 0.0161 s per 10,000 flows for unFlowS-Net detection (Fig. 8); Hardware: Intel Core i9-10900K, NVIDIA RTX 3090, 128 GB RAM; Measurement scope: Batch processing time for 10,000 flows; whether feature extraction is included is not stated.",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "sourceType": "Original paper",
+    "locator": "Sections IV-A, IV-B, V-A–V-C, VI-A, VI-D; Tables II, IV; Fig. 8",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0404",
+    "paperId": "unflows",
+    "category": "Author-reported result",
+    "text": "CIC-IDS-2017 flow-based detection: average AUC 0.9235 (Table IV); AUC above 0.975 on NSL-KDD, UNSW-NB15 and CIC-DDoS-2019.",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3550060",
+    "sourceType": "Original paper",
+    "locator": "Sections IV-A, IV-B, V-A–V-C, VI-A, VI-D; Tables II, IV; Fig. 8",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0405",
+    "paperId": "semiaf",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Traffic segment of multiple flows within a time window, each flow split into in-flow bursts; Input representation: Packet-length and timing sequences per in-flow burst, embedded by a GRU; bursts are nodes of an in-flow burst interaction (IFBI) graph; Architecture: Graph attention network with contrastive learning: node classification for in-app actions, graph classification for app names; GNNExplainer interpreter; Training / evaluation datasets: FOAP (1,000 apps, app and action labels), FG-Net D1/D2 (53 apps, captured one month apart), NUDT MobileTraffic (100 apps, 1,336,007 flows) (Table I); Evaluation setting: Unknown apps: FOAP split into known and unknown subsets of 500 apps each; trained on known apps, unknown embeddings clustered; Split strategy: Train/test ratio for known-app identification NA — not reported in reviewed sections; Metrics: Precision, recall, F1 (averaging not stated); Rand, Fowlkes-Mallows, homogeneity, completeness and V-measure for clustering; Reported results: F1: FOAP app 0.992, FOAP action 0.865, FG-Net D1 0.961, D2 0.925, NUDT MobileTraffic 0.921 (Table II); Latency: Per flow: 5.42 ms for app identification (3.36 preprocessing, 2.06 prediction), 20.9 ms for action identification (Table V); Throughput: Authors calculate operation at 133 Mbps while keeping 80% accuracy; a calculated figure, not a measured live rate; Hardware: Intel i9-13900KF, 64 GB RAM, one NVIDIA RTX 4090.",
+    "sourceUrl": "https://doi.org/10.1109/DSN64029.2025.00051",
+    "sourceType": "Original paper",
+    "locator": "Sections IV, V-A–V-C, V-E; Tables I–II, V–VI",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0406",
+    "paperId": "semiaf",
+    "category": "Author-reported result",
+    "text": "F1: FOAP app 0.992, FOAP action 0.865, FG-Net D1 0.961, D2 0.925, NUDT MobileTraffic 0.921 (Table II).",
+    "sourceUrl": "https://doi.org/10.1109/DSN64029.2025.00051",
+    "sourceType": "Original paper",
+    "locator": "Sections IV, V-A–V-C, V-E; Tables I–II, V–VI",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0407",
+    "paperId": "robustnessmatters",
+    "category": "Paper claim",
+    "text": "Traffic unit definition: Bidirectional 5-tuple flow; packets without transport payload ignored; flows with fewer than 5 payload packets discarded; Input representation: Signed transport-payload length sequence; vocabulary of lengths 1–1500 in two directions plus 5 special tokens; Architecture: BERT-ps: bidirectional Transformer encoder with BERT-base settings and a fully connected classification head; Pretraining objective: Masked language modelling, 15% of tokens (80% [MASK], 10% random, 10% unchanged); Pretraining datasets: About 12.1 TB pcap from a network gateway over one week; 76.11M packet-length sequences (about 2.96B tokens); Training / evaluation datasets: DataCon2020, DataCon2021-p1 (6 proxies), DataCon2021-p2 (22 websites), EBSNN-dataset (22 categories), CSTNET-TLS1.3 (80 applications); Evaluation setting: Robustness compared on DataCon2020 against packet-length baselines under packet loss, retransmission and disorder, using PA-curve and PA-area; Metrics: Accuracy and macro-F1; PA-curve and PA-area for robustness; Reported results: BERT-ps accuracy about 90% on DataCon2021-p2 and 97.5% on CSTNET-TLS1.3; Latency: About 0.59 s per 1,000 flows; feature extraction about 0.07 s per 1,000 flows, 12% of the total (Table VI); Hardware: AMD EPYC 7542, 8 NVIDIA RTX 6000 Ada, 512 GB RAM.",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3613970",
+    "sourceType": "Original paper",
+    "locator": "Sections IV, V-A–V-C, VI-A–VI-C; Table VI; Appendix B",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0408",
+    "paperId": "robustnessmatters",
+    "category": "Author-reported result",
+    "text": "BERT-ps accuracy about 90% on DataCon2021-p2 and 97.5% on CSTNET-TLS1.3.",
+    "sourceUrl": "https://doi.org/10.1109/TIFS.2025.3613970",
+    "sourceType": "Original paper",
+    "locator": "Sections IV, V-A–V-C, VI-A–VI-C; Table VI; Appendix B",
+    "status": "Verified",
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "e0409",
+    "paperId": "vpnfeatures",
+    "category": "Artifact availability",
+    "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://github.com/ahlashkari/ISCXFlowMeter",
+    "sourceType": "Official artifact",
+    "locator": "Repository README cites the paper",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0410",
+    "paperId": "flowprint",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/Thijsvanede/FlowPrint; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://www.ndss-symposium.org/ndss-paper/flowprint-semi-supervised-mobile-app-fingerprinting-on-encrypted-network-traffic/",
+    "sourceType": "Original paper",
+    "locator": "Paper Section I (Introduction), PDF p. 2",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0411",
+    "paperId": "nprint",
+    "category": "Artifact availability",
+    "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://github.com/nprint/nprint",
+    "sourceType": "Official artifact",
+    "locator": "Repository README cites the paper",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0412",
+    "paperId": "refinery",
+    "category": "Artifact availability",
+    "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://github.com/traffic-refinery/traffic-refinery",
+    "sourceType": "Official artifact",
+    "locator": "Repository README cites the paper",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0413",
+    "paperId": "dodont",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://dodo-mlsec.org/; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "sourceType": "Original paper",
+    "locator": "Paper \"Additional material\" paragraph before the acknowledgements, PDF p. 14",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0414",
+    "paperId": "netgpt",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/ict-net/NetGPT; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://arxiv.org/abs/2304.09513",
+    "sourceType": "Original paper",
+    "locator": "Paper Abstract, PDF p. 1",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0415",
+    "paperId": "lens",
+    "category": "Artifact availability",
+    "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://github.com/V-Enzo/Lens-foundation-model-for-network-traffic",
+    "sourceType": "Official artifact",
+    "locator": "Repository README cites the paper",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0416",
+    "paperId": "bos",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/InspiringGroup-NeoLab/Brain-on-Switch; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/yan",
+    "sourceType": "Original paper",
+    "locator": "Paper implementation section, footnote 1, PDF p. 9",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0417",
+    "paperId": "leo",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/Purdue-ISL/Leo; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://www.usenix.org/conference/nsdi24/presentation/jafri",
+    "sourceType": "Original paper",
+    "locator": "Paper Section 1 (Introduction), footnote 1, PDF p. 2",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0418",
+    "paperId": "platforms",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/WYF99/IMC24-VideoUserPlatform; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://arxiv.org/abs/2408.16995",
+    "sourceType": "Original paper",
+    "locator": "Paper Section 3.1 and reference [70], PDF pp. 3 and 15",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0419",
+    "paperId": "cato",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/stanford-esrg/cato; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://arxiv.org/abs/2402.06099",
+    "sourceType": "Original paper",
+    "locator": "Paper Section 1 (Introduction), PDF p. 2",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0420",
+    "paperId": "demystifying",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/maybe-hello-world/demystifying-networks; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://papers.nips.cc/paper_files/paper/2025/hash/d1a4f94ab74aa90f23238228d43ffc4c-Abstract-Datasets_and_Benchmarks_Track.html",
+    "sourceType": "Original paper",
+    "locator": "Paper Section 1 (Introduction), PDF p. 2",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0421",
+    "paperId": "onetask",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/one-task-traffic/traffic-generalization-study; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://arxiv.org/abs/2507.06430",
+    "sourceType": "Original paper",
+    "locator": "Paper Section 1 (Introduction), PDF p. 2",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0422",
+    "paperId": "nepco",
+    "category": "Artifact availability",
+    "text": "The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://github.com/lincgcg/Nepco",
+    "sourceType": "Official artifact",
+    "locator": "Repository README cites the paper",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0423",
+    "paperId": "rosetta",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/sunskyXX/Rosetta; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://www.usenix.org/conference/usenixsecurity23/presentation/xie",
+    "sourceType": "Original paper",
+    "locator": "Paper Section 1 (Introduction) and footnote 2, PDF p. 3",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0424",
+    "paperId": "mhnet",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/ViktorAxelsen/MH-Net; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://arxiv.org/abs/2501.03279",
+    "sourceType": "Original paper",
+    "locator": "Paper Abstract (Code link), PDF p. 1",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0425",
+    "paperId": "labelprovenance",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://anonymous.4open.science/r/traffic_dataset_audit_script-440B/; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://arxiv.org/abs/2609.02140",
+    "sourceType": "Original paper",
+    "locator": "Paper \"Open Science\" section, PDF p. 14",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0426",
+    "paperId": "genericmae",
+    "category": "Paper claim",
+    "text": "The paper states its own code or artefact at https://github.com/SmartData-Polito/multimodal-ae-for-networking; the link resolved on 2026-10-19. Availability is not an independent reproduction.",
+    "sourceUrl": "https://arxiv.org/abs/2405.02649",
+    "sourceType": "Original paper",
+    "locator": "Paper Section 1 (Introduction), footnote 1, PDF p. 3",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0427",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "The paper does not state how precision, recall and F1 are averaged. The official code computes them with weighted averaging (scikit-learn average='weighted', stored in a variable named macro).",
@@ -4246,7 +4697,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0387",
+    "id": "e0428",
     "paperId": "commercial",
     "category": "Paper claim",
     "text": "Published in IEEE TNSM 18(4), December 2021. arXiv v1 (April 2021) was titled \"Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications\"; v2 (September 2021) uses the published title.",
@@ -4257,7 +4708,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0388",
+    "id": "e0429",
     "paperId": "serveflow",
     "category": "Paper claim",
     "text": "Metadata is the 2024 work; detailed setup here uses arXiv v2 (24 October 2024). arXiv v3 (11 October 2026) retitles the work \"FlowWise: Stateful Fast-Slow Model Serving for Streaming Traffic Intelligence\"; v3 has not been extracted.",
@@ -4268,7 +4719,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0389",
+    "id": "e0430",
     "paperId": "trafficformer",
     "category": "Paper claim",
     "text": "Two tasks trained jointly: Masked Burst Modelling (cross-entropy over masked tokens) and Same Origin-Direction-Flow, a 5-class burst-pair classification (cross-entropy). Total loss = λ·loss_MBM + loss_SODF with λ = 0.1.",
@@ -4279,7 +4730,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0390",
+    "id": "e0431",
     "paperId": "rosetta",
     "category": "Paper claim",
     "text": "BYOL self-supervised learning on TCP-aware augmented flow variants (packet-length sequences): normalised mean-squared error between the online prediction and the target projection, symmetrised over the two variants; target network updated as a moving average with decay 0.996.",
@@ -4290,7 +4741,18 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0391",
+    "id": "e0432",
+    "paperId": "flowmae",
+    "category": "Paper claim",
+    "text": "Flow-MAE contains 85.12M parameters and a model size of 450 MB. The paper reports 132.13M parameters for its ET-BERT comparator.",
+    "sourceUrl": "https://dl.acm.org/doi/10.1145/3607199.3607206",
+    "sourceType": "Original paper",
+    "locator": "Section 4.1.1; Section 4.3 efficiency comparison",
+    "status": "Verified",
+    "accessed": "2026-10-19"
+  },
+  {
+    "id": "e0433",
     "paperId": "deeppacket",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4301,7 +4763,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0392",
+    "id": "e0434",
     "paperId": "pert",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4312,7 +4774,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0393",
+    "id": "e0435",
     "paperId": "miniflowpic",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4323,7 +4785,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0394",
+    "id": "e0436",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4334,7 +4796,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0395",
+    "id": "e0437",
     "paperId": "netmamba",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4345,7 +4807,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0396",
+    "id": "e0438",
     "paperId": "sugar",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4356,7 +4818,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0397",
+    "id": "e0439",
     "paperId": "netmambaplus",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4367,7 +4829,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0398",
+    "id": "e0440",
     "paperId": "biasseeker",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4378,7 +4840,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0399",
+    "id": "e0441",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Audits the label provenance of ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4389,7 +4851,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0400",
+    "id": "e0442",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Evaluates on ISCX VPN-nonVPN, introduced in VPN time features.",
@@ -4400,7 +4862,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0401",
+    "id": "e0443",
     "paperId": "miniflowpic",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4411,7 +4873,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0402",
+    "id": "e0444",
     "paperId": "yatc",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4422,7 +4884,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0403",
+    "id": "e0445",
     "paperId": "netmamba",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4433,7 +4895,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0404",
+    "id": "e0446",
     "paperId": "biasseeker",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4444,7 +4906,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0405",
+    "id": "e0447",
     "paperId": "labelprovenance",
     "category": "Paper claim",
     "text": "Audits the label provenance of ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4455,7 +4917,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0406",
+    "id": "e0448",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Evaluates on ISCX Tor/non-Tor, introduced in Tor time features.",
@@ -4466,7 +4928,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0407",
+    "id": "e0449",
     "paperId": "sugar",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4477,7 +4939,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0408",
+    "id": "e0450",
     "paperId": "netmambaplus",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4488,7 +4950,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0409",
+    "id": "e0451",
     "paperId": "biasseeker",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4499,7 +4961,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0410",
+    "id": "e0452",
     "paperId": "ntcenigma",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4510,7 +4972,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0411",
+    "id": "e0453",
     "paperId": "lim",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4521,7 +4983,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0412",
+    "id": "e0454",
     "paperId": "meanmae",
     "category": "Paper claim",
     "text": "Evaluates on CSTNET-TLS 1.3, introduced in ET-BERT.",
@@ -4532,7 +4994,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0413",
+    "id": "e0455",
     "paperId": "netmambaplus",
     "category": "Paper claim",
     "text": "Evaluates on CipherSpectrum, introduced in NTC Enigma / SoK.",
@@ -4543,7 +5005,7 @@
     "accessed": "2026-10-18"
   },
   {
-    "id": "e0414",
+    "id": "e0456",
     "paperId": "miniflowpic",
     "category": "Later criticism",
     "text": "Finamore et al. reproduce the study and confirm most results, but find an accuracy drop of about 20% on the UCDAVIS19 human test partition. They trace it to a data shift between the human partition and the script and pretraining partitions.",

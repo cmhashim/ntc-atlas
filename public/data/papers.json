@@ -64,7 +64,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -259,7 +259,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -453,7 +453,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -651,7 +651,7 @@
     "openWorld": "Yes",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -844,7 +844,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -1040,7 +1040,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -1224,7 +1224,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/ahlashkari/ISCXFlowMeter",
     "datasets": [
       "iscxvpn"
     ],
@@ -1238,7 +1238,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -1248,7 +1248,8 @@
     "evidenceIds": [
       "e0020",
       "e0019",
-      "e0021"
+      "e0021",
+      "e0409"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -1357,11 +1358,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0019"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0409"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -1436,7 +1437,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artefact link in paper is unavailable (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -1835,7 +1836,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -2034,7 +2035,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -2231,7 +2232,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -2421,7 +2422,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/Thijsvanede/FlowPrint",
     "datasets": [
       "crossplatform"
     ],
@@ -2435,7 +2436,7 @@
     "openWorld": "Yes",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -2446,7 +2447,8 @@
       "e0038",
       "e0037",
       "e0039",
-      "e0158"
+      "e0158",
+      "e0410"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -2555,11 +2557,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0037"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0410"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -2637,7 +2639,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -2850,7 +2852,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -3034,7 +3036,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/nprint/nprint",
     "datasets": [],
     "techniques": [
       "Header and payload",
@@ -3046,7 +3048,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -3057,7 +3059,8 @@
       "e0047",
       "e0046",
       "e0048",
-      "e0159"
+      "e0159",
+      "e0411"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3166,11 +3169,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0046"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0411"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -3247,7 +3250,7 @@
     "openWorld": "Yes",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -3258,7 +3261,7 @@
       "e0050",
       "e0049",
       "e0051",
-      "e0387"
+      "e0428"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3377,7 +3380,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Version notes": "e0387"
+      "Version notes": "e0428"
     }
   },
   {
@@ -3634,7 +3637,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Feature measurement / representation production, not a universal classifier rate."
     },
-    "code": null,
+    "code": "https://github.com/traffic-refinery/traffic-refinery",
     "datasets": [],
     "techniques": [
       "Handcrafted flow statistics",
@@ -3646,7 +3649,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -3657,7 +3660,8 @@
       "e0056",
       "e0055",
       "e0057",
-      "e0160"
+      "e0160",
+      "e0412"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3766,11 +3770,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0055"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0412"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -4090,7 +4094,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -4101,7 +4105,7 @@
       "e0062",
       "e0061",
       "e0063",
-      "e0414"
+      "e0456"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4279,7 +4283,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://dodo-mlsec.org/",
     "datasets": [],
     "techniques": [
       "Data leakage control",
@@ -4291,7 +4295,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -4301,7 +4305,8 @@
     "evidenceIds": [
       "e0065",
       "e0064",
-      "e0066"
+      "e0066",
+      "e0413"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4410,11 +4415,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0064"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0413"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -4516,7 +4521,7 @@
       "e0278",
       "e0286",
       "e0289",
-      "e0386"
+      "e0427"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4659,7 +4664,7 @@
       "Header": "e0175",
       "Payload": "e0175",
       "Direction": "e0175",
-      "Metrics": "e0386"
+      "Metrics": "e0427"
     }
   },
   {
@@ -4702,7 +4707,7 @@
       "Evaluation setting": "NA — not extracted",
       "Metrics": "NA — not extracted",
       "Reported results": "Authors report >900 samples/s and 7.8–10.3× speedup relative to their ET-BERT baseline; not independently reproduced here.",
-      "Parameters": "NA — not extracted",
+      "Parameters": "85.12M parameters, 450 MB model (paper); its ET-BERT comparator has 132.13M.",
       "FLOPs": "Authors claim 0.2% of their ET-BERT comparator’s FLOPs",
       "Latency": "NA — no absolute latency in reviewed repository summary",
       "Throughput": ">900 samples/s (authors’ setup); not packets/s",
@@ -4745,7 +4750,8 @@
       "e0162",
       "e0178",
       "e0213",
-      "e0293"
+      "e0293",
+      "e0432"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4876,7 +4882,8 @@
       "Memory": "e0178",
       "Throughput": "e0178",
       "Deployment limitations": "e0178",
-      "Reported results": "e0162"
+      "Reported results": "e0162",
+      "Parameters": "e0432"
     }
   },
   {
@@ -5339,7 +5346,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/ict-net/NetGPT",
     "datasets": [],
     "techniques": [
       "Header and payload",
@@ -5352,7 +5359,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -5362,7 +5369,8 @@
     "evidenceIds": [
       "e0080",
       "e0079",
-      "e0081"
+      "e0081",
+      "e0414"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -5471,11 +5479,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0079"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0414"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -6007,7 +6015,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/V-Enzo/Lens-foundation-model-for-network-traffic",
     "datasets": [],
     "techniques": [
       "Header and payload",
@@ -6021,7 +6029,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Preprint; v5 reviewed",
     "verification": {
@@ -6031,7 +6039,8 @@
     "evidenceIds": [
       "e0089",
       "e0088",
-      "e0090"
+      "e0090",
+      "e0415"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6140,11 +6149,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0088"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0415"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -6417,7 +6426,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -6616,7 +6625,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -6629,7 +6638,7 @@
       "e0099",
       "e0165",
       "e0294",
-      "e0388"
+      "e0429"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6757,7 +6766,7 @@
       "Split strategy": "e0294",
       "Hardware": "e0294",
       "Measurement scope": "e0294",
-      "Version notes": "e0388",
+      "Version notes": "e0429",
       "Reported results": "e0165"
     }
   },
@@ -7021,7 +7030,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Physical and simulated results are separate; some flows use fallback."
     },
-    "code": null,
+    "code": "https://github.com/InspiringGroup-NeoLab/Brain-on-Switch",
     "datasets": [],
     "techniques": [
       "RNN / LSTM",
@@ -7035,7 +7044,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -7046,7 +7055,8 @@
       "e0104",
       "e0103",
       "e0105",
-      "e0295"
+      "e0295",
+      "e0416"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7155,11 +7165,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0103"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0416"
+        ]
       }
     },
     "reviewDepth": "Selected full-text sections",
@@ -7228,7 +7238,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "In-switch classifier; resource/model-capacity limits apply."
     },
-    "code": null,
+    "code": "https://github.com/Purdue-ISL/Leo",
     "datasets": [],
     "techniques": [
       "Decision trees",
@@ -7240,7 +7250,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -7251,7 +7261,8 @@
       "e0107",
       "e0106",
       "e0108",
-      "e0296"
+      "e0296",
+      "e0417"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7360,11 +7371,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0106"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0417"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -7634,7 +7645,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/WYF99/IMC24-VideoUserPlatform",
     "datasets": [],
     "techniques": [
       "Handcrafted flow statistics",
@@ -7647,7 +7658,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -7658,7 +7669,8 @@
       "e0113",
       "e0112",
       "e0114",
-      "e0167"
+      "e0167",
+      "e0418"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7767,11 +7779,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0112"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0418"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -7803,25 +7815,25 @@
     "gap": "Capture-aware evaluation of protocol understanding and shortcut resistance.",
     "details": {
       "Research problem": "Adds fine-grained pretraining and traffic-field augmentation to a traffic Transformer.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Flow (5-tuple) split by SplitCap; pre-training structures traffic as bursts of consecutive same-direction packets.",
+      "Input representation": "Hexadecimal packet bytes tokenised as bigrams with BPE; first 5 packets per flow in fine-tuning.",
+      "Packets / bytes": "64 bytes per packet after the Ethernet layer; first 5 packets per flow; maximum sequence length 512.",
       "Payload": "Yes",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Transformer. Architecture details: NA — not extracted.",
+      "Preprocessing / anonymisation": "Flows under 2 KB or 3 packets and classes under 10 flows removed; at most 500 flows per class. IP, port, TCP timestamps and TLS timestamps/SNI processed with field augmentation to prevent shortcuts.",
+      "Architecture": "Transformer encoder: 12 layers, 12 attention heads, encoding dimension 768.",
       "Pretraining objective": "Two tasks trained jointly: Masked Burst Modelling (cross-entropy over masked tokens) and Same Origin-Direction-Flow, a 5-class burst-pair classification (cross-entropy). Total loss = λ·loss_MBM + loss_SODF with λ = 0.1.",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Pretraining datasets": "About 20 GB, over 600,000 flows: ISCX-NonVPN (non-VPN portion), CICMalAnal2017 (2017 benign software traffic) and Browser (Table 3).",
+      "Training / evaluation datasets": "Six fine-tuning tasks: Cross-Platform Android (197 classes) and iOS (190), CSTNET-TLS 1.3 (120), ISCX-VPN Service (6) and App (11), USTC-TFC (14) (Table 4).",
+      "Split strategy": "Per-class 8:1:1 train/validation/test split of flows.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
+      "Metrics": "Accuracy, precision, recall and F1; per-class one-vs-rest values averaged across classes.",
+      "Reported results": "TrafficFormer w/ EA F1: Cross-Platform Android 0.6167, iOS 0.4689, CSTNET-TLS 1.3 0.8338, ISCX-VPN Service 0.9580, App 0.7129, USTC-TFC 0.9830 (Tables 5–7).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -7832,7 +7844,7 @@
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "NA — not extracted",
       "Version notes": "S&P 2025 traffic-analysis model. Excludes similarly named road-traffic prediction repositories.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "NVIDIA A100 GPUs; pre-training batch 64 on 3 GPUs (effective 192).",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
@@ -7863,7 +7875,9 @@
       "e0117",
       "e0183",
       "e0221",
-      "e0389"
+      "e0386",
+      "e0387",
+      "e0430"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7979,10 +7993,21 @@
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0389"
+      "Traffic unit definition": "e0386",
+      "Input representation": "e0386",
+      "Packets / bytes": "e0386",
+      "Architecture": "e0386",
+      "Pretraining datasets": "e0386",
+      "Training / evaluation datasets": "e0386",
+      "Preprocessing / anonymisation": "e0386",
+      "Split strategy": "e0386",
+      "Metrics": "e0386",
+      "Reported results": "e0386",
+      "Hardware": "e0386",
+      "Pretraining objective": "e0430"
     }
   },
   {
@@ -8006,25 +8031,25 @@
     "gap": "Cross-network testing without target-label adaptation.",
     "details": {
       "Research problem": "Treats a flow as a bag of packet instances with two-level attention.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Flow treated as a bag of packet instances.",
+      "Input representation": "Hexadecimal packet content tokenised as two-byte bigrams with BPE (dictionary 65,536); per-packet [CLS] token; Netbench-preprocessed data.",
+      "Packets / bytes": "5 packets per flow, 128 tokens per packet; pre-training samples 5 of the first 10 packets.",
       "Payload": "Yes",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Two-Level Attention; packets as instances in a flow bag",
-      "Pretraining objective": "Packet Relative Position Prediction and Flow Contrastive Learning",
+      "Architecture": "12 Two-Level Attention layers (packet and flow attention), embedding dimension 768; mean-pooled packet [CLS] embeddings feed an MLP.",
+      "Pretraining objective": "Masked Flow Prediction (15% masking) plus Packet Relative Position Prediction and Flow Contrastive Learning, weighted sum of the three losses (Eq. 13).",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Pretraining datasets": "Unlabelled training sets of the five Netbench datasets used for evaluation.",
+      "Training / evaluation datasets": "ISCXVPN 2016 (6 VPN service labels), ISCXTor 2016 (7), CrossPlatform Android (212) and iOS (196), CICIoT 2023 (7 IoT attack labels) (Table 2).",
+      "Split strategy": "8:1:1 train/validation/test.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
+      "Metrics": "Accuracy and F1; averaging not stated.",
+      "Reported results": "Accuracy/F1: ISCXVPN 76.07%/77.86%, ISCXTor 96.60%/82.15%, Android 93.00%/82.36%, iOS 79.63%/75.03%, CICIoT 2023 88.53%/82.48% (Table 1).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -8034,8 +8059,8 @@
       "Reproducibility": "No experiments independently rerun for this explorer.",
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "NA — not extracted",
-      "Version notes": "NA — not extracted",
-      "Hardware": "NA — not extracted",
+      "Version notes": "Full-text values from arXiv v1 (19 December 2024). The main text gives weight 0.2 to PRPP and MFP, the appendix to PRPP and FCL.",
+      "Hardware": "Server with two NVIDIA RTX A6000 GPUs.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
@@ -8063,7 +8088,9 @@
       "e0119",
       "e0118",
       "e0120",
-      "e0222"
+      "e0222",
+      "e0388",
+      "e0389"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -8179,10 +8206,23 @@
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "firstYear": 2024,
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Traffic unit definition": "e0388",
+      "Input representation": "e0388",
+      "Packets / bytes": "e0388",
+      "Architecture": "e0388",
+      "Pretraining objective": "e0388",
+      "Pretraining datasets": "e0388",
+      "Training / evaluation datasets": "e0388",
+      "Split strategy": "e0388",
+      "Metrics": "e0388",
+      "Reported results": "e0388",
+      "Hardware": "e0388",
+      "Version notes": "e0388"
+    }
   },
   {
     "id": "cato",
@@ -8206,8 +8246,8 @@
     "gap": "Extend cost-aware optimisation to pretrained raw-byte cascades.",
     "details": {
       "Research problem": "Optimises predictive quality and the systems costs of serving traffic models.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "Connection; feature representation = feature set plus packet depth (maximum depth 50 in the evaluation).",
+      "Input representation": "Flow statistics from a 67-feature candidate set (Table 4), extracted by a Rust serving pipeline on Retina.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "Varies",
       "Header": "NA — not extracted",
@@ -8215,15 +8255,15 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Deployment. Architecture details: NA — not extracted.",
+      "Architecture": "Multi-objective Bayesian optimisation (HyperMapper) plus a Profiler that compiles and measures each pipeline; served models are decision tree, random forest (100 trees) or a three-hidden-layer DNN.",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Training / evaluation datasets": "app-class: live campus traffic, 6 web applications plus other, SNI labels; iot-class: UNSW IoT September 2016 traces, 28 device types, about 134K connections; vid-start: YouTube startup delay, 4,287 connections.",
+      "Split strategy": "DT/RF tuned by 5-fold nested cross-validation; final Rust model evaluated on a 20% hold-out test set.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
+      "Metrics": "F1 (classification) or RMSE (regression) against end-to-end inference latency, zero-loss throughput or pipeline execution time.",
       "Reported results": "Up to 3600× lower inference latency and 3.7× higher zero-loss throughput versus the paper’s feature-optimisation baselines.",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
@@ -8235,11 +8275,11 @@
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "NA — not extracted",
       "Version notes": "Verified arXiv comment: NSDI 2025. Some external lists incorrectly label this S&P.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "Live traffic: dual Xeon Gold 6248R, 384 GB RAM, 100GbE ConnectX-5. Offline datasets: dual Xeon Gold 6154, 384 GB RAM.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Relative pipeline optimisation results; no universal absolute rate implied."
     },
-    "code": null,
+    "code": "https://github.com/stanford-esrg/cato",
     "datasets": [],
     "techniques": [
       "Deployment",
@@ -8251,7 +8291,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -8262,7 +8302,9 @@
       "e0122",
       "e0121",
       "e0123",
-      "e0168"
+      "e0168",
+      "e0390",
+      "e0419"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -8371,20 +8413,27 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0121"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0419"
+        ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "firstYear": 2024,
     "task": "Traffic classification",
     "fieldEvidence": {
       "Throughput": "e0168",
       "Latency": "e0168",
       "Measurement scope": "e0168",
+      "Traffic unit definition": "e0390",
+      "Input representation": "e0390",
+      "Architecture": "e0390",
+      "Training / evaluation datasets": "e0390",
+      "Split strategy": "e0390",
+      "Metrics": "e0390",
+      "Hardware": "e0390",
       "Reported results": "e0168"
     }
   },
@@ -8647,7 +8696,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/maybe-hello-world/demystifying-networks",
     "datasets": [
       "cicids2017",
       "mawi",
@@ -8664,7 +8713,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed; official proceedings verified",
     "verification": {
@@ -8674,7 +8723,8 @@
     "evidenceIds": [
       "e0128",
       "e0127",
-      "e0129"
+      "e0129",
+      "e0420"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -8783,11 +8833,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0127"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0420"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -8863,7 +8913,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": true,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -9054,7 +9104,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/one-task-traffic/traffic-generalization-study",
     "datasets": [],
     "techniques": [
       "Cross-dataset evaluation",
@@ -9066,7 +9116,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Yes",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -9077,7 +9127,8 @@
       "e0134",
       "e0133",
       "e0135",
-      "e0170"
+      "e0170",
+      "e0421"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -9186,11 +9237,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0133"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0421"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -9272,7 +9323,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Yes",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -9433,38 +9484,38 @@
     "gap": "Balance protocol knowledge with efficient processing.",
     "details": {
       "Research problem": "Segments traffic into behaviour-aware units and aligns protocol-stack embeddings.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Five-tuple flow segmented into flowlets where the inter-arrival time exceeds an adaptive threshold, the mean of the IATs in a history window.",
+      "Input representation": "Field tokenisation of protocol header fields; protocol-layer embedding added to token, position and segment embeddings.",
+      "Packets / bytes": "64 bytes from the network layer per packet; first five packets per flow in fine-tuning; 512 input tokens.",
       "Payload": "Yes",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Transformer. Architecture details: NA — not extracted.",
-      "Pretraining objective": "NA — not extracted",
+      "Preprocessing / anonymisation": "IP addresses randomised, ports randomised preserving client/server roles, TCP timestamps shifted by a random base; at most 500 samples per class.",
+      "Architecture": "BERT-base: 12 encoder layers, 12 heads, dimension 768, about 110M parameters.",
+      "Pretraining objective": "Masked Field Model (15% of tokens, half from key header fields) plus Flowlet Prediction Task (ordered, swapped or different-flow pair); losses summed.",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Pretraining datasets": "About 30 GB: ISCX-VPN2016 NonVPN, CIC-IDS2017 Monday and WIDE backbone (1 January 2024) (Table 9).",
+      "Training / evaluation datasets": "Eight datasets, seven tasks: ISCX-VPN Service and App, ISCX-Tor2016, CSTNET-TLS, Browser, USTC-TFC, CIC-IDS2017, CIC-IoT2022; pre-training and fine-tuning data stated as strictly separated.",
+      "Split strategy": "8:1:1 train/validation/test; Appendix E repeats the malware task over five random seeds.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
+      "Metrics": "Accuracy; macro-averaged precision, recall and F1.",
+      "Reported results": "F1: ISCX-VPN Service 0.9364, ISCX-Tor 0.9116, ISCX-VPN App 0.7712, CSTNET-TLS 0.8473, Browser 0.6684, USTC-TFC 0.9648, CIC-IDS2017 0.9079, CIC-IoT2022 0.8859 (Tables 2–3).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
-      "Throughput": "NA — not extracted",
-      "Memory": "NA — not extracted",
+      "Throughput": "150.04 samples/s inference on one GPU (Table 6).",
+      "Memory": "28 GB GPU memory in pre-training (6 GPUs), 17 GB in fine-tuning (1 GPU) (Table 6).",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "NA — not extracted",
-      "Version notes": "NA — not extracted",
-      "Hardware": "NA — not extracted",
+      "Version notes": "Full-text values from arXiv v1 (27 August 2025).",
+      "Hardware": "Server with 8 NVIDIA Tesla V100S GPUs.",
       "Batch size": "NA — not extracted",
-      "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
+      "Measurement scope": "Offline model inference rate on one GPU; not a live-traffic throughput."
     },
     "code": null,
     "datasets": [],
@@ -9480,7 +9531,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -9490,7 +9541,9 @@
     "evidenceIds": [
       "e0140",
       "e0139",
-      "e0141"
+      "e0141",
+      "e0391",
+      "e0392"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -9606,9 +9659,26 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Traffic unit definition": "e0391",
+      "Input representation": "e0391",
+      "Packets / bytes": "e0391",
+      "Preprocessing / anonymisation": "e0391",
+      "Architecture": "e0391",
+      "Pretraining objective": "e0391",
+      "Pretraining datasets": "e0391",
+      "Training / evaluation datasets": "e0391",
+      "Split strategy": "e0391",
+      "Metrics": "e0391",
+      "Reported results": "e0391",
+      "Throughput": "e0391",
+      "Memory": "e0391",
+      "Hardware": "e0391",
+      "Measurement scope": "e0391",
+      "Version notes": "e0391"
+    }
   },
   {
     "id": "akem",
@@ -9630,8 +9700,8 @@
     "gap": "Operational precision and robustness as traffic and switch workloads change.",
     "details": {
       "Research problem": "Evaluates encrypted traffic classification on Intel Tofino switches with background traffic.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "5-tuple flow; in-switch inference triggers after the first n packets (n = 4 or 8 performed best).",
+      "Input representation": "Packet size and inter-arrival time; in-switch features are max, min, total and mean of both plus current packet size. Ports and other header fields excluded.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "No",
       "Header": "NA — not extracted",
@@ -9639,20 +9709,20 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Deployment. Architecture details: NA — not extracted.",
+      "Architecture": "Random forest mapped to Tofino match-action tables with the Planter scheme (depth 16–20, 1–5 trees, 4–5 features retained).",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Training / evaluation datasets": "NIMS IMA (6 instant-messaging apps), Netflow QUIC (5 Google services), ISCXVPN2016 (7 classes incl. BROWSING labelled by ports 80/443) (Table 2).",
+      "Split strategy": "12-fold cross-validation; stratified folds in the offline analysis.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "Up to 95% QUIC accuracy; sub-microsecond decision delay; average resource use below 10% in the paper’s testbed.",
+      "Metrics": "Macro, weighted and micro F1; macro is the unweighted mean of per-class F1.",
+      "Reported results": "In-switch macro F1: ISCX VPN 85.65%, NIMS IMA 90.29%, Netflow QUIC 90.30%; weighted F1 87.14%, 89.82%, 95.29% (Figure 6).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "Sub-microsecond decision delay in the reported testbed.",
-      "Throughput": "NA — not extracted",
+      "Throughput": "More than 100 Gbps aggregate through the switch (DPDK-PktGen background plus replayed pcaps); the classified encrypted traffic ran at Kbps to Mbps levels.",
       "Memory": "Average hardware-resource use below 10%; not a RAM/VRAM measurement.",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
@@ -9687,7 +9757,9 @@
       "e0142",
       "e0144",
       "e0171",
-      "e0224"
+      "e0224",
+      "e0393",
+      "e0394"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -9803,14 +9875,21 @@
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Hardware": "e0171",
       "Latency": "e0171",
       "Measurement scope": "e0171",
       "Memory": "e0171",
-      "Reported results": "e0171"
+      "Traffic unit definition": "e0393",
+      "Input representation": "e0393",
+      "Architecture": "e0393",
+      "Training / evaluation datasets": "e0393",
+      "Split strategy": "e0393",
+      "Metrics": "e0393",
+      "Reported results": "e0393",
+      "Throughput": "e0393"
     }
   },
   {
@@ -9875,7 +9954,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "One-minute continuous tests. Later packets of analysed flows are filtered; Mpps is not fresh model inferences/s."
     },
-    "code": null,
+    "code": "https://github.com/lincgcg/Nepco",
     "datasets": [],
     "techniques": [
       "Raw packet bytes",
@@ -9888,7 +9967,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Preprint; under review",
     "verification": {
@@ -9900,7 +9979,8 @@
       "e0145",
       "e0147",
       "e0172",
-      "e0297"
+      "e0297",
+      "e0422"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10009,11 +10089,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0145"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0422"
+        ]
       }
     },
     "reviewDepth": "Selected full-text sections",
@@ -10317,7 +10397,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/sunskyXX/Rosetta",
     "datasets": [],
     "techniques": [
       "Timing and direction sequences",
@@ -10330,7 +10410,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": true,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -10341,7 +10421,8 @@
       "e0152",
       "e0151",
       "e0153",
-      "e0390"
+      "e0423",
+      "e0431"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10450,17 +10531,17 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0151"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0423"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0390"
+      "Pretraining objective": "e0431"
     }
   },
   {
@@ -10487,25 +10568,25 @@
     "gap": "Evaluate graph construction and inference costs under distribution shift.",
     "details": {
       "Research problem": "Represents different byte and bit granularities as heterogeneous traffic graphs.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "Bidirectional flow (SplitCap), at most the first 15 packets; ISCX-Tor flows divided into 60-second blocks.",
+      "Input representation": "4-bit and 8-bit traffic units per packet form multi-view heterogeneous graphs with header-header, payload-payload and header-payload PMI edges.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "Yes",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Multi-view heterogeneous graph model",
+      "Preprocessing / anonymisation": "Ethernet header, IP addresses and ports removed; flows without payload or longer than 10,000 filtered.",
+      "Architecture": "4-layer heterogeneous GraphSAGE encoder per packet, LSTM over packets for the flow representation.",
       "Pretraining objective": "NA — not extracted",
-      "Fine-tuning objective": "NA — not extracted",
+      "Fine-tuning objective": "End-to-end multi-task loss: packet and flow classification plus packet- and flow-level contrastive losses (Eq. 12); no separate pre-training.",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "ISCX and CIC-IoT named in abstract; exact versions need verification",
-      "Split strategy": "NA — not extracted",
+      "Training / evaluation datasets": "CIC-IoT 2022 (6 classes), ISCX-VPN (6), ISCX-NonVPN (6), ISCX-Tor (8), ISCX-NonTor (8), each run independently (Appendix Table 4); CrossPlatform Android in the appendix.",
+      "Split strategy": "Stratified 9:1 flow-level train/test; packet-level sets inherit the flow split.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
+      "Metrics": "Overall accuracy and macro F1; mean over five runs.",
+      "Reported results": "Flow-level accuracy/macro F1: CIC-IoT 0.9900/0.9896, ISCX-Tor 0.9886/0.9886, ISCX-NonTor 0.9465/0.9453, ISCX-VPN 0.9942/0.9941, ISCX-NonVPN 0.9141/0.9141 (Table 1).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -10516,11 +10597,11 @@
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "NA — not extracted",
       "Version notes": "AAAI 2025 acceptance recorded in arXiv comment; related CLE-TFE is a distinct contribution.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "One NVIDIA RTX 3080.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
-    "code": null,
+    "code": "https://github.com/ViktorAxelsen/MH-Net",
     "datasets": [],
     "techniques": [
       "Graph representations",
@@ -10533,7 +10614,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -10543,7 +10624,10 @@
     "evidenceIds": [
       "e0155",
       "e0154",
-      "e0156"
+      "e0156",
+      "e0395",
+      "e0396",
+      "e0424"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10652,16 +10736,27 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0154"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0424"
+        ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {
+      "Traffic unit definition": "e0395",
+      "Input representation": "e0395",
+      "Preprocessing / anonymisation": "e0395",
+      "Architecture": "e0395",
+      "Fine-tuning objective": "e0395",
+      "Training / evaluation datasets": "e0395",
+      "Split strategy": "e0395",
+      "Metrics": "e0395",
+      "Reported results": "e0395",
+      "Hardware": "e0395"
+    }
   },
   {
     "id": "shortcutcatcher",
@@ -10957,7 +11052,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Partial",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -11593,7 +11688,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -11798,7 +11893,7 @@
       "Batch size": "NA — review/audit, no standalone classifier measurement",
       "Measurement scope": "NA — not extracted"
     },
-    "code": null,
+    "code": "https://anonymous.4open.science/r/traffic_dataset_audit_script-440B/",
     "datasets": [
       "iscxvpn",
       "iscxtor",
@@ -11819,7 +11914,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Preprint; peer review not verified",
     "verification": {
@@ -11831,7 +11926,8 @@
       "e0305",
       "e0307",
       "e0308",
-      "e0309"
+      "e0309",
+      "e0425"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -11940,11 +12036,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0305"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0425"
+        ]
       }
     },
     "reviewDepth": "Selected full-text sections",
@@ -12025,7 +12121,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -12229,7 +12325,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -12434,7 +12530,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -12637,7 +12733,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -12841,7 +12937,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -13033,7 +13129,7 @@
       "Batch size": "NA — not extracted",
       "Measurement scope": "NA — not extracted"
     },
-    "code": null,
+    "code": "https://github.com/SmartData-Polito/multimodal-ae-for-networking",
     "datasets": [],
     "techniques": [
       "Multimodal",
@@ -13046,7 +13142,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Preprint; venue not verified",
     "verification": {
@@ -13056,7 +13152,8 @@
     "evidenceIds": [
       "e0328",
       "e0327",
-      "e0329"
+      "e0329",
+      "e0426"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -13165,11 +13262,11 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       },
       "Code/checkpoint availability": {
-        "state": "Not addressed/not reported",
+        "state": "Partially addressed",
+        "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0327"
-        ],
-        "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
+          "e0426"
+        ]
       }
     },
     "reviewDepth": "Metadata and abstract",
@@ -13203,7 +13300,7 @@
     "details": {
       "Research problem": "Balances early decisions, unknown traffic and packet disorder.",
       "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Input representation": "Packet sequence (direction, payload size in MTU units, log inter-arrival time) and slot sequence of per-time-interval aggregates.",
       "Packets / bytes": "8.37 packets on average in the reported campus application task.",
       "Payload": "NA — not extracted",
       "Header": "NA — not extracted",
@@ -13211,20 +13308,20 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "LSTM sequential decisions trained with reinforcement learning; packet/slot time series.",
+      "Architecture": "Two LSTM classifiers (packet and slot) making sequential decisions, trained with reinforcement learning; augmentation creates pseudo-unknown flows.",
       "Pretraining objective": "NA — not extracted",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "Public benchmarks and one campus capture; exact collection inventory NA — not extracted.",
-      "Split strategy": "NA — not extracted",
+      "Training / evaluation datasets": "Lab: UTMobileNet, VNAT, UNIBS (Table 2). Deployment: about 1 million campus flows labelled by a commercial classifier for training; 22.9 million live flows, 7 application types, 32 providers (Table 5).",
+      "Split strategy": "Lab: random 70/30 train/test over ten iterations; about 20–25% of flows (some flow types) held out as unknown; packet drops injected only into test data.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": ">91% application and >96% provider accuracy; 22.9M flows observed over one week.",
+      "Metrics": "Macro F1, accuracy, packets and time to classify, unknown-type FPR and TPR.",
+      "Reported results": "Lab macro F1 under disorder and unknown types: UTMobileNet 85.42%, VNAT 96.24%, UNIBS 92.30% (Table 3). Campus application types: macro F1 90.23%, accuracy 91.45% (Table 6).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "0.5 s average time to classify in the campus application task.",
-      "Throughput": "NA — not extracted",
+      "Throughput": "About 30K concurrent flows per time-series classifier on one Xeon E5-2620 core; up to 200K concurrent flows for both classifiers on an RTX 4090 (benchmarked, not deployed).",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "NA — not extracted",
@@ -13232,7 +13329,7 @@
       "Deployment limitations": "Campus measurements do not prove universal cross-network performance.",
       "Version notes": "NA — not extracted",
       "Measurement scope": "Campus operational observation; 22.9M is a dataset count, not throughput.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "Deployment server: 8-core Intel Xeon E5-2620, 64 GB RAM, two 10 Gbps interfaces; training on one NVIDIA RTX 4090 (about 6 hours).",
       "Batch size": "NA — not extracted"
     },
     "code": null,
@@ -13248,7 +13345,7 @@
     "openWorld": "Yes",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -13258,7 +13355,9 @@
     "evidenceIds": [
       "e0331",
       "e0330",
-      "e0332"
+      "e0332",
+      "e0397",
+      "e0398"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -13374,17 +13473,22 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Research problem": "e0330",
       "Packets / bytes": "e0330",
-      "Architecture": "e0330",
-      "Training / evaluation datasets": "e0330",
-      "Reported results": "e0330",
+      "Architecture": "e0397",
+      "Training / evaluation datasets": "e0397",
+      "Reported results": "e0397",
       "Latency": "e0330",
       "Deployment limitations": "e0332",
-      "Measurement scope": "e0330"
+      "Measurement scope": "e0330",
+      "Input representation": "e0397",
+      "Split strategy": "e0397",
+      "Metrics": "e0397",
+      "Throughput": "e0397",
+      "Hardware": "e0397"
     }
   },
   {
@@ -13411,8 +13515,8 @@
     "gap": "What transfers when class novelty and capture shift are isolated?",
     "details": {
       "Research problem": "Targets classification under distribution shifts and scarce labels.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "Multiple flows of a client grouped by flow-level BURST (start-time threshold 1 s) into a traffic relation graph; each flow is a node.",
+      "Input representation": "Per flow: 128 datagram bytes as two-byte units plus a directed packet-size sequence.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "NA — not extracted",
       "Header": "NA — not extracted",
@@ -13420,27 +13524,27 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Self-supervised instruction tuning connects traffic structure and text.",
-      "Pretraining objective": "NA — not extracted",
+      "Architecture": "Vicuna-7B-v1.5 LLM (32 decoder layers) with a flow-graph encoder and structure-aware projector; LLM and graph encoder frozen during instruction tuning.",
+      "Pretraining objective": "Graph structural instruction tuning: traffic graph encoding alignment and self-supervised BURST graph matching, followed by traffic-task instruction tuning.",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "APP53, ISCX-Botnet and new NETD distribution-shift collection.",
-      "Split strategy": "NA — not extracted",
+      "Training / evaluation datasets": "APP53-TIME (28 classes) and APP53-VERSION (25) for I.I.D. and time/version-shift tasks, ISCX-Botnet (binary and 8-class type shift), NETD built from ISCX-VPN (Table II).",
+      "Split strategy": "Shift tasks fine-tune on one time or version and test zero-shot on another; NETD uses 1:3 and 3:1 component ratios and an 80% application subset. Split ratios NA — not reported in reviewed sections.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
-      "Parameters": "NA — not extracted",
+      "Metrics": "Accuracy; macro-averaged precision, recall and F1.",
+      "Reported results": "F1: APP53-TIME 93.19%, APP53-VERSION 92.11%, APP53 ⇒ TIME 74.88%, APP53 ⇒ VERSION 72.13% (Table IV).",
+      "Parameters": "131,612,672 tuned parameters with the LLM frozen; 6,607,884,288 with LLM tuning, which ran out of memory (Table VII).",
       "FLOPs": "NA — not extracted",
-      "Latency": "NA — not extracted",
+      "Latency": "3,756.62 ms per response on NETD with one NVIDIA A800 (Table VII).",
       "Throughput": "NA — not extracted",
-      "Memory": "NA — not extracted",
+      "Memory": "71,196 MB single-GPU memory for frozen traffic-task tuning (Table VII).",
       "Energy": "NA — not extracted",
       "Reproducibility": "NA — not extracted",
       "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "Supervised and zero-shot protocols must be separated before interpreting gains.",
+      "Deployment limitations": "The authors state ETooL does not yet meet real-time detection requirements.",
       "Version notes": "Author-submitted TIFS camera-ready record: arXiv:2505.20866.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "NVIDIA Tesla A800 80 GB GPUs; efficiency study on two A800s.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "NA — not extracted"
     },
@@ -13457,7 +13561,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -13467,7 +13571,9 @@
     "evidenceIds": [
       "e0334",
       "e0333",
-      "e0335"
+      "e0335",
+      "e0399",
+      "e0400"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -13583,14 +13689,24 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Research problem": "e0333",
-      "Architecture": "e0333",
-      "Training / evaluation datasets": "e0333",
-      "Deployment limitations": "e0335",
-      "Version notes": "e0333"
+      "Architecture": "e0399",
+      "Training / evaluation datasets": "e0399",
+      "Deployment limitations": "e0399",
+      "Version notes": "e0333",
+      "Traffic unit definition": "e0399",
+      "Input representation": "e0399",
+      "Pretraining objective": "e0399",
+      "Split strategy": "e0399",
+      "Metrics": "e0399",
+      "Reported results": "e0399",
+      "Parameters": "e0399",
+      "Memory": "e0399",
+      "Latency": "e0399",
+      "Hardware": "e0399"
     }
   },
   {
@@ -13662,7 +13778,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -13862,7 +13978,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -14066,7 +14182,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Yes",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -14271,7 +14387,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -14479,7 +14595,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -14686,7 +14802,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -14891,7 +15007,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Yes",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -15095,7 +15211,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -15255,8 +15371,8 @@
     "gap": "Can the same pretrained weights transfer without overlap under a matched resource budget?",
     "details": {
       "Research problem": "Combines raw bytes and transmission patterns for several traffic analysis tasks.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "Raw byte streams and transmission patterns.",
+      "Traffic unit definition": "Bidirectional flow; flows with fewer than 5 payload-carrying packets discarded.",
+      "Input representation": "Two modalities: first 256 transport-payload bytes per direction (512 bytes, headers excluded) and the signed payload-length sequence of packets with payload.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "NA — not extracted",
       "Header": "NA — not extracted",
@@ -15264,16 +15380,16 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Unimodal pretraining followed by cross-attention fusion during task fine-tuning.",
-      "Pretraining objective": "NA — not extracted",
+      "Architecture": "BERT-bytes and BERT-ps (BERT-base settings, 12 layers, hidden 768) fused by cross-attention for fine-tuning; 174.40M parameters (Table 1).",
+      "Pretraining objective": "Masked language modelling (15% of tokens) on each modality separately.",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "More than 70 TB of traffic reported by the authors; source and overlap audit not independently performed.",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Pretraining datasets": "About 77.6 TB pcap from a network gateway over one week; 465M flows; stated to exclude downstream evaluation data.",
+      "Training / evaluation datasets": "DataCon2020, DataCon2021-p1, DataCon2021-p2, Browser, NUDT_MobileTraffic, CSTNET-TLS1.3 (Table 5).",
+      "Split strategy": "Fixed per-class sample count for a balanced training set, split 9:1 train/validation; remaining samples form the test set, downsampled for large classes.",
       "Evaluation setting": "Six public datasets and six tasks according to author page.",
-      "Metrics": "NA — not extracted",
-      "Reported results": "Author page reports 84% relative accuracy improvement for website identification under encrypted tunnels; task-specific claim.",
+      "Metrics": "Accuracy; macro-averaged precision, recall and F1.",
+      "Reported results": "Accuracy: DataCon2020 0.9734, DataCon2021-p1 0.9731, DataCon2021-p2 0.9011, Browser 0.9929, NUDT_MobileTraffic 0.9111, CSTNET-TLS1.3 0.9826 (Table 2).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -15284,7 +15400,7 @@
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "The author-reported dataset scale and website result are specific to the described setup.",
       "Version notes": "ACM CCS 2025; metadata and abstract checked with publisher and author publication page.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "AMD EPYC 7542, 8 NVIDIA RTX 6000 Ada, 512 GB RAM; pre-training on 4 GPUs for about 350 hours.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "NA — not extracted"
     },
@@ -15301,7 +15417,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -15311,7 +15427,9 @@
     "evidenceIds": [
       "e0361",
       "e0360",
-      "e0362"
+      "e0362",
+      "e0401",
+      "e0402"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -15427,17 +15545,23 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Research problem": "e0360",
-      "Input representation": "e0360",
-      "Architecture": "e0360",
-      "Pretraining datasets": "e0360",
+      "Input representation": "e0401",
+      "Architecture": "e0401",
+      "Pretraining datasets": "e0401",
       "Evaluation setting": "e0360",
-      "Reported results": "e0360",
+      "Reported results": "e0401",
       "Deployment limitations": "e0362",
-      "Version notes": "e0360"
+      "Version notes": "e0360",
+      "Traffic unit definition": "e0401",
+      "Pretraining objective": "e0401",
+      "Training / evaluation datasets": "e0401",
+      "Split strategy": "e0401",
+      "Metrics": "e0401",
+      "Hardware": "e0401"
     }
   },
   {
@@ -15507,7 +15631,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -15713,7 +15837,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -15876,7 +16000,7 @@
     "details": {
       "Research problem": "Constructs a flow-spectrum representation without class labels for network-traffic detection.",
       "Traffic unit definition": "NA — not extracted",
-      "Input representation": "Flow-spectrum representation derived from network flows.",
+      "Input representation": "76 CICFlowMeter flow features, z-score normalised.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "NA — not extracted",
       "Header": "NA — not extracted",
@@ -15884,19 +16008,19 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "unFlowS-Net maps network flows into spectral-line representations.",
+      "Architecture": "Fully connected autoencoder with re-input structure (76-32-16-4 encoder, symmetric decoder), trained on benign flows; flow spectrum plus k-means behaviour detector.",
       "Pretraining objective": "NA — not extracted",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "Unsupervised representation construction.",
       "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — full dataset table not extracted.",
-      "Split strategy": "NA — not extracted",
+      "Training / evaluation datasets": "NSL-KDD, UNSW-NB15, Kitsune, CIC-IDS-2017, CSE-CIC-IDS-2018, CIC-DDoS-2019.",
+      "Split strategy": "CIC-IDS-2017: trained on Monday benign traffic, tested on Tuesday to Friday. Splits for the other datasets NA — not reported in reviewed sections.",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — exact result table not extracted.",
+      "Metrics": "AUC, FPR, FNR and per-attack recall.",
+      "Reported results": "CIC-IDS-2017 flow-based detection: average AUC 0.9235 (Table IV); AUC above 0.975 on NSL-KDD, UNSW-NB15 and CIC-DDoS-2019.",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
-      "Latency": "NA — not extracted",
+      "Latency": "0.0161 s per 10,000 flows for unFlowS-Net detection (Fig. 8).",
       "Throughput": "NA — not extracted",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
@@ -15904,9 +16028,9 @@
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "Unsupervised construction does not itself establish open-world recognition or deployment throughput.",
       "Version notes": "IEEE TIFS 20 (2025), pp. 3330–3345; DOI, byline and repository checked.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "Intel Core i9-10900K, NVIDIA RTX 3090, 128 GB RAM.",
       "Batch size": "NA — not extracted",
-      "Measurement scope": "NA — not extracted"
+      "Measurement scope": "Batch processing time for 10,000 flows; whether feature extraction is included is not stated."
     },
     "code": "https://github.com/Shangshu-LAB/unFlowS",
     "datasets": [],
@@ -15921,7 +16045,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -15931,7 +16055,9 @@
     "evidenceIds": [
       "e0370",
       "e0369",
-      "e0371"
+      "e0371",
+      "e0403",
+      "e0404"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -16047,17 +16173,22 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Research problem": "e0369",
-      "Input representation": "e0369",
-      "Architecture": "e0369",
+      "Input representation": "e0403",
+      "Architecture": "e0403",
       "Supervision": "e0369",
-      "Training / evaluation datasets": "e0369",
-      "Reported results": "e0369",
+      "Training / evaluation datasets": "e0403",
+      "Reported results": "e0403",
       "Deployment limitations": "e0371",
-      "Version notes": "e0369"
+      "Version notes": "e0369",
+      "Split strategy": "e0403",
+      "Metrics": "e0403",
+      "Latency": "e0403",
+      "Hardware": "e0403",
+      "Measurement scope": "e0403"
     }
   },
   {
@@ -16084,8 +16215,8 @@
     "gap": "Which gains survive capture-disjoint and temporally held-out evaluation?",
     "details": {
       "Research problem": "Studies whether pretraining improves robustness in encrypted traffic analysis.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "Packet-length sequences generated with a Zeek preprocessing plug-in.",
+      "Traffic unit definition": "Bidirectional 5-tuple flow; packets without transport payload ignored; flows with fewer than 5 payload packets discarded.",
+      "Input representation": "Signed transport-payload length sequence; vocabulary of lengths 1–1500 in two directions plus 5 special tokens.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "NA — not extracted",
       "Header": "NA — not extracted",
@@ -16093,19 +16224,19 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "BERT-ps pretraining over packet-length sequences.",
-      "Pretraining objective": "BERT-style pretraining; exact objective details NA — not extracted.",
+      "Architecture": "BERT-ps: bidirectional Transformer encoder with BERT-base settings and a fully connected classification head.",
+      "Pretraining objective": "Masked language modelling, 15% of tokens (80% [MASK], 10% random, 10% unchanged).",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "Multiple encrypted-traffic tasks; exact inventory NA — not extracted.",
+      "Pretraining datasets": "About 12.1 TB pcap from a network gateway over one week; 76.11M packet-length sequences (about 2.96B tokens).",
+      "Training / evaluation datasets": "DataCon2020, DataCon2021-p1 (6 proxies), DataCon2021-p2 (22 websites), EBSNN-dataset (22 categories), CSTNET-TLS1.3 (80 applications).",
       "Split strategy": "NA — not extracted",
-      "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — exact robustness table not extracted.",
+      "Evaluation setting": "Robustness compared on DataCon2020 against packet-length baselines under packet loss, retransmission and disorder, using PA-curve and PA-area.",
+      "Metrics": "Accuracy and macro-F1; PA-curve and PA-area for robustness.",
+      "Reported results": "BERT-ps accuracy about 90% on DataCon2021-p2 and 97.5% on CSTNET-TLS1.3.",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
-      "Latency": "NA — not extracted",
+      "Latency": "About 0.59 s per 1,000 flows; feature extraction about 0.07 s per 1,000 flows, 12% of the total (Table VI).",
       "Throughput": "NA — not extracted",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
@@ -16113,7 +16244,7 @@
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "Robustness claims remain tied to the reported shifts, datasets and preprocessing.",
       "Version notes": "IEEE TIFS 20 (2025), pp. 10588–10603; DOI, byline and repository checked.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "AMD EPYC 7542, 8 NVIDIA RTX 6000 Ada, 512 GB RAM.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "NA — not extracted"
     },
@@ -16131,7 +16262,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -16141,7 +16272,9 @@
     "evidenceIds": [
       "e0373",
       "e0372",
-      "e0374"
+      "e0374",
+      "e0407",
+      "e0408"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -16257,17 +16390,23 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Research problem": "e0372",
-      "Input representation": "e0372",
-      "Architecture": "e0372",
-      "Pretraining objective": "e0372",
-      "Training / evaluation datasets": "e0372",
-      "Reported results": "e0372",
+      "Input representation": "e0407",
+      "Architecture": "e0407",
+      "Pretraining objective": "e0407",
+      "Training / evaluation datasets": "e0407",
+      "Reported results": "e0407",
       "Deployment limitations": "e0374",
-      "Version notes": "e0372"
+      "Version notes": "e0372",
+      "Traffic unit definition": "e0407",
+      "Pretraining datasets": "e0407",
+      "Evaluation setting": "e0407",
+      "Metrics": "e0407",
+      "Latency": "e0407",
+      "Hardware": "e0407"
     }
   },
   {
@@ -16293,8 +16432,8 @@
     "gap": "How does rejection behave under new applications and capture sites?",
     "details": {
       "Research problem": "Targets application fingerprinting when labelled traffic is scarce and unknown traffic is present.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "Traffic segment of multiple flows within a time window, each flow split into in-flow bursts.",
+      "Input representation": "Packet-length and timing sequences per in-flow burst, embedded by a GRU; bursts are nodes of an in-flow burst interaction (IFBI) graph.",
       "Packets / bytes": "NA — not extracted",
       "Payload": "NA — not extracted",
       "Header": "NA — not extracted",
@@ -16302,27 +16441,27 @@
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
       "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Semi-supervised graph neural network for application fingerprints.",
+      "Architecture": "Graph attention network with contrastive learning: node classification for in-app actions, graph classification for app names; GNNExplainer interpreter.",
       "Pretraining objective": "NA — not extracted",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — full dataset inventory not extracted.",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "Semi-supervised application fingerprinting with unknown traffic.",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — exact result table not extracted.",
+      "Training / evaluation datasets": "FOAP (1,000 apps, app and action labels), FG-Net D1/D2 (53 apps, captured one month apart), NUDT MobileTraffic (100 apps, 1,336,007 flows) (Table I).",
+      "Split strategy": "Train/test ratio for known-app identification NA — not reported in reviewed sections.",
+      "Evaluation setting": "Unknown apps: FOAP split into known and unknown subsets of 500 apps each; trained on known apps, unknown embeddings clustered.",
+      "Metrics": "Precision, recall, F1 (averaging not stated); Rand, Fowlkes-Mallows, homogeneity, completeness and V-measure for clustering.",
+      "Reported results": "F1: FOAP app 0.992, FOAP action 0.865, FG-Net D1 0.961, D2 0.925, NUDT MobileTraffic 0.921 (Table II).",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
-      "Latency": "NA — not extracted",
-      "Throughput": "NA — not extracted",
+      "Latency": "Per flow: 5.42 ms for app identification (3.36 preprocessing, 2.06 prediction), 20.9 ms for action identification (Table V).",
+      "Throughput": "Authors calculate operation at 133 Mbps while keeping 80% accuracy; a calculated figure, not a measured live rate.",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "NA — not extracted",
       "Leakage / shortcut risks": "NA — not extracted",
       "Deployment limitations": "Unknown-traffic handling depends on the evaluation protocol and label availability.",
       "Version notes": "IEEE/IFIP DSN 2025, pp. 457–469; DOI and six-author byline checked.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "Intel i9-13900KF, 64 GB RAM, one NVIDIA RTX 4090.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "NA — not extracted"
     },
@@ -16339,7 +16478,7 @@
     "openWorld": "Yes",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "No public artefact found (checked 2026-10-19)",
     "seminal": false,
     "publicationStatus": "Peer reviewed",
     "verification": {
@@ -16349,7 +16488,9 @@
     "evidenceIds": [
       "e0376",
       "e0375",
-      "e0377"
+      "e0377",
+      "e0405",
+      "e0406"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -16465,16 +16606,23 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Research problem": "e0375",
-      "Architecture": "e0375",
-      "Training / evaluation datasets": "e0375",
-      "Evaluation setting": "e0375",
-      "Reported results": "e0375",
+      "Architecture": "e0405",
+      "Training / evaluation datasets": "e0405",
+      "Evaluation setting": "e0405",
+      "Reported results": "e0405",
       "Deployment limitations": "e0377",
-      "Version notes": "e0375"
+      "Version notes": "e0375",
+      "Traffic unit definition": "e0405",
+      "Input representation": "e0405",
+      "Split strategy": "e0405",
+      "Metrics": "e0405",
+      "Latency": "e0405",
+      "Throughput": "e0405",
+      "Hardware": "e0405"
     }
   },
   {
@@ -16551,7 +16699,7 @@
     "openWorld": "Needs verification",
     "crossDataset": "Needs verification",
     "deployment": "Needs verification",
-    "reproducibility": "Metadata checked",
+    "reproducibility": "Artifact linked; not rerun",
     "seminal": false,
     "publicationStatus": "Preprint; peer review not verified",
     "verification": {
