@@ -1,7 +1,8 @@
 """Source-scoped comparison enrichment, reviewed 2026-09-23.
 NA reasons are explicit. An unextracted value is never called unreported.
 """
-def enrich(P,E,D,meta):
+def enrich(P,E,D,meta,records=None):
+    """records: optional registry (evidence id -> (paper id, values)) shared with curate.detail()."""
     date='2026-09-23'; by={p['id']:p for p in P}
     fields=['Hardware','Batch size','Measurement scope']
     for p in P:
@@ -9,8 +10,9 @@ def enrich(P,E,D,meta):
         p.setdefault('fieldEvidence',{})
     def put(pid,values,url,loc,depth=True):
         p=by[pid]; eid=f'e{len(E)+1:04d}'
-        E.append(dict(id=eid,paperId=pid,category='Paper claim',text='Comparison extraction: '+', '.join(values)+'. Values and measurement scope are recorded in the technical fields.',sourceUrl=url,sourceType='Original paper / official artifact',locator=loc,status='Verified',accessed=date))
+        E.append(dict(id=eid,paperId=pid,category='Paper claim',text='; '.join(k+': '+v for k,v in values.items()),sourceUrl=url,sourceType='Original paper / official artifact',locator=loc,status='Verified',accessed=date))
         p['details'].update(values);p['evidenceIds'].append(eid)
+        if records is not None:records[eid]=(pid,dict(values))
         for key in values:p['fieldEvidence'][key]=eid
         if depth:p['reviewDepth']='Selected full-text sections'
         return eid

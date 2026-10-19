@@ -389,7 +389,9 @@ pending=[
 ]
 meta=dict(title='Evolution of Network Traffic Classification: Methods, Evidence, Limitations, and Research Gaps',updated=UPDATED,paperCount=len(P),datasetCount=len(D),authorCount=len(A),resolvedAuthorCount=sum(a['status']=='Verified' for a in A),relationshipCount=len(R),gapColumns=GAPS,pending=pending,authorInclusion='Include authors through verified publications on traffic classification, representations, relevant datasets, evaluation or deployment. Original example names do not constrain inclusion. Remove unsupported entries; committee membership or name similarity alone is insufficient.',scope='A curated, evolving corpus, not a systematic or exhaustive review. Bibliographic verification does not imply all experimental fields are complete.',defaultYears=[2004,2026])
 from comparison_review import enrich
-enrich(P,E,D,meta)
+_before=set(DETAIL_RECORDS)
+enrich(P,E,D,meta,DETAIL_RECORDS)
+COMPARISON_RECORDS=set(DETAIL_RECORDS)-_before
 DATE='2026-09-23'
 from author_expansion import expand
 expand(P,E,D,A,meta,add,detail,rel,gapstate,prof,profiles)
@@ -470,6 +472,11 @@ for d in D:
         url,loc=(EVI[fe]['sourceUrl'],EVI[fe]['locator']) if fe and pid not in USE_LOC else (USE_URL.get(pid,PID[pid]['url']),USE_LOC.get(pid,'Table 1'))
         note=(f'Audits the label provenance of {d["name"]}, introduced in {PID[q]["short"]}.' if kind!='Uses dataset from' else f'Evaluates on {d["name"]}, introduced in {PID[q]["short"]}.')
         rel(pid,q,kind,note,url,loc);E[-1]['accessed']='2026-10-18'
+
+# Comparison records list only the fields they still support; a later correction cites its own record.
+for e in COMPARISON_RECORDS:
+    pid,orig=DETAIL_RECORDS[e];fe=PID[pid]['fieldEvidence']
+    EVI[e]['text']='; '.join(k+': '+v for k,v in orig.items() if fe.get(k)==e)
 
 for rec in E:
     # Field lists: values keep their own sentences, but '.;' joins read as typos.
