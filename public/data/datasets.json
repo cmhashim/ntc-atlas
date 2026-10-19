@@ -21,7 +21,12 @@
       "yatc",
       "replication",
       "netmamba",
+      "lens",
+      "netbench",
+      "trafficgpt",
+      "cletfe",
       "sugar",
+      "simple",
       "netmambaplus",
       "shortcutcatcher",
       "biasseeker",
@@ -64,6 +69,9 @@
       "yatc",
       "replication",
       "netmamba",
+      "lens",
+      "netbench",
+      "cletfe",
       "biasseeker",
       "supclgnn",
       "netcofi",
@@ -96,6 +104,9 @@
       "yatc",
       "flowmae",
       "netmamba",
+      "lens",
+      "netbench",
+      "trafficgpt",
       "sugar",
       "netmambaplus",
       "biasseeker",
@@ -127,7 +138,9 @@
     "preprocessing": "CICFlowMeter features; distinguish original and corrected versions.",
     "papers": [
       "cicissues",
+      "leo",
       "demystifying",
+      "simple",
       "netagent"
     ],
     "evidence": "e0228",
@@ -198,6 +211,10 @@
       "etbert",
       "yatc",
       "netmamba",
+      "lens",
+      "netbench",
+      "trafficgpt",
+      "demystifying",
       "biasseeker",
       "labelprovenance",
       "meanmae"
@@ -261,6 +278,7 @@
     "preprocessing": "tcbench FlowPic transforms are one derived representation.",
     "papers": [
       "replication",
+      "simple",
       "labelprovenance",
       "cilbenchmark",
       "manyfew"
@@ -283,7 +301,8 @@
     "caveats": "Curator: separate from MIRAGE-2019; do not assume identical label space.",
     "preprocessing": "tcbench evaluation uses flowpic representations.",
     "papers": [
-      "replication"
+      "replication",
+      "simple"
     ],
     "evidence": "e0234",
     "status": "Verified",
@@ -304,7 +323,8 @@
     "preprocessing": "Sampling of size/time/direction; FlowPic variants use size-time histograms.",
     "papers": [
       "miniflowpic",
-      "replication"
+      "replication",
+      "simple"
     ],
     "evidence": "e0235",
     "status": "Verified",
@@ -326,7 +346,8 @@
     "caveats": "Dataset identity and use verified through replication; official dataset documentation awaits extraction.",
     "preprocessing": "FlowPic in the replication.",
     "papers": [
-      "replication"
+      "replication",
+      "simple"
     ],
     "evidence": "e0236",
     "status": "Needs verification",
@@ -447,7 +468,8 @@
     "caveats": "Specific trace used by a paper needs verification; no universal collection year exists.",
     "preprocessing": "Collection-dependent.",
     "papers": [
-      "demystifying"
+      "demystifying",
+      "cruisecontrol"
     ],
     "evidence": "e0242",
     "status": "Needs verification",

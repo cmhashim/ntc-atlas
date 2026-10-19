@@ -1261,7 +1261,7 @@
       "e0020",
       "e0019",
       "e0021",
-      "e0473"
+      "e0493"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -1373,7 +1373,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0473"
+          "e0493"
         ]
       }
     },
@@ -2472,7 +2472,7 @@
       "e0037",
       "e0039",
       "e0158",
-      "e0474"
+      "e0494"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -2584,7 +2584,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0474"
+          "e0494"
         ]
       }
     },
@@ -3090,7 +3090,7 @@
       "e0046",
       "e0048",
       "e0159",
-      "e0475"
+      "e0495"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3202,7 +3202,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0475"
+          "e0495"
         ]
       }
     },
@@ -3293,7 +3293,7 @@
       "e0050",
       "e0049",
       "e0051",
-      "e0492"
+      "e0512"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3412,7 +3412,7 @@
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Version notes": "e0492"
+      "Version notes": "e0512"
     },
     "doi": "10.1109/TNSM.2021.3122940",
     "arxivId": "2104.03182"
@@ -3697,7 +3697,7 @@
       "e0055",
       "e0057",
       "e0160",
-      "e0476"
+      "e0496"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -3809,7 +3809,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0476"
+          "e0496"
         ]
       }
     },
@@ -4145,7 +4145,7 @@
       "e0062",
       "e0061",
       "e0063",
-      "e0536"
+      "e0565"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4348,7 +4348,7 @@
       "e0065",
       "e0064",
       "e0066",
-      "e0477"
+      "e0497"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4460,7 +4460,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0477"
+          "e0497"
         ]
       }
     },
@@ -4565,7 +4565,7 @@
       "e0278",
       "e0326",
       "e0329",
-      "e0491"
+      "e0511"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4708,7 +4708,7 @@
       "Header": "e0175",
       "Payload": "e0175",
       "Direction": "e0175",
-      "Metrics": "e0491"
+      "Metrics": "e0511"
     },
     "doi": "10.1609/aaai.v37i4.25674",
     "arxivId": null
@@ -4797,7 +4797,7 @@
       "e0178",
       "e0213",
       "e0333",
-      "e0496"
+      "e0516"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -4929,7 +4929,7 @@
       "Throughput": "e0178",
       "Deployment limitations": "e0178",
       "Reported results": "e0162",
-      "Parameters": "e0496"
+      "Parameters": "e0516"
     },
     "doi": "10.1145/3607199.3607206",
     "arxivId": null
@@ -5422,7 +5422,7 @@
       "e0080",
       "e0079",
       "e0081",
-      "e0478"
+      "e0498"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -5534,7 +5534,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0478"
+          "e0498"
         ]
       }
     },
@@ -6039,42 +6039,47 @@
     "gap": "Assess calibration and cost for generative classification.",
     "details": {
       "Research problem": "Introduces knowledge-guided span prediction and context-aware fine-tuning.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Flow-level traffic segmented with SplitCap by the standard 5-tuple, using the first 34 packets for classification, and packet-level traffic (one packet sampled per flow) for generation. (Section 4; Appendix A.1)",
+      "Input representation": "Text-like sequences parsed via Tshark including network, transport, and application metadata followed by a 12-byte hexadecimal payload, tokenised using a Byte-level Byte Pair Encoding tokenizer alongside task context. (Section 3.1; Appendix A.1)",
+      "Packets / bytes": "Classification uses the first 34 packets per flow (up to a 1,500 token limit), appending a 12-byte hexadecimal application payload per packet. (Appendix A.1)",
       "Payload": "Yes",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Transformer. Architecture details: NA — not extracted.",
-      "Pretraining objective": "Knowledge-guided masked span prediction",
-      "Fine-tuning objective": "Closed-ended generation with contextual adaptation",
+      "Preprocessing / anonymisation": "Flows are extracted using SplitCap, parsed with Tshark, and all source and destination IP addresses are replaced with placeholder tokens (<SIP> and <DIP>). (Appendix A.1)",
+      "Architecture": "T5-v1.1-base encoder-decoder architecture implemented via TurboT5, comprising 12 encoder layers, 12 decoder layers, 12 attention heads of dimension 64, hidden dimension 768, MLP hidden dimension 2048, and Gated-GeLU activation. (Section 4; Appendix E, Table 17)",
+      "Pretraining objective": "Knowledge-Guided Masked Span Prediction (KG-MSP) which masks metadata and payload fields based on network importance, combined with natural language context span masking at an overall 15% mask ratio. (Section 3.2; Section 3.2.1)",
+      "Fine-tuning objective": "Closed-ended text generation using context-aware finetuning, with decoding output space constrained to valid label candidates via a prefix trie. (Section 3.3)",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Pretraining datasets": "A 60% stratified flow sample from ISCX-VPN, ISCX-Tor, USTC-TFC-2016, CIC-DoHBrw-2020, and CIC-IoT-2023, coupled with the mini C4 natural language corpus for tokenizer training. (Section 4; Appendix A.2, Table 10)",
+      "Training / evaluation datasets": "Six datasets comprising 12 classification tasks: ISCX-VPN (tasks 1 to 3; 2, 6, 16 classes), ISCX-Tor / USTC-TFC-2016 (tasks 4 and 5; 7 and 16 classes), Cross Platform Android (tasks 6 and 7; 209 and 3 classes), Cross Platform iOS (tasks 8 and 9; 196 and 3 classes), CIC-DoHBrw-2020 (task 10; 5 classes), and CIC-IoT-2023 (tasks 11 and 12; 2 and 7 classes). (Section 4.1; Appendix A.3, Table 11)",
+      "Split strategy": "Stratified sampling of 60% of flows for pretraining on coarse categories; finetuning randomly selects roughly 10k flows per dataset (or 15% for Cross Platform Android and 26% for Cross Platform iOS). (Section 4; Appendix A.2, Table 10)",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
-      "Parameters": "NA — not extracted",
+      "Metrics": "Accuracy and Macro F1 score for classification; Jensen-Shannon Divergence and Total Variation Distance for generation. (Section 4)",
+      "Reported results": "Lens achieved an average accuracy of 96.33% across all 12 classification tasks, reaching 0.9942 accuracy / 0.9870 macro F1 on Task 1, 0.8979 / 0.8893 on Task 2, 0.8406 / 0.8137 on Task 3, 0.9692 / 0.8120 on Task 4, 0.9538 / 0.9676 on Task 5, 0.9660 / 0.8847 on Task 6, 0.9960 / 0.9898 on Task 7, 0.9752 / 0.9492 on Task 8, 0.9951 / 0.9951 on Task 9, 0.9963 / 0.9610 on Task 10, 0.9877 / 0.9870 on Task 11, and 0.9878 / 0.6802 on Task 12. (Section 4.1, Table 2 and Table 3)",
+      "Parameters": "Roughly 0.25 billion parameters. (Section 4)",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
       "Throughput": "NA — not extracted",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
+      "Leakage / shortcut risks": "Pretraining stratification uses coarse dataset-level categories without downstream application labels to prevent label leakage, and IP addresses are masked to avert identifier leakage. (Section 4; Appendix A.1)",
       "Deployment limitations": "NA — not extracted",
-      "Version notes": "First posted February 2024; latest reviewed revision January 2026 changes title and byline.",
+      "Version notes": "First posted February 2024; latest reviewed revision January 2026 changes title and byline. The abstract gives 96.33% average accuracy over the 12 tasks; the introduction gives 96.31%. (Abstract; Section 1)",
       "Code availability": "Latest abstract promises code upon publication; public release not verified.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "A GPU server configured with four NVIDIA A6000 48 GB GPUs running Ubuntu 20.04.6. (Section 4)",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
     "code": "https://github.com/V-Enzo/Lens-foundation-model-for-network-traffic",
-    "datasets": [],
+    "datasets": [
+      "iscxvpn",
+      "iscxtor",
+      "ustc",
+      "crossplatform"
+    ],
     "techniques": [
       "Header and payload",
       "Masked language modelling",
@@ -6098,7 +6103,9 @@
       "e0089",
       "e0088",
       "e0090",
-      "e0479"
+      "e0480",
+      "e0481",
+      "e0499"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6210,13 +6217,30 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0479"
+          "e0499"
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
-    "fieldEvidence": {},
+    "fieldEvidence": {
+      "Traffic unit definition": "e0480",
+      "Input representation": "e0480",
+      "Packets / bytes": "e0480",
+      "Preprocessing / anonymisation": "e0480",
+      "Architecture": "e0480",
+      "Parameters": "e0480",
+      "Pretraining objective": "e0480",
+      "Pretraining datasets": "e0480",
+      "Fine-tuning objective": "e0480",
+      "Training / evaluation datasets": "e0480",
+      "Split strategy": "e0480",
+      "Metrics": "e0480",
+      "Reported results": "e0480",
+      "Hardware": "e0480",
+      "Leakage / shortcut risks": "e0480",
+      "Version notes": "e0480"
+    },
     "doi": null,
     "arxivId": "2402.03646"
   },
@@ -6242,25 +6266,25 @@
     "gap": "Add temporal and organisation-disjoint validation tracks.",
     "details": {
       "Research problem": "Aggregates seven public datasets into 15 classification and five generation tasks.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "Both flows and single packets are used; flows are extracted as packets sharing distinct combinations of IP addresses, port numbers and protocols, and every dataset is offered at both flow level and packet level. (Section 3.1 (Data Pre-Processing, Data Segmentation))",
+      "Input representation": "Anonymised packets (header and payload) are converted to hexadecimal, then the WordPiece algorithm segments the hex into 4-digit blocks with symbols </s>, <head> and <pkt> marking sequence ends, header separation and packet demarcation; flow-level input concatenates packets with these markers. (Section 3.1 (Data Standardization); Figure 2)",
       "Packets / bytes": "NA — not extracted",
       "Payload": "Varies",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
+      "Preprocessing / anonymisation": "PCAP files are first segmented into distinct training, validation and testing sets before flow extraction, and each packet is anonymised by masking source and destination IP addresses and port numbers, replaced with 0. (Section 3.1 (Data Pre-Processing))",
       "Architecture": "Recorded method family: Evaluation & surveys. Architecture details: NA — not extracted.",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "Recorded collection links: NetBench suite. Exact task subsets/roles: NA — not extracted.",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
+      "Training / evaluation datasets": "Seven public datasets: ISCXVPN 2016, ISCXTor 2016, USTC-TFC 2016, Cross-Platform (Android) 2020, Cross-Platform (iOS) 2020, CIRA-CIC-DoHBrw 2020 and CIC IoT Dataset 2023, yielding 15 classification tasks with 2 to 212 labels and 5 generation tasks over consecutive packets from the same datasets; totals are 2,952,302 flows and 69,799,192 packets. (Abstract; Table 1)",
+      "Split strategy": "Training, validation and testing split at a ratio of 8:1:1; PCAP files are segmented into distinct sets before flows and packets are extracted, so highly correlated same-flow packets cannot appear in both training and testing data. (Section 4.1 (Dataset); Section 3.1 (Data Pre-Processing))",
+      "Evaluation setting": "Eight major SOTA open-source models are assessed: classifiers DataNet, FS-Net, BiLSTM_ATTN, DeepPacket, TSCRNN, ET-BERT and YaTC, plus generative models STAN and NetShare; ET-BERT and YaTC use released pre-trained weights fine-tuned on the entire prepared training set, FS-Net is evaluated at flow level only, other classifiers at both levels, and generative models use randomly sampled consecutive packets. (Section 4.1 (SOTA Models))",
+      "Metrics": "Classification tasks are scored with Accuracy and Macro F1 Score; generation tasks are scored with Jensen-Shannon Divergence and Total Variation Distance. (Section 4.1 (Evaluation metrics))",
+      "Reported results": "The benchmark's headline finding is that foundation models ET-BERT and YaTC significantly outperform the traditional deep learning classifiers across the classification tasks (YaTC packet-level reaches 0.9984 accuracy and 0.9961 F1 on Task 1), while traditional methods bias towards dominant classes; NetShare generates IP addresses and port numbers better, STAN generates packet length better. (Section 4.2; Tables 3-5)",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -6268,16 +6292,20 @@
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
-      "Version notes": "NA — not extracted",
+      "Leakage / shortcut risks": "The authors report that randomly splitting packets of the same flow across training and testing causes data leakage because same-flow packets are strongly correlated, and they flag ET-BERT and YaTC's packet-level processing as facing this risk; NetBench avoids it by splitting PCAPs before extraction. (Section 1; Section 2; Section 3.1)",
+      "Deployment limitations": "The authors state that foundation models' input length constraints cause over-long input flows to be truncated, keeping flow-level foundation models from surpassing packet-level ones on some tasks; they add that longer input length is needed for increasingly complex traffic and that very few foundation models investigate traffic generation. (Section 4.2; Section 5 (Conclusion))",
+      "Version notes": "Model counts are internally inconsistent: the abstract says eight SOTA classification models plus two generative models, while Section 4.1 counts 8 major SOTA open-source models yet lists seven classification models and two generative models. (Abstract; Section 4.1)",
       "Hardware": "NA — not extracted",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
     "code": "https://github.com/WM-JayLab/NetBench",
     "datasets": [
-      "netbenchdata"
+      "netbenchdata",
+      "iscxvpn",
+      "iscxtor",
+      "ustc",
+      "crossplatform"
     ],
     "techniques": [
       "Reproducibility",
@@ -6300,7 +6328,9 @@
       "e0092",
       "e0091",
       "e0093",
-      "e0218"
+      "e0218",
+      "e0484",
+      "e0485"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6416,9 +6446,21 @@
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Benchmark",
-    "fieldEvidence": {},
+    "fieldEvidence": {
+      "Traffic unit definition": "e0484",
+      "Input representation": "e0484",
+      "Preprocessing / anonymisation": "e0484",
+      "Training / evaluation datasets": "e0484",
+      "Split strategy": "e0484",
+      "Metrics": "e0484",
+      "Reported results": "e0484",
+      "Evaluation setting": "e0484",
+      "Leakage / shortcut risks": "e0484",
+      "Deployment limitations": "e0484",
+      "Version notes": "e0484"
+    },
     "doi": "10.1109/fmsys62467.2024.00008",
     "arxivId": "2403.10319"
   },
@@ -6442,25 +6484,25 @@
     "gap": "Measure end-to-end latency and protocol-valid generation.",
     "details": {
       "Research problem": "Uses generative pretraining and linear attention for longer traffic sequences.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "Up to 12,032 tokens (not bytes or packets)",
+      "Traffic unit definition": "A traffic flow is defined by the network five-tuple, representing a sequence of packets that share identical source and destination IP addresses, ports, and protocols. (Section III-B)",
+      "Input representation": "Each flow is converted into a reversible sequence of 260 discrete tokens, structured as packet start tokens, link-type tokens, 8-byte exponential time interval tokens, hexadecimal byte tokens for header and payload, and an end token. (Section III-B)",
+      "Packets / bytes": "Pre-training accommodates maximum token sequence lengths of 3,072 or 12,032 tokens, whereas fine-tuning evaluations predominantly use a maximum token length of 256. (Section IV-A; Section IV-B)",
       "Payload": "Yes",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Linear-attention sequence model",
-      "Pretraining objective": "Generative pretraining",
-      "Fine-tuning objective": "NA — not extracted",
+      "Preprocessing / anonymisation": "Packets from protocols other than TCP or UDP (such as ARP and DHCP) are discarded. In classification evaluations, MAC addresses, IP addresses, and port information are stripped to avoid shortcut learning. (Section IV-A; Section IV-B)",
+      "Architecture": "TrafficGPT is an auto-regressive model using linear attention with local attention and reversible residual layers. It has 24 layers, a hidden dimension of 512, 12 attention heads, 8 local attention heads with a local window of 256, an embedding dimension of 256, and token shifting. (Section III-A; Section IV-A)",
+      "Pretraining objective": "Auto-regressive self-supervised language modelling trained to predict the next token via cross-entropy loss. (Section III-C)",
+      "Fine-tuning objective": "A classification task where a [cls] token is prepended to the flow tokens and the model predicts the class label at the next output position. (Section III-E)",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Pretraining datasets": "A compilation of five public datasets totalling 189 GB: ISCXTor2016, USTCTFC2016, ISCXVPN2016, DoHBrw2020, and CICIoT2022. (Section IV-A)",
+      "Training / evaluation datasets": "Evaluations are performed on Cross-Platform iOS (196 classes), Cross-Platform Android (215 classes), ISCX-VPN-App (13 classes), and USTC-TFC (20 classes). (Section IV-B)",
+      "Split strategy": "Flow-level partition where 99% of flows are allocated to pre-training and 1% are reserved for testing. (Section IV-A)",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
+      "Metrics": "Macro F1-score and accuracy (AC) for classification; Jensen-Shannon Divergence (JSD) for packet headers and flow features in generation. (Section IV-B; Table I; Section IV-C)",
+      "Reported results": "TrafficGPT(12k) achieved Macro F1-scores of 0.9863 on Cross-Platform (iOS), 0.9498 on Cross-Platform (Android), 1.0000 on ISCX-VPN-App, and 0.9877 on USTC-TFC. (Section IV-B; Table I)",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -6468,15 +6510,19 @@
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Leakage / shortcut risks": "Models may exploit dataset shortcuts such as IP addresses or MAC addresses; hence, these fields were removed during preprocessing. (Section IV-B)",
+      "Deployment limitations": "The model operates only on individual TCP and UDP flows, missing multi-flow correlations, and exhibits anomalies generating encrypted traffic, such as malformed TLS Client Hello packets. (Section IV-C; Section V)",
       "Version notes": "NA — not extracted",
       "Hardware": "NA — not extracted",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
     "code": null,
-    "datasets": [],
+    "datasets": [
+      "crossplatform",
+      "iscxvpn",
+      "ustc"
+    ],
     "techniques": [
       "Flow/session representations",
       "Generative pretraining",
@@ -6498,7 +6544,9 @@
     "evidenceIds": [
       "e0095",
       "e0094",
-      "e0096"
+      "e0096",
+      "e0491",
+      "e0492"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6614,9 +6662,24 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
-    "fieldEvidence": {},
+    "fieldEvidence": {
+      "Traffic unit definition": "e0491",
+      "Input representation": "e0491",
+      "Packets / bytes": "e0491",
+      "Preprocessing / anonymisation": "e0491",
+      "Architecture": "e0491",
+      "Pretraining objective": "e0491",
+      "Pretraining datasets": "e0491",
+      "Fine-tuning objective": "e0491",
+      "Training / evaluation datasets": "e0491",
+      "Split strategy": "e0491",
+      "Metrics": "e0491",
+      "Reported results": "e0491",
+      "Deployment limitations": "e0491",
+      "Leakage / shortcut risks": "e0491"
+    },
     "doi": null,
     "arxivId": "2403.05822"
   },
@@ -6702,7 +6765,7 @@
       "e0099",
       "e0165",
       "e0334",
-      "e0493"
+      "e0513"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -6830,7 +6893,7 @@
       "Split strategy": "e0334",
       "Hardware": "e0334",
       "Measurement scope": "e0334",
-      "Version notes": "e0493",
+      "Version notes": "e0513",
       "Reported results": "e0165"
     },
     "doi": null,
@@ -6862,38 +6925,38 @@
     "gap": "Jointly validate model confidence, offload fraction and endpoint capacity.",
     "details": {
       "Research problem": "Splits inference between a small in-network model and a larger endpoint model.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "Packet, flow, aggregate, and file granularity. (Section I)",
+      "Input representation": "Packet header fields, flow state metrics, aggregate traffic features, and file payload data extracted from csv or pcap inputs. (Section IV; Section VI)",
       "Packets / bytes": "NA — not extracted",
       "Payload": "Varies",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Small switch model plus larger endpoint model",
+      "Preprocessing / anonymisation": "Feature selection by ML importance score; Jane Street features anonymized; quantization and normalization for fixed-point encoding. (Section VI; Section VIII-A2; Section V-C)",
+      "Architecture": "Match-Action pipeline on RMT/PISA-based programmable switches (Intel Tofino, NetFPGA SUME). (Section V)",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
-      "Parameters": "NA — not extracted",
+      "Training / evaluation datasets": "UNSW-NB15 (network anomaly detection), Jane Street Market Prediction (financial transactions), Iris (flower classification). (Section VIII-A; Section VIII-C)",
+      "Split strategy": "80% training, 20% testing. (Section VIII-A1; Section VIII-A2)",
+      "Evaluation setting": "Evaluation of DT, RF, XGBoost, SVM, K-means, Naïve Bayes on Tofino for anomaly detection and finance using pcap traces. (Section VIII)",
+      "Metrics": "Misclassification rate, F1 score, accuracy, error rate. (Section VIII-G)",
+      "Reported results": "Backend load reduced by 70%; baseline F1=0.9888 with 0.49% misclassification; at 0.7 confidence switch handles 84.5% traffic with F1=0.976. (Abstract; Section VIII-G)",
+      "Parameters": "DT/RF: up to 59 numerical or 30 ASCII features; XGBoost: up to 55 numerical or 30 ASCII; max 20 trees with depth up to 15. (Section VIII-D)",
       "FLOPs": "NA — not extracted",
-      "Latency": "NA — not extracted",
-      "Throughput": "NA — not extracted",
-      "Memory": "NA — not extracted",
+      "Latency": "Sub-microsecond classification; ×10² to ×10³ better than CPU. (Abstract; Section VIII-F)",
+      "Throughput": "Line rate 6.4Tbps; 25× to 80,000× improvement over CPU classification. (Abstract; Section VIII-F)",
+      "Memory": "DT/RF <1.9% memory; all models <9.3%; classical models <6.7%. (Section VIII-C)",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
       "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Deployment limitations": "Constrained switch resources limit model size and accuracy; limited by tables, stages, PHV bit-width. (Section II-C)",
       "Version notes": "Journal 2024; earlier preprint titled IIsy: Practical In-Network Classification.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "Intel Barefoot Tofino ASIC (64×100G ports), NetFPGA-SUME FPGA. (Section VII)",
       "Batch size": "NA — not extracted",
-      "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
+      "Measurement scope": "Throughput and latency measured using pcap traces and UDP packets; compared to layer 2 forwarding and CPU. (Section VIII-F)"
     },
     "code": "https://github.com/In-Network-Machine-Learning/IIsy",
     "datasets": [],
@@ -6919,7 +6982,9 @@
       "e0101",
       "e0100",
       "e0102",
-      "e0219"
+      "e0219",
+      "e0478",
+      "e0479"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7035,9 +7100,26 @@
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
-    "fieldEvidence": {},
+    "fieldEvidence": {
+      "Traffic unit definition": "e0478",
+      "Input representation": "e0478",
+      "Preprocessing / anonymisation": "e0478",
+      "Architecture": "e0478",
+      "Parameters": "e0478",
+      "Training / evaluation datasets": "e0478",
+      "Split strategy": "e0478",
+      "Metrics": "e0478",
+      "Reported results": "e0478",
+      "Hardware": "e0478",
+      "Throughput": "e0478",
+      "Latency": "e0478",
+      "Memory": "e0478",
+      "Measurement scope": "e0478",
+      "Deployment limitations": "e0478",
+      "Evaluation setting": "e0478"
+    },
     "doi": "10.1109/tnet.2024.3364757",
     "arxivId": null
   },
@@ -7124,7 +7206,7 @@
       "e0103",
       "e0105",
       "e0335",
-      "e0480"
+      "e0500"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7236,7 +7318,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0480"
+          "e0500"
         ]
       }
     },
@@ -7275,9 +7357,9 @@
     "gap": "Compare those operational trade-offs with byte-model pipelines.",
     "details": {
       "Research problem": "Executes decision-tree classification in Intel Tofino switch data planes.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "packet-level classification at line rate. (Abstract)",
+      "Input representation": "stateless features from packet header vector and stateful features from switch registers. (§4.3)",
+      "Packets / bytes": "per-packet classification; one packet per sample; behavioral flow statistics only, no payload inspection. (§2; §7.4)",
       "Payload": "No",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
@@ -7289,27 +7371,29 @@
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
-      "Parameters": "NA — not extracted",
+      "Training / evaluation datasets": "CICIDS-2017 with 7 classes using 42 switch-compatible features; UNSW-NB15 binary classification using 22 switch-compatible features. (§7.2)",
+      "Split strategy": "75:25 train/test split by sample count. (§7.2)",
+      "Evaluation setting": "compared against pFor/SwTree-NT, IIsy-NT, Leo-NT and Control Plane baselines on decision tree classification accuracy. (§7.1)",
+      "Metrics": "average per-class F1 score macro-averaged. (§7.2)",
+      "Reported results": "CICIDS-2017: 0.94 F1 with SRAM, 0.98 F1 with TCAM; UNSW-NB15: 0.92 F1 with SRAM, matches control plane with TCAM; all macro-averaged F1. (§7.2; Figure 12)",
+      "Parameters": "decision trees with depth up to 22 and 1024 leaves with TCAM, depth 10 with SRAM; sub-tree multiplexing unit k typically 3. (§5; §7.1)",
       "FLOPs": "NA — not extracted",
-      "Latency": "Nominal latency overhead reported; numeric value NA — not extracted.",
+      "Latency": "About 500 ns to apply a 1024-leaf tree per packet; on average 500× faster than the same decision-tree class in the control plane.",
       "Throughput": "Multi-terabit line-rate classification claimed; exact tested rate NA — not extracted.",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
       "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Deployment limitations": "resource-constrained by ALU, memory and ~10 pipeline stages; sub-tree multiplexing doubles resource requirements; header field container groups limit k and feature count. (§1; §4.5; §5)",
       "Version notes": "NA — not extracted",
       "Hardware": "Intel Tofino programmable switches.",
       "Batch size": "NA — not extracted",
       "Measurement scope": "In-switch classifier; resource/model-capacity limits apply."
     },
     "code": "https://github.com/Purdue-ISL/Leo",
-    "datasets": [],
+    "datasets": [
+      "cicids2017"
+    ],
     "techniques": [
       "Decision trees",
       "Deployment"
@@ -7332,7 +7416,10 @@
       "e0106",
       "e0108",
       "e0336",
-      "e0481"
+      "e0482",
+      "e0483",
+      "e0501",
+      "e0517"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7444,18 +7531,28 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0481"
+          "e0501"
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Architecture": "e0336",
       "Hardware": "e0336",
       "Throughput": "e0336",
       "Measurement scope": "e0336",
-      "Latency": "e0336"
+      "Latency": "e0517",
+      "Traffic unit definition": "e0482",
+      "Input representation": "e0482",
+      "Packets / bytes": "e0482",
+      "Parameters": "e0482",
+      "Training / evaluation datasets": "e0482",
+      "Split strategy": "e0482",
+      "Metrics": "e0482",
+      "Reported results": "e0482",
+      "Deployment limitations": "e0482",
+      "Evaluation setting": "e0482"
     },
     "doi": null,
     "arxivId": null
@@ -7483,41 +7580,44 @@
     "gap": "Measure end-to-end efficiency and cross-dataset stability.",
     "details": {
       "Research problem": "Uses supervised contrastive learning and byte-graph augmentations.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Dual packet-level and flow-level classification; samples are bidirectional flows capped at 15 packets, with ISCX-Tor flows additionally divided into 60-second non-overlapping blocks. (Section 4.1.2; Section 4.1.3)",
+      "Input representation": "Byte-level traffic graphs (TFE-GNN style) where nodes are byte values and edges encode semantic correlation between bytes; packet vectors are fused into a flow embedding by an LSTM. (Section 3.2.1; Section 3.2.2)",
+      "Packets / bytes": "At most the first 15 packets of a flow are used; packet bytes (after Ethernet/IP/port removal) form the byte-level traffic graph, with header and payload graphs perturbed separately in ablations. (Section 4.1.2; Table 3)",
       "Payload": "Yes",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Graph learning. Architecture details: NA — not extracted.",
+      "Preprocessing / anonymisation": "SplitCap extracts bidirectional flows; ISCX-Tor flows are enriched by 60-second non-overlapping blocks; flows without payload or surpassing length 10000 are filtered; bad and retransmission packets removed; Ethernet header, IP addresses and port numbers removed. (Section 4.1.2)",
+      "Architecture": "A shared TFE-GNN graph encoder produces packet vectors, an LSTM fuses them into flow vectors, and PReLU MLP heads classify both levels; views are augmented by node, edge and packet dropping (ratios 0.05, 0.1, 0.6) with temperature 0.07. Two modules: dual-level contrastive learning and cross-level multi-task learning. (Section 3.1; Section 3.4; Section 4.1.3)",
       "Pretraining objective": "NA — not extracted",
-      "Fine-tuning objective": "NA — not extracted",
+      "Fine-tuning objective": "End-to-end joint objective in a single training (no pretraining): L = L_PCLS + L_FCLS + alpha*L_PCL + beta*L_FCL, combining cross-entropy classification losses at packet and flow levels with supervised contrastive losses weighted by alpha, beta in [0,1]. (Section 3.4)",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
+      "Training / evaluation datasets": "ISCX VPN-nonVPN (ISCX-VPN and ISCX-nonVPN) divided into six categories and ISCX Tor-nonTor (ISCX-Tor and ISCX-nonTor) into eight; all experiments run independently on the four datasets, with statistics in Appendix E. (Section 4.1.1)",
+      "Split strategy": "Flow-level stratified sampling into 9:1 train:test by number of traffic flows for all datasets; packets of the flow-level train/test sets serve directly as packet-level train/test, inheriting their flow's label. (Section 4.1.2)",
       "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
+      "Metrics": "Overall Accuracy (AC), Precision (PR), Recall (RC) and Macro F1-score (F1); averaging for PR/RC is not stated. (Section 4.1.3)",
       "Reported results": "Authors report approximately 1/14 of ET-BERT FLOPs in their setting.",
-      "Parameters": "NA — not extracted",
-      "FLOPs": "NA — not extracted",
+      "Parameters": "No absolute parameter count is stated; Figure 3(b) (in millions) shows CLE-TFE's parameters only slightly above TFE-GNN due to the added packet-level classification head, and far below ET-BERT. (Section 4.5; Figure 3(b))",
+      "FLOPs": "About 1/14 of ET-BERT's FLOPs; smaller than TFE-GNN because a shorter flow length suffices, with augmentation and contrastive loss adding negligible extra cost. (Abstract; Section 4.5)",
       "Latency": "NA — not extracted",
       "Throughput": "NA — not extracted",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Leakage / shortcut risks": "The authors remove IP addresses and port numbers to eliminate potential interference such fields could otherwise introduce; no other leakage or shortcut tests are reported. (Section 4.1.2)",
+      "Deployment limitations": "The graph augmentation is non-trainable and may give sub-optimal results; hard negative samples are not optimised sufficiently; jointly optimising both tasks in one training introduces trade-offs between the two tasks. (Section 6; Section 4.2)",
       "Version notes": "NA — not extracted",
-      "Hardware": "NA — not extracted",
+      "Hardware": "NVIDIA RTX 3080 GPU, implemented in PyTorch and Deep Graph Library; results are means over five runs. (Section 4.1.3)",
       "Batch size": "NA — not extracted",
-      "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
+      "Measurement scope": "Efficiency numbers cover only FLOPs and parameter counts (offline comparison with ET-BERT, TFE-GNN and CLE-TFE w/o AUG&CL); no throughput, latency or memory measurements are reported. (Section 4.5)"
     },
     "code": "https://github.com/ViktorAxelsen/CLE-TFE",
-    "datasets": [],
+    "datasets": [
+      "iscxvpn",
+      "iscxtor"
+    ],
     "techniques": [
       "Raw packet bytes",
       "Graph learning",
@@ -7542,7 +7642,8 @@
       "e0109",
       "e0111",
       "e0166",
-      "e0220"
+      "e0220",
+      "e0473"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7658,9 +7759,24 @@
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
+      "Traffic unit definition": "e0473",
+      "Input representation": "e0473",
+      "Packets / bytes": "e0473",
+      "Preprocessing / anonymisation": "e0473",
+      "Architecture": "e0473",
+      "Parameters": "e0473",
+      "Fine-tuning objective": "e0473",
+      "Training / evaluation datasets": "e0473",
+      "Split strategy": "e0473",
+      "Metrics": "e0473",
+      "Hardware": "e0473",
+      "FLOPs": "e0473",
+      "Measurement scope": "e0473",
+      "Deployment limitations": "e0473",
+      "Leakage / shortcut risks": "e0473",
       "Reported results": "e0166"
     },
     "doi": null,
@@ -7686,38 +7802,38 @@
     "gap": "Longitudinal robustness of handshake fingerprints.",
     "details": {
       "Research problem": "Identifies device and software platforms from TCP/QUIC and TLS handshakes.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "62 handshake attributes",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Per-video streaming flow, classified using handshake messages from the initial connection establishment phase. (Section 2)",
+      "Input representation": "A total of 62 attributes derived from TCP/QUIC and TLS ClientHello handshake fields, consisting of 20 numerical, 31 categorical (mapped to integers or presence flags), and 11 list fields encoded as fixed-length positional vectors. (Section 4.2; Table 2)",
+      "Packets / bytes": "Classification uses handshake messages extracted from the first fewer than 5 packets of the connection setup. (Section 3.2.2)",
       "Payload": "No",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Classical ML. Architecture details: NA — not extracted.",
+      "Preprocessing / anonymisation": "Packets are parsed to identify video flows by port number and TLS SNI, then split into handshake packets for classification and data packets for telemetry, with campus traffic analyzed without user identities. (Section 4.1)",
+      "Architecture": "A bank of twelve Random Forest classifiers (three per streaming provider) predicting composite user platform, device type, and software agent, falling back to separate predictions if composite confidence is below 80%. (Section 4.1)",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
+      "Training / evaluation datasets": "A lab dataset of nearly 10,000 video flows across 30 user platforms for YouTube, Netflix, Disney+, and Amazon Prime Video; an open-set home dataset with over 2,000 flows; and a 4-month campus deployment capturing over 100 million video flows. (Section 3.1; Section 4.3.2; Section 5.2)",
+      "Split strategy": "10-fold cross-validation on the lab dataset, supplemented by open-set evaluation on a distinct home network dataset. (Section 4.3.1; Section 4.3.2)",
+      "Evaluation setting": "Benchmarked against six state-of-the-art methods ([6], [14], [28], [40], [53], [55]) adapted to handle QUIC Initial packets, extract flow-level TLS ClientHello features, and predict user platforms. (Section 4.3.4; Table 6)",
+      "Metrics": "Overall classification accuracy and prediction confidence (probability of the predicted class). (Section 4.1; Section 4.3.1)",
       "Reported results": "Paper reports >96% classification accuracy and observes 100+ million video streams over four months.",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
-      "Throughput": "NA — not extracted",
+      "Throughput": "A peak real-time processing throughput of 20 Gbps and over 1,000 concurrent video flows during live campus deployment. (Section 4.3.3)",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
       "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Deployment limitations": "Performance degrades over time due to concept drift caused by software and firmware updates, requiring periodic retraining, while novel streaming services and platforms require new ground truth data collection. (Section 5.3)",
       "Version notes": "NA — not extracted",
-      "Hardware": "NA — not extracted",
+      "Hardware": "A commodity blade server equipped with an 8-core Intel Xeon E5-2620 CPU, 64 GB DDR4 RAM, and two 10 Gbps network interfaces. (Section 5.1)",
       "Batch size": "NA — not extracted",
-      "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
+      "Measurement scope": "Live end-to-end pipeline covering packet parsing, attribute generation, classification, and telemetry logging using DPDK, NFF-Go, Golang, and scikit-learn. (Section 5.1)"
     },
     "code": "https://github.com/WYF99/IMC24-VideoUserPlatform",
     "datasets": [],
@@ -7744,7 +7860,8 @@
       "e0112",
       "e0114",
       "e0167",
-      "e0482"
+      "e0487",
+      "e0502"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -7856,13 +7973,26 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0482"
+          "e0502"
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Platform identification",
     "fieldEvidence": {
+      "Traffic unit definition": "e0487",
+      "Input representation": "e0487",
+      "Packets / bytes": "e0487",
+      "Preprocessing / anonymisation": "e0487",
+      "Architecture": "e0487",
+      "Training / evaluation datasets": "e0487",
+      "Split strategy": "e0487",
+      "Metrics": "e0487",
+      "Hardware": "e0487",
+      "Throughput": "e0487",
+      "Measurement scope": "e0487",
+      "Deployment limitations": "e0487",
+      "Evaluation setting": "e0487",
       "Reported results": "e0167"
     },
     "doi": "10.1145/3646547.3688435",
@@ -7953,7 +8083,7 @@
       "e0221",
       "e0426",
       "e0427",
-      "e0494"
+      "e0514"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -8083,7 +8213,7 @@
       "Metrics": "e0426",
       "Reported results": "e0426",
       "Hardware": "e0426",
-      "Pretraining objective": "e0494"
+      "Pretraining objective": "e0514"
     },
     "doi": "10.1109/sp61157.2025.00102",
     "arxivId": null
@@ -8384,7 +8514,7 @@
       "e0123",
       "e0168",
       "e0430",
-      "e0483"
+      "e0503"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -8496,7 +8626,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0483"
+          "e0503"
         ]
       }
     },
@@ -8541,25 +8671,25 @@
     "gap": "A shared benchmark that separates pretraining value from split shortcuts.",
     "details": {
       "Research problem": "Reassesses five pretrained traffic models under controlled splits and feature interventions.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Packet classification and bidirectional flow classification; a flow comprises packets sharing the same 5-tuple, including both client and server packets. (Section 4.2, Downstream task)",
+      "Input representation": "Packet bytes are converted into space-separated hexadecimal words and passed through the original T5 tokenizer. (Section 3.4, Phase 1)",
+      "Packets / bytes": "Pcap-Encoder represents individual packets; flow classification uses majority voting over the first 5 packets. (Sections 3.4 and 6.2)",
       "Payload": "Varies",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Evaluation & surveys. Architecture details: NA — not extracted.",
-      "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
-      "Fine-tuning objective": "NA — not extracted",
+      "Preprocessing / anonymisation": "The benchmark filters extraneous protocols, preserves test class distributions and avoids minimum packet or flow size filters. Pcap-Encoder pretraining randomises IP addresses and TTL values to discourage memorisation. (Section 4.1, Data cleaning and Sampling; Section 3.4, footnote 6; Appendix A.4)",
+      "Architecture": "Pcap-Encoder uses T5-base with a mean pooling bottleneck and a two-layer MLP classification head with ReLU activation. (Section 3.4; Figure 2)",
+      "Pretraining objective": "Sequential packet reconstruction using token cross-entropy, followed by question answering about protocol header fields and computations. (Section 3.4, Phases 1 and 2; Appendix A.1.3; Table 10)",
+      "Fine-tuning objective": "Separate downstream classifiers are trained for each task, using binary cross-entropy or softmax according to the number of classes. (Section 3.4, Downstream classifiers)",
       "Supervision": "NA — not extracted",
-      "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "Recorded collection links: ISCX VPN-nonVPN, USTC-TFC2016, CSTNET-TLS 1.3, MAWI traffic archive. Exact task subsets/roles: NA — not extracted.",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "Controlled per-flow versus per-packet splits; frozen versus unfrozen encoders",
-      "Metrics": "Accuracy, macro-F1, embedding analyses",
-      "Reported results": "NA — not extracted",
+      "Pretraining datasets": "MAWI, UNSW-NB15 and a freshly collected campus trace are used for both pretraining phases. (Section 3.4, Phases 1 and 2)",
+      "Training / evaluation datasets": "ISCX-VPN supplies VPN-binary, VPN-service and VPN-app tasks with 2, 6 and 16 classes; USTC-TFC supplies binary and application tasks with 2 and 20 classes. CSTN-TLS1.3 supplies TLS-120 website classification with 120 classes. (Section 4.1; Table 2)",
+      "Split strategy": "The principal protocol uses a random per-flow 7:1 training/test split, balances training classes by undersampling and applies 3-fold cross-validation within training. A comparison protocol uses a random per-packet 8:1:1 training/validation/test split. (Section 5, Downstream task evaluation)",
+      "Evaluation setting": "ET-BERT, YaTC, NetMamba, TrafficFormer and netFound are evaluated alongside Pcap-Encoder and shallow baselines, using shared splits and original pretrained checkpoints. Packet and flow classification compare frozen and unfrozen encoders, with per-flow and per-packet splitting examined for packet classification. (Section 5; Sections 6.1 and 6.2; Tables 3–9)",
+      "Metrics": "Accuracy and macro-averaged F1-score, with the latter giving equal weight to each class. (Section 4.2, Performance metrics; Table 3)",
+      "Reported results": "With frozen encoders and per-flow splitting, Pcap-Encoder achieves packet accuracy/macro F1 of 83.5%/71.0% on VPN-app and 71.0%/63.7% on TLS-120. Flow classification achieves 69.2%/62.2% and 71.3%/68.1%, respectively. (Tables 3 and 9; Sections 6.1 and 6.2)",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -8567,12 +8697,12 @@
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Leakage / shortcut risks": "Per-packet splitting lets models associate test packets with training flows through explicit identifiers and implicit identifiers such as TCP sequence numbers, acknowledgement numbers and timestamps. The authors test these shortcuts by randomising the implicit identifiers and also identify pretraining/downstream dataset reuse as a leakage risk. (Sections 3.2, 4.1 and 6.1; Table 6; Figure 5)",
+      "Deployment limitations": "Pcap-Encoder's complexity and performance comparable to shallow models call its practicality into question; it is the second slowest evaluated model at both training and inference. (Sections 6.3 and 8)",
       "Version notes": "Criticism of netFound concerns the earlier model, not the May 2026 v5 revision.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "Experiments use an HPC cluster equipped with NVIDIA Tesla V100 SXM2 GPUs. (Section 6, opening paragraph)",
       "Batch size": "NA — not extracted",
-      "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
+      "Measurement scope": "Efficiency compares training and inference time for completing cross-validation on VPN-app with per-flow splitting, normalised to Random Forest. (Section 6.3; Figure 6)"
     },
     "code": "https://github.com/SmartData-Polito/Debunk_Traffic_Representation",
     "datasets": [
@@ -8603,7 +8733,9 @@
       "e0125",
       "e0124",
       "e0126",
-      "e0223"
+      "e0223",
+      "e0489",
+      "e0490"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -8719,9 +8851,27 @@
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Reproduction / critique",
-    "fieldEvidence": {},
+    "fieldEvidence": {
+      "Traffic unit definition": "e0489",
+      "Input representation": "e0489",
+      "Packets / bytes": "e0489",
+      "Preprocessing / anonymisation": "e0489",
+      "Architecture": "e0489",
+      "Pretraining objective": "e0489",
+      "Pretraining datasets": "e0489",
+      "Fine-tuning objective": "e0489",
+      "Training / evaluation datasets": "e0489",
+      "Split strategy": "e0489",
+      "Metrics": "e0489",
+      "Reported results": "e0489",
+      "Hardware": "e0489",
+      "Measurement scope": "e0489",
+      "Deployment limitations": "e0489",
+      "Evaluation setting": "e0489",
+      "Leakage / shortcut risks": "e0489"
+    },
     "doi": "10.1145/3718958.3750498",
     "arxivId": "2507.16438"
   },
@@ -8747,25 +8897,25 @@
     "gap": "Build protocol-sensitive representations that transfer to new contexts.",
     "details": {
       "Research problem": "Studies embedding geometry, domain-feature alignment and causal sensitivity.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
+      "Traffic unit definition": "The intrinsic evaluation operates on flow embeddings extracted from each model's final encoder layer. (Section 3.1, Methodology)",
+      "Input representation": "The framework analyses frozen encoder embeddings and compares them with CICFlowMeter features; causal tests additionally use embeddings from perturbed traffic. (Sections 3.2 and 3.3; Figure 1)",
       "Packets / bytes": "NA — not extracted",
       "Payload": "Varies",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
+      "Preprocessing / anonymisation": "Datasets are processed into flow records using the original models' data processing scripts, preserving their original input pipelines. Protocol perturbations modify semantically meaningful packet features rather than applying identical token changes across models. (Sections 4.1, 4.2 and 4.5)",
       "Architecture": "Recorded method family: Evaluation & surveys. Architecture details: NA — not extracted.",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
-      "Fine-tuning objective": "NA — not extracted",
+      "Fine-tuning objective": "A linear classifier is trained on frozen raw or normalised embeddings for downstream classification; logistic regression probes distinguish synthetic network contexts. (Sections 3.3 and 4.3; Appendix D)",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "Recorded collection links: CIC-IDS2017, MAWI traffic archive, CAIDA trace collections. Exact task subsets/roles: NA — not extracted.",
+      "Training / evaluation datasets": "Evaluation uses Android Crossmarket, CIC-IDS2017, CIC-APT-IIoT24, CAIDA and MAWI. NetReplica additionally generates synthetic contexts varying congestion control, active queue management and cross-traffic. (Sections 4.2 and 4.6; Table 1; Appendices B and J)",
       "Split strategy": "NA — not extracted",
-      "Evaluation setting": "Four models across five datasets; selected representation diagnostics",
-      "Metrics": "NA — not extracted",
-      "Reported results": "NA — not extracted",
+      "Evaluation setting": "Unmodified public pretrained checkpoints of YaTC, ET-BERT, netFound and NetMamba are evaluated through frozen embedding geometry, alignment with expert features and causal sensitivity tests. Tests include protocol-feature perturbations and linear probing of synthetic network contexts. (Sections 3, 4.1, 4.5 and 4.6)",
+      "Metrics": "Intrinsic metrics include mean pairwise cosine similarity, Mean Cosine Contribution and Centered Kernel Alignment with CICFlowMeter features. Additional analyses report F1 and F1 gain, intrinsic dimension, silhouette score and L1 distance. (Sections 3.1–3.3 and 4.3; Appendices F–H)",
+      "Reported results": "The authors' decorrelation intervention improves NetMamba F1 by 0.35 ± 0.02 on Crossmarket, 0.11 ± 0.27 on CIC-IDS2017 and 0.03 ± 0.02 on CIC-APT-IIoT24. These gains use a single linear layer trained for 30 epochs over five runs. (Section 4.3; Table 2)",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
@@ -8773,10 +8923,10 @@
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Leakage / shortcut risks": "The authors identify dataset-specific shortcuts as a weakness of downstream-only evaluation. Their perturbation tests expose payload dependence and selective sensitivity to sequence/acknowledgement numbers, while their limitations acknowledge potentially flawed or biased public datasets. (Sections 2.3, 4.5 and 5)",
+      "Deployment limitations": "The evaluated models depend on payload information that may be encrypted or absent in production, creating a robustness concern. Metric alignment is also weaker on real-world traffic than on controlled datasets. (Sections 4.4 and 4.5)",
       "Version notes": "NeurIPS 2025 Datasets and Benchmarks Track confirmed by official proceedings, DOI 10.52202/085713-4769. Technical extraction based on arXiv v3, November 2025; source versions are distinguished.",
-      "Hardware": "NA — not extracted",
+      "Hardware": "All experiments run on a single node with 4 A100 GPUs, each with 80 GB GPU RAM, and 512 GB host RAM. (Appendix I)",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
@@ -8784,7 +8934,8 @@
     "datasets": [
       "cicids2017",
       "mawi",
-      "caida"
+      "caida",
+      "crossplatform"
     ],
     "techniques": [
       "Explainability",
@@ -8808,7 +8959,9 @@
       "e0128",
       "e0127",
       "e0129",
-      "e0484"
+      "e0476",
+      "e0477",
+      "e0504"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -8920,13 +9073,25 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0484"
+          "e0504"
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Representation diagnosis",
-    "fieldEvidence": {},
+    "fieldEvidence": {
+      "Traffic unit definition": "e0476",
+      "Input representation": "e0476",
+      "Preprocessing / anonymisation": "e0476",
+      "Fine-tuning objective": "e0476",
+      "Training / evaluation datasets": "e0476",
+      "Metrics": "e0476",
+      "Reported results": "e0476",
+      "Hardware": "e0476",
+      "Deployment limitations": "e0476",
+      "Evaluation setting": "e0476",
+      "Leakage / shortcut risks": "e0476"
+    },
     "doi": "10.52202/085713-4769",
     "arxivId": "2509.23089"
   },
@@ -8953,24 +9118,24 @@
     "gap": "Deduplicate before splitting and retain conflicting-label diagnostics.",
     "details": {
       "Research problem": "Tests a simple nearest-neighbour baseline on 12 datasets and 15 tasks.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Flow-level: each sample is a network flow represented by the packet sizes, inter-packet times and directions of its first N (up to 30) payload packets. (Section 3.1)",
+      "Input representation": "Raw packet-sequence metadata vector (sizes, IPTs in milliseconds, directions as ±1) compared with L1 distance, reweighted by per-dataset factors DIRscale and IPTscale with IPTs clipped at IPTmaxclip. (Section 3.1)",
+      "Packets / bytes": "Only the first N payload packets per flow are used, no payload or header bytes; default N=10 from prior work, Optuna-tuned per dataset to values 5 to 27 in Table 2. (Section 3.1; Table 2)",
       "Payload": "No",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Evaluation & surveys. Architecture details: NA — not extracted.",
+      "Preprocessing / anonymisation": "Datasets taken as curated pre-split tcbench versions; PCAPs converted to flow packet sequences with ipfixprobe; flows shorter than 10 packets filtered for MIRAGE19/22 and UTMOBILENET21, and empty flows and broadcasts filtered for CIC-IDS-2017; no IP or port masking described. (Sections 3.2-3.3)",
+      "Architecture": "Non-parametric k-NN with L1 distance implemented as a Faiss index; prediction is the label of the top-1 nearest training sample, optionally replaced by distance-based majority voting among all training samples within a threshold Tmaj. (Sections 3.2, 3.5)",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
+      "Training / evaluation datasets": "12 datasets and 15 tasks (Table 1): CESNET-TLS22 (TLS, 191 classes), CESNET-QUIC22 (QUIC, 102), ISCXVPN2016 (VPN, 2 classes, three label tasks), MIRAGE19 (Android apps, 20), MIRAGE22 (video-meeting apps, 9), UTMOBILENET21 (mobile apps, 17), UCDAVIS19 (QUIC, 5 classes, Script and Human test sets), AppClassNet (TLS, 500 apps), EdgeIIoTset (IIoT, 15), UNSW-NB15 (attacks, 10), CIC-IDS-2017 (attacks, 8), CIC-DoHBrw-2020 (DoH, 2). (Abstract; Section 3.3; Table 1)",
+      "Split strategy": "Flow-level splits per Table 1: CESNET-TLS22/QUIC22 time-based (1M/0.1M/1M), MIRAGE19/22 and UTMOBILENET21 prepared random 80/10/10, ISCXVPN2016 random 60/20/20, UCDAVIS19 fixed (7k train, 83 or 150 test), AppClassNet and EdgeIIoTset random 1M/0.1M/1M, UNSW-NB15, CIC-IDS-2017 and CIC-DoHBrw random 0.5M/0.1M/0.5M; results averaged over five repetitions (one for UCDAVIS19). (Section 3.3; Table 1)",
+      "Evaluation setting": "Evaluation and critique study: the input-space k-NN baseline (default N=10, Optuna-tuned, and with distance-based majority voting) is tested on 12 datasets and 15 tasks against published SOTA numbers under replicated preprocessing and splitting; ISCXVPN2016 is also compared against payload-free SOTA in Table 4. (Section 3.6; Table 4)",
+      "Metrics": "Accuracy is the primary metric, with F1 for three comparisons (MIRAGE19, MIRAGE22, UTMOBILENET21); the paper also defines maximum achievable accuracy (Eq. 1) and a minimal false positive rate estimate; no macro, weighted or micro averaging is stated. (Sections 3.6, 4.2)",
       "Reported results": "Authors report >50% redundant sequences in most examined datasets; this is not a universal rate.",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
@@ -8979,15 +9144,22 @@
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
-      "Version notes": "NA — not extracted",
+      "Leakage / shortcut risks": "Authors report and test that most datasets contain over 50% exact duplicate packet sequences which random splits place in both training and test sets, trivially inflating accuracy for distance-based classifiers; duplicate fraction correlates with baseline performance, and on CESNET-QUIC22 the random split gives 79.41 versus 75.53 under a time-based split. Mixed-class duplicates cap maximum achievable accuracy, e.g. 93.46% on UTMOBILENET21. (Abstract; Sections 4.1-4.2, 5.1.2; Tables 5, 8)",
+      "Deployment limitations": "The L1 metric cannot capture differences across packet positions such as missed and retransmitted packets or shifted patterns in the sequence, so the baseline misses such variations. (Section 3.1)",
+      "Version notes": "Table 3 reports F1 for MIRAGE19/MIRAGE22/UTMOBILENET21 while Table 5 recomputes accuracy for these without short-flow filtering (MIRAGE19 80.78 in Table 3 versus 78.56 in Table 5); UCDAVIS19 has no validation set, so it gets no Optuna tuning or majority voting and a single repetition; ISCXVPN2016 uses the preprocessed version of Nascita et al. (10.5k samples), not the original. (Table 5 footnote; Sections 3.3-3.4; Tables 1, 3, 5)",
       "Hardware": "NA — not extracted",
       "Batch size": "NA — not extracted",
       "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
     },
     "code": null,
-    "datasets": [],
+    "datasets": [
+      "iscxvpn",
+      "mirage19",
+      "mirage22",
+      "utmobile",
+      "ucdavis",
+      "cicids2017"
+    ],
     "techniques": [
       "Timing and direction sequences",
       "Data leakage control",
@@ -9010,7 +9182,8 @@
       "e0131",
       "e0130",
       "e0132",
-      "e0169"
+      "e0169",
+      "e0488"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -9126,9 +9299,21 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
+      "Traffic unit definition": "e0488",
+      "Input representation": "e0488",
+      "Packets / bytes": "e0488",
+      "Preprocessing / anonymisation": "e0488",
+      "Architecture": "e0488",
+      "Training / evaluation datasets": "e0488",
+      "Split strategy": "e0488",
+      "Metrics": "e0488",
+      "Evaluation setting": "e0488",
+      "Deployment limitations": "e0488",
+      "Leakage / shortcut risks": "e0488",
+      "Version notes": "e0488",
       "Reported results": "e0169"
     },
     "doi": null,
@@ -9159,38 +9344,38 @@
     "gap": "Robust cross-organisation service inference with hidden SNI.",
     "details": {
       "Research problem": "Evaluates service prediction when training and testing networks differ.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "The principal transfer task classifies bidirectional flows, allowing source and destination endpoint pairs to be reversed. Earlier comparisons separately classify website traces and fixed-duration unidirectional flow snapshots. (Sections 4.1.1 and 5; Appendices C.1–C.3)",
+      "Input representation": "The aligned transfer input contains inter-arrival times, payload sizes and packet directions, with MinMax normalisation used by default. (Section 5.2.5)",
+      "Packets / bytes": "Aligned inputs contain the first 30 non-empty packets of each bidirectional flow, giving a shared input shape of (30,3). (Sections 5.2.5 and 5.3)",
       "Payload": "No",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Recorded method family: Evaluation & surveys. Architecture details: NA — not extracted.",
+      "Preprocessing / anonymisation": "Orange is relabelled using CESNET's SNI mapping, common frequent classes are selected and CESNET is undersampled into balanced splits. Inter-arrival times are capped at 5 seconds, negative CESNET values become zero and Orange inputs are reconstructed to match CESNET's payload-bearing packets. (Sections 5.2.3–5.2.5)",
+      "Architecture": "The study designs First Model, More Blocks, New Run and NoMB variants from UWTransformer, also called Full Model. Architectures combine channel-wise multi-head attention, convolutional layers, residual connections and dense classification layers. (Section 5.3; Table 7; Appendices F and H)",
       "Pretraining objective": "NA — no pretraining stage recorded for this contribution",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — no pretraining stage recorded for this contribution",
-      "Training / evaluation datasets": "NA — not extracted",
-      "Split strategy": "NA — not extracted",
-      "Evaluation setting": "Train on one network, predict services on another; distribution shift without concept drift",
-      "Metrics": "NA — not extracted",
+      "Training / evaluation datasets": "Earlier comparisons use Undefended with 95 website classes, ISCX-Flowpic Tor with 5 application categories and Orange June with 8 service categories. The aligned transfer framework uses 25 common service classes from CESNET and Orange June/October, with 1.2 million, 69.1K and 83.6K selected flows, respectively. (Sections 4.1 and 5.2; Tables 2 and 6)",
+      "Split strategy": "CESNET training/validation and test data come from the first and last three collection days, respectively, with a 4:1 training/validation ratio. For transfer evaluation, models train on CESNET and are tested on the entire aligned Orange selection; snapshot experiments keep origin flows separate across training and test. (Sections 5.2.3 and 6.2; Section 4.2.1; Appendix D)",
+      "Evaluation setting": "DFattack, Flowpic and UWTransformer are first retrained and compared across alternative datasets, separating snapshot classification from flow/trace classification. The aligned service-identification framework then compares transformer variants, XGBoost and cosine-distance 1-NN through same-dataset and cross-network evaluation, including reverse transfer and grouped-label tasks. (Sections 4, 5 and 6; Tables 1, 7–9)",
+      "Metrics": "The study reports accuracy, precision, recall and F1-score. Snapshot comparisons explicitly use the unweighted average of classwise F1-scores. (Section 4.2.3; Figures 5–7; Tables 8 and 9)",
       "Reported results": "Best model under the network shift: the Full Model, the paper’s alias for UWTransformer (a transformer classifier on flow time series from Critical Study of Few-shot Learning for Encrypted Traffic Classification, CNSM 2023). F1 0.3174 (accuracy 0.3015) on Orange June and F1 0.3063 (0.2767) on Orange October, against F1 0.9274 on the CESNET test set. 1-NN and XGBoost also fall to F1 0.25–0.26.",
-      "Parameters": "NA — not extracted",
+      "Parameters": "Total parameter counts are 60,439 for First Model, 62,001 for MoreBlocks, 12,117 for NewRun, 121,801 for NoMB and 8,222,873 for Full Model. (Appendix H; Tables 10, 12, 14, 15 and 16)",
       "FLOPs": "NA — not extracted",
-      "Latency": "NA — not extracted",
+      "Latency": "UWTransformer's average training computation time is 18 milliseconds per batch of 64 samples, compared with 5 milliseconds for DFattack on the authors' GPU. (Appendix F)",
       "Throughput": "NA — not extracted",
       "Memory": "NA — not extracted",
       "Energy": "NA — not extracted",
       "Reproducibility": "No experiments independently rerun for this explorer.",
-      "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "NA — not extracted",
+      "Leakage / shortcut risks": "The authors identify dataset-specific characteristics, selection cutoffs and hyperparameter choices as causes of inflated same-dataset performance. They prevent snapshots from the same flow crossing training/test boundaries, but explicitly derive snapshot validation data without respecting origin flows. (Sections 4.2.1, 4.4 and 7; Appendix D)",
+      "Deployment limitations": "Distribution shift substantially degrades classification even without concept drift, and task-related knowledge is insufficient for reliable use. Best performance also depends on training choices and hyperparameters that may be unavailable under realistic conditions. (Sections 4.4 and 7)",
       "Version notes": "NA — not extracted",
-      "Hardware": "NA — not extracted",
+      "Hardware": "GPU computation is reported, without a GPU model specification. (Appendix F)",
       "Batch size": "NA — not extracted",
-      "Measurement scope": "Use only the setup stated in the cited results; unextracted conditions remain NA."
+      "Measurement scope": "The reported computation time measures GPU training of a batch; no live classification pipeline timing is provided. (Appendix F)"
     },
     "code": "https://github.com/one-task-traffic/traffic-generalization-study",
     "datasets": [],
@@ -9216,7 +9401,8 @@
       "e0133",
       "e0135",
       "e0170",
-      "e0485"
+      "e0486",
+      "e0505"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -9328,13 +9514,28 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0485"
+          "e0505"
         ]
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
+      "Traffic unit definition": "e0486",
+      "Input representation": "e0486",
+      "Packets / bytes": "e0486",
+      "Preprocessing / anonymisation": "e0486",
+      "Architecture": "e0486",
+      "Parameters": "e0486",
+      "Training / evaluation datasets": "e0486",
+      "Split strategy": "e0486",
+      "Metrics": "e0486",
+      "Hardware": "e0486",
+      "Latency": "e0486",
+      "Measurement scope": "e0486",
+      "Deployment limitations": "e0486",
+      "Evaluation setting": "e0486",
+      "Leakage / shortcut risks": "e0486",
       "Reported results": "e0170"
     },
     "doi": null,
@@ -10076,7 +10277,7 @@
       "e0147",
       "e0172",
       "e0337",
-      "e0486"
+      "e0506"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10188,7 +10389,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0486"
+          "e0506"
         ]
       }
     },
@@ -10521,8 +10722,8 @@
       "e0152",
       "e0151",
       "e0153",
-      "e0487",
-      "e0495"
+      "e0507",
+      "e0515"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10634,14 +10835,14 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0487"
+          "e0507"
         ]
       }
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
     "fieldEvidence": {
-      "Pretraining objective": "e0495"
+      "Pretraining objective": "e0515"
     },
     "doi": "10.1145/3603165.3607437",
     "arxivId": null
@@ -10729,7 +10930,7 @@
       "e0156",
       "e0435",
       "e0436",
-      "e0488"
+      "e0508"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -10841,7 +11042,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0488"
+          "e0508"
         ]
       }
     },
@@ -14690,7 +14891,7 @@
       "e0347",
       "e0348",
       "e0349",
-      "e0489"
+      "e0509"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -14802,7 +15003,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0489"
+          "e0509"
         ]
       }
     },
@@ -15459,41 +15660,43 @@
     "gap": "Does online selection preserve calibrated confidence and rare-class recall?",
     "details": {
       "Research problem": "Selects traffic-analysis models online as processing conditions change.",
-      "Traffic unit definition": "NA — not extracted",
-      "Input representation": "NA — not extracted",
-      "Packets / bytes": "NA — not extracted",
+      "Traffic unit definition": "Flow-level processing with per-flow state; early detection tasks use first 10 packets per connection. (Section 2.1; Section 3.2; Section 4.2)",
+      "Input representation": "Network flow metrics, transport layer indicators, application-layer traffic pattern features, and raw IP/TCP headers. (Section 4.2)",
+      "Packets / bytes": "Service recognition uses first 10 packets per flow; video quality uses continuous feature extraction; CAIDA trace at 1.1 MPPS. (Section 2.3; Section 4.2; Section 5)",
       "Payload": "NA — not extracted",
       "Header": "NA — not extracted",
       "Timing": "NA — not extracted",
       "Direction": "NA — not extracted",
       "Packet length": "NA — not extracted",
-      "Preprocessing / anonymisation": "NA — not extracted",
-      "Architecture": "Uses lightweight system signals and a model pool with different cost/accuracy trade-offs.",
+      "Preprocessing / anonymisation": "Header parsing, packet filtering, flow tracking, data reassembly; CAIDA Anonymized Internet Traces 2016 used. (Section 2.1; Section 3.2; Section 5)",
+      "Architecture": "Workers for feature extraction, Post-Processor for aggregation, Monitor for packet loss detection, Model Selection module; Rust with DPDK and Retina v0.1. (Section 3; Section 4.1)",
       "Pretraining objective": "NA — not extracted",
       "Fine-tuning objective": "NA — not extracted",
       "Supervision": "NA — not extracted",
       "Pretraining datasets": "NA — not extracted",
-      "Training / evaluation datasets": "NA — not extracted",
+      "Training / evaluation datasets": "Bronzino et al. [12] video quality dataset for training; CAIDA Anonymized Internet Traces 2016 (20160121) from Equinix Chicago for evaluation. (Section 4.2; Section 5)",
       "Split strategy": "NA — not extracted",
-      "Evaluation setting": "NA — not extracted",
-      "Metrics": "NA — not extracted",
-      "Reported results": "Abstract: median accuracy improves 2.78%; packet loss reduced fourfold versus offline selection.",
+      "Evaluation setting": "Compared against Retina and CATO static configurations using TRex-generated CAIDA traffic; single Worker core except for multi-core scalability tests. (Section 5; Section 5.1)",
+      "Metrics": "Median Absolute Error (MAE) in ms for video quality; packet loss percentage; median accuracy. (Table 1; Section 5)",
+      "Reported results": "Cruise Control improves median task accuracy by 2.78% and reduces packet loss by a factor of four versus static models; video quality: 0.37% loss with m3 median accuracy; service recognition: 0.117% vs 0.343% loss for static m3. (Abstract; Section 5.1; Tables 4-5)",
       "Parameters": "NA — not extracted",
       "FLOPs": "NA — not extracted",
       "Latency": "NA — not extracted",
-      "Throughput": "NA — not extracted",
-      "Memory": "NA — not extracted",
+      "Throughput": "10 Gbps average with 1.1 MPPS for CAIDA trace; up to 3 Mcps (million connections/second) with 8 workers in worst-case new connection scenario. (Section 5; Table 6)",
+      "Memory": "384GiB DDR4 per server; thread-local hashmaps can cause memory exhaustion with many workers or long export windows. (Section 5; Section 5.3)",
       "Energy": "NA — not extracted",
       "Reproducibility": "NA — not extracted",
       "Leakage / shortcut risks": "NA — not extracted",
-      "Deployment limitations": "Two tasks do not establish reliability for every IDS workload.",
+      "Deployment limitations": "Feature export halts traffic processing for several seconds; thread-local hashmaps risk memory exhaustion; AMD CPUs preclude Intel DDIO; requires careful parameter calibration. (Section 3.2; Section 5; Section 5.3)",
       "Version notes": "First preprint December 2024; reviewed abstract v2 September 2025.",
-      "Measurement scope": "Two traffic-analysis tasks; these are relative system outcomes.",
-      "Hardware": "NA — not extracted",
+      "Measurement scope": "Packet loss rates, feature extraction throughput, and model accuracy; covers feature computation and export pipeline but not ML inference. (Section 5; Section 5.1)",
+      "Hardware": "Dual 16-core AMD EPYC 7343 CPUs, 100GbE Intel E810 NIC, 384GiB DDR4 per server; servers connected via 100GbE switch; TRex traffic generator. (Section 5)",
       "Batch size": "NA — not extracted"
     },
     "code": null,
-    "datasets": [],
+    "datasets": [
+      "caida"
+    ],
     "techniques": [
       "Adaptive model selection",
       "Resource-aware scheduling"
@@ -15514,7 +15717,9 @@
     "evidenceIds": [
       "e0362",
       "e0361",
-      "e0363"
+      "e0363",
+      "e0474",
+      "e0475"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -15630,15 +15835,25 @@
         "note": "Not established in the reviewed evidence. This is an evidence gap, not proof of absence from the paper."
       }
     },
-    "reviewDepth": "Metadata and abstract",
+    "reviewDepth": "Selected full-text sections",
     "task": "Traffic classification",
     "fieldEvidence": {
       "Research problem": "e0361",
-      "Architecture": "e0361",
-      "Reported results": "e0361",
-      "Deployment limitations": "e0363",
+      "Architecture": "e0474",
+      "Reported results": "e0474",
+      "Deployment limitations": "e0474",
       "Version notes": "e0361",
-      "Measurement scope": "e0361"
+      "Measurement scope": "e0474",
+      "Traffic unit definition": "e0474",
+      "Input representation": "e0474",
+      "Packets / bytes": "e0474",
+      "Preprocessing / anonymisation": "e0474",
+      "Training / evaluation datasets": "e0474",
+      "Metrics": "e0474",
+      "Hardware": "e0474",
+      "Throughput": "e0474",
+      "Memory": "e0474",
+      "Evaluation setting": "e0474"
     },
     "doi": null,
     "arxivId": "2412.15146"
@@ -15928,7 +16143,7 @@
       "e0368",
       "e0367",
       "e0369",
-      "e0490"
+      "e0510"
     ],
     "gaps": {
       "Cross-dataset validation": {
@@ -16040,7 +16255,7 @@
         "state": "Partially addressed",
         "note": "An artifact is linked; completeness, checkpoints and successful execution have not all been verified.",
         "evidence": [
-          "e0490"
+          "e0510"
         ]
       }
     },

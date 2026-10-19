@@ -401,6 +401,7 @@ from author_expansion import expand
 expand(P,E,D,A,meta,add,detail,rel,gapstate,prof,profiles)
 from fulltext_2026_10_19 import extract as extract_2026_10_19;extract_2026_10_19(detail)  # Task 13: corpus/ PDFs
 from fulltext_2026_10_19b import extract as extract_2026_10_19b;extract_2026_10_19b(detail,P,D)  # Task 21: discovery papers, model drafts checked by Claude
+from fulltext_2026_10_19c import extract as extract_2026_10_19c;extract_2026_10_19c(detail,P,D)  # Task 22: 12 abstract-only papers, same pipeline
 # Link every full-text field to its record. Generic abstract/bibliography records give way;
 # a field already tied to another full-text record (e.g. a comparison extraction) keeps it.
 for e,(pid,keys) in DETAIL_RECORDS.items():
@@ -492,6 +493,9 @@ for p in P:
 _fp='85.12M parameters, 450 MB model (paper); its ET-BERT comparator has 132.13M.'
 curator_fix('flowmae','Parameters',_fp,text='Flow-MAE contains 85.12M parameters and a model size of 450 MB. The paper reports 132.13M parameters for its ET-BERT comparator.',
     url=next(p for p in P if p['id']=='flowmae')['url'],locator='Section 4.1.1; Section 4.3 efficiency comparison',accessed='2026-10-19')
+# Task 22: Leo's latency is in the full text (the comparison record had only the official abstract).
+_lt='About 500 ns to apply a 1024-leaf tree per packet; on average 500× faster than the same decision-tree class in the control plane.'
+curator_fix('leo','Latency',_lt,text=_lt,url=next(p for p in P if p['id']=='leo')['url'],locator='Section 7.4; Figure 23',accessed='2026-10-19')
 # Task 10 (user, 2026-10-18): link each paper to the corpus paper that introduced a collection it evaluates on.
 # The source is the paper's own dataset record; three papers without one were located in corpus/ PDFs.
 # FlowPic replication is skipped: it considers ISCX-VPN/Tor but discards them after preliminary checks (Section 3.3).
@@ -499,6 +503,7 @@ curator_fix('flowmae','Parameters',_fp,text='Flow-MAE contains 85.12M parameters
 USE_LOC={'deeppacket':'Section 4.1','miniflowpic':'Section 3.1.2','sugar':'Section 4.1'}
 USE_LOC.update({pid:'Abstract' for pid in DISCOVERY_NEW})  # dataset named in the abstract
 from fulltext_2026_10_19b import DATASETS as _FT_DS;USE_LOC.update({pid:loc for pid,(_,loc) in _FT_DS.items()})  # Task 21: named in the full text
+from fulltext_2026_10_19c import DATASETS as _FT_DS2;USE_LOC.update({pid:loc for pid,(_,loc) in _FT_DS2.items()})  # Task 22
 USE_URL={'labelprovenance':'https://arxiv.org/html/2609.02140v1'}  # same source as its existing audit edges
 EVI={e['id']:e for e in E};PID={p['id']:p for p in P}
 for d in D:
