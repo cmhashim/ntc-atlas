@@ -395,6 +395,7 @@ COMPARISON_RECORDS=set(DETAIL_RECORDS)-_before
 DATE='2026-09-23'
 from author_expansion import expand
 expand(P,E,D,A,meta,add,detail,rel,gapstate,prof,profiles)
+from fulltext_2026_10_19 import extract as extract_2026_10_19;extract_2026_10_19(detail)  # Task 13: corpus/ PDFs
 # Link every full-text field to its record. Generic abstract/bibliography records give way;
 # a field already tied to another full-text record (e.g. a comparison extraction) keeps it.
 for e,(pid,keys) in DETAIL_RECORDS.items():
