@@ -1,6 +1,6 @@
 'use client';
 import {useCallback,useEffect,useMemo,useState} from 'react';
-import {Compass,Search,SlidersHorizontal,Sun,Moon,Link2,X,ArrowRight,Network,Clock3,Layers3,Columns3,Database,Users,Grid2X2,BookOpen,Library,Info,Check} from 'lucide-react';
+import {Compass,Search,SlidersHorizontal,Sun,Moon,Link2,X,ArrowRight,Network,Clock3,Layers3,Columns3,Database,Users,Grid2X2,BookOpen,Library,Info,Check,Scale} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import {Tabs,TabsList,TabsTrigger,TabsContent} from '@/components/ui/tabs';
@@ -11,12 +11,13 @@ import {InfluenceGraph} from './graph';
 import {PaperTable,Comparison,PaperDetail} from './papers';
 import {AuthorsView,DatasetsView,Techniques,GapMatrix} from './collections';
 import {ResearchBriefings} from './briefings';
+import {ResultsView} from './results';
 import {HistoryView,Methodology,References} from './context';
 import {useResearchTools} from './research-tools';
 import {papers,meta,emptyFilters,filterKeys,filterLabels,filterPapers,parseFilters,serializeFilters,options,paperById,authorById,datasetById,type Filters,type FilterKey} from '@/lib/corpus';
 import {withBase} from '@/lib/base-path';
 import {CuratorLinks} from './curator';
-const views=[['timeline','Timeline',Clock3],['graph','Connections',Network],['techniques','Techniques',Layers3],['compare','Compare',Columns3],['datasets','Datasets',Database],['authors','Authors',Users],['gaps','Research gaps',Grid2X2],['history','Field history',BookOpen],['references','References',Library],['about','Methodology',Info],['outlook','Research briefings',BookOpen]] as const;
+const views=[['timeline','Timeline',Clock3],['graph','Connections',Network],['techniques','Techniques',Layers3],['compare','Compare',Columns3],['results','Comparable results',Scale],['datasets','Datasets',Database],['authors','Authors',Users],['gaps','Research gaps',Grid2X2],['history','Field history',BookOpen],['references','References',Library],['about','Methodology',Info],['outlook','Research briefings',BookOpen]] as const;
 export default function Atlas(){
  const [filters,setFilters]=useState<Filters>({...emptyFilters});const [tab,setTab]=useState('timeline');const [selected,setSelected]=useState<string[]>([]);const [paper,setPaper]=useState<string|null>(null);const [gap,setGap]=useState<string|null>(null);const [advanced,setAdvanced]=useState(false);const [theme,setTheme]=useState('light');const [ready,setReady]=useState(false);const [copied,setCopied]=useState(false);const [focus,setFocus]=useState('etbert');const [win,setWin]=useState<[number,number]>(timelineDefault);const [dataset,setDataset]=useState('iscxvpn');const [author,setAuthor]=useState(()=>Object.values(authorById).sort((a,b)=>b.papers.length-a.papers.length||a.name.localeCompare(b.name))[0].id);
  const filtered=useMemo(()=>filterPapers(filters),[filters]);
@@ -42,6 +43,7 @@ export default function Atlas(){
    <TabsContent value="graph"><InfluenceGraph papers={filtered} focus={focus} setFocus={setFocus} onOpen={openPaper}/></TabsContent>
    <TabsContent value="techniques"><Techniques papers={filtered} onOpen={openPaper} onFilter={technique=>{setFilters({...filters,technique});setTab('timeline');}}/></TabsContent>
    <TabsContent value="compare"><Comparison selected={selected} toggle={toggle} onOpen={openPaper}/><PaperTable papers={filtered} selected={selected} toggle={toggle} onOpen={openPaper}/></TabsContent>
+   <TabsContent value="results"><ResultsView papers={filtered} onOpen={openPaper}/></TabsContent>
    <TabsContent value="datasets"><DatasetsView selected={dataset} setSelected={setDataset} onOpen={openPaper} onFilter={id=>{setFilters({...emptyFilters,dataset:id});setTab('timeline');}}/></TabsContent>
    <TabsContent value="authors"><AuthorsView selected={author} setSelected={setAuthor} onOpen={openPaper} onFilter={id=>{setFilters({...emptyFilters,author:id});setFocus(authorById[id].papers[0]);setTab('timeline');}}/></TabsContent>
    <TabsContent value="gaps"><GapMatrix key={filtered.map(p=>p.id).join(',')} papers={filtered} onOpen={(id,g)=>{setPaper(id);setGap(g);}}/></TabsContent>

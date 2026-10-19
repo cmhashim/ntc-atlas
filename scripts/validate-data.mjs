@@ -6,6 +6,15 @@ const unique=(arr,key)=>{assert.equal(new Set(arr.map(x=>x[key])).size,arr.lengt
 for(const arr of [papers,authors,datasets,evidence,edges])unique(arr,'id');
 unique(papers,'url');unique(papers,'title');unique(authors,'name');
 const ids=new Set(papers.map(p=>p.id)),eids=new Set(evidence.map(e=>e.id)),dids=new Set(datasets.map(d=>d.id));
+// Structured results (Comparable results view): known papers and datasets, closed vocabularies, 0-100 values.
+const results=read('results');unique(results,'id');assert.equal(meta.resultCount,results.length,'meta.resultCount is stale');
+for(const r of results){
+ assert(ids.has(r.paper),`Result ${r.id}: unknown paper ${r.paper}`);assert(dids.has(r.dataset),`Result ${r.id}: unknown dataset ${r.dataset}`);
+ assert(['accuracy','F1','precision','recall','AUROC'].includes(r.metric),`Result ${r.id}: metric ${r.metric}`);
+ assert(r.averaging===null||['macro','weighted','micro'].includes(r.averaging),`Result ${r.id}: averaging ${r.averaging}`);
+ assert(typeof r.value==='number'&&r.value>=0&&r.value<=100,`Result ${r.id}: value ${r.value}`);
+ assert(r.locator&&r.quote,`Result ${r.id}: locator and quote required`);
+}
 for(const p of papers){
  assert(p.year>=2004&&p.year<=2026);assert(p.authors.length);assert(/^https:\/\//.test(p.url));
  assert.equal(Object.keys(p.gaps).length,16);assert(p.evidenceIds.length>=3);

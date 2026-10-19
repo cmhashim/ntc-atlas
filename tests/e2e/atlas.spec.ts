@@ -111,3 +111,25 @@ test('mobile viewport has no horizontal page scroll', async ({ browser }) => {
   expect(overflow).toBeLessThanOrEqual(0);
   await context.close();
 });
+
+test('comparable results view groups results from several papers', async ({ page }) => {
+  await page.goto('/?view=results');
+  await expect(page.getByRole('heading', { name: 'Reported results that can be compared' })).toBeVisible();
+  const note = page.locator('.results-panel .section-note');
+  await expect(note).toContainText('from two or more papers');
+  await expect(page.locator('.results-panel > .results-group').first()).toBeVisible();
+  const before = await note.textContent();
+  await page.getByRole('combobox', { name: 'Metric' }).click();
+  await page.getByRole('option', { name: 'accuracy' }).click();
+  await expect(note).not.toHaveText(before ?? '');
+});
+
+test('comparable results view has no horizontal page scroll at 390 px', async ({ browser }) => {
+  const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const page = await context.newPage();
+  await page.goto('/?view=results');
+  await expect(page.locator('.results-panel .section-note')).toBeVisible();
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  expect(overflow).toBeLessThanOrEqual(0);
+  await context.close();
+});

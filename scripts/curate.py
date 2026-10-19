@@ -542,6 +542,36 @@ for rec in E:
     if rec['sourceType']=='Original paper' and 'github.com' in rec['sourceUrl']:rec['sourceType']='Official artifact'
     if rec['sourceType']=='Original paper' and 'unb.ca/cic/datasets' in rec['sourceUrl']:rec['sourceType']='Dataset source'
 meta['relationshipCount']=len(R)
+# Task 25: structured results for the Comparable results view (curation/results.json, reviewed).
+_res=json.loads((ROOT/'curation/results.json').read_text());_pids={p['id']:p for p in P};_dids={d['id'] for d in D}
+def setting_class(text,task=''):
+    # Classification level (whole flows vs single packets) is a different task: keep it in the class.
+    t=((text or '')+' '+(task or '')).strip().lower()
+    lvl=', packet-level' if re.search(r'packet-level|packet classification|\bpkt\b',t) else ', flow-level' if re.search(r'flow-level|flow classification',t) else ''
+    return _setting_class(text)+lvl
+def _setting_class(text):
+    # Comparable results: map the paper's own wording to a small vocabulary; unknown wording stays distinct.
+    t=(text or '').strip().lower()
+    sub=next((x for x in ['iscx-nonvpn','iscx-vpn','iscx-nontor','iscx-tor'] if x in t),None)
+    sub=f' ({sub})' if sub else ''
+    if not t or re.fullmatch(r"(android|ios|cross platform \(average\)|iscx-nonvpn|iscx-vpn|iscx-nontor|iscx-tor)?[;,]? *((flow|packet)-level)?( fine-tuning)?[;,]? *(android|ios)?",t) or t in ('fine-tuned','pre-trained; fine-tuned','pretrained','pre-trained and fine-tuned','pre-trained and fine-tuned; within-dataset, closed-set'):
+        return 'standard'+sub
+    if 'unfrozen' in t: return 'fine-tuned encoder'+sub
+    if 'frozen' in t:
+        m=re.search(r'few-shot (\d+)',t);return ('frozen encoder, few-shot '+m.group(1) if m else 'frozen encoder')+sub
+    m=re.search(r'few-shot (\d+)|(\d+)-?shot',t)
+    if m: return 'few-shot '+(m.group(1) or m.group(2))+sub
+    if re.search(r'without pre-?training|no traffic pre-?training|from scratch',t): return 'no pretraining'+sub
+    if re.search(r'replayed|θ\d|cross-network|network shift',t): return 'network shift: '+t
+    if re.search(r'time-ordered|temporal|drift|week',t): return 'temporal shift: '+t
+    if re.search(r'open-set|unknown',t): return 'open-set: '+t
+    return 'specific: '+t
+RES=[]
+for i,r in enumerate(_res['rows'],1):
+    if r['paper'] not in _pids or r['dataset'] not in _dids: raise SystemExit(f"results.json: unknown paper or dataset in row {i}: {r['paper']} / {r['dataset']}")
+    RES.append(dict(id=f'res{i:04d}',**r,settingClass=setting_class(r['setting'],r['task']),sourceUrl=_pids[r['paper']]['url']))
+meta['resultCount']=len(RES)
+(ROOT/'public/data/results.json').write_text(json.dumps(RES,ensure_ascii=False,separators=(',',':'))+'\n')
 for name,obj in [('papers',P),('authors',A),('datasets',D),('relationships',R),('evidence',E),('meta',meta)]:
     (ROOT/'public/data'/f'{name}.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:meta[k] for k in ['paperCount','datasetCount','authorCount','resolvedAuthorCount','relationshipCount']}))

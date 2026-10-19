@@ -73,3 +73,5 @@
 *,::before,::after{border-color:var(--border)}[data-slot=button],[data-slot=select-trigger],[data-slot=input]{border-color:var(--input)}
 footer>a{color:var(--primary);text-decoration:none}footer>a:hover{text-decoration:underline}
 .paper-identifiers{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin:0 0 1rem}.paper-identifiers a{color:var(--primary);text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
+/* Comparable results view */
+.results-group{margin-top:1.25rem}.results-group h3{margin:0 0 .15rem;font-size:1rem}.results-table{max-width:100%;overflow-x:auto}.results-value{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.results-role{margin-left:.4rem;font-size:.68rem}.results-more{margin-top:1.25rem}.results-more>summary{cursor:pointer;font-weight:600}
