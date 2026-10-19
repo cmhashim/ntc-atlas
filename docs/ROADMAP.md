@@ -53,7 +53,7 @@ Currently: **64** of 81 papers are reviewed from metadata and abstract only; **1
 
 - [ ] Strengthen `scripts/validate-data.mjs`: duplicate DOI/arXiv, normalised-title duplicates, reciprocal author and dataset links, edges without evidence, placeholder text marked verified, unqualified NA, invalid URLs, stale README counts.
 - [ ] Playwright tests in CI: query-string navigation, search and filters, sorting and pagination, comparison, author profile links, exports (CSV/JSON/BibTeX), one graph, mobile layout.
-- [ ] Weekly discovery workflow (Crossref, OpenAlex, arXiv, DBLP) that opens one review issue; nothing enters `public/data/` without human verification. Document it in `docs/MAINTENANCE.md`.
+- [x] Weekly discovery workflow (Crossref, OpenAlex, arXiv) that opens one review issue; nothing enters `public/data/` without human verification. Document it in `docs/MAINTENANCE.md`.
 - [ ] Fix the tab row: the last tab is clipped at 1440 px width; make it scroll or wrap visibly.
 - [ ] Add a `404.html` so mistyped data URLs return an error instead of the home page.
 - [ ] Split the 500 kB+ JavaScript chunk (load graph views on demand).

@@ -131,6 +131,8 @@ Cite the original papers for any result you take from the atlas.
 
 Suggestions for papers, metadata corrections and author identity fixes are welcome. Please use the issue forms and read [CONTRIBUTING.md](CONTRIBUTING.md) first. Every change needs a primary source.
 
+Maintainers: see [docs/MAINTENANCE.md](docs/MAINTENANCE.md) for the weekly discovery review and recurring upkeep.
+
 ## Licence
 
 - **Code:** MIT, see [LICENSE](LICENSE).
