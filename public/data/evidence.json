@@ -652,12 +652,12 @@
     "id": "e0060",
     "paperId": "etbert",
     "category": "Curator interpretation",
-    "text": "Later controlled experiments identify split-dependent shortcut behaviour; see the linked criticism. Open question: Capture-disjoint transfer, calibrated confidence and end-to-end serving cost.",
+    "text": "Open question: Capture-disjoint transfer, calibrated confidence and end-to-end serving cost.",
     "sourceUrl": "https://arxiv.org/abs/2202.06335",
     "sourceType": "Original paper",
     "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
     "status": "Needs verification",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-19"
   },
   {
     "id": "e0061",
@@ -685,12 +685,12 @@
     "id": "e0063",
     "paperId": "miniflowpic",
     "category": "Curator interpretation",
-    "text": "A subsequent replication finds a performance drop under a human/script data shift. Open question: Determine which augmentations remain useful under realistic shifts.",
+    "text": "Open question: Determine which augmentations remain useful under realistic shifts.",
     "sourceUrl": "https://cris.tau.ac.il/en/publications/a-few-shots-traffic-classification-with-mini-flowpic-augmentation/",
     "sourceType": "Original paper",
     "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
     "status": "Needs verification",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-19"
   },
   {
     "id": "e0064",
@@ -916,12 +916,12 @@
     "id": "e0084",
     "paperId": "netfound",
     "category": "Curator interpretation",
-    "text": "Earlier critiques and older checkpoints refer to older versions and cannot be treated as tests of v5. Open question: Independent validation of the revised model and published pretraining corpus.",
+    "text": "Open question: Independent validation of the revised model and published pretraining corpus.",
     "sourceUrl": "https://arxiv.org/abs/2310.17025v5",
     "sourceType": "Original paper",
     "locator": "Scope of the reviewed abstract; not an independently reproduced finding",
     "status": "Needs verification",
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-19"
   },
   {
     "id": "e0085",
@@ -4541,5 +4541,16 @@
     "locator": "Table IV; Sections VIII-H–J",
     "status": "Verified",
     "accessed": "2026-10-18"
+  },
+  {
+    "id": "e0414",
+    "paperId": "miniflowpic",
+    "category": "Later criticism",
+    "text": "Finamore et al. reproduce the study and confirm most results, but find an accuracy drop of about 20% on the UCDAVIS19 human test partition. They trace it to a data shift between the human partition and the script and pretraining partitions.",
+    "sourceUrl": "https://arxiv.org/abs/2309.09733",
+    "sourceType": "Original paper",
+    "locator": "Abstract; Sections 4.2.2–4.2.3; Table 4; Figures 3–4; Appendix D",
+    "status": "Verified",
+    "accessed": "2026-10-19"
   }
 ]

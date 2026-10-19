@@ -478,6 +478,15 @@ for e in COMPARISON_RECORDS:
     pid,orig=DETAIL_RECORDS[e];fe=PID[pid]['fieldEvidence']
     EVI[e]['text']='; '.join(k+': '+v for k,v in orig.items() if fe.get(k)==e)
 
+# Task 12 (user, 2026-10-19): a curator record cites this paper's abstract, so it keeps only the
+# curator's open question. The later paper's finding is shown by its own Later criticism record.
+for pid in ['etbert','miniflowpic','netfound']:
+    rec=next(EVI[x] for x in PID[pid]['evidenceIds'] if EVI[x]['category']=='Curator interpretation' and ' Open question: ' in EVI[x]['text'])
+    rec['text']='Open question: '+rec['text'].split(' Open question: ',1)[1];rec['accessed']='2026-10-19'
+# mini-FlowPic had no record of its own for the replication finding; it gets one that cites the replication.
+_mf=evidence('miniflowpic','Later criticism','Finamore et al. reproduce the study and confirm most results, but find an accuracy drop of about 20% on the UCDAVIS19 human test partition. They trace it to a data shift between the human partition and the script and pretraining partitions.','https://arxiv.org/abs/2309.09733','Abstract; Sections 4.2.2–4.2.3; Table 4; Figures 3–4; Appendix D')
+PID['miniflowpic']['evidenceIds'].append(_mf);EVI[_mf]=E[-1];E[-1]['accessed']='2026-10-19'
+
 for rec in E:
     # Field lists: values keep their own sentences, but '.;' joins read as typos.
     rec['text']=rec['text'].replace('.; ','; ')
