@@ -20,6 +20,7 @@
       "miniflowpic",
       "yatc",
       "replication",
+      "netgpt",
       "netmamba",
       "lens",
       "netbench",
@@ -28,6 +29,7 @@
       "sugar",
       "simple",
       "netmambaplus",
+      "rosetta",
       "shortcutcatcher",
       "biasseeker",
       "netagent",
@@ -39,6 +41,8 @@
       "dpft",
       "netcofi",
       "labelprovenance",
+      "genericmae",
+      "ptu",
       "meanmae"
     ],
     "evidence": "e0225",
@@ -103,6 +107,7 @@
       "etbert",
       "yatc",
       "flowmae",
+      "netgpt",
       "netmamba",
       "lens",
       "netbench",
@@ -117,6 +122,7 @@
       "dpft",
       "netcofi",
       "labelprovenance",
+      "ptu",
       "meanmae"
     ],
     "evidence": "e0227",
@@ -138,6 +144,7 @@
     "preprocessing": "CICFlowMeter features; distinguish original and corrected versions.",
     "papers": [
       "cicissues",
+      "pragmatic",
       "leo",
       "demystifying",
       "simple",
@@ -187,6 +194,7 @@
       "netmamba",
       "netmambaplus",
       "biasseeker",
+      "ptu",
       "meanmae"
     ],
     "evidence": "e0230",
@@ -217,6 +225,7 @@
       "demystifying",
       "biasseeker",
       "labelprovenance",
+      "ptu",
       "meanmae"
     ],
     "evidence": "e0231",
@@ -253,6 +262,7 @@
       "netcofi",
       "lim",
       "labelprovenance",
+      "ptu",
       "meanmae"
     ],
     "evidence": "e0232",
@@ -280,6 +290,9 @@
       "replication",
       "simple",
       "labelprovenance",
+      "trafficaugmentation",
+      "genericmae",
+      "memento",
       "cilbenchmark",
       "manyfew"
     ],
@@ -302,7 +315,8 @@
     "preprocessing": "tcbench evaluation uses flowpic representations.",
     "papers": [
       "replication",
-      "simple"
+      "simple",
+      "trafficaugmentation"
     ],
     "evidence": "e0234",
     "status": "Verified",
@@ -406,7 +420,9 @@
     "labels": "Scenario and flow activity labels.",
     "caveats": "Curator: retain scenario boundaries and distinguish device identity from attack behaviour.",
     "preprocessing": "Zeek logs or raw PCAP processing.",
-    "papers": [],
+    "papers": [
+      "jewel"
+    ],
     "evidence": "e0239",
     "status": "Verified",
     "caveatEvidence": []
@@ -425,6 +441,7 @@
     "caveats": "Curator: preserve scenario boundaries; old malware does not represent all modern attacks.",
     "preprocessing": "Biflow extraction.",
     "papers": [
+      "pragmatic",
       "netcofi"
     ],
     "evidence": "e0240",

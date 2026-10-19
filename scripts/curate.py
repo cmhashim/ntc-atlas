@@ -402,6 +402,7 @@ expand(P,E,D,A,meta,add,detail,rel,gapstate,prof,profiles)
 from fulltext_2026_10_19 import extract as extract_2026_10_19;extract_2026_10_19(detail)  # Task 13: corpus/ PDFs
 from fulltext_2026_10_19b import extract as extract_2026_10_19b;extract_2026_10_19b(detail,P,D)  # Task 21: discovery papers, model drafts checked by Claude
 from fulltext_2026_10_19c import extract as extract_2026_10_19c;extract_2026_10_19c(detail,P,D)  # Task 22: 12 abstract-only papers, same pipeline
+from fulltext_2026_10_19d import extract as extract_2026_10_19d;extract_2026_10_19d(detail,P,D)  # Task 23
 # Link every full-text field to its record. Generic abstract/bibliography records give way;
 # a field already tied to another full-text record (e.g. a comparison extraction) keeps it.
 for e,(pid,keys) in DETAIL_RECORDS.items():
@@ -504,6 +505,7 @@ USE_LOC={'deeppacket':'Section 4.1','miniflowpic':'Section 3.1.2','sugar':'Secti
 USE_LOC.update({pid:'Abstract' for pid in DISCOVERY_NEW})  # dataset named in the abstract
 from fulltext_2026_10_19b import DATASETS as _FT_DS;USE_LOC.update({pid:loc for pid,(_,loc) in _FT_DS.items()})  # Task 21: named in the full text
 from fulltext_2026_10_19c import DATASETS as _FT_DS2;USE_LOC.update({pid:loc for pid,(_,loc) in _FT_DS2.items()})  # Task 22
+from fulltext_2026_10_19d import DATASETS as _FT_DS3;USE_LOC.update({pid:loc for pid,(_,loc) in _FT_DS3.items()})  # Task 23
 USE_URL={'labelprovenance':'https://arxiv.org/html/2609.02140v1'}  # same source as its existing audit edges
 EVI={e['id']:e for e in E};PID={p['id']:p for p in P}
 for d in D:
