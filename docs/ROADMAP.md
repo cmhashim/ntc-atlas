@@ -31,9 +31,10 @@ Currently: 81 papers, all bibliographically verified, **all** with technical sta
 
 ## P2. Technical extraction (what researchers come for)
 
-Currently: **64** of 81 papers are reviewed from metadata and abstract only; **1,868** comparison fields read "NA — not extracted".
+Currently (2026-10-19): **2** of 93 papers are reviewed from metadata and abstract only (the two 2026 surveys); **1,445** comparison fields still read "NA — not extracted", mostly the per-input fields (payload, header, timing, direction, packet length) that the full-text passes did not target.
 
-- [ ] Full-text extraction for the most-used models first (ET-BERT, YaTC, NetMamba, NetMamba+, TrafficFormer, netFound, PERT, Flow-MAE), then all 2025-2026 papers.
+- [x] Full-text extraction for every non-survey paper (2026-10-19: model drafts with verbatim quotes, every number checked against the PDF; see scripts/fulltext_2026_10_19*.py).
+- [ ] Second pass for the per-input fields (payload, header, timing, direction, packet length) and the class counts per task.
 - [ ] Priority fields: datasets with version, split unit, class count, metric, reported result, throughput/latency with hardware and scope, open-world and cross-dataset setup.
 - [ ] Pretraining/evaluation overlap: record which datasets each pretrained model saw, and flag evaluations on the same data (possible leakage).
 - [ ] Each extracted value keeps unit, scope and locator; offline inference rates are never shown as live throughput.
