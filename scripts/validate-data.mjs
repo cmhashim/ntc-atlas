@@ -15,6 +15,12 @@ for(const p of papers){
  for(const g of Object.values(p.gaps)){assert(['Addressed','Partially addressed','Not addressed/not reported'].includes(g.state));assert(g.note);assert(g.evidence.length);for(const id of g.evidence)assert(eids.has(id));}
  for(const name of p.authors)assert(authors.some(a=>a.name===name&&a.papers.includes(p.id)),`Missing author ${name}`);
 }
+const doiSeen=new Map(),arxivSeen=new Map();
+for(const p of papers){
+ assert(p.doi===null||typeof p.doi==='string',`doi must be a string or null: ${p.id}`);assert(p.arxivId===null||typeof p.arxivId==='string',`arxivId must be a string or null: ${p.id}`);
+ if(p.doi!==null){assert(/^10\.\d{4,9}\/\S+$/.test(p.doi),`Malformed DOI: ${p.id}`);const k=p.doi.toLowerCase();assert(!doiSeen.has(k),`DOI shared by ${doiSeen.get(k)} and ${p.id}`);doiSeen.set(k,p.id);}
+ if(p.arxivId!==null){assert(/^(\d{4}\.\d{4,5}|[a-z-]+(\.[A-Z]{2})?\/\d{7})$/.test(p.arxivId),`Malformed arXiv id (bare, no version): ${p.id}`);assert(!arxivSeen.has(p.arxivId),`arXiv id shared by ${arxivSeen.get(p.arxivId)} and ${p.id}`);arxivSeen.set(p.arxivId,p.id);}
+}
 for(const a of authors){assert(a.papers.length,`Author without a relevant publication: ${a.name}`);for(const id of a.papers)assert(papers.some(p=>p.id===id&&p.authors.includes(a.name)),`Unsupported authorship: ${a.name}`);}
 for(const d of datasets)for(const id of d.papers){assert(ids.has(id));assert(papers.find(p=>p.id===id).datasets.includes(d.id));}
 for(const d of datasets)if(d.introducedBy){const x=d.introducedBy;assert(eids.has(x.evidence),`Unknown introducer evidence ${d.id}`);assert(x.paper?ids.has(x.paper):x.citation,`Introducer of ${d.id} needs a known paper or a citation`);}

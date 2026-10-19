@@ -428,6 +428,12 @@ author_ids={a['id'] for a in A}
 for aid,links in json.loads((ROOT/'curation/author-identities.json').read_text()).items():
     if aid not in author_ids: raise SystemExit(f'author-identities.json: unknown author {aid}')
     next(a for a in A if a['id']==aid).update(links)
+# Explicit identifiers (DOI, arXiv id) live in one reviewed file; null means no confident match.
+paper_ids={p['id'] for p in P}
+ident=json.loads((ROOT/'curation/identifiers.json').read_text())
+for pid in ident:
+    if pid not in paper_ids: raise SystemExit(f'identifiers.json: unknown paper {pid}')
+for p in P: p.update(doi=ident.get(p['id'],{}).get('doi'),arxivId=ident.get(p['id'],{}).get('arxivId'))
 # Curator pomodoro corrections (ntc-atlas/todo/task_log.md). Each names its source.
 def curator_fix(pid,field,value,eid=None,**new):
     p=next(p for p in P if p['id']==pid);p['details'][field]=value
