@@ -50,6 +50,53 @@ assert(xiaohui.scholarUrl?.includes('j0yTuxoAAAAJ'));
 assert(xiaohui.publicationsUrl?.startsWith('https://thuxiexiaohui.github.io/'));
 const provenance=read('label-provenance');assert(ids.has(provenance.paperId));
 for(const row of provenance.datasets){assert(dids.has(row.id));assert(row.assignment&&row.evidence&&row.evidenceUnit&&row.semanticObject);}
+
+// ---- Extended integrity checks -------------------------------------------------
+// Each check returns a list of problem messages. A check listed in WARN_ONLY prints its
+// problems as warnings and does not fail the build; every other check is fatal.
+const WARN_ONLY=new Set(['verified-evidence-placeholders']); // real data problems found 2026-10-19 (e0178, e0230); promote to fatal once fixed
+const problems=[];const warnings=[];
+const check=(name,fn)=>{const found=fn();if(!found.length)return;(WARN_ONLY.has(name)?warnings:problems).push({name,found});};
+const isHttpUrl=v=>{try{const u=new URL(v);return u.protocol==='https:'||u.protocol==='http:';}catch{return false;}};
+const normTitle=t=>t.normalize('NFKD').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const walkStrings=(v,pathStr,fn)=>{if(typeof v==='string')fn(v,pathStr);else if(Array.isArray(v))v.forEach((x,i)=>walkStrings(x,`${pathStr}[${i}]`,fn));else if(v&&typeof v==='object')for(const [k,x] of Object.entries(v))walkStrings(x,`${pathStr}.${k}`,fn);};
+
+check('relationship-evidence-id',()=>edges.filter(r=>!r.evidenceId||!eids.has(r.evidenceId)).map(r=>`relationship ${r.id} (${r.source} -> ${r.target}) has missing or unknown evidenceId "${r.evidenceId}"`));
+
+check('evidence-references',()=>{const out=[];const need=(owner,id)=>{if(!eids.has(id))out.push(`${owner} references unknown evidence id "${id}"`);};
+ for(const p of papers){p.evidenceIds.forEach(id=>need(`paper ${p.id} evidenceIds`,id));for(const [f,id] of Object.entries(p.fieldEvidence||{}))need(`paper ${p.id} fieldEvidence.${f}`,id);for(const [g,v] of Object.entries(p.gaps))v.evidence.forEach(id=>need(`paper ${p.id} gap "${g}"`,id));}
+ for(const r of edges)need(`relationship ${r.id}`,r.evidenceId);
+ for(const d of datasets){if(d.introducedBy)need(`dataset ${d.id} introducedBy`,d.introducedBy.evidence);(d.caveatEvidence||[]).forEach(id=>need(`dataset ${d.id} caveatEvidence`,id));if(d.evidence)need(`dataset ${d.id} evidence`,d.evidence);}
+ return out;});
+
+check('qualified-NA',()=>{const out=[];const bad=v=>/^NA\b/.test(v.trim())&&!/^NA — \S/.test(v.trim());
+ const scan=(owner,obj)=>walkStrings(obj,owner,(v,where)=>{if(bad(v))out.push(`${where}: unqualified NA "${v.length>60?v.slice(0,60)+'…':v}" (use "NA — <reason>")`);});
+ for(const p of papers)scan(`paper ${p.id}`,{details:p.details,code:p.code,openWorld:p.openWorld,crossDataset:p.crossDataset,deployment:p.deployment,reproducibility:p.reproducibility,pretraining:p.pretraining,encrypted:p.encrypted,payload:p.payload});
+ for(const d of datasets)scan(`dataset ${d.id}`,d);for(const a of authors)scan(`author ${a.id}`,a);return out;});
+
+check('url-fields',()=>{const out=[];const test=(owner,field,v)=>{if(v!=null&&v!==''&&!isHttpUrl(v))out.push(`${owner}.${field} is not a valid http(s) URL: "${v}"`);};
+ for(const p of papers){test(`paper ${p.id}`,'url',p.url);test(`paper ${p.id}`,'code',p.code);}
+ for(const d of datasets)test(`dataset ${d.id}`,'url',d.url);
+ for(const e of evidence)test(`evidence ${e.id}`,'sourceUrl',e.sourceUrl);
+ for(const a of authors)for(const f of ['scholarUrl','homepageUrl','publicationsUrl','sourceUrl','profile'])test(`author ${a.id}`,f,a[f]);
+ return out;});
+
+check('duplicate-titles',()=>{const seen=new Map(),out=[];for(const p of papers){const k=normTitle(p.title);if(seen.has(k))out.push(`papers ${seen.get(k)} and ${p.id} have the same normalised title "${k}"`);else seen.set(k,p.id);}return out;});
+
+check('author-paper-reciprocity',()=>{const out=[];const byName=new Map(authors.map(a=>[a.name,a]));
+ for(const p of papers)for(const name of p.authors){const a=byName.get(name);if(!a)out.push(`paper ${p.id} lists author "${name}" who has no author record`);else if(!a.papers.includes(p.id))out.push(`paper ${p.id} lists "${name}" but author ${a.id}.papers does not list the paper`);}
+ for(const a of authors)for(const id of a.papers){const p=papers.find(p=>p.id===id);if(!p)out.push(`author ${a.id} lists unknown paper ${id}`);else if(!p.authors.includes(a.name))out.push(`author ${a.id} lists paper ${id} whose byline does not include "${a.name}"`);}
+ return out;});
+
+check('dataset-paper-reciprocity',()=>{const out=[];
+ for(const p of papers)for(const id of p.datasets){const d=datasets.find(d=>d.id===id);if(!d)out.push(`paper ${p.id} lists unknown dataset ${id}`);else if(!d.papers.includes(p.id))out.push(`paper ${p.id} lists dataset ${id} but dataset ${id}.papers does not list the paper`);}
+ for(const d of datasets)for(const id of d.papers){const p=papers.find(p=>p.id===id);if(!p)out.push(`dataset ${d.id} lists unknown paper ${id}`);else if(!p.datasets.includes(d.id))out.push(`dataset ${d.id} lists paper ${id} but paper ${id}.datasets does not list the dataset`);}
+ return out;});
+
+check('verified-evidence-placeholders',()=>evidence.filter(e=>e.status==='Verified'&&/needs verification|\bTODO\b|\bpending\b/i.test(e.text)).map(e=>`evidence ${e.id} is Verified but its text contains placeholder wording ("${(e.text.match(/needs verification|\bTODO\b|\bpending\b/i)||[''])[0]}")`));
+
+for(const w of warnings){console.warn(`WARN  [${w.name}] ${w.found.length} problem(s)`);for(const m of w.found.slice(0,10))console.warn(`  - ${m}`);if(w.found.length>10)console.warn(`  ... and ${w.found.length-10} more`);}
+if(problems.length){for(const w of problems){console.error(`ERROR [${w.name}] ${w.found.length} problem(s)`);for(const m of w.found.slice(0,20))console.error(`  - ${m}`);if(w.found.length>20)console.error(`  ... and ${w.found.length-20} more`);}process.exit(1);}
 const synthetic=Array.from({length:200},(_,i)=>({...papers[i%papers.length],id:`qa-only-${i}`}));
 const start=performance.now();for(let i=0;i<100;i++)synthetic.filter(p=>p.year>=2020&&p.techniques.includes('Transformers')).sort((a,b)=>a.year-b.year);
 console.log(JSON.stringify({result:'PASS',papers:papers.length,datasets:datasets.length,authors:authors.length,resolvedAffiliations:authors.filter(a=>a.status==='Verified').length,relationships:edges.length,evidence:evidence.length,stressRecords:200,filterSort100RunsMs:Math.round(performance.now()-start)},null,2));

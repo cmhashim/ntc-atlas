@@ -13,7 +13,8 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern out --ignore-pattern .next",
     "check": "node \"$npm_execpath\" run validate && node \"$npm_execpath\" run typecheck && node \"$npm_execpath\" run lint && node \"$npm_execpath\" run build",
-    "counts": "node scripts/readme-counts.mjs"
+    "counts": "node scripts/readme-counts.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
