@@ -192,7 +192,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1145/988672.988742",
+    "arxivId": null
   },
   {
     "id": "blinc",
@@ -387,7 +389,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1145/1080091.1080119",
+    "arxivId": null
   },
   {
     "id": "bayes",
@@ -584,7 +588,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Reported results": "e0157"
-    }
+    },
+    "doi": "10.1145/1071690.1064220",
+    "arxivId": null
   },
   {
     "id": "early",
@@ -779,7 +785,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1145/1368436.1368445",
+    "arxivId": null
   },
   {
     "id": "survey",
@@ -972,7 +980,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Survey",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1109/surv.2008.080406",
+    "arxivId": null
   },
   {
     "id": "appscanner",
@@ -1168,7 +1178,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1109/eurosp.2016.40",
+    "arxivId": null
   },
   {
     "id": "vpnfeatures",
@@ -1367,7 +1379,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.5220/0005740704070414",
+    "arxivId": null
   },
   {
     "id": "torfeatures",
@@ -1565,7 +1579,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.5220/0006105602530262",
+    "arxivId": null
   },
   {
     "id": "fsnet",
@@ -1767,7 +1783,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Parameters": "e0290"
-    }
+    },
+    "doi": "10.1109/infocom.2019.8737507",
+    "arxivId": null
   },
   {
     "id": "mimetic",
@@ -1964,7 +1982,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1016/j.comnet.2019.106944",
+    "arxivId": null
   },
   {
     "id": "deeppacket",
@@ -2164,7 +2184,9 @@
     "reviewDepth": "Metadata and abstract",
     "firstYear": 2017,
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1007/s00500-019-04030-2",
+    "arxivId": "1709.02656"
   },
   {
     "id": "deepmal",
@@ -2361,7 +2383,9 @@
     "reviewDepth": "Metadata and abstract",
     "firstYear": 2020,
     "task": "Malware classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1007/978-3-658-32182-6_16",
+    "arxivId": null
   },
   {
     "id": "flowprint",
@@ -2568,7 +2592,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Reported results": "e0158"
-    }
+    },
+    "doi": "10.14722/ndss.2020.24412",
+    "arxivId": null
   },
   {
     "id": "pert",
@@ -2782,7 +2808,9 @@
       "Metrics": "e0261",
       "Reported results": "e0261",
       "Hardware": "e0261"
-    }
+    },
+    "doi": "10.23919/ituk50268.2020.9303204",
+    "arxivId": null
   },
   {
     "id": "distiller",
@@ -2980,7 +3008,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1016/j.jnca.2021.102985",
+    "arxivId": null
   },
   {
     "id": "nprint",
@@ -3181,7 +3211,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Reported results": "e0159"
-    }
+    },
+    "doi": "10.1145/3460120.3484758",
+    "arxivId": "2008.02695"
   },
   {
     "id": "commercial",
@@ -3381,7 +3413,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Version notes": "e0428"
-    }
+    },
+    "doi": "10.1109/TNSM.2021.3122940",
+    "arxivId": "2104.03182"
   },
   {
     "id": "cicissues",
@@ -3579,7 +3613,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Dataset audit",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1109/spw53761.2021.00009",
+    "arxivId": null
   },
   {
     "id": "refinery",
@@ -3784,7 +3820,9 @@
       "Throughput": "e0160",
       "Measurement scope": "e0160",
       "Reported results": "e0160"
-    }
+    },
+    "doi": null,
+    "arxivId": "2010.14605"
   },
   {
     "id": "etbert",
@@ -4022,7 +4060,9 @@
       "Header": "e0174",
       "Direction": "e0174",
       "Reported results": "e0161"
-    }
+    },
+    "doi": "10.1145/3485447.3512217",
+    "arxivId": "2202.06335"
   },
   {
     "id": "miniflowpic",
@@ -4223,7 +4263,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1145/3517745.3561436",
+    "arxivId": null
   },
   {
     "id": "dodont",
@@ -4424,7 +4466,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Methodology",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": null,
+    "arxivId": "2010.09470"
   },
   {
     "id": "yatc",
@@ -4665,7 +4709,9 @@
       "Payload": "e0175",
       "Direction": "e0175",
       "Metrics": "e0427"
-    }
+    },
+    "doi": "10.1609/aaai.v37i4.25674",
+    "arxivId": null
   },
   {
     "id": "flowmae",
@@ -4884,7 +4930,9 @@
       "Deployment limitations": "e0178",
       "Reported results": "e0162",
       "Parameters": "e0432"
-    }
+    },
+    "doi": "10.1145/3607199.3607206",
+    "arxivId": null
   },
   {
     "id": "replication",
@@ -5094,7 +5142,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Reported results": "e0163"
-    }
+    },
+    "doi": "10.1145/3618257.3624820",
+    "arxivId": "2309.09733"
   },
   {
     "id": "pragmatic",
@@ -5290,7 +5340,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "IDS methodology",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1109/eurosp57164.2023.00042",
+    "arxivId": "2305.00550"
   },
   {
     "id": "netgpt",
@@ -5488,7 +5540,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": null,
+    "arxivId": "2304.09513"
   },
   {
     "id": "netfound",
@@ -5713,7 +5767,9 @@
       "Energy": "e0292",
       "Hardware": "e0292",
       "Reported results": "e0164"
-    }
+    },
+    "doi": null,
+    "arxivId": "2310.17025"
   },
   {
     "id": "netmamba",
@@ -5952,7 +6008,9 @@
       "Fine-tuning objective": "e0176",
       "Deployment limitations": "e0176",
       "Reported results": "e0176"
-    }
+    },
+    "doi": "10.1109/icnp61940.2024.10858569",
+    "arxivId": "2405.11449"
   },
   {
     "id": "lens",
@@ -6158,7 +6216,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": null,
+    "arxivId": "2402.03646"
   },
   {
     "id": "netbench",
@@ -6358,7 +6418,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Benchmark",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1109/fmsys62467.2024.00008",
+    "arxivId": "2403.10319"
   },
   {
     "id": "trafficgpt",
@@ -6554,7 +6616,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": null,
+    "arxivId": "2403.05822"
   },
   {
     "id": "serveflow",
@@ -6768,7 +6832,9 @@
       "Measurement scope": "e0294",
       "Version notes": "e0429",
       "Reported results": "e0165"
-    }
+    },
+    "doi": null,
+    "arxivId": "2402.03694"
   },
   {
     "id": "iisy",
@@ -6971,7 +7037,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Traffic classification",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1109/tnet.2024.3364757",
+    "arxivId": null
   },
   {
     "id": "bos",
@@ -7182,7 +7250,9 @@
       "Training / evaluation datasets": "e0295",
       "Metrics": "e0295",
       "Deployment limitations": "e0295"
-    }
+    },
+    "doi": null,
+    "arxivId": "2403.11090"
   },
   {
     "id": "leo",
@@ -7386,7 +7456,9 @@
       "Throughput": "e0296",
       "Measurement scope": "e0296",
       "Latency": "e0296"
-    }
+    },
+    "doi": null,
+    "arxivId": null
   },
   {
     "id": "cletfe",
@@ -7590,7 +7662,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Reported results": "e0166"
-    }
+    },
+    "doi": null,
+    "arxivId": "2402.07501"
   },
   {
     "id": "platforms",
@@ -7790,7 +7864,9 @@
     "task": "Platform identification",
     "fieldEvidence": {
       "Reported results": "e0167"
-    }
+    },
+    "doi": "10.1145/3646547.3688435",
+    "arxivId": "2408.16995"
   },
   {
     "id": "trafficformer",
@@ -8008,7 +8084,9 @@
       "Reported results": "e0386",
       "Hardware": "e0386",
       "Pretraining objective": "e0430"
-    }
+    },
+    "doi": "10.1109/sp61157.2025.00102",
+    "arxivId": null
   },
   {
     "id": "miett",
@@ -8222,7 +8300,9 @@
       "Reported results": "e0388",
       "Hardware": "e0388",
       "Version notes": "e0388"
-    }
+    },
+    "doi": "10.1609/aaai.v39i15.33748",
+    "arxivId": "2412.15306"
   },
   {
     "id": "cato",
@@ -8435,7 +8515,9 @@
       "Metrics": "e0390",
       "Hardware": "e0390",
       "Reported results": "e0168"
-    }
+    },
+    "doi": null,
+    "arxivId": "2402.06099"
   },
   {
     "id": "sugar",
@@ -8639,7 +8721,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Reproduction / critique",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.1145/3718958.3750498",
+    "arxivId": "2507.16438"
   },
   {
     "id": "demystifying",
@@ -8842,7 +8926,9 @@
     },
     "reviewDepth": "Metadata and abstract",
     "task": "Representation diagnosis",
-    "fieldEvidence": {}
+    "fieldEvidence": {},
+    "doi": "10.52202/085713-4769",
+    "arxivId": "2509.23089"
   },
   {
     "id": "simple",
@@ -9044,7 +9130,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Reported results": "e0169"
-    }
+    },
+    "doi": null,
+    "arxivId": "2506.08655"
   },
   {
     "id": "onetask",
@@ -9248,7 +9336,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Reported results": "e0170"
-    }
+    },
+    "doi": null,
+    "arxivId": "2507.06430"
   },
   {
     "id": "fewshotetc",
@@ -9459,7 +9549,9 @@
       "Metrics": "e0179",
       "Training / evaluation datasets": "e0179",
       "Evaluation setting": "e0179"
-    }
+    },
+    "doi": "10.23919/CNSM59352.2023.10327851",
+    "arxivId": null
   },
   {
     "id": "flowlet",
@@ -9678,7 +9770,9 @@
       "Hardware": "e0391",
       "Measurement scope": "e0391",
       "Version notes": "e0391"
-    }
+    },
+    "doi": null,
+    "arxivId": "2508.19924"
   },
   {
     "id": "akem",
@@ -9890,7 +9984,9 @@
       "Metrics": "e0393",
       "Reported results": "e0393",
       "Throughput": "e0393"
-    }
+    },
+    "doi": "10.1002/nem.2320",
+    "arxivId": null
   },
   {
     "id": "nepco",
@@ -10107,7 +10203,9 @@
       "Metrics": "e0297",
       "Deployment limitations": "e0297",
       "Reported results": "e0172"
-    }
+    },
+    "doi": null,
+    "arxivId": "2508.02001"
   },
   {
     "id": "netmambaplus",
@@ -10337,7 +10435,9 @@
       "Deployment limitations": "e0291",
       "Energy": "e0291",
       "Reported results": "e0173"
-    }
+    },
+    "doi": "10.1109/ton.2026.3734044",
+    "arxivId": "2601.21792"
   },
   {
     "id": "rosetta",
@@ -10542,7 +10642,9 @@
     "task": "Traffic classification",
     "fieldEvidence": {
       "Pretraining objective": "e0431"
-    }
+    },
+    "doi": "10.1145/3603165.3607437",
+    "arxivId": null
   },
   {
     "id": "mhnet",
@@ -10756,7 +10858,9 @@
       "Metrics": "e0395",
       "Reported results": "e0395",
       "Hardware": "e0395"
-    }
+    },
+    "doi": "10.1609/aaai.v39i1.32091",
+    "arxivId": "2501.03279"
   },
   {
     "id": "shortcutcatcher",
@@ -10975,7 +11079,9 @@
       "Leakage / shortcut risks": "e0257",
       "Deployment limitations": "e0257",
       "Version notes": "e0257"
-    }
+    },
+    "doi": "10.1145/3808671",
+    "arxivId": null
   },
   {
     "id": "biasseeker",
@@ -11194,7 +11300,9 @@
       "Reported results": "e0259",
       "Deployment limitations": "e0259",
       "Version notes": "e0259"
-    }
+    },
+    "doi": "10.1109/IWQoS70441.2026.11661209",
+    "arxivId": "2601.10180"
   },
   {
     "id": "trustee",
@@ -11404,7 +11512,9 @@
       "Leakage / shortcut risks": "e0263",
       "Deployment limitations": "e0263",
       "Version notes": "e0263"
-    }
+    },
+    "doi": "10.1145/3548606.3560609",
+    "arxivId": null
   },
   {
     "id": "ntcenigma",
@@ -11617,7 +11727,9 @@
       "Leakage / shortcut risks": "e0264",
       "Deployment limitations": "e0264",
       "Version notes": "e0264"
-    }
+    },
+    "doi": "10.1109/SP61157.2025.00165",
+    "arxivId": "2503.20093"
   },
   {
     "id": "lim",
@@ -11839,7 +11951,9 @@
       "Version notes": "e0301",
       "Hardware": "e0301",
       "Measurement scope": "e0301"
-    }
+    },
+    "doi": "10.1145/3701716.3715492",
+    "arxivId": "2502.00586"
   },
   {
     "id": "labelprovenance",
@@ -12054,7 +12168,9 @@
       "Leakage / shortcut risks": "e0308",
       "Deployment limitations": "e0307",
       "Version notes": "e0308"
-    }
+    },
+    "doi": null,
+    "arxivId": "2609.02140"
   },
   {
     "id": "ntcsurvey2026",
@@ -12255,7 +12371,9 @@
       "Evaluation setting": "e0312",
       "Deployment limitations": "e0314",
       "Version notes": "e0312"
-    }
+    },
+    "doi": "10.1016/j.comnet.2026.112578",
+    "arxivId": null
   },
   {
     "id": "ntfmsurvey2026",
@@ -12460,7 +12578,9 @@
       "Reported results": "e0315",
       "Deployment limitations": "e0317",
       "Version notes": "e0315"
-    }
+    },
+    "doi": "10.1016/j.comnet.2026.111998",
+    "arxivId": null
   },
   {
     "id": "acdc",
@@ -12665,7 +12785,9 @@
       "Throughput": "e0318",
       "Deployment limitations": "e0320",
       "Measurement scope": "e0318"
-    }
+    },
+    "doi": null,
+    "arxivId": "2302.11718"
   },
   {
     "id": "cruisecontrol",
@@ -12868,7 +12990,9 @@
       "Deployment limitations": "e0323",
       "Version notes": "e0321",
       "Measurement scope": "e0321"
-    }
+    },
+    "doi": null,
+    "arxivId": "2412.15146"
   },
   {
     "id": "trafficaugmentation",
@@ -13072,7 +13196,9 @@
       "Reported results": "e0324",
       "Deployment limitations": "e0326",
       "Version notes": "e0324"
-    }
+    },
+    "doi": null,
+    "arxivId": "2401.10754"
   },
   {
     "id": "genericmae",
@@ -13276,7 +13402,9 @@
       "Architecture": "e0327",
       "Deployment limitations": "e0329",
       "Version notes": "e0327"
-    }
+    },
+    "doi": null,
+    "arxivId": "2405.02649"
   },
   {
     "id": "fastflow",
@@ -13489,7 +13617,9 @@
       "Metrics": "e0397",
       "Throughput": "e0397",
       "Hardware": "e0397"
-    }
+    },
+    "doi": "10.1145/3727115",
+    "arxivId": "2504.02174"
   },
   {
     "id": "etool",
@@ -13707,7 +13837,9 @@
       "Memory": "e0399",
       "Latency": "e0399",
       "Hardware": "e0399"
-    }
+    },
+    "doi": "10.1109/TIFS.2025.3574971",
+    "arxivId": null
   },
   {
     "id": "tfegnn",
@@ -13911,7 +14043,9 @@
       "Input representation": "e0336",
       "Architecture": "e0336",
       "Deployment limitations": "e0338"
-    }
+    },
+    "doi": "10.1145/3543507.3583227",
+    "arxivId": "2307.16713"
   },
   {
     "id": "flowrest",
@@ -14113,7 +14247,9 @@
       "Deployment limitations": "e0341",
       "Version notes": "e0339",
       "Hardware": "e0339"
-    }
+    },
+    "doi": "10.1109/INFOCOM53939.2023.10229100",
+    "arxivId": null
   },
   {
     "id": "jewel",
@@ -14316,7 +14452,9 @@
       "Throughput": "e0342",
       "Deployment limitations": "e0344",
       "Hardware": "e0342"
-    }
+    },
+    "doi": "10.1109/infocom52122.2024.10621365",
+    "arxivId": null
   },
   {
     "id": "memento",
@@ -14521,7 +14659,9 @@
       "Evaluation setting": "e0345",
       "Deployment limitations": "e0347",
       "Version notes": "e0345"
-    }
+    },
+    "doi": "10.1016/j.comnet.2024.110374",
+    "arxivId": null
   },
   {
     "id": "cilbenchmark",
@@ -14730,7 +14870,9 @@
       "Training / evaluation datasets": "e0348",
       "Deployment limitations": "e0350",
       "Version notes": "e0348"
-    }
+    },
+    "doi": "10.1109/TNSM.2023.3287430",
+    "arxivId": null
   },
   {
     "id": "manyfew",
@@ -14936,7 +15078,9 @@
       "Training / evaluation datasets": "e0351",
       "Reported results": "e0351",
       "Deployment limitations": "e0353"
-    }
+    },
+    "doi": "10.23919/tma58422.2023.10198965",
+    "arxivId": "2305.12432"
   },
   {
     "id": "crossembeddings",
@@ -15141,7 +15285,9 @@
       "Architecture": "e0354",
       "Deployment limitations": "e0356",
       "Version notes": "e0354"
-    }
+    },
+    "doi": "10.1109/TNSM.2023.3329442",
+    "arxivId": null
   },
   {
     "id": "ptu",
@@ -15345,7 +15491,9 @@
       "Architecture": "e0357",
       "Deployment limitations": "e0359",
       "Version notes": "e0357"
-    }
+    },
+    "doi": "10.1109/icnp61940.2024.10858503",
+    "arxivId": null
   },
   {
     "id": "mm4flow",
@@ -15562,7 +15710,9 @@
       "Split strategy": "e0401",
       "Metrics": "e0401",
       "Hardware": "e0401"
-    }
+    },
+    "doi": "10.1145/3719027.3744804",
+    "arxivId": null
   },
   {
     "id": "evs2vec",
@@ -15767,7 +15917,9 @@
       "Reported results": "e0363",
       "Deployment limitations": "e0365",
       "Version notes": "e0363"
-    }
+    },
+    "doi": "10.1109/SECON58729.2023.10287432",
+    "arxivId": null
   },
   {
     "id": "expmd",
@@ -15973,7 +16125,9 @@
       "Reported results": "e0366",
       "Deployment limitations": "e0368",
       "Version notes": "e0366"
-    }
+    },
+    "doi": "10.1109/IWQoS61813.2024.10682894",
+    "arxivId": null
   },
   {
     "id": "unflows",
@@ -16189,7 +16343,9 @@
       "Latency": "e0403",
       "Hardware": "e0403",
       "Measurement scope": "e0403"
-    }
+    },
+    "doi": "10.1109/TIFS.2025.3550060",
+    "arxivId": null
   },
   {
     "id": "robustnessmatters",
@@ -16407,7 +16563,9 @@
       "Metrics": "e0407",
       "Latency": "e0407",
       "Hardware": "e0407"
-    }
+    },
+    "doi": "10.1109/TIFS.2025.3613970",
+    "arxivId": null
   },
   {
     "id": "semiaf",
@@ -16623,7 +16781,9 @@
       "Latency": "e0405",
       "Throughput": "e0405",
       "Hardware": "e0405"
-    }
+    },
+    "doi": "10.1109/DSN64029.2025.00051",
+    "arxivId": null
   },
   {
     "id": "meanmae",
@@ -16844,6 +17004,8 @@
       "Deployment limitations": "e0385",
       "Version notes": "e0382",
       "Hardware": "e0385"
-    }
+    },
+    "doi": null,
+    "arxivId": "2603.29537"
   }
 ]

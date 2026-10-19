@@ -445,6 +445,12 @@ for pid,c in json.loads((ROOT/'curation/code-links.json').read_text()).items():
         gapstate(pid,'Code/checkpoint availability','Partially addressed','An artifact is linked; completeness, checkpoints and successful execution have not all been verified.',eid)
     elif c['status']=='unavailable': p['reproducibility']=f"Artefact link in paper is unavailable (checked {c['checked']})"
     else: p['reproducibility']=f"No public artefact found (checked {c['checked']})"
+# Explicit identifiers (DOI, arXiv id) live in one reviewed file; null means no confident match.
+paper_ids={p['id'] for p in P}
+ident=json.loads((ROOT/'curation/identifiers.json').read_text())
+for pid in ident:
+    if pid not in paper_ids: raise SystemExit(f'identifiers.json: unknown paper {pid}')
+for p in P: p.update(doi=ident.get(p['id'],{}).get('doi'),arxivId=ident.get(p['id'],{}).get('arxivId'))
 # Curator pomodoro corrections (ntc-atlas/todo/task_log.md). Each names its source.
 def curator_fix(pid,field,value,eid=None,**new):
     p=next(p for p in P if p['id']==pid);p['details'][field]=value
