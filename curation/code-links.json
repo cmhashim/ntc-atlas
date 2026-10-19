@@ -1,0 +1,334 @@
+{
+  "dpi": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "blinc": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "bayes": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "early": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "survey": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "appscanner": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "vpnfeatures": {
+    "url": "https://github.com/ahlashkari/ISCXFlowMeter",
+    "source": "Repository README cites the paper",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Paper flow-generation discussion (PDF p. 4) introduces ISCXFlowMeter as the authors' own tool without a URL. The README asks users to cite this paper; owner ahlashkari is Arash Habibi Lashkari, an author. The dataset itself is the paper URL (UNB CIC page)."
+  },
+  "torfeatures": {
+    "url": "http://www.unb.ca/research/iscx/dataset/iscxflowmeter.html",
+    "source": "Paper conclusions, PDF p. 9, and reference ISCXFlowMeter (2016)",
+    "status": "unavailable",
+    "checked": "2026-10-19",
+    "note": "The paper says it publishes the dataset and the tool used to generate it and cites this ISCXFlowMeter URL; it now redirects to the generic CIC datasets index. The same tool is on GitHub at https://github.com/ahlashkari/ISCXFlowMeter (owner Arash Habibi Lashkari, first author), but that README cites the companion VPN paper, not this one. The dataset is the paper URL (UNB CIC page)."
+  },
+  "mimetic": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "deeppacket": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "https://github.com/munhouiani/Deep-Packet is a third-party PyTorch reimplementation (owner is not an author), so it is not accepted."
+  },
+  "deepmal": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "flowprint": {
+    "url": "https://github.com/Thijsvanede/FlowPrint",
+    "source": "Paper Section I (Introduction), PDF p. 2",
+    "status": "available",
+    "checked": "2026-10-19"
+  },
+  "pert": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "https://github.com/laifengyang316-collab/PERT is a third-party reimplementation (owner is not an author), so it is not accepted."
+  },
+  "distiller": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "nprint": {
+    "url": "https://github.com/nprint/nprint",
+    "source": "Repository README cites the paper",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Paper implementation discussion (PDF p. 4) says the nPrint source code is publicly available without giving a URL. The nprint organisation README carries the CCS 2021 citation (DOI 10.1145/3460120.3484758); contributors include JordanHolland and feamster (authors). nPrintML is at https://github.com/nprint/nprintml."
+  },
+  "commercial": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "refinery": {
+    "url": "https://github.com/traffic-refinery/traffic-refinery",
+    "source": "Repository README cites the paper",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Paper conclusion (PDF p. 14) says Traffic Refinery is released as open source without a URL. README cites the paper (DOI 10.1145/3491052); contributors include wontoniii (Francesco Bronzino) and schmittpaul (Paul Schmitt), both authors."
+  },
+  "miniflowpic": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "https://github.com/eyalho/mini-flowpic-traffic-classification is a repository by user eyalho that the replication study (Wang et al., IMC 2023) reports was created by the first author, but its README does not name the paper and the replication study says it cannot reproduce the paper's results, so it is not accepted."
+  },
+  "dodont": {
+    "url": "https://dodo-mlsec.org/",
+    "source": "Paper \"Additional material\" paragraph before the acknowledgements, PDF p. 14",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Supplementary-material site stated by the paper (http://dodo-mlsec.org, now redirects to https). It hosts the supplementary PDF and a sanitised dataset archive, not a full code release."
+  },
+  "netgpt": {
+    "url": "https://github.com/ict-net/NetGPT",
+    "source": "Paper Abstract, PDF p. 1",
+    "status": "available",
+    "checked": "2026-10-19"
+  },
+  "lens": {
+    "url": "https://github.com/V-Enzo/Lens-foundation-model-for-network-traffic",
+    "source": "Repository README cites the paper",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "The arXiv PDF (PDF p. 1) promises code upon publication. README calls itself the official release for the TMLR version and cites the paper; owner homepage v-enzo.github.io belongs to Charles (Xiaochang) Li, first author. Hugging Face data and checkpoints are listed in the README."
+  },
+  "trafficgpt": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "The only repository URL in the paper is the USTC-TFC2016 dataset it uses; GitHub repositories named TrafficGPT belong to unrelated projects."
+  },
+  "serveflow": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "Paper Section 1 (PDF p. 3) says \"We open source ServeFlow\" but gives no URL; no repository citing the paper found on GitHub."
+  },
+  "bos": {
+    "url": "https://github.com/InspiringGroup-NeoLab/Brain-on-Switch",
+    "source": "Paper implementation section, footnote 1, PDF p. 9",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Paper states https://github.com/InspiringGroup-Lab/Brain-on-Switch; GitHub redirects it to the InspiringGroup-NeoLab organisation, whose README names the NSDI 2024 paper."
+  },
+  "leo": {
+    "url": "https://github.com/Purdue-ISL/Leo",
+    "source": "Paper Section 1 (Introduction), footnote 1, PDF p. 2",
+    "status": "available",
+    "checked": "2026-10-19"
+  },
+  "platforms": {
+    "url": "https://github.com/WYF99/IMC24-VideoUserPlatform",
+    "source": "Paper Section 3.1 and reference [70], PDF pp. 3 and 15",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Paper cites https://github.com/WYF99/chlo_extract (owner Yifan Wang, first author); GitHub redirects it to WYF99/IMC24-VideoUserPlatform, whose README names the IMC 2024 paper. The repository holds the handshake-attribute extraction code; the dataset is shared on request."
+  },
+  "cato": {
+    "url": "https://github.com/stanford-esrg/cato",
+    "source": "Paper Section 1 (Introduction), PDF p. 2",
+    "status": "available",
+    "checked": "2026-10-19"
+  },
+  "demystifying": {
+    "url": "https://github.com/maybe-hello-world/demystifying-networks",
+    "source": "Paper Section 1 (Introduction), PDF p. 2",
+    "status": "available",
+    "checked": "2026-10-19"
+  },
+  "simple": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "The paper's footnote links (tcbench, CESNET ipfixprobe) are tools and datasets it uses, not its own artefact."
+  },
+  "onetask": {
+    "url": "https://github.com/one-task-traffic/traffic-generalization-study",
+    "source": "Paper Section 1 (Introduction), PDF p. 2",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "The URL is hyphenated across a line break in the PDF (traffic-/generalization-study); the hyphenated form resolves and its README names the paper."
+  },
+  "fewshotetc": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "The only repository URL in the paper is the USTC-TFC2016 dataset it uses."
+  },
+  "flowlet": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "Paper (PDF p. 2) says the code is in the supplementary material; no public URL found on GitHub."
+  },
+  "nepco": {
+    "url": "https://github.com/lincgcg/Nepco",
+    "source": "Repository README cites the paper",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "The corpus PDF gives no code link. README names the paper, cites it (NDSS 2027, arXiv 2508.02001) and says it holds the paper's artifacts (Zenodo DOI 10.5281/zenodo.22893365); owner profile Linchg is a PhD candidate at ICT, Chinese Academy of Sciences, matching first author Chungang Lin."
+  },
+  "rosetta": {
+    "url": "https://github.com/sunskyXX/Rosetta",
+    "source": "Paper Section 1 (Introduction) and footnote 2, PDF p. 3",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Paper gives https://github.com/sunskyXX/Rosetta.git. The repository holds the code and a partial dataset; the full dataset is available on request."
+  },
+  "mhnet": {
+    "url": "https://github.com/ViktorAxelsen/MH-Net",
+    "source": "Paper Abstract (Code link), PDF p. 1",
+    "status": "available",
+    "checked": "2026-10-19"
+  },
+  "biasseeker": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "labelprovenance": {
+    "url": "https://anonymous.4open.science/r/traffic_dataset_audit_script-440B/",
+    "source": "Paper \"Open Science\" section, PDF p. 14",
+    "status": "available",
+    "checked": "2026-10-19",
+    "note": "Anonymised review link. The repository page returns 401 to curl, but the 4open.science file API lists its files (checked 2026-10-19). The paired browsing corpus is stated at https://anonymous-hf.com/a/cr4dhyy2n3q3/, a single-page app whose existence could not be confirmed with curl."
+  },
+  "ntcsurvey2026": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "Survey; the only repository URL is the USTC-TK2016 toolkit it discusses."
+  },
+  "ntfmsurvey2026": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "Survey; the Zenodo link is a cited 6G white paper and the Hugging Face link is a cited model, not the paper's own artefact."
+  },
+  "acdc": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "cruisecontrol": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "Paper footnote 1 (PDF p. 2) says the source code will be made available upon acceptance; no URL and no repository citing the paper found on GitHub (checked author accounts JohannHugon, wontoniii, schmittpaul)."
+  },
+  "trafficaugmentation": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "The cloud.tsinghua.edu.cn link in the paper is the Rosetta dataset (a baseline), not the paper's own artefact."
+  },
+  "genericmae": {
+    "url": "https://github.com/SmartData-Polito/multimodal-ae-for-networking",
+    "source": "Paper Section 1 (Introduction), footnote 1, PDF p. 3",
+    "status": "available",
+    "checked": "2026-10-19"
+  },
+  "fastflow": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "etool": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "memento": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "The Zenodo link in footnote 4 is the CESNET-TLS22 dataset used by the paper, not the paper's own artefact."
+  },
+  "cilbenchmark": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "manyfew": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "crossembeddings": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19",
+    "note": "The repository URLs in the paper are tools it uses (T-Pot) and generic hosts, not its own artefact."
+  },
+  "ptu": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  },
+  "semiaf": {
+    "url": null,
+    "source": "Paper full text (pdftotext and PDF link annotations) and GitHub search",
+    "status": "none found",
+    "checked": "2026-10-19"
+  }
+}

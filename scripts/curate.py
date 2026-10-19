@@ -428,6 +428,22 @@ author_ids={a['id'] for a in A}
 for aid,links in json.loads((ROOT/'curation/author-identities.json').read_text()).items():
     if aid not in author_ids: raise SystemExit(f'author-identities.json: unknown author {aid}')
     next(a for a in A if a['id']==aid).update(links)
+# Official code / artefact links live in one reviewed file (Task 14). A link counts only when the paper states it
+# as its own artefact, or when the repository README cites the paper and its owner is an author or the authors' lab.
+for pid,c in json.loads((ROOT/'curation/code-links.json').read_text()).items():
+    p=next((p for p in P if p['id']==pid),None)
+    if p is None: raise SystemExit(f'code-links.json: unknown paper {pid}')
+    if p['code']: continue
+    if c['status']=='available':
+        p['code']=c['url'];p['reproducibility']='Artifact linked; not rerun'
+        if c['source'].startswith('Repository README'):
+            eid=evidence(pid,'Artifact availability',f"The repository README cites this paper and the owner is an author or the authors' lab; the link resolved on {c['checked']}. Availability is not an independent reproduction.",c['url'],c['source'],source_type='Official artifact')
+        else:
+            eid=evidence(pid,'Paper claim',f"The paper states its own code or artefact at {c['url']}; the link resolved on {c['checked']}. Availability is not an independent reproduction.",p['url'],c['source'])
+        next(e for e in E if e['id']==eid)['accessed']=c['checked'];p['evidenceIds'].append(eid)
+        gapstate(pid,'Code/checkpoint availability','Partially addressed','An artifact is linked; completeness, checkpoints and successful execution have not all been verified.',eid)
+    elif c['status']=='unavailable': p['reproducibility']=f"Artefact link in paper is unavailable (checked {c['checked']})"
+    else: p['reproducibility']=f"No public artefact found (checked {c['checked']})"
 # Curator pomodoro corrections (ntc-atlas/todo/task_log.md). Each names its source.
 def curator_fix(pid,field,value,eid=None,**new):
     p=next(p for p in P if p['id']==pid);p['details'][field]=value
